@@ -1,4 +1,4 @@
-module github.com/bnema/turtle-wow-launcher
+module github.com/bnema/turtlectl
 
 go 1.25.5
 

@@ -13,14 +13,14 @@ var (
 )
 
 var rootCmd = &cobra.Command{
-	Use:   "turtle-wow",
-	Short: "Turtle WoW Launcher for Linux",
-	Long: `A clean wrapper for the Turtle WoW AppImage launcher on Linux.
+	Use:   "turtlectl",
+	Short: "Turtle WoW CLI for Linux",
+	Long: `A Go CLI tool to manage and run Turtle WoW on Linux.
 Handles AppImage management, config issues, and Wayland compatibility.
 
 Quick start:
-  turtle-wow install    Download AppImage and create desktop entry
-  turtle-wow launch     Start the game`,
+  turtlectl install    Download AppImage and create desktop entry
+  turtlectl launch     Start the game`,
 }
 
 func Execute() {

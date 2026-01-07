@@ -534,7 +534,7 @@ func (l *Launcher) InstallDesktop() error {
 	desktopPath := filepath.Join(l.DesktopDir, "turtle-wow.desktop")
 	desktopContent := fmt.Sprintf(`[Desktop Entry]
 Name=Turtle WoW
-Comment=Turtle WoW Launcher (Linux wrapper)
+Comment=Turtle WoW (via turtlectl)
 Exec=%s launch
 Icon=%s
 Terminal=false

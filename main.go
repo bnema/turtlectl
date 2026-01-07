@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/bnema/turtle-wow-launcher/cmd"
+	"github.com/bnema/turtlectl/cmd"
 )
 
 func main() {

@@ -4,7 +4,7 @@ import (
 	"github.com/charmbracelet/log"
 	"github.com/spf13/cobra"
 
-	"github.com/bnema/turtle-wow-launcher/internal/launcher"
+	"github.com/bnema/turtlectl/internal/launcher"
 )
 
 var uninstallCmd = &cobra.Command{
