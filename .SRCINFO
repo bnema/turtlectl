@@ -1,0 +1,15 @@
+pkgbase = turtle-wow-launcher-git
+	pkgdesc = A clean Go CLI wrapper for the Turtle WoW AppImage launcher on Linux
+	pkgver = r2.795e83c
+	pkgrel = 1
+	url = https://github.com/bnema/turtle-wow-launcher
+	arch = x86_64
+	license = MIT
+	makedepends = go
+	makedepends = git
+	provides = turtle-wow-launcher
+	conflicts = turtle-wow-launcher
+	source = turtle-wow-launcher-git::git+https://github.com/bnema/turtle-wow-launcher.git
+	sha256sums = SKIP
+
+pkgname = turtle-wow-launcher-git
