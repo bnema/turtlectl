@@ -7,14 +7,21 @@ import (
 	"github.com/spf13/cobra"
 )
 
+// Version info set via ldflags at build time
+var (
+	version = "dev"
+	commit  = "unknown"
+)
+
 var (
 	verbose bool
 	logger  *log.Logger
 )
 
 var rootCmd = &cobra.Command{
-	Use:   "turtlectl",
-	Short: "Turtle WoW CLI for Linux",
+	Use:     "turtlectl",
+	Short:   "Turtle WoW CLI for Linux",
+	Version: version + " (" + commit + ")",
 	Long: `A Go CLI tool to manage and run Turtle WoW on Linux.
 Handles AppImage management, config issues, and Wayland compatibility.
 
