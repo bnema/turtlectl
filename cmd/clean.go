@@ -1,10 +1,12 @@
 package cmd
 
 import (
-	"github.com/charmbracelet/log"
+	"os"
+
 	"github.com/spf13/cobra"
 
 	"github.com/bnema/turtlectl/internal/launcher"
+	"github.com/bnema/turtlectl/internal/ui/progress"
 )
 
 var cleanAll bool
@@ -21,11 +23,33 @@ var cleanCmd = &cobra.Command{
 Game files in ~/Games/turtle-wow are preserved by default.
 Use --all to also remove game files (full purge).`,
 	Run: func(cmd *cobra.Command, args []string) {
-		l := launcher.New(logger)
+		l := launcher.New(getLogger())
 
-		if err := l.Clean(cleanAll); err != nil {
-			log.Fatal("Failed to clean", "error", err)
+		if cleanAll {
+			progress.PrintTitle("Full Purge")
+			progress.PrintWarning("Removing ALL data including game files")
+		} else {
+			progress.PrintTitle("Cleaning Launcher Data")
 		}
+
+		progress.PrintInProgress("Removing data")
+		if err := l.Clean(cleanAll); err != nil {
+			progress.PrintError("Failed to clean: " + err.Error())
+			os.Exit(1)
+		}
+
+		progress.PrintComplete("Data directory removed")
+		progress.PrintComplete("Cache directory removed")
+		progress.PrintComplete("Desktop integration removed")
+
+		if cleanAll {
+			progress.PrintComplete("Game files removed")
+		} else {
+			progress.PrintDetail("Game files preserved at: " + l.GameDir)
+		}
+
+		progress.PrintNewline()
+		progress.PrintSuccess("Clean complete")
 	},
 }
 
@@ -33,11 +57,19 @@ var resetCredentialsCmd = &cobra.Command{
 	Use:   "reset-credentials",
 	Short: "Reset saved login credentials only",
 	Run: func(cmd *cobra.Command, args []string) {
-		l := launcher.New(logger)
+		l := launcher.New(getLogger())
 
+		progress.PrintTitle("Resetting Credentials")
+
+		progress.PrintInProgress("Removing credential files")
 		if err := l.ResetCredentials(); err != nil {
-			log.Fatal("Failed to reset credentials", "error", err)
+			progress.PrintError("Failed to reset: " + err.Error())
+			os.Exit(1)
 		}
+
+		progress.PrintComplete("Credentials reset")
+		progress.PrintNewline()
+		progress.PrintSuccess("You will need to log in again")
 	},
 }
 

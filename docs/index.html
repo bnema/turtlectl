@@ -1,0 +1,494 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Turtle WoW Addon Registry</title>
+    <style>
+        :root {
+            --bg-primary: #1a1a2e;
+            --bg-secondary: #16213e;
+            --bg-card: #0f3460;
+            --text-primary: #eaeaea;
+            --text-secondary: #a0a0a0;
+            --accent: #e94560;
+            --accent-hover: #ff6b6b;
+            --success: #4ecca3;
+            --warning: #ffc107;
+            --border: #2a2a4a;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
+            background: var(--bg-primary);
+            color: var(--text-primary);
+            line-height: 1.6;
+            min-height: 100vh;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        header {
+            text-align: center;
+            padding: 40px 20px;
+            background: var(--bg-secondary);
+            border-bottom: 1px solid var(--border);
+            margin-bottom: 30px;
+        }
+
+        header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+            color: var(--accent);
+        }
+
+        header p {
+            color: var(--text-secondary);
+            font-size: 1.1rem;
+        }
+
+        .stats {
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            margin-top: 20px;
+            flex-wrap: wrap;
+        }
+
+        .stat {
+            background: var(--bg-card);
+            padding: 15px 25px;
+            border-radius: 8px;
+            text-align: center;
+        }
+
+        .stat-value {
+            font-size: 1.8rem;
+            font-weight: bold;
+            color: var(--accent);
+        }
+
+        .stat-label {
+            font-size: 0.9rem;
+            color: var(--text-secondary);
+        }
+
+        .controls {
+            display: flex;
+            gap: 15px;
+            margin-bottom: 20px;
+            flex-wrap: wrap;
+        }
+
+        .search-box {
+            flex: 1;
+            min-width: 250px;
+            padding: 12px 16px;
+            font-size: 1rem;
+            border: 1px solid var(--border);
+            border-radius: 8px;
+            background: var(--bg-secondary);
+            color: var(--text-primary);
+        }
+
+        .search-box:focus {
+            outline: none;
+            border-color: var(--accent);
+        }
+
+        .filter-select {
+            padding: 12px 16px;
+            font-size: 1rem;
+            border: 1px solid var(--border);
+            border-radius: 8px;
+            background: var(--bg-secondary);
+            color: var(--text-primary);
+            cursor: pointer;
+        }
+
+        .addon-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+            gap: 20px;
+        }
+
+        .addon-card {
+            background: var(--bg-secondary);
+            border: 1px solid var(--border);
+            border-radius: 12px;
+            padding: 20px;
+            transition: transform 0.2s, border-color 0.2s;
+        }
+
+        .addon-card:hover {
+            transform: translateY(-2px);
+            border-color: var(--accent);
+        }
+
+        .addon-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            margin-bottom: 10px;
+        }
+
+        .addon-name {
+            font-size: 1.2rem;
+            font-weight: 600;
+            color: var(--text-primary);
+            text-decoration: none;
+        }
+
+        .addon-name:hover {
+            color: var(--accent);
+        }
+
+        .addon-badges {
+            display: flex;
+            gap: 6px;
+        }
+
+        .badge {
+            font-size: 0.75rem;
+            padding: 3px 8px;
+            border-radius: 4px;
+            font-weight: 500;
+        }
+
+        .badge-new {
+            background: var(--success);
+            color: #000;
+        }
+
+        .badge-inactive {
+            background: var(--warning);
+            color: #000;
+        }
+
+        .addon-author {
+            color: var(--text-secondary);
+            font-size: 0.9rem;
+            margin-bottom: 8px;
+        }
+
+        .addon-description {
+            color: var(--text-secondary);
+            font-size: 0.95rem;
+            margin-bottom: 12px;
+            display: -webkit-box;
+            -webkit-line-clamp: 2;
+            -webkit-box-orient: vertical;
+            overflow: hidden;
+        }
+
+        .addon-meta {
+            display: flex;
+            gap: 15px;
+            font-size: 0.85rem;
+            color: var(--text-secondary);
+        }
+
+        .addon-meta span {
+            display: flex;
+            align-items: center;
+            gap: 4px;
+        }
+
+        .stars {
+            color: var(--warning);
+        }
+
+        .loading {
+            text-align: center;
+            padding: 60px;
+            color: var(--text-secondary);
+        }
+
+        .loading-spinner {
+            width: 40px;
+            height: 40px;
+            border: 3px solid var(--border);
+            border-top-color: var(--accent);
+            border-radius: 50%;
+            animation: spin 1s linear infinite;
+            margin: 0 auto 20px;
+        }
+
+        @keyframes spin {
+            to { transform: rotate(360deg); }
+        }
+
+        .no-results {
+            text-align: center;
+            padding: 60px;
+            color: var(--text-secondary);
+        }
+
+        footer {
+            text-align: center;
+            padding: 30px;
+            margin-top: 40px;
+            border-top: 1px solid var(--border);
+            color: var(--text-secondary);
+            font-size: 0.9rem;
+        }
+
+        footer a {
+            color: var(--accent);
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+
+        @media (max-width: 600px) {
+            header h1 {
+                font-size: 1.8rem;
+            }
+
+            .stats {
+                gap: 15px;
+            }
+
+            .stat {
+                padding: 10px 15px;
+            }
+
+            .addon-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Turtle WoW Addon Registry</h1>
+        <p>Browse and discover addons for Turtle WoW</p>
+        <div class="stats" id="stats">
+            <div class="stat">
+                <div class="stat-value" id="total-count">-</div>
+                <div class="stat-label">Total Addons</div>
+            </div>
+            <div class="stat">
+                <div class="stat-value" id="new-count">-</div>
+                <div class="stat-label">New This Week</div>
+            </div>
+            <div class="stat">
+                <div class="stat-value" id="active-count">-</div>
+                <div class="stat-label">Recently Active</div>
+            </div>
+        </div>
+    </header>
+
+    <div class="container">
+        <div class="controls">
+            <input type="text" class="search-box" id="search" placeholder="Search addons by name, author, or description...">
+            <select class="filter-select" id="sort">
+                <option value="name">Sort by Name</option>
+                <option value="stars">Sort by Stars</option>
+                <option value="recent">Sort by Last Update</option>
+                <option value="new">Sort by Newest</option>
+            </select>
+            <select class="filter-select" id="filter">
+                <option value="all">All Addons</option>
+                <option value="new">New This Week</option>
+                <option value="active">Active (< 1 year)</option>
+                <option value="popular">Popular (10+ stars)</option>
+            </select>
+        </div>
+
+        <div id="addon-list">
+            <div class="loading">
+                <div class="loading-spinner"></div>
+                <p>Loading addon registry...</p>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>
+            Data sourced from <a href="https://turtle-wow.fandom.com/wiki/Addons" target="_blank">Turtle WoW Wiki</a> |
+            Generated by <a href="https://github.com/bnema/turtlectl" target="_blank">turtlectl</a> |
+            Last updated: <span id="last-updated">-</span>
+        </p>
+    </footer>
+
+    <script>
+        const REGISTRY_URL = 'https://raw.githubusercontent.com/bnema/turtlectl/main/data/addons.json';
+        const SEVEN_DAYS = 7 * 24 * 60 * 60 * 1000;
+        const ONE_YEAR = 365 * 24 * 60 * 60 * 1000;
+
+        let allAddons = [];
+        let registry = null;
+
+        async function loadRegistry() {
+            try {
+                const response = await fetch(REGISTRY_URL);
+                if (!response.ok) throw new Error('Failed to fetch registry');
+                registry = await response.json();
+                allAddons = registry.addons || [];
+                updateStats();
+                renderAddons();
+                document.getElementById('last-updated').textContent = 
+                    new Date(registry.generated_at).toLocaleDateString();
+            } catch (error) {
+                document.getElementById('addon-list').innerHTML = `
+                    <div class="no-results">
+                        <p>Failed to load addon registry. Please try again later.</p>
+                        <p style="font-size: 0.85rem; margin-top: 10px;">${error.message}</p>
+                    </div>
+                `;
+            }
+        }
+
+        function updateStats() {
+            const now = Date.now();
+            const newCount = allAddons.filter(a => 
+                a.added_at && (now - new Date(a.added_at).getTime()) < SEVEN_DAYS
+            ).length;
+            const activeCount = allAddons.filter(a => 
+                a.last_commit && (now - new Date(a.last_commit).getTime()) < ONE_YEAR
+            ).length;
+
+            document.getElementById('total-count').textContent = allAddons.length;
+            document.getElementById('new-count').textContent = newCount;
+            document.getElementById('active-count').textContent = activeCount;
+        }
+
+        function isNew(addon) {
+            if (!addon.added_at) return false;
+            return (Date.now() - new Date(addon.added_at).getTime()) < SEVEN_DAYS;
+        }
+
+        function isActive(addon) {
+            if (!addon.last_commit) return false;
+            return (Date.now() - new Date(addon.last_commit).getTime()) < ONE_YEAR;
+        }
+
+        function formatDate(dateStr) {
+            if (!dateStr) return 'Unknown';
+            const date = new Date(dateStr);
+            const now = Date.now();
+            const diff = now - date.getTime();
+            
+            const days = Math.floor(diff / (24 * 60 * 60 * 1000));
+            if (days === 0) return 'Today';
+            if (days === 1) return 'Yesterday';
+            if (days < 30) return `${days} days ago`;
+            if (days < 365) return `${Math.floor(days / 30)} months ago`;
+            return `${Math.floor(days / 365)} years ago`;
+        }
+
+        function formatStars(stars) {
+            if (!stars) return '0';
+            if (stars >= 1000) return (stars / 1000).toFixed(1) + 'k';
+            return stars.toString();
+        }
+
+        function filterAndSortAddons() {
+            const search = document.getElementById('search').value.toLowerCase();
+            const sort = document.getElementById('sort').value;
+            const filter = document.getElementById('filter').value;
+
+            let filtered = allAddons.filter(addon => {
+                // Search filter
+                if (search) {
+                    const searchable = `${addon.name} ${addon.author || ''} ${addon.description || ''}`.toLowerCase();
+                    if (!searchable.includes(search)) return false;
+                }
+
+                // Category filter
+                switch (filter) {
+                    case 'new':
+                        return isNew(addon);
+                    case 'active':
+                        return isActive(addon);
+                    case 'popular':
+                        return (addon.stars || 0) >= 10;
+                    default:
+                        return true;
+                }
+            });
+
+            // Sort
+            filtered.sort((a, b) => {
+                switch (sort) {
+                    case 'stars':
+                        return (b.stars || 0) - (a.stars || 0);
+                    case 'recent':
+                        const aDate = a.last_commit ? new Date(a.last_commit).getTime() : 0;
+                        const bDate = b.last_commit ? new Date(b.last_commit).getTime() : 0;
+                        return bDate - aDate;
+                    case 'new':
+                        const aAdded = a.added_at ? new Date(a.added_at).getTime() : 0;
+                        const bAdded = b.added_at ? new Date(b.added_at).getTime() : 0;
+                        return bAdded - aAdded;
+                    default:
+                        return a.name.localeCompare(b.name);
+                }
+            });
+
+            return filtered;
+        }
+
+        function renderAddons() {
+            const addons = filterAndSortAddons();
+            const container = document.getElementById('addon-list');
+
+            if (addons.length === 0) {
+                container.innerHTML = '<div class="no-results"><p>No addons found matching your criteria.</p></div>';
+                return;
+            }
+
+            container.innerHTML = `
+                <div class="addon-grid">
+                    ${addons.map(addon => `
+                        <div class="addon-card">
+                            <div class="addon-header">
+                                <a href="${addon.url}" target="_blank" class="addon-name">${escapeHtml(addon.name)}</a>
+                                <div class="addon-badges">
+                                    ${isNew(addon) ? '<span class="badge badge-new">NEW</span>' : ''}
+                                    ${!isActive(addon) && addon.last_commit ? '<span class="badge badge-inactive">Inactive</span>' : ''}
+                                </div>
+                            </div>
+                            ${addon.author ? `<div class="addon-author">by ${escapeHtml(addon.author)}</div>` : ''}
+                            ${addon.description ? `<div class="addon-description">${escapeHtml(addon.description)}</div>` : ''}
+                            <div class="addon-meta">
+                                <span class="stars">&#9733; ${formatStars(addon.stars)}</span>
+                                ${addon.last_commit ? `<span>Updated ${formatDate(addon.last_commit)}</span>` : ''}
+                                ${addon.category ? `<span>Category: ${addon.category}</span>` : ''}
+                            </div>
+                        </div>
+                    `).join('')}
+                </div>
+            `;
+        }
+
+        function escapeHtml(text) {
+            if (!text) return '';
+            const div = document.createElement('div');
+            div.textContent = text;
+            return div.innerHTML;
+        }
+
+        // Event listeners
+        document.getElementById('search').addEventListener('input', renderAddons);
+        document.getElementById('sort').addEventListener('change', renderAddons);
+        document.getElementById('filter').addEventListener('change', renderAddons);
+
+        // Load on page load
+        loadRegistry();
+    </script>
+</body>
+</html>

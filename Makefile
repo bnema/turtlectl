@@ -12,7 +12,7 @@ COMMIT := $(shell git rev-parse --short HEAD 2>/dev/null || echo "unknown")
 GOFLAGS := -buildmode=pie -trimpath
 LDFLAGS := -linkmode=external -X github.com/bnema/turtlectl/cmd.version=$(VERSION) -X github.com/bnema/turtlectl/cmd.commit=$(COMMIT)
 
-.PHONY: all build install uninstall clean fmt vet test tidy run help
+.PHONY: all build install uninstall clean fmt vet test tidy run help registry-gen update-registry
 
 all: fmt build
 
@@ -46,6 +46,18 @@ tidy:
 run:
 	go run .
 
+# Registry generator (for CI and manual updates)
+registry-gen:
+	@mkdir -p $(BUILD_DIR)
+	go build $(GOFLAGS) -ldflags="$(LDFLAGS)" -o $(BUILD_DIR)/registry-gen ./cmd/registry-gen
+
+update-registry: registry-gen
+	@if [ -z "$$GITHUB_TOKEN" ] && [ -z "$$GH_TOKEN" ]; then \
+		echo "Error: GITHUB_TOKEN or GH_TOKEN must be set"; \
+		exit 1; \
+	fi
+	$(BUILD_DIR)/registry-gen --output data/addons.json
+
 help:
 	@echo "turtlectl Makefile"
 	@echo ""
@@ -60,6 +72,8 @@ help:
 	@echo "  test      Run go test ./..."
 	@echo "  tidy      Run go mod tidy"
 	@echo "  run       Run with go run ."
+	@echo "  registry-gen    Build the registry generator tool"
+	@echo "  update-registry Generate data/addons.json (requires GITHUB_TOKEN)"
 	@echo "  help      Show this help"
 	@echo ""
 	@echo "Version: $(VERSION) ($(COMMIT))"

@@ -3,8 +3,6 @@ package launcher
 import (
 	"os"
 	"strings"
-
-	"github.com/charmbracelet/log"
 )
 
 // SetupEnvironment configures environment variables for Wayland and GPU compatibility
@@ -18,7 +16,7 @@ func (l *Launcher) setupWaylandEnv() {
 	waylandDisplay := os.Getenv("WAYLAND_DISPLAY")
 
 	if waylandDisplay != "" {
-		log.Info("Wayland detected, setting up environment", "display", waylandDisplay)
+		l.log.Info("Wayland detected, setting up environment", "display", waylandDisplay)
 
 		// GTK: Prefer Wayland, fall back to X11
 		// See: https://wiki.archlinux.org/title/Wayland#GTK
@@ -31,13 +29,13 @@ func (l *Launcher) setupWaylandEnv() {
 		// WebKitGTK: Disable compositing for better Wayland compatibility
 		_ = os.Setenv("WEBKIT_DISABLE_COMPOSITING_MODE", "1")
 
-		log.Debug("Wayland environment variables set",
+		l.log.Debug("Wayland environment variables set",
 			"GDK_BACKEND", "wayland,x11",
 			"QT_QPA_PLATFORM", "wayland;xcb",
 			"WEBKIT_DISABLE_COMPOSITING_MODE", "1",
 		)
 	} else {
-		log.Debug("Not running on Wayland")
+		l.log.Debug("Not running on Wayland")
 	}
 }
 
@@ -47,7 +45,7 @@ func (l *Launcher) setupGPUEnv() {
 
 	switch gpuVendor {
 	case "amd":
-		log.Info("AMD GPU detected, applying optimizations")
+		l.log.Info("AMD GPU detected, applying optimizations")
 
 		// Use RADV (Mesa Vulkan driver) for AMD GPUs
 		// See: https://wiki.archlinux.org/title/Vulkan#Switching
@@ -57,13 +55,13 @@ func (l *Launcher) setupGPUEnv() {
 		// See: https://wiki.archlinux.org/title/AMDGPU#ACO_compiler
 		_ = os.Setenv("RADV_PERFTEST", "gpl")
 
-		log.Debug("AMD GPU environment set",
+		l.log.Debug("AMD GPU environment set",
 			"AMD_VULKAN_ICD", "RADV",
 			"RADV_PERFTEST", "gpl",
 		)
 
 	case "nvidia":
-		log.Info("NVIDIA GPU detected, applying optimizations")
+		l.log.Info("NVIDIA GPU detected, applying optimizations")
 
 		// Force GBM backend for NVIDIA (required for Wayland on NVIDIA >= 495)
 		// See: https://wiki.archlinux.org/title/Wayland#Requirements
@@ -71,18 +69,18 @@ func (l *Launcher) setupGPUEnv() {
 			_ = os.Setenv("GBM_BACKEND", "nvidia-drm")
 			_ = os.Setenv("__GLX_VENDOR_LIBRARY_NAME", "nvidia")
 
-			log.Debug("NVIDIA Wayland environment set",
+			l.log.Debug("NVIDIA Wayland environment set",
 				"GBM_BACKEND", "nvidia-drm",
 				"__GLX_VENDOR_LIBRARY_NAME", "nvidia",
 			)
 		}
 
 	case "intel":
-		log.Info("Intel GPU detected")
+		l.log.Info("Intel GPU detected")
 		// Intel generally works well with defaults
 
 	default:
-		log.Debug("Unknown GPU vendor, using defaults")
+		l.log.Debug("Unknown GPU vendor, using defaults")
 		// Apply safe defaults that work for most GPUs
 		_ = os.Setenv("AMD_VULKAN_ICD", "RADV")
 	}

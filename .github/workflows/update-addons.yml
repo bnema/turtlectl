@@ -1,0 +1,45 @@
+name: Update Addon Registry
+
+on:
+  schedule:
+    # Run at 3:17 AM UTC daily (odd time to avoid peak load)
+    - cron: '17 3 * * *'
+  workflow_dispatch: # Allow manual trigger
+
+jobs:
+  update-registry:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Go
+        uses: actions/setup-go@v5
+        with:
+          go-version: '1.22'
+
+      - name: Update addon registry
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: make update-registry
+
+      - name: Check for changes
+        id: changes
+        run: |
+          if git diff --quiet data/addons.json 2>/dev/null; then
+            echo "changed=false" >> $GITHUB_OUTPUT
+          else
+            echo "changed=true" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Commit and push
+        if: steps.changes.outputs.changed == 'true'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/addons.json
+          git commit -m "chore: update addon registry $(date -u +%Y-%m-%d)"
+          git push

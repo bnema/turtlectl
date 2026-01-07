@@ -1,10 +1,12 @@
 package cmd
 
 import (
-	"github.com/charmbracelet/log"
+	"os"
+
 	"github.com/spf13/cobra"
 
 	"github.com/bnema/turtlectl/internal/launcher"
+	"github.com/bnema/turtlectl/internal/ui/progress"
 )
 
 var launchCmd = &cobra.Command{
@@ -20,30 +22,40 @@ This will:
   4. Setup environment (Wayland, GPU optimizations)
   5. Start the AppImage launcher`,
 	Run: func(cmd *cobra.Command, args []string) {
-		l := launcher.New(logger)
+		l := launcher.New(getLogger())
 
-		log.Info("Starting Turtle WoW launcher")
+		progress.PrintTitle("Launching Turtle WoW")
 
+		progress.PrintInProgress("Creating directories")
 		if err := l.EnsureAllDirs(); err != nil {
-			log.Fatal("Failed to create directories", "error", err)
+			progress.PrintError("Failed to create directories: " + err.Error())
+			os.Exit(1)
 		}
+		progress.PrintComplete("Directories ready")
 
+		progress.PrintInProgress("Checking for updates")
 		if err := l.UpdateAppImage(); err != nil {
-			log.Fatal("Failed to update AppImage", "error", err)
+			progress.PrintError("Failed to update AppImage: " + err.Error())
+			os.Exit(1)
 		}
+		progress.PrintComplete("Launcher ready")
 
 		if err := l.CleanConfig(); err != nil {
-			log.Warn("Config cleanup issue", "error", err)
+			progress.PrintWarning("Config cleanup issue: " + err.Error())
 		}
 
 		l.SetupEnvironment()
 
 		if err := l.InitPreferences(); err != nil {
-			log.Warn("Failed to initialize preferences", "error", err)
+			progress.PrintWarning("Failed to initialize preferences: " + err.Error())
 		}
 
+		progress.PrintComplete("Starting game...")
+		progress.PrintNewline()
+
 		if err := l.Launch(args); err != nil {
-			log.Fatal("Failed to launch", "error", err)
+			progress.PrintError("Failed to launch: " + err.Error())
+			os.Exit(1)
 		}
 	},
 }
