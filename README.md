@@ -24,6 +24,22 @@ turtlectl clean      # Remove config/cache (keeps game files)
 turtlectl clean -a   # Full purge including game files
 ```
 
+## Addon Registry
+
+Browse **880+ addons** from the [Turtle WoW Wiki](https://turtle-wow.fandom.com/wiki/Addons), enriched with GitHub metadata (stars, last commit, author).
+
+**Web browser:** https://bnema.github.io/turtlectl/
+
+**CLI:**
+```bash
+turtlectl addons explore          # Interactive TUI browser
+turtlectl addons explore -l       # Table output
+turtlectl addons explore --json   # JSON output
+turtlectl addons explore -r       # Force refresh from GitHub
+```
+
+The registry is updated daily via GitHub Actions.
+
 ## Directories
 
 | Type | Path |

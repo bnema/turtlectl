@@ -116,6 +116,16 @@
             cursor: pointer;
         }
 
+        .filter-select:focus {
+            outline: none;
+            border-color: var(--accent);
+        }
+
+        .filter-select option {
+            background: var(--bg-secondary);
+            color: var(--text-primary);
+        }
+
         .addon-grid {
             display: grid;
             grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
