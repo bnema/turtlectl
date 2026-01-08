@@ -87,7 +87,7 @@ func New(logger *log.Logger) *Launcher {
 		ScriptPath:   scriptPath,
 	}
 
-	log.Debug("Launcher initialized",
+	l.log.Debug("Launcher initialized",
 		"data_dir", l.DataDir,
 		"cache_dir", l.CacheDir,
 		"game_dir", l.GameDir,
@@ -102,13 +102,13 @@ func (l *Launcher) EnsureLauncherDirs() error {
 	dirs := []string{l.DataDir, l.CacheDir}
 
 	for _, dir := range dirs {
-		log.Debug("Creating directory", "path", dir)
+		l.log.Debug("Creating directory", "path", dir)
 		if err := os.MkdirAll(dir, 0755); err != nil {
 			return fmt.Errorf("failed to create directory %s: %w", dir, err)
 		}
 	}
 
-	log.Debug("Launcher directories ready",
+	l.log.Debug("Launcher directories ready",
 		"data", l.DataDir,
 		"cache", l.CacheDir,
 	)
@@ -121,18 +121,18 @@ func (l *Launcher) EnsureAllDirs() error {
 		return err
 	}
 
-	log.Debug("Creating game directory", "path", l.GameDir)
+	l.log.Debug("Creating game directory", "path", l.GameDir)
 	if err := os.MkdirAll(l.GameDir, 0755); err != nil {
 		if os.IsPermission(err) {
 			parentDir := filepath.Dir(l.GameDir)
-			log.Error("Permission denied creating game directory", "path", l.GameDir)
-			log.Warn("Fix with: sudo chown $USER:$USER " + parentDir)
+			l.log.Error("Permission denied creating game directory", "path", l.GameDir)
+			l.log.Warn("Fix with: sudo chown $USER:$USER " + parentDir)
 			return fmt.Errorf("permission denied: %w", err)
 		}
 		return fmt.Errorf("failed to create game directory %s: %w", l.GameDir, err)
 	}
 
-	log.Info("Directories ready",
+	l.log.Info("Directories ready",
 		"data", l.DataDir,
 		"cache", l.CacheDir,
 		"game", l.GameDir,
@@ -141,7 +141,7 @@ func (l *Launcher) EnsureAllDirs() error {
 }
 
 func (l *Launcher) fetchAppImageInfo() (*AppImageInfo, error) {
-	log.Debug("Fetching AppImage info from API", "url", AppImageAPIURL)
+	l.log.Debug("Fetching AppImage info from API", "url", AppImageAPIURL)
 
 	resp, err := http.Get(AppImageAPIURL)
 	if err != nil {
@@ -158,7 +158,7 @@ func (l *Launcher) fetchAppImageInfo() (*AppImageInfo, error) {
 		return nil, fmt.Errorf("failed to parse API response: %w", err)
 	}
 
-	log.Debug("AppImage info fetched",
+	l.log.Debug("AppImage info fetched",
 		"version", info.Tags,
 		"size", formatBytes(info.Size),
 		"mirrors", len(info.Mirrors),
@@ -167,68 +167,93 @@ func (l *Launcher) fetchAppImageInfo() (*AppImageInfo, error) {
 	return &info, nil
 }
 
+// UpdateResult contains information about an AppImage update check
+type UpdateResult struct {
+	NeedsUpdate   bool
+	AlreadyLatest bool
+	LocalSize     int64
+	RemoteSize    int64
+	Version       []string
+}
+
 func (l *Launcher) UpdateAppImage() error {
-	log.Info("Checking for launcher updates")
+	_, err := l.UpdateAppImageWithProgress(nil)
+	return err
+}
+
+// UpdateAppImageWithProgress checks and downloads AppImage updates with progress callback
+func (l *Launcher) UpdateAppImageWithProgress(onProgress DownloadProgress) (*UpdateResult, error) {
+	l.log.Info("Checking for launcher updates")
+
+	result := &UpdateResult{}
 
 	// Get local file size first
-	var localSize int64 = 0
 	localExists := false
 	if info, err := os.Stat(l.AppImagePath); err == nil {
-		localSize = info.Size()
+		result.LocalSize = info.Size()
 		localExists = true
-		log.Debug("Local file exists", "size", formatBytes(localSize))
+		l.log.Debug("Local file exists", "size", formatBytes(result.LocalSize))
 	} else {
-		log.Debug("No local AppImage found")
+		l.log.Debug("No local AppImage found")
 	}
 
 	// Fetch AppImage info from API
 	appInfo, err := l.fetchAppImageInfo()
 	if err != nil {
 		if localExists {
-			log.Warn("Failed to check for updates, using existing AppImage", "error", err)
-			return nil
+			l.log.Warn("Failed to check for updates, using existing AppImage", "error", err)
+			result.AlreadyLatest = true
+			return result, nil
 		}
-		log.Error("Cannot fetch AppImage info", "error", err)
-		log.Info("You can manually download from https://turtle-wow.org and place it at:",
+		l.log.Error("Cannot fetch AppImage info", "error", err)
+		l.log.Info("You can manually download from https://turtle-wow.org and place it at:",
 			"path", l.AppImagePath,
 		)
-		return fmt.Errorf("failed to check for updates: %w", err)
+		return nil, fmt.Errorf("failed to check for updates: %w", err)
 	}
+
+	result.RemoteSize = appInfo.Size
+	result.Version = appInfo.Tags
 
 	// Compare and download if needed
-	if appInfo.Size != localSize {
-		log.Info("Downloading latest launcher",
+	if appInfo.Size != result.LocalSize {
+		result.NeedsUpdate = true
+		l.log.Info("Downloading latest launcher",
 			"remote_size", formatBytes(appInfo.Size),
-			"local_size", formatBytes(localSize),
+			"local_size", formatBytes(result.LocalSize),
 			"version", appInfo.Tags,
 		)
 
-		if err := l.downloadAppImage(appInfo); err != nil {
+		if err := l.downloadAppImageWithProgress(appInfo, onProgress); err != nil {
 			if localExists {
-				log.Warn("Download failed, using existing AppImage", "error", err)
-				return nil
+				l.log.Warn("Download failed, using existing AppImage", "error", err)
+				return result, nil
 			}
-			return err
+			return nil, err
 		}
 
-		log.Info("Launcher updated successfully", "version", appInfo.Tags)
+		l.log.Info("Launcher updated successfully", "version", appInfo.Tags)
 	} else {
-		log.Info("Launcher is up to date",
-			"size", formatBytes(localSize),
+		result.AlreadyLatest = true
+		l.log.Info("Launcher is up to date",
+			"size", formatBytes(result.LocalSize),
 			"version", appInfo.Tags,
 		)
 	}
 
-	return nil
+	return result, nil
 }
 
-func (l *Launcher) downloadAppImage(info *AppImageInfo) error {
+// DownloadProgress is a callback for download progress updates
+type DownloadProgress func(downloaded, total int64)
+
+func (l *Launcher) downloadAppImageWithProgress(info *AppImageInfo, onProgress DownloadProgress) error {
 	// Get download URL from mirror
 	downloadURL, ok := info.Mirrors[DefaultMirror]
 	if !ok {
 		// Fallback to first available mirror
 		for name, url := range info.Mirrors {
-			log.Debug("Using fallback mirror", "mirror", name)
+			l.log.Debug("Using fallback mirror", "mirror", name)
 			downloadURL = url
 			break
 		}
@@ -238,7 +263,7 @@ func (l *Launcher) downloadAppImage(info *AppImageInfo) error {
 		return fmt.Errorf("no download mirrors available")
 	}
 
-	log.Debug("Starting download", "url", downloadURL, "mirror", DefaultMirror)
+	l.log.Debug("Starting download", "url", downloadURL, "mirror", DefaultMirror)
 
 	resp, err := http.Get(downloadURL)
 	if err != nil {
@@ -251,21 +276,27 @@ func (l *Launcher) downloadAppImage(info *AppImageInfo) error {
 	}
 
 	tmpPath := l.AppImagePath + ".tmp"
-	log.Debug("Writing to temporary file", "path", tmpPath)
+	l.log.Debug("Writing to temporary file", "path", tmpPath)
 
 	out, err := os.Create(tmpPath)
 	if err != nil {
 		return fmt.Errorf("failed to create temp file: %w", err)
 	}
 
-	written, err := io.Copy(out, resp.Body)
+	var written int64
+	if onProgress != nil {
+		// Use progress tracking reader
+		written, err = copyWithProgress(out, resp.Body, info.Size, onProgress)
+	} else {
+		written, err = io.Copy(out, resp.Body)
+	}
 	_ = out.Close()
 	if err != nil {
 		_ = os.Remove(tmpPath)
 		return fmt.Errorf("failed to write file: %w", err)
 	}
 
-	log.Debug("Download complete", "bytes_written", written)
+	l.log.Debug("Download complete", "bytes_written", written)
 
 	// Move temp file to final location
 	if err := os.Rename(tmpPath, l.AppImagePath); err != nil {
@@ -278,18 +309,62 @@ func (l *Launcher) downloadAppImage(info *AppImageInfo) error {
 		return fmt.Errorf("failed to make executable: %w", err)
 	}
 
-	log.Debug("AppImage ready", "path", l.AppImagePath)
+	l.log.Debug("AppImage ready", "path", l.AppImagePath)
 	return nil
+}
+
+// copyWithProgress copies from src to dst while reporting progress
+func copyWithProgress(dst io.Writer, src io.Reader, total int64, onProgress DownloadProgress) (int64, error) {
+	buf := make([]byte, 32*1024) // 32KB buffer
+	var written int64
+	var lastReport int64
+
+	for {
+		nr, er := src.Read(buf)
+		if nr > 0 {
+			nw, ew := dst.Write(buf[0:nr])
+			if nw < 0 || nr < nw {
+				nw = 0
+				if ew == nil {
+					ew = fmt.Errorf("invalid write result")
+				}
+			}
+			written += int64(nw)
+
+			// Report progress every 100KB
+			if written-lastReport > 100*1024 {
+				onProgress(written, total)
+				lastReport = written
+			}
+
+			if ew != nil {
+				return written, ew
+			}
+			if nr != nw {
+				return written, io.ErrShortWrite
+			}
+		}
+		if er != nil {
+			if er != io.EOF {
+				return written, er
+			}
+			break
+		}
+	}
+
+	// Final progress report
+	onProgress(written, total)
+	return written, nil
 }
 
 func (l *Launcher) CleanConfig() error {
 	prefsPath := filepath.Join(l.DataDir, "preferences.json")
-	log.Debug("Checking config", "path", prefsPath)
+	l.log.Debug("Checking config", "path", prefsPath)
 
 	data, err := os.ReadFile(prefsPath)
 	if err != nil {
 		if os.IsNotExist(err) {
-			log.Debug("No existing preferences file")
+			l.log.Debug("No existing preferences file")
 			return nil
 		}
 		return err
@@ -299,7 +374,7 @@ func (l *Launcher) CleanConfig() error {
 
 	// Check for old server URL
 	if strings.Contains(content, "launcher.turtle-wow.org") {
-		log.Warn("Found old server URL in config, removing")
+		l.log.Warn("Found old server URL in config, removing")
 		if err := os.Remove(prefsPath); err != nil {
 			return fmt.Errorf("failed to remove old config: %w", err)
 		}
@@ -310,14 +385,14 @@ func (l *Launcher) CleanConfig() error {
 	var prefs map[string]interface{}
 	if err := json.Unmarshal(data, &prefs); err == nil {
 		if version, ok := prefs["launcherVersion"].(string); ok {
-			log.Debug("Config launcher version", "version", version)
+			l.log.Debug("Config launcher version", "version", version)
 			if version < "2.3.0" {
-				log.Warn("Config from old launcher version, backing up", "version", version)
+				l.log.Warn("Config from old launcher version, backing up", "version", version)
 				backupPath := fmt.Sprintf("%s.bak.%d", l.DataDir, os.Getpid())
 				if err := os.Rename(l.DataDir, backupPath); err != nil {
 					return fmt.Errorf("failed to backup old config: %w", err)
 				}
-				log.Info("Old config backed up", "path", backupPath)
+				l.log.Info("Old config backed up", "path", backupPath)
 				if err := os.MkdirAll(l.DataDir, 0755); err != nil {
 					return err
 				}
@@ -333,21 +408,21 @@ func (l *Launcher) CleanConfig() error {
 
 	for _, f := range filesToRemove {
 		if _, err := os.Stat(f); err == nil {
-			log.Debug("Removing problematic file", "path", f)
+			l.log.Debug("Removing problematic file", "path", f)
 			_ = os.Remove(f)
 		}
 	}
 
-	log.Debug("Config cleanup complete")
+	l.log.Debug("Config cleanup complete")
 	return nil
 }
 
 func (l *Launcher) InitPreferences() error {
 	prefsPath := filepath.Join(l.DataDir, "preferences.json")
-	log.Debug("Initializing preferences", "path", prefsPath)
+	l.log.Debug("Initializing preferences", "path", prefsPath)
 
 	if _, err := os.Stat(prefsPath); os.IsNotExist(err) {
-		log.Info("Creating default preferences")
+		l.log.Info("Creating default preferences")
 
 		prefs := Preferences{
 			Language:        "en",
@@ -366,9 +441,9 @@ func (l *Launcher) InitPreferences() error {
 			return fmt.Errorf("failed to write preferences: %w", err)
 		}
 
-		log.Debug("Preferences created", "content", string(data))
+		l.log.Debug("Preferences created", "content", string(data))
 	} else {
-		log.Debug("Preferences file exists, updating game directory")
+		l.log.Debug("Preferences file exists, updating game directory")
 
 		// Read and update existing preferences
 		data, err := os.ReadFile(prefsPath)
@@ -393,14 +468,14 @@ func (l *Launcher) InitPreferences() error {
 			return err
 		}
 
-		log.Debug("Preferences updated")
+		l.log.Debug("Preferences updated")
 	}
 
 	return nil
 }
 
 func (l *Launcher) Launch(args []string) error {
-	log.Info("Launching Turtle WoW",
+	l.log.Info("Launching Turtle WoW",
 		"appimage", l.AppImagePath,
 		"workdir", l.GameDir,
 		"args", args,
@@ -411,12 +486,12 @@ func (l *Launcher) Launch(args []string) error {
 		return fmt.Errorf("failed to change to game directory: %w", err)
 	}
 
-	log.Debug("Changed to game directory", "path", l.GameDir)
+	l.log.Debug("Changed to game directory", "path", l.GameDir)
 
 	// Build command args
 	cmdArgs := append([]string{l.AppImagePath}, args...)
 
-	log.Debug("Executing AppImage", "command", cmdArgs)
+	l.log.Debug("Executing AppImage", "command", cmdArgs)
 
 	// Use syscall.Exec to replace current process
 	return syscall.Exec(l.AppImagePath, cmdArgs, os.Environ())
@@ -428,7 +503,7 @@ func (l *Launcher) ExtractIcon() (string, error) {
 
 	// Check if icon already exists
 	if _, err := os.Stat(iconPath); err == nil {
-		log.Debug("Icon already exists", "path", iconPath)
+		l.log.Debug("Icon already exists", "path", iconPath)
 		return iconPath, nil
 	}
 
@@ -437,7 +512,7 @@ func (l *Launcher) ExtractIcon() (string, error) {
 		return "", fmt.Errorf("AppImage not found at %s", l.AppImagePath)
 	}
 
-	log.Debug("Extracting icon from AppImage", "appimage", l.AppImagePath)
+	l.log.Debug("Extracting icon from AppImage", "appimage", l.AppImagePath)
 
 	// Create temp directory for extraction
 	tmpDir, err := os.MkdirTemp("", "turtle-wow-extract-")
@@ -453,7 +528,7 @@ func (l *Launcher) ExtractIcon() (string, error) {
 	cmd.Stderr = io.Discard
 
 	if err := cmd.Run(); err != nil {
-		log.Debug("Pattern extraction failed, trying full extraction", "error", err)
+		l.log.Debug("Pattern extraction failed, trying full extraction", "error", err)
 		// Fallback: extract everything and find the icon
 		cmd = exec.Command(l.AppImagePath, "--appimage-extract")
 		cmd.Dir = tmpDir
@@ -492,12 +567,12 @@ func (l *Launcher) ExtractIcon() (string, error) {
 		return "", fmt.Errorf("failed to copy icon: %w", err)
 	}
 
-	log.Info("Icon extracted from AppImage", "path", iconPath)
+	l.log.Info("Icon extracted from AppImage", "path", iconPath)
 	return iconPath, nil
 }
 
 func (l *Launcher) InstallDesktop() error {
-	log.Info("Installing desktop integration")
+	l.log.Info("Installing desktop integration")
 
 	// Create directories
 	if err := os.MkdirAll(l.DesktopDir, 0755); err != nil {
@@ -510,11 +585,11 @@ func (l *Launcher) InstallDesktop() error {
 	// Extract icon from AppImage
 	iconPath, err := l.ExtractIcon()
 	if err != nil {
-		log.Warn("Failed to extract icon from AppImage, using fallback", "error", err)
+		l.log.Warn("Failed to extract icon from AppImage, using fallback", "error", err)
 		// Fallback: download from web
 		iconPath = filepath.Join(l.IconDir, "turtle-wow.png")
 		if _, statErr := os.Stat(iconPath); os.IsNotExist(statErr) {
-			log.Debug("Downloading fallback icon")
+			l.log.Debug("Downloading fallback icon")
 			resp, dlErr := http.Get("https://turtle-wow.org/favicon.ico")
 			if dlErr == nil {
 				defer func() { _ = resp.Body.Close() }()
@@ -523,7 +598,7 @@ func (l *Launcher) InstallDesktop() error {
 					if createErr == nil {
 						_, _ = io.Copy(out, resp.Body)
 						_ = out.Close()
-						log.Debug("Fallback icon downloaded", "path", iconPath)
+						l.log.Debug("Fallback icon downloaded", "path", iconPath)
 					}
 				}
 			}
@@ -543,75 +618,75 @@ Categories=Game;
 Keywords=wow;warcraft;mmo;turtle;
 `, l.ScriptPath, iconPath)
 
-	log.Debug("Writing desktop file", "path", desktopPath)
+	l.log.Debug("Writing desktop file", "path", desktopPath)
 	if err := os.WriteFile(desktopPath, []byte(desktopContent), 0644); err != nil {
 		return fmt.Errorf("failed to write desktop file: %w", err)
 	}
 
 	// Update desktop database
-	log.Debug("Updating desktop database")
+	l.log.Debug("Updating desktop database")
 	_ = exec.Command("update-desktop-database", l.DesktopDir).Run()
 
-	log.Info("Desktop file installed", "path", desktopPath)
+	l.log.Info("Desktop file installed", "path", desktopPath)
 	return nil
 }
 
 func (l *Launcher) UninstallDesktop() error {
-	log.Info("Removing desktop integration")
+	l.log.Info("Removing desktop integration")
 
 	desktopPath := filepath.Join(l.DesktopDir, "turtle-wow.desktop")
 	iconPath := filepath.Join(l.IconDir, "turtle-wow.png")
 
 	if err := os.Remove(desktopPath); err != nil && !os.IsNotExist(err) {
-		log.Warn("Failed to remove desktop file", "error", err)
+		l.log.Warn("Failed to remove desktop file", "error", err)
 	} else {
-		log.Debug("Removed desktop file", "path", desktopPath)
+		l.log.Debug("Removed desktop file", "path", desktopPath)
 	}
 
 	if err := os.Remove(iconPath); err != nil && !os.IsNotExist(err) {
-		log.Warn("Failed to remove icon", "error", err)
+		l.log.Warn("Failed to remove icon", "error", err)
 	} else {
-		log.Debug("Removed icon", "path", iconPath)
+		l.log.Debug("Removed icon", "path", iconPath)
 	}
 
 	_ = exec.Command("update-desktop-database", l.DesktopDir).Run()
 
-	log.Info("Desktop integration removed")
+	l.log.Info("Desktop integration removed")
 	return nil
 }
 
 func (l *Launcher) Clean(includeGameFiles bool) error {
 	if includeGameFiles {
-		log.Warn("Full purge - removing EVERYTHING including game files")
+		l.log.Warn("Full purge - removing EVERYTHING including game files")
 	} else {
-		log.Warn("Nuclear clean - removing all data, cache, and config")
+		l.log.Warn("Nuclear clean - removing all data, cache, and config")
 	}
 
 	// Remove data directory (preferences, credentials, etc.)
 	if err := os.RemoveAll(l.DataDir); err != nil {
 		return fmt.Errorf("failed to remove data directory: %w", err)
 	}
-	log.Debug("Removed data directory", "path", l.DataDir)
+	l.log.Debug("Removed data directory", "path", l.DataDir)
 
 	// Remove cache directory (AppImage, WebKit cache, etc.)
 	if err := os.RemoveAll(l.CacheDir); err != nil {
 		return fmt.Errorf("failed to remove cache directory: %w", err)
 	}
-	log.Debug("Removed cache directory", "path", l.CacheDir)
+	l.log.Debug("Removed cache directory", "path", l.CacheDir)
 
 	// Remove desktop integration
 	desktopFile := filepath.Join(l.DesktopDir, "turtle-wow.desktop")
 	if err := os.Remove(desktopFile); err != nil && !os.IsNotExist(err) {
-		log.Warn("Failed to remove desktop file", "error", err)
+		l.log.Warn("Failed to remove desktop file", "error", err)
 	} else {
-		log.Debug("Removed desktop file", "path", desktopFile)
+		l.log.Debug("Removed desktop file", "path", desktopFile)
 	}
 
 	iconFile := filepath.Join(l.IconDir, "turtle-wow.png")
 	if err := os.Remove(iconFile); err != nil && !os.IsNotExist(err) {
-		log.Warn("Failed to remove icon", "error", err)
+		l.log.Warn("Failed to remove icon", "error", err)
 	} else {
-		log.Debug("Removed icon", "path", iconFile)
+		l.log.Debug("Removed icon", "path", iconFile)
 	}
 
 	// Update desktop database
@@ -622,10 +697,10 @@ func (l *Launcher) Clean(includeGameFiles bool) error {
 		if err := os.RemoveAll(l.GameDir); err != nil {
 			if os.IsPermission(err) {
 				parentDir := filepath.Dir(l.GameDir)
-				log.Error("Permission denied removing game directory",
+				l.log.Error("Permission denied removing game directory",
 					"path", l.GameDir,
 				)
-				log.Warn("Try one of these commands:",
+				l.log.Warn("Try one of these commands:",
 					"fix_parent", "sudo chown $USER:$USER "+parentDir,
 					"force_remove", "sudo rm -rf "+l.GameDir,
 				)
@@ -633,26 +708,26 @@ func (l *Launcher) Clean(includeGameFiles bool) error {
 			}
 			return fmt.Errorf("failed to remove game directory: %w", err)
 		}
-		log.Debug("Removed game directory", "path", l.GameDir)
+		l.log.Debug("Removed game directory", "path", l.GameDir)
 
-		log.Info("Full purge complete",
+		l.log.Info("Full purge complete",
 			"removed_data", l.DataDir,
 			"removed_cache", l.CacheDir,
 			"removed_game", l.GameDir,
 		)
 	} else {
-		log.Info("Clean complete",
+		l.log.Info("Clean complete",
 			"removed_data", l.DataDir,
 			"removed_cache", l.CacheDir,
 		)
-		log.Info("Game files preserved", "game_dir", l.GameDir)
+		l.log.Info("Game files preserved", "game_dir", l.GameDir)
 	}
 
 	return nil
 }
 
 func (l *Launcher) ResetCredentials() error {
-	log.Warn("Resetting saved credentials")
+	l.log.Warn("Resetting saved credentials")
 
 	filesToRemove := []string{
 		filepath.Join(l.DataDir, "vault.hold"),
@@ -665,19 +740,19 @@ func (l *Launcher) ResetCredentials() error {
 
 	for _, f := range filesToRemove {
 		if _, err := os.Stat(f); err == nil {
-			log.Debug("Removing file", "path", f)
+			l.log.Debug("Removing file", "path", f)
 			_ = os.Remove(f)
 		}
 	}
 
 	for _, d := range dirsToRemove {
 		if _, err := os.Stat(d); err == nil {
-			log.Debug("Removing directory", "path", d)
+			l.log.Debug("Removing directory", "path", d)
 			_ = os.RemoveAll(d)
 		}
 	}
 
-	log.Info("Credentials reset")
+	l.log.Info("Credentials reset")
 	return nil
 }
 

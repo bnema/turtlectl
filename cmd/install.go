@@ -1,34 +1,30 @@
 package cmd
 
 import (
-	"github.com/charmbracelet/log"
+	tea "github.com/charmbracelet/bubbletea"
 	"github.com/spf13/cobra"
 
 	"github.com/bnema/turtlectl/internal/launcher"
+	uilauncher "github.com/bnema/turtlectl/internal/ui/launcher"
 )
 
 var installCmd = &cobra.Command{
 	Use:     "install",
 	Aliases: []string{"i"},
 	Short:   "Install/update AppImage and create desktop file",
-	Run: func(cmd *cobra.Command, args []string) {
-		l := launcher.New(logger)
+	RunE: func(cmd *cobra.Command, args []string) error {
+		l := launcher.New(getLogger())
 
-		log.Info("Starting installation")
+		m := uilauncher.NewInstallModel(l)
+		p := tea.NewProgram(m)
 
-		if err := l.EnsureLauncherDirs(); err != nil {
-			log.Fatal("Failed to create directories", "error", err)
+		finalModel, err := p.Run()
+		if err != nil {
+			return err
 		}
 
-		if err := l.UpdateAppImage(); err != nil {
-			log.Fatal("Failed to update AppImage", "error", err)
-		}
-
-		if err := l.InstallDesktop(); err != nil {
-			log.Fatal("Failed to install desktop file", "error", err)
-		}
-
-		log.Info("Installation complete! You can now launch Turtle WoW from your app menu.")
+		fm := finalModel.(uilauncher.InstallModel)
+		return fm.GetError()
 	},
 }
 
