@@ -1,0 +1,94 @@
+name: AUR Publish
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  publish-aur-git:
+    name: Publish turtlectl-git to AUR
+    runs-on: ubuntu-latest
+    concurrency:
+      group: aur-git-publish
+      cancel-in-progress: true
+
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Calculate pkgver
+        id: pkgver
+        run: |
+          # Use same logic as PKGBUILD pkgver() function
+          PKGVER=$(git describe --long --tags 2>/dev/null | sed 's/^v//;s/\([^-]*-g\)/r\1/;s/-/./g' || echo "0.0.0.r$(git rev-list --count HEAD).g$(git rev-parse --short HEAD)")
+          echo "version=${PKGVER}" >> $GITHUB_OUTPUT
+          echo "Calculated pkgver: ${PKGVER}"
+
+      - name: Generate PKGBUILD for turtlectl-git
+        run: |
+          PKGVER="${{ steps.pkgver.outputs.version }}"
+          
+          mkdir -p pkgbuild/turtlectl-git
+          
+          printf '%s\n' \
+            '# Maintainer: Brice <b@bnema.dev>' \
+            'pkgname=turtlectl-git' \
+            "pkgver=${PKGVER}" \
+            'pkgrel=1' \
+            "pkgdesc='A Go CLI tool to manage and run Turtle WoW on Linux (X11/Wayland)'" \
+            "arch=('x86_64')" \
+            'url="https://github.com/bnema/turtlectl"' \
+            "license=('MIT')" \
+            "makedepends=('go' 'git')" \
+            "provides=('turtlectl')" \
+            "conflicts=('turtlectl')" \
+            'source=("$pkgname::git+$url.git")' \
+            "sha256sums=('SKIP')" \
+            '' \
+            'pkgver() {' \
+            '  cd "$pkgname"' \
+            '  git describe --long --tags 2>/dev/null | sed '"'"'s/^v//;s/\([^-]*-g\)/r\1/;s/-/./g'"'"' || printf "0.0.0.r%s.g%s" "$(git rev-list --count HEAD)" "$(git rev-parse --short HEAD)"' \
+            '}' \
+            '' \
+            'prepare() {' \
+            '  cd "$pkgname"' \
+            '  mkdir -p build/' \
+            '}' \
+            '' \
+            'build() {' \
+            '  cd "$pkgname"' \
+            '  export CGO_CPPFLAGS="${CPPFLAGS}"' \
+            '  export CGO_CFLAGS="${CFLAGS}"' \
+            '  export CGO_CXXFLAGS="${CXXFLAGS}"' \
+            '  export CGO_LDFLAGS="${LDFLAGS}"' \
+            '  export GOFLAGS="-buildmode=pie -trimpath -ldflags=-linkmode=external -mod=readonly -modcacherw"' \
+            '  go build -o build/turtlectl .' \
+            '}' \
+            '' \
+            'check() {' \
+            '  cd "$pkgname"' \
+            '  go test ./...' \
+            '}' \
+            '' \
+            'package() {' \
+            '  cd "$pkgname"' \
+            '  install -Dm755 build/turtlectl "$pkgdir/usr/bin/turtlectl"' \
+            '  install -Dm644 LICENSE "$pkgdir/usr/share/licenses/$pkgname/LICENSE"' \
+            '}' \
+            > pkgbuild/turtlectl-git/PKGBUILD
+          
+          echo "Generated PKGBUILD:"
+          cat pkgbuild/turtlectl-git/PKGBUILD
+
+      - name: Publish turtlectl-git to AUR
+        uses: KSXGitHub/github-actions-deploy-aur@v4.1.1
+        with:
+          pkgname: turtlectl-git
+          pkgbuild: ./pkgbuild/turtlectl-git/PKGBUILD
+          commit_username: ${{ secrets.AUR_USERNAME }}
+          commit_email: ${{ secrets.AUR_EMAIL }}
+          ssh_private_key: ${{ secrets.AUR_SSH_PRIVATE_KEY }}
+          commit_message: "Update to ${{ steps.pkgver.outputs.version }}"
+          ssh_keyscan_types: rsa,ecdsa,ed25519
