@@ -2,6 +2,7 @@ package addons
 
 import (
 	"fmt"
+	"sort"
 	"strings"
 
 	"github.com/bnema/turtlectl/internal/addons"
@@ -11,6 +12,7 @@ import (
 	"github.com/charmbracelet/bubbles/list"
 	"github.com/charmbracelet/bubbles/spinner"
 	tea "github.com/charmbracelet/bubbletea"
+	"github.com/charmbracelet/lipgloss"
 )
 
 // exploreState represents the current view state
@@ -21,6 +23,26 @@ const (
 	exploreViewDetails
 	exploreViewInstalling
 )
+
+// sortOrder represents the current sort mode
+type sortOrder int
+
+const (
+	sortByName sortOrder = iota
+	sortByStars
+	sortByRecent
+)
+
+func (s sortOrder) String() string {
+	switch s {
+	case sortByStars:
+		return "Stars"
+	case sortByRecent:
+		return "Recent"
+	default:
+		return "Name"
+	}
+}
 
 // exploreItem implements list.Item for wiki addons
 type exploreItem struct {
@@ -74,23 +96,33 @@ func (i exploreItem) FilterValue() string {
 
 // ExploreKeyMap defines keyboard shortcuts for explore view
 type ExploreKeyMap struct {
-	Install key.Binding
-	Details key.Binding
-	Refresh key.Binding
-	Quit    key.Binding
-	Back    key.Binding
+	Install   key.Binding
+	Uninstall key.Binding
+	Details   key.Binding
+	Order     key.Binding
+	Refresh   key.Binding
+	Quit      key.Binding
+	Back      key.Binding
 }
 
 // DefaultExploreKeyMap returns the default key bindings
 func DefaultExploreKeyMap() ExploreKeyMap {
 	return ExploreKeyMap{
 		Install: key.NewBinding(
-			key.WithKeys("i", "enter"),
-			key.WithHelp("i/enter", "install"),
+			key.WithKeys("i"),
+			key.WithHelp("i", "install"),
+		),
+		Uninstall: key.NewBinding(
+			key.WithKeys("u"),
+			key.WithHelp("u", "uninstall"),
 		),
 		Details: key.NewBinding(
 			key.WithKeys("d"),
 			key.WithHelp("d", "details"),
+		),
+		Order: key.NewBinding(
+			key.WithKeys("o"),
+			key.WithHelp("o", "order"),
 		),
 		Refresh: key.NewBinding(
 			key.WithKeys("r"),
@@ -129,6 +161,9 @@ type ExploreModel struct {
 	statusMsg   string
 	errorMsg    string
 	progressMsg string
+
+	// Sorting
+	sortOrder sortOrder
 }
 
 // NewExploreModel creates a new explore TUI model
@@ -147,7 +182,7 @@ func NewExploreModel(manager *addons.Manager, registry *wiki.Registry, refresh b
 	l.Styles.Title = styles.Title
 	l.SetShowStatusBar(true)
 	l.SetFilteringEnabled(true)
-	l.SetShowHelp(true)
+	l.SetShowHelp(false) // We render our own unified footer
 
 	// Setup spinner
 	s := spinner.New()
@@ -182,6 +217,12 @@ type exploreAddonsLoadedMsg struct {
 }
 
 type exploreInstallCompleteMsg struct {
+	success bool
+	name    string
+	err     error
+}
+
+type exploreUninstallCompleteMsg struct {
 	success bool
 	name    string
 	err     error
@@ -239,6 +280,17 @@ func (m ExploreModel) installAddon(url string) tea.Cmd {
 	}
 }
 
+// uninstallAddon uninstalls the selected addon
+func (m ExploreModel) uninstallAddon(name string) tea.Cmd {
+	return func() tea.Msg {
+		err := m.addonManager.Remove(name, false)
+		if err != nil {
+			return exploreUninstallCompleteMsg{success: false, name: name, err: err}
+		}
+		return exploreUninstallCompleteMsg{success: true, name: name}
+	}
+}
+
 // Update handles messages
 func (m ExploreModel) Update(msg tea.Msg) (tea.Model, tea.Cmd) {
 	var cmds []tea.Cmd
@@ -247,7 +299,8 @@ func (m ExploreModel) Update(msg tea.Msg) (tea.Model, tea.Cmd) {
 	case tea.WindowSizeMsg:
 		m.width, m.height = msg.Width, msg.Height
 		h, v := styles.App.GetFrameSize()
-		m.list.SetSize(msg.Width-h, msg.Height-v-4)
+		// Reserve 2 lines: 1 for status bar footer, 1 for potential stale warning
+		m.list.SetSize(msg.Width-h, msg.Height-v-2)
 		return m, nil
 
 	case tea.KeyMsg:
@@ -320,6 +373,19 @@ func (m ExploreModel) Update(msg tea.Msg) (tea.Model, tea.Cmd) {
 		}
 		return m, nil
 
+	case exploreUninstallCompleteMsg:
+		m.state = exploreViewList
+		m.loading = false
+		if msg.err != nil {
+			m.errorMsg = "Uninstall failed: " + msg.err.Error()
+		} else {
+			m.statusMsg = fmt.Sprintf("Uninstalled %s successfully", msg.name)
+			// Reload to update installed status
+			m.loading = true
+			return m, m.loadAddonsCmd()
+		}
+		return m, nil
+
 	case spinner.TickMsg:
 		var cmd tea.Cmd
 		m.spinner, cmd = m.spinner.Update(msg)
@@ -337,6 +403,13 @@ func (m ExploreModel) Update(msg tea.Msg) (tea.Model, tea.Cmd) {
 }
 
 func (m ExploreModel) updateList(msg tea.KeyMsg) (tea.Model, tea.Cmd) {
+	// Don't process custom keys when filtering is active
+	if m.list.FilterState() == list.Filtering {
+		var cmd tea.Cmd
+		m.list, cmd = m.list.Update(msg)
+		return m, cmd
+	}
+
 	switch {
 	case key.Matches(msg, m.keys.Install):
 		if item, ok := m.list.SelectedItem().(exploreItem); ok {
@@ -357,11 +430,60 @@ func (m ExploreModel) updateList(msg tea.KeyMsg) (tea.Model, tea.Cmd) {
 		}
 		return m, nil
 
+	case key.Matches(msg, m.keys.Uninstall):
+		if item, ok := m.list.SelectedItem().(exploreItem); ok {
+			if !item.addon.IsInstalled {
+				m.statusMsg = "Addon is not installed"
+				return m, nil
+			}
+			m.selectedAddon = &item.addon
+			m.state = exploreViewInstalling
+			m.loading = true
+			m.progressMsg = "Uninstalling " + item.addon.Name + "..."
+			m.errorMsg = ""
+			m.statusMsg = ""
+			return m, tea.Batch(
+				m.uninstallAddon(item.addon.Name),
+				m.spinner.Tick,
+			)
+		}
+		return m, nil
+
 	case key.Matches(msg, m.keys.Details):
 		if item, ok := m.list.SelectedItem().(exploreItem); ok {
 			m.selectedAddon = &item.addon
 			m.state = exploreViewDetails
 		}
+		return m, nil
+
+	case key.Matches(msg, m.keys.Order):
+		// Cycle through sort orders: Name -> Stars -> Recent -> Name
+		m.sortOrder = (m.sortOrder + 1) % 3
+
+		// Sort the addons
+		switch m.sortOrder {
+		case sortByStars:
+			sort.Slice(m.wikiAddons, func(i, j int) bool {
+				return m.wikiAddons[i].Stars > m.wikiAddons[j].Stars
+			})
+		case sortByRecent:
+			sort.Slice(m.wikiAddons, func(i, j int) bool {
+				return m.wikiAddons[i].AddedAt.After(m.wikiAddons[j].AddedAt)
+			})
+		default: // sortByName
+			sort.Slice(m.wikiAddons, func(i, j int) bool {
+				return m.wikiAddons[i].Name < m.wikiAddons[j].Name
+			})
+		}
+
+		// Rebuild list items
+		items := make([]list.Item, len(m.wikiAddons))
+		for i, addon := range m.wikiAddons {
+			items[i] = exploreItem{addon: addon}
+		}
+		m.list.SetItems(items)
+
+		m.statusMsg = "Sorted by " + m.sortOrder.String()
 		return m, nil
 
 	case key.Matches(msg, m.keys.Refresh):
@@ -399,6 +521,18 @@ func (m ExploreModel) updateDetails(msg tea.KeyMsg) (tea.Model, tea.Cmd) {
 			)
 		}
 		return m, nil
+
+	case key.Matches(msg, m.keys.Uninstall):
+		if m.selectedAddon != nil && m.selectedAddon.IsInstalled {
+			m.state = exploreViewInstalling
+			m.loading = true
+			m.progressMsg = "Uninstalling " + m.selectedAddon.Name + "..."
+			return m, tea.Batch(
+				m.uninstallAddon(m.selectedAddon.Name),
+				m.spinner.Tick,
+			)
+		}
+		return m, nil
 	}
 
 	return m, nil
@@ -420,6 +554,41 @@ func (m ExploreModel) View() string {
 	return styles.App.Render(content)
 }
 
+// renderFooter renders a unified status bar with status on left and keybindings on right
+func (m ExploreModel) renderFooter() string {
+	// Left side: compact status info
+	left := m.sortOrder.String()
+
+	// Append status/error message if any
+	if m.errorMsg != "" {
+		left += " | " + m.errorMsg
+	} else if m.statusMsg != "" {
+		left += " | " + m.statusMsg
+	}
+
+	// Right side: key bindings
+	right := "/filter i:inst u:rem d:info o:sort r:sync q:quit"
+
+	// Account for App padding (2 on each side = 4 total horizontal)
+	availableWidth := m.width - 4
+
+	leftRendered := styles.StatusBarLeft.Render(" " + left + " ")
+	rightRendered := styles.StatusBarRight.Render(" " + right + " ")
+
+	leftWidth := lipgloss.Width(leftRendered)
+	rightWidth := lipgloss.Width(rightRendered)
+	gap := availableWidth - leftWidth - rightWidth
+
+	if gap < 0 {
+		gap = 0
+	}
+
+	// Fill middle with background
+	middle := lipgloss.NewStyle().Background(styles.StatusBarBg).Render(strings.Repeat(" ", gap))
+
+	return lipgloss.JoinHorizontal(lipgloss.Bottom, leftRendered, middle, rightRendered)
+}
+
 func (m ExploreModel) viewList() string {
 	var s strings.Builder
 
@@ -434,7 +603,7 @@ func (m ExploreModel) viewList() string {
 
 	s.WriteString(m.list.View())
 
-	// Registry status
+	// Registry stale warning (separate line above footer)
 	if m.registryInfo.IsStale && m.registryInfo.HasCache {
 		days := int(m.registryInfo.Age.Hours() / 24)
 		if days > 0 {
@@ -442,16 +611,8 @@ func (m ExploreModel) viewList() string {
 		}
 	}
 
-	// Status/error messages
-	if m.errorMsg != "" {
-		s.WriteString("\n" + styles.FormatError(m.errorMsg))
-	} else if m.statusMsg != "" {
-		s.WriteString("\n" + styles.FormatSuccess(m.statusMsg))
-	}
-
-	// Help
-	help := "\n" + styles.Help.Render("/:filter  i/enter:install  d:details  r:refresh  q:quit")
-	s.WriteString(help)
+	// Unified status bar footer
+	s.WriteString("\n" + m.renderFooter())
 
 	return s.String()
 }
@@ -503,7 +664,7 @@ func (m ExploreModel) viewDetails() string {
 	// Help
 	s.WriteString("\n")
 	if a.IsInstalled {
-		s.WriteString(styles.Help.Render("esc/d:back  q:quit"))
+		s.WriteString(styles.Help.Render("u:uninstall  esc/d:back  q:quit"))
 	} else {
 		s.WriteString(styles.Help.Render("i:install  esc/d:back  q:quit"))
 	}
