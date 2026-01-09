@@ -1,8 +1,8 @@
 # turtlectl
 
-A Go CLI tool to manage and run [Turtle WoW](https://turtle-wow.org/) on Linux.
+A Go CLI tool to manage and run [Turtle WoW](https://turtle-wow.org/) on Arch based distros.
 
-Works on both **X11** and **Wayland** with automatic GPU detection (AMD/NVIDIA/Intel).
+Supposed to work both for **Wayland** and **X11** (untested) with automatic GPU detection (AMD/NVIDIA/Intel).
 
 ## Install
 
@@ -26,7 +26,7 @@ turtlectl clean -a   # Full purge including game files
 
 ## Addon Registry
 
-Browse **880+ addons** from the [Turtle WoW Wiki](https://turtle-wow.fandom.com/wiki/Addons), enriched with GitHub metadata (stars, last commit, author).
+Browse and install **880+ addons** from the [Turtle WoW Wiki](https://turtle-wow.fandom.com/wiki/Addons), enriched with GitHub metadata (stars, last commit, author).
 
 **Web browser:** https://bnema.github.io/turtlectl/
 
