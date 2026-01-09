@@ -567,7 +567,7 @@ func (m ExploreModel) renderFooter() string {
 	}
 
 	// Right side: key bindings
-	right := "/filter i:inst u:rem d:info o:sort r:sync q:quit"
+	right := "/filter i:inst u:uninst d:info o:sort r:sync q:quit"
 
 	// Account for App padding (2 on each side = 4 total horizontal)
 	availableWidth := m.width - 4
