@@ -78,6 +78,19 @@ var (
 			Background(Subtle).
 			Padding(0, 1)
 
+	// StatusBarBg - dark background for status bar
+	StatusBarBg = lipgloss.Color("#1e1e2e")
+
+	// StatusBarLeft - left side of status bar (status info)
+	StatusBarLeft = lipgloss.NewStyle().
+			Foreground(Muted).
+			Background(StatusBarBg)
+
+	// StatusBarRight - right side of status bar (help keys)
+	StatusBarRight = lipgloss.NewStyle().
+			Foreground(Text).
+			Background(StatusBarBg)
+
 	// Help text
 	Help = lipgloss.NewStyle().
 		Foreground(Muted)
