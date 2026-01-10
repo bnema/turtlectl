@@ -1,9 +1,9 @@
 {
   "version": 1,
-  "revision": 2,
-  "generated_at": "2026-01-09T03:47:44.343941466Z",
+  "revision": 3,
+  "generated_at": "2026-01-10T03:42:41.414014379Z",
   "source_url": "https://turtle-wow.fandom.com/wiki/Addons",
-  "addon_count": 881,
+  "addon_count": 883,
   "addons": [
     {
       "name": "-Dragonflight3",
@@ -32,6 +32,15 @@
       "category": "A",
       "last_commit": "2020-06-29T15:23:43Z",
       "added_at": "0001-01-01T00:00:00Z"
+    },
+    {
+      "name": "Accountant",
+      "url": "https://github.com/terdong/Accountant",
+      "description": "Accountant tracks you incoming / outgoing cash.",
+      "author": "terdong",
+      "category": "A",
+      "last_commit": "2025-12-26T07:02:25Z",
+      "added_at": "2026-01-10T03:42:41.414014379Z"
     },
     {
       "name": "Accountant",
@@ -134,22 +143,22 @@
     },
     {
       "name": "Altoholic_Vanilla",
-      "url": "https://github.com/gbl/Altoholic_Vanilla",
-      "description": "Altoholic for Vanilla WoW 1.12 - backported from version 2.4.015 originally written by Thaoky, forked from nehswu, with some bug fixes",
-      "author": "gbl",
-      "stars": 3,
-      "category": "A",
-      "last_commit": "2025-11-06T09:02:53Z",
-      "added_at": "0001-01-01T00:00:00Z"
-    },
-    {
-      "name": "Altoholic_Vanilla",
       "url": "https://github.com/nehswu/Altoholic_Vanilla",
       "description": "Altoholic for Vanilla WoW 1.12 - backported from version 2.4.015 originally written by Thaoky",
       "author": "nehswu",
       "stars": 5,
       "category": "A",
       "last_commit": "2023-06-13T03:25:22Z",
+      "added_at": "0001-01-01T00:00:00Z"
+    },
+    {
+      "name": "Altoholic_Vanilla",
+      "url": "https://github.com/gbl/Altoholic_Vanilla",
+      "description": "Altoholic for Vanilla WoW 1.12 - backported from version 2.4.015 originally written by Thaoky, forked from nehswu, with some bug fixes",
+      "author": "gbl",
+      "stars": 3,
+      "category": "A",
+      "last_commit": "2025-11-06T09:02:53Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -1243,7 +1252,7 @@
       "url": "https://github.com/cutiepoka/CleveRoidMacros",
       "description": "Use more advanced and modern style macros with World of Warcraft 1.12.1",
       "author": "cutiepoka",
-      "stars": 4,
+      "stars": 5,
       "category": "C",
       "last_commit": "2025-12-23T14:46:27Z",
       "added_at": "0001-01-01T00:00:00Z"
@@ -1361,7 +1370,7 @@
       "author": "pepordev",
       "stars": 3,
       "category": "C",
-      "last_commit": "2026-01-08T18:11:54Z",
+      "last_commit": "2026-01-09T20:11:02Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -1564,7 +1573,7 @@
       "author": "DeterminedPanda",
       "stars": 18,
       "category": "D",
-      "last_commit": "2026-01-07T12:26:48Z",
+      "last_commit": "2026-01-10T02:42:38Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -2532,21 +2541,21 @@
     },
     {
       "name": "GrimoireKeeper",
+      "url": "https://github.com/Scoboose/GrimoireKeeper",
+      "author": "Scoboose",
+      "stars": 1,
+      "category": "G",
+      "last_commit": "2025-04-02T15:02:52Z",
+      "added_at": "0001-01-01T00:00:00Z"
+    },
+    {
+      "name": "GrimoireKeeper",
       "url": "https://github.com/Lichery/GrimoireKeeper",
       "description": "[1.12.1] Tracks which grimoires your warlock pets have learned.",
       "author": "Artur91425",
       "stars": 1,
       "category": "G",
       "last_commit": "2019-08-23T20:35:34Z",
-      "added_at": "0001-01-01T00:00:00Z"
-    },
-    {
-      "name": "GrimoireKeeper",
-      "url": "https://github.com/Scoboose/GrimoireKeeper",
-      "author": "Scoboose",
-      "stars": 1,
-      "category": "G",
-      "last_commit": "2025-04-02T15:02:52Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -3355,6 +3364,7 @@
       "url": "https://github.com/jvaneg/Libramswap",
       "description": "Swaps to the correct libram before casting Paladin spells",
       "author": "jvaneg",
+      "stars": 1,
       "category": "L",
       "last_commit": "2025-11-03T20:53:34Z",
       "added_at": "0001-01-01T00:00:00Z"
@@ -3761,21 +3771,21 @@
     },
     {
       "name": "MobHealth",
+      "url": "https://github.com/FrostShock/MobHealth",
+      "description": "Displays health values.",
+      "author": "FrostShock",
+      "category": "M",
+      "last_commit": "2021-09-15T08:58:55Z",
+      "added_at": "0001-01-01T00:00:00Z"
+    },
+    {
+      "name": "MobHealth",
       "url": "https://github.com/kc8pnd/MobHealth",
       "description": "Displays health values.",
       "author": "kc8pnd",
       "stars": 3,
       "category": "M",
       "last_commit": "2016-12-21T00:19:17Z",
-      "added_at": "0001-01-01T00:00:00Z"
-    },
-    {
-      "name": "MobHealth",
-      "url": "https://github.com/FrostShock/MobHealth",
-      "description": "Displays health values.",
-      "author": "FrostShock",
-      "category": "M",
-      "last_commit": "2021-09-15T08:58:55Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -4064,7 +4074,7 @@
       "author": "zanthor",
       "stars": 3,
       "category": "O",
-      "last_commit": "2026-01-09T01:15:26Z",
+      "last_commit": "2026-01-10T00:47:59Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -5650,6 +5660,15 @@
     },
     {
       "name": "SortBags",
+      "url": "https://github.com/Magues17/SortBags",
+      "description": "Bag Sorting addon for Turtle WoW",
+      "author": "Magues17",
+      "category": "S",
+      "last_commit": "2025-11-05T17:12:00Z",
+      "added_at": "2026-01-10T03:42:41.414014379Z"
+    },
+    {
+      "name": "SortBags",
       "url": "https://github.com/shirsig/SortBags",
       "description": "Bag sorting for Classic (1.13) IMPORTANT: If you want buttons get this too: https://github.com/shirsig/Cleanup IMPORTANT: The folder name must be \"SortBags\" IMPORTANT: The Vanilla (1.12) version moved here https://github.com/shirsig/SortBags-vanilla",
       "author": "shirsig",
@@ -5708,22 +5727,22 @@
     },
     {
       "name": "SpamThrottle",
-      "url": "https://github.com/Orukxu/SpamThrottle",
-      "description": "Vanilla WoW addon to remove unwanted chat messages",
-      "author": "Orukxu",
-      "stars": 19,
-      "category": "S",
-      "last_commit": "2019-01-25T18:59:05Z",
-      "added_at": "0001-01-01T00:00:00Z"
-    },
-    {
-      "name": "SpamThrottle",
       "url": "https://github.com/laytya/SpamThrottle",
       "description": "Vanilla WoW addon to remove unwanted chat messages",
       "author": "laytya",
       "stars": 18,
       "category": "S",
       "last_commit": "2023-07-26T15:53:58Z",
+      "added_at": "0001-01-01T00:00:00Z"
+    },
+    {
+      "name": "SpamThrottle",
+      "url": "https://github.com/Orukxu/SpamThrottle",
+      "description": "Vanilla WoW addon to remove unwanted chat messages",
+      "author": "Orukxu",
+      "stars": 19,
+      "category": "S",
+      "last_commit": "2019-01-25T18:59:05Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -5917,7 +5936,7 @@
       "author": "jrc13245",
       "stars": 22,
       "category": "Z",
-      "last_commit": "2026-01-08T22:12:37Z",
+      "last_commit": "2026-01-09T21:27:42Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -6398,7 +6417,7 @@
       "author": "TheRealFayz",
       "stars": 2,
       "category": "T",
-      "last_commit": "2026-01-08T18:30:45Z",
+      "last_commit": "2026-01-09T15:15:26Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -6882,22 +6901,22 @@
     },
     {
       "name": "VanillaGuide",
-      "url": "https://github.com/Zarant/VanillaGuide",
-      "description": "An in-game guide for Vanilla WoW",
-      "author": "Zarant",
-      "stars": 1,
-      "category": "V",
-      "last_commit": "2022-01-17T15:54:36Z",
-      "added_at": "0001-01-01T00:00:00Z"
-    },
-    {
-      "name": "VanillaGuide",
       "url": "https://github.com/TheUnprofessionalGamer/VanillaGuide",
       "description": "We do this later",
       "author": "TheUnprofessionalGamer",
       "stars": 3,
       "category": "V",
       "last_commit": "2024-01-10T16:06:51Z",
+      "added_at": "0001-01-01T00:00:00Z"
+    },
+    {
+      "name": "VanillaGuide",
+      "url": "https://github.com/Zarant/VanillaGuide",
+      "description": "An in-game guide for Vanilla WoW",
+      "author": "Zarant",
+      "stars": 1,
+      "category": "V",
+      "last_commit": "2022-01-17T15:54:36Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -6970,6 +6989,15 @@
     },
     {
       "name": "Vanilla_oCB",
+      "url": "https://github.com/laytya/Vanilla_oCB",
+      "author": "laytya",
+      "stars": 4,
+      "category": "O",
+      "last_commit": "2025-04-09T09:48:08Z",
+      "added_at": "0001-01-01T00:00:00Z"
+    },
+    {
+      "name": "Vanilla_oCB",
       "url": "https://github.com/Road-block/Vanilla_oCB",
       "author": "Road-block",
       "stars": 4,
@@ -6983,15 +7011,6 @@
       "author": "martinjlowm",
       "category": "O",
       "last_commit": "2017-03-26T15:14:21Z",
-      "added_at": "0001-01-01T00:00:00Z"
-    },
-    {
-      "name": "Vanilla_oCB",
-      "url": "https://github.com/laytya/Vanilla_oCB",
-      "author": "laytya",
-      "stars": 4,
-      "category": "O",
-      "last_commit": "2025-04-09T09:48:08Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -7220,20 +7239,20 @@
     },
     {
       "name": "Wow1.12.1_Addons_Collection",
-      "url": "https://github.com/aim2kill/Wow1.12.1_Addons_Collection",
-      "author": "aim2kill",
-      "stars": 1,
-      "category": "Z",
-      "last_commit": "2019-04-27T02:56:04Z",
-      "added_at": "0001-01-01T00:00:00Z"
-    },
-    {
-      "name": "Wow1.12.1_Addons_Collection",
       "url": "https://github.com/crazypoultry/Wow1.12.1_Addons_Collection",
       "author": "crazypoultry",
       "stars": 33,
       "category": "Z",
       "last_commit": "2023-04-04T02:53:08Z",
+      "added_at": "0001-01-01T00:00:00Z"
+    },
+    {
+      "name": "Wow1.12.1_Addons_Collection",
+      "url": "https://github.com/aim2kill/Wow1.12.1_Addons_Collection",
+      "author": "aim2kill",
+      "stars": 1,
+      "category": "Z",
+      "last_commit": "2019-04-27T02:56:04Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -7703,6 +7722,15 @@
     },
     {
       "name": "enemyFrames",
+      "url": "https://github.com/byCFM2/enemyFrames",
+      "description": "1.12.1 addon to display enemy players on BGs",
+      "author": "byCFM2",
+      "category": "E",
+      "last_commit": "2025-10-12T16:17:58Z",
+      "added_at": "0001-01-01T00:00:00Z"
+    },
+    {
+      "name": "enemyFrames",
       "url": "https://github.com/zetone/enemyFrames",
       "description": "1.12.1 addon to display enemy players on BGs",
       "author": "zetone",
@@ -7712,19 +7740,10 @@
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
-      "name": "enemyFrames",
-      "url": "https://github.com/byCFM2/enemyFrames",
-      "description": "1.12.1 addon to display enemy players on BGs",
-      "author": "byCFM2",
-      "category": "E",
-      "last_commit": "2025-10-12T16:17:58Z",
-      "added_at": "0001-01-01T00:00:00Z"
-    },
-    {
       "name": "guda",
       "url": "https://github.com/vatichild/guda",
       "author": "vatichild",
-      "stars": 10,
+      "stars": 11,
       "category": "G",
       "last_commit": "2026-01-08T19:41:12Z",
       "added_at": "0001-01-01T00:00:00Z"
@@ -7733,9 +7752,9 @@
       "name": "guda-plates",
       "url": "https://github.com/vatichild/guda-plates",
       "author": "vatichild",
-      "stars": 3,
+      "stars": 4,
       "category": "G",
-      "last_commit": "2026-01-08T22:31:38Z",
+      "last_commit": "2026-01-09T16:56:20Z",
       "added_at": "2026-01-09T03:47:44.343941466Z"
     },
     {
@@ -8220,7 +8239,7 @@
       "url": "https://github.com/refaim/snapjaw",
       "description": "Git-based advanced Vanilla WoW AddOn Manager",
       "author": "refaim",
-      "stars": 18,
+      "stars": 19,
       "last_commit": "2025-02-16T06:38:00Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
@@ -8236,21 +8255,21 @@
     },
     {
       "name": "sorgis_raid_marks",
-      "url": "https://github.com/MarcelineVQ/sorgis_raid_marks",
-      "description": "raid mark targeting and assigning addon for vanilla wow client",
-      "author": "MarcelineVQ",
-      "category": "Z",
-      "last_commit": "2025-02-24T02:38:48Z",
-      "added_at": "0001-01-01T00:00:00Z"
-    },
-    {
-      "name": "sorgis_raid_marks",
       "url": "https://github.com/sorgis-sorgis/sorgis_raid_marks",
       "description": "raid mark targeting and assigning addon for the vanilla (1.12) World of Warcraft client",
       "author": "sorgis-sorgis",
       "stars": 1,
       "category": "S",
       "last_commit": "2025-02-05T09:11:42Z",
+      "added_at": "0001-01-01T00:00:00Z"
+    },
+    {
+      "name": "sorgis_raid_marks",
+      "url": "https://github.com/MarcelineVQ/sorgis_raid_marks",
+      "description": "raid mark targeting and assigning addon for vanilla wow client",
+      "author": "MarcelineVQ",
+      "category": "Z",
+      "last_commit": "2025-02-24T02:38:48Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
