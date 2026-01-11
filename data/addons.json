@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "revision": 3,
-  "generated_at": "2026-01-10T03:42:41.414014379Z",
+  "revision": 4,
+  "generated_at": "2026-01-11T03:54:18.504892833Z",
   "source_url": "https://turtle-wow.fandom.com/wiki/Addons",
   "addon_count": 883,
   "addons": [
@@ -1370,7 +1370,7 @@
       "author": "pepordev",
       "stars": 3,
       "category": "C",
-      "last_commit": "2026-01-09T20:11:02Z",
+      "last_commit": "2026-01-10T09:23:54Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -1573,7 +1573,7 @@
       "author": "DeterminedPanda",
       "stars": 18,
       "category": "D",
-      "last_commit": "2026-01-10T02:42:38Z",
+      "last_commit": "2026-01-11T02:59:00Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -1640,7 +1640,7 @@
       "url": "https://github.com/Player-Doite/DoiteAuras",
       "description": "Ability, buff, debuff \u0026 item tracker for Vanilla WoW.",
       "author": "Player-Doite",
-      "stars": 7,
+      "stars": 8,
       "category": "D",
       "last_commit": "2026-01-05T10:02:34Z",
       "added_at": "0001-01-01T00:00:00Z"
@@ -5915,7 +5915,7 @@
       "url": "https://github.com/balakethelock/SuperAPI",
       "description": "The companion compatibility addon to the 1.12.1 client mod SuperWoW",
       "author": "balakethelock",
-      "stars": 41,
+      "stars": 42,
       "category": "Z",
       "last_commit": "2025-03-24T23:56:59Z",
       "added_at": "0001-01-01T00:00:00Z"
@@ -5936,7 +5936,7 @@
       "author": "jrc13245",
       "stars": 22,
       "category": "Z",
-      "last_commit": "2026-01-09T21:27:42Z",
+      "last_commit": "2026-01-10T18:04:50Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -7752,9 +7752,9 @@
       "name": "guda-plates",
       "url": "https://github.com/vatichild/guda-plates",
       "author": "vatichild",
-      "stars": 4,
+      "stars": 5,
       "category": "G",
-      "last_commit": "2026-01-09T16:56:20Z",
+      "last_commit": "2026-01-10T21:00:38Z",
       "added_at": "2026-01-09T03:47:44.343941466Z"
     },
     {
@@ -7910,7 +7910,7 @@
       "author": "pylebecq",
       "stars": 1,
       "category": "N",
-      "last_commit": "2026-01-05T13:34:59Z",
+      "last_commit": "2026-01-10T16:46:28Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
