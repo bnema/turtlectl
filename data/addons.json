@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "revision": 4,
-  "generated_at": "2026-01-11T03:54:18.504892833Z",
+  "revision": 5,
+  "generated_at": "2026-01-12T03:54:08.707472877Z",
   "source_url": "https://turtle-wow.fandom.com/wiki/Addons",
   "addon_count": 883,
   "addons": [
@@ -1368,9 +1368,9 @@
       "url": "https://github.com/pepordev/ConsoleExperienceClassic",
       "description": "Wow Classic (1.12) Console Experience (Gamepad support) compatible with TurtleWoW",
       "author": "pepordev",
-      "stars": 3,
+      "stars": 5,
       "category": "C",
-      "last_commit": "2026-01-10T09:23:54Z",
+      "last_commit": "2026-01-11T17:52:32Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -1573,7 +1573,7 @@
       "author": "DeterminedPanda",
       "stars": 18,
       "category": "D",
-      "last_commit": "2026-01-11T02:59:00Z",
+      "last_commit": "2026-01-11T22:36:37Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -2046,7 +2046,7 @@
       "url": "https://github.com/wbb1977/FishInfo2",
       "description": "Vanialla World of Warcraft Fishing Addon ",
       "author": "wbb1977",
-      "stars": 2,
+      "stars": 3,
       "category": "F",
       "last_commit": "2024-11-22T21:18:14Z",
       "added_at": "0001-01-01T00:00:00Z"
@@ -4625,7 +4625,7 @@
       "author": "me0wg4ming",
       "stars": 1,
       "category": "Z",
-      "last_commit": "2026-01-04T10:20:34Z",
+      "last_commit": "2026-01-12T03:51:13Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -5103,7 +5103,7 @@
       "url": "https://github.com/shagu/ShaguBoat",
       "description": "A despawn timer for Turtle-WoW Fishing Boats",
       "author": "shagu",
-      "stars": 3,
+      "stars": 4,
       "category": "S",
       "last_commit": "2024-05-13T20:22:11Z",
       "added_at": "0001-01-01T00:00:00Z"
@@ -5280,7 +5280,7 @@
       "url": "https://github.com/shagu/ShaguScan",
       "description": "A unit scanner that uses SuperWoW's API to scan and track nearby players and npcs",
       "author": "shagu",
-      "stars": 24,
+      "stars": 25,
       "category": "Z",
       "last_commit": "2025-03-10T10:36:12Z",
       "added_at": "0001-01-01T00:00:00Z"
@@ -5915,7 +5915,7 @@
       "url": "https://github.com/balakethelock/SuperAPI",
       "description": "The companion compatibility addon to the 1.12.1 client mod SuperWoW",
       "author": "balakethelock",
-      "stars": 42,
+      "stars": 43,
       "category": "Z",
       "last_commit": "2025-03-24T23:56:59Z",
       "added_at": "0001-01-01T00:00:00Z"
@@ -5934,9 +5934,9 @@
       "name": "SuperCleveRoidMacros",
       "url": "https://github.com/jrc13245/SuperCleveRoidMacros",
       "author": "jrc13245",
-      "stars": 22,
+      "stars": 23,
       "category": "Z",
-      "last_commit": "2026-01-10T18:04:50Z",
+      "last_commit": "2026-01-12T02:23:55Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -6201,7 +6201,7 @@
       "url": "https://github.com/MarcelineVQ/TankPlates",
       "description": "tanking plates for superwow",
       "author": "MarcelineVQ",
-      "stars": 21,
+      "stars": 22,
       "category": "Z",
       "last_commit": "2025-08-02T02:13:57Z",
       "added_at": "0001-01-01T00:00:00Z"
@@ -7743,7 +7743,7 @@
       "name": "guda",
       "url": "https://github.com/vatichild/guda",
       "author": "vatichild",
-      "stars": 11,
+      "stars": 12,
       "category": "G",
       "last_commit": "2026-01-08T19:41:12Z",
       "added_at": "0001-01-01T00:00:00Z"
@@ -7752,9 +7752,9 @@
       "name": "guda-plates",
       "url": "https://github.com/vatichild/guda-plates",
       "author": "vatichild",
-      "stars": 5,
+      "stars": 7,
       "category": "G",
-      "last_commit": "2026-01-10T21:00:38Z",
+      "last_commit": "2026-01-11T12:02:10Z",
       "added_at": "2026-01-09T03:47:44.343941466Z"
     },
     {
@@ -7910,7 +7910,7 @@
       "author": "pylebecq",
       "stars": 1,
       "category": "N",
-      "last_commit": "2026-01-10T16:46:28Z",
+      "last_commit": "2026-01-11T11:33:26Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -8366,7 +8366,7 @@
       "author": "RetroCro",
       "stars": 3,
       "category": "U",
-      "last_commit": "2026-01-09T00:28:32Z",
+      "last_commit": "2026-01-11T18:57:22Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
