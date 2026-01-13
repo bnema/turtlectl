@@ -1,9 +1,9 @@
 {
   "version": 1,
-  "revision": 5,
-  "generated_at": "2026-01-12T03:54:08.707472877Z",
+  "revision": 6,
+  "generated_at": "2026-01-13T03:46:51.216106279Z",
   "source_url": "https://turtle-wow.fandom.com/wiki/Addons",
-  "addon_count": 883,
+  "addon_count": 890,
   "addons": [
     {
       "name": "-Dragonflight3",
@@ -442,6 +442,16 @@
       "category": "A",
       "last_commit": "2016-01-19T23:17:04Z",
       "added_at": "0001-01-01T00:00:00Z"
+    },
+    {
+      "name": "AutoQuest",
+      "url": "https://github.com/MickeyPickey/AutoQuest",
+      "description": "Addon that instantly auto-accepts quests and auto-turns in quests for the WoW 1.12 vanilla API.",
+      "author": "MickeyPickey",
+      "stars": 3,
+      "category": "A",
+      "last_commit": "2025-10-20T18:07:47Z",
+      "added_at": "2026-01-13T03:46:51.216106279Z"
     },
     {
       "name": "AutoReputationBar",
@@ -1252,7 +1262,7 @@
       "url": "https://github.com/cutiepoka/CleveRoidMacros",
       "description": "Use more advanced and modern style macros with World of Warcraft 1.12.1",
       "author": "cutiepoka",
-      "stars": 5,
+      "stars": 6,
       "category": "C",
       "last_commit": "2025-12-23T14:46:27Z",
       "added_at": "0001-01-01T00:00:00Z"
@@ -1368,9 +1378,9 @@
       "url": "https://github.com/pepordev/ConsoleExperienceClassic",
       "description": "Wow Classic (1.12) Console Experience (Gamepad support) compatible with TurtleWoW",
       "author": "pepordev",
-      "stars": 5,
+      "stars": 7,
       "category": "C",
-      "last_commit": "2026-01-11T17:52:32Z",
+      "last_commit": "2026-01-12T20:41:23Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -1449,7 +1459,7 @@
       "author": "pepopo978",
       "stars": 21,
       "category": "Z",
-      "last_commit": "2026-01-03T20:19:28Z",
+      "last_commit": "2026-01-13T01:53:13Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -1506,6 +1516,15 @@
       "category": "D",
       "last_commit": "2016-03-01T23:57:46Z",
       "added_at": "0001-01-01T00:00:00Z"
+    },
+    {
+      "name": "Deathlog_Vanilla",
+      "url": "https://github.com/Kirchlive/Deathlog_Vanilla",
+      "description": "A death heatmap addon for Vanilla WoW (1.12) that displays player death locations on the world map, helping you identify dangerous areas.",
+      "author": "Kirchlive",
+      "category": "D",
+      "last_commit": "2025-12-24T04:23:15Z",
+      "added_at": "2026-01-13T03:46:51.216106279Z"
     },
     {
       "name": "DebuffFilter",
@@ -1573,7 +1592,7 @@
       "author": "DeterminedPanda",
       "stars": 18,
       "category": "D",
-      "last_commit": "2026-01-11T22:36:37Z",
+      "last_commit": "2026-01-12T17:34:20Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -2040,6 +2059,15 @@
       "category": "F",
       "last_commit": "2016-11-24T20:55:49Z",
       "added_at": "0001-01-01T00:00:00Z"
+    },
+    {
+      "name": "FineZoom",
+      "url": "https://github.com/Stormhand81/FineZoom",
+      "description": "FineZoom is a lightweight Vanilla/Turtle WoW addon that provides precise camera zoom control using custom zoom steps. It offers smoother, finer zoom in and out via key bindings, staying fully compatible with the original game engine and UI.",
+      "author": "Stormhand81",
+      "category": "F",
+      "last_commit": "2026-01-11T01:58:44Z",
+      "added_at": "2026-01-13T03:46:51.216106279Z"
     },
     {
       "name": "FishInfo2",
@@ -2541,21 +2569,21 @@
     },
     {
       "name": "GrimoireKeeper",
-      "url": "https://github.com/Scoboose/GrimoireKeeper",
-      "author": "Scoboose",
-      "stars": 1,
-      "category": "G",
-      "last_commit": "2025-04-02T15:02:52Z",
-      "added_at": "0001-01-01T00:00:00Z"
-    },
-    {
-      "name": "GrimoireKeeper",
       "url": "https://github.com/Lichery/GrimoireKeeper",
       "description": "[1.12.1] Tracks which grimoires your warlock pets have learned.",
       "author": "Artur91425",
       "stars": 1,
       "category": "G",
       "last_commit": "2019-08-23T20:35:34Z",
+      "added_at": "0001-01-01T00:00:00Z"
+    },
+    {
+      "name": "GrimoireKeeper",
+      "url": "https://github.com/Scoboose/GrimoireKeeper",
+      "author": "Scoboose",
+      "stars": 1,
+      "category": "G",
+      "last_commit": "2025-04-02T15:02:52Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -3149,21 +3177,21 @@
     },
     {
       "name": "KillCounter",
-      "url": "https://github.com/bucketss/KillCounter",
-      "description": "kill counter for WoW vanilla client 1.12",
-      "author": "bucketss",
-      "category": "K",
-      "last_commit": "2025-10-29T22:20:35Z",
-      "added_at": "0001-01-01T00:00:00Z"
-    },
-    {
-      "name": "KillCounter",
       "url": "https://github.com/FrostShock/KillCounter",
       "description": "Vanilla WoW (1.12.1) addon for counting kills",
       "author": "FrostShock",
       "stars": 1,
       "category": "K",
       "last_commit": "2022-04-20T03:46:08Z",
+      "added_at": "0001-01-01T00:00:00Z"
+    },
+    {
+      "name": "KillCounter",
+      "url": "https://github.com/bucketss/KillCounter",
+      "description": "kill counter for WoW vanilla client 1.12",
+      "author": "bucketss",
+      "category": "K",
+      "last_commit": "2025-10-29T22:20:35Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -3646,19 +3674,19 @@
     },
     {
       "name": "MasterTradeSkills",
-      "url": "https://github.com/ImmortalSom/MasterTradeSkills",
-      "category": "M",
-      "last_commit": "0001-01-01T00:00:00Z",
-      "added_at": "0001-01-01T00:00:00Z"
-    },
-    {
-      "name": "MasterTradeSkills",
       "url": "https://github.com/refaim/MasterTradeSkills",
       "description": "Vanilla WoW 1.12.1 and Turtle WoW addon. Adds trade skill information to tooltips of ingredients.",
       "author": "refaim",
       "stars": 18,
       "category": "M",
       "last_commit": "2025-12-21T08:40:16Z",
+      "added_at": "0001-01-01T00:00:00Z"
+    },
+    {
+      "name": "MasterTradeSkills",
+      "url": "https://github.com/ImmortalSom/MasterTradeSkills",
+      "category": "M",
+      "last_commit": "0001-01-01T00:00:00Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -4074,7 +4102,7 @@
       "author": "zanthor",
       "stars": 3,
       "category": "O",
-      "last_commit": "2026-01-10T00:47:59Z",
+      "last_commit": "2026-01-12T16:26:08Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -4143,6 +4171,16 @@
       "category": "O",
       "last_commit": "2025-09-01T01:34:54Z",
       "added_at": "0001-01-01T00:00:00Z"
+    },
+    {
+      "name": "Overhead",
+      "url": "https://github.com/Otari98/Overhead",
+      "description": "Nicer default nameplates for vanilla",
+      "author": "Otari98",
+      "stars": 2,
+      "category": "Z",
+      "last_commit": "2026-01-11T20:42:31Z",
+      "added_at": "2026-01-13T03:46:51.216106279Z"
     },
     {
       "name": "PVPToggleTurtleWOW",
@@ -4625,7 +4663,7 @@
       "author": "me0wg4ming",
       "stars": 1,
       "category": "Z",
-      "last_commit": "2026-01-12T03:51:13Z",
+      "last_commit": "2026-01-12T04:00:01Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -4893,16 +4931,6 @@
     },
     {
       "name": "SP_SwingTimer",
-      "url": "https://github.com/balakethelock/SP_SwingTimer",
-      "description": "WoW 1.12.1 Addon: Auto Attack Swing Timer",
-      "author": "balakethelock",
-      "stars": 8,
-      "category": "S",
-      "last_commit": "2025-01-13T17:15:15Z",
-      "added_at": "0001-01-01T00:00:00Z"
-    },
-    {
-      "name": "SP_SwingTimer",
       "url": "https://github.com/MarcelineVQ/SP_SwingTimer",
       "description": "Auto-Attack Swing Timer",
       "author": "MarcelineVQ",
@@ -4912,13 +4940,13 @@
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
-      "name": "SUCC-bag",
-      "url": "https://github.com/Otari98/SUCC-bag",
-      "description": "Sublime User Convenience Collection - player inventory and bank",
-      "author": "Otari98",
-      "stars": 3,
+      "name": "SP_SwingTimer",
+      "url": "https://github.com/balakethelock/SP_SwingTimer",
+      "description": "WoW 1.12.1 Addon: Auto Attack Swing Timer",
+      "author": "balakethelock",
+      "stars": 8,
       "category": "S",
-      "last_commit": "2025-10-07T17:26:20Z",
+      "last_commit": "2025-01-13T17:15:15Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -4929,6 +4957,16 @@
       "stars": 1,
       "category": "S",
       "last_commit": "2021-10-27T17:25:05Z",
+      "added_at": "0001-01-01T00:00:00Z"
+    },
+    {
+      "name": "SUCC-bag",
+      "url": "https://github.com/Otari98/SUCC-bag",
+      "description": "Sublime User Convenience Collection - player inventory and bank",
+      "author": "Otari98",
+      "stars": 3,
+      "category": "S",
+      "last_commit": "2025-10-07T17:26:20Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -5320,7 +5358,7 @@
       "url": "https://github.com/shagu/ShaguTweaks",
       "description": "A collection of tweaks and enhancements to the default wow 1.12.1 interface",
       "author": "shagu",
-      "stars": 95,
+      "stars": 94,
       "last_commit": "2025-08-15T14:37:22Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
@@ -5426,6 +5464,15 @@
       "category": "S",
       "last_commit": "0001-01-01T00:00:00Z",
       "added_at": "0001-01-01T00:00:00Z"
+    },
+    {
+      "name": "ShikaSwap",
+      "url": "https://github.com/ShikawaLePaladin/ShikaSwap",
+      "description": "🛡️ShikaSwap is an addon for World of Warcraft 1.12 (Vanilla/Turtle WoW) that automatically equips the correct libram when you cast Paladin spells.",
+      "author": "ShikawaLePaladin",
+      "category": "S",
+      "last_commit": "2025-12-12T08:46:36Z",
+      "added_at": "2026-01-13T03:46:51.216106279Z"
     },
     {
       "name": "ShowChests",
@@ -5827,7 +5874,7 @@
       "url": "https://github.com/grimfiendish/StatCompare",
       "description": "Character and target stats for gear checks or easily comparing your gear to others.",
       "author": "grimfiendish",
-      "stars": 8,
+      "stars": 9,
       "category": "S",
       "last_commit": "2025-04-25T22:56:08Z",
       "added_at": "0001-01-01T00:00:00Z"
@@ -5936,7 +5983,7 @@
       "author": "jrc13245",
       "stars": 23,
       "category": "Z",
-      "last_commit": "2026-01-12T02:23:55Z",
+      "last_commit": "2026-01-12T22:18:36Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -5964,7 +6011,7 @@
       "url": "https://github.com/balakethelock/SuperWoW",
       "description": "1.12.1 WoW client mod that expands on API functionalities",
       "author": "balakethelock",
-      "stars": 137,
+      "stars": 138,
       "category": "Z",
       "last_commit": "2025-10-25T09:04:04Z",
       "added_at": "0001-01-01T00:00:00Z"
@@ -6213,7 +6260,7 @@
       "author": "MarcelineVQ",
       "stars": 4,
       "category": "Z",
-      "last_commit": "2025-02-02T02:49:55Z",
+      "last_commit": "2026-01-13T01:26:09Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -6417,7 +6464,7 @@
       "author": "TheRealFayz",
       "stars": 2,
       "category": "T",
-      "last_commit": "2026-01-09T15:15:26Z",
+      "last_commit": "2026-01-12T18:45:47Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -6520,13 +6567,13 @@
     },
     {
       "name": "TrinketMenu",
-      "url": "https://github.com/S4V4GENZ/TrinketMenu",
+      "url": "https://github.com/jrc13245/TrinketMenu",
       "description": "World of Warcraft Classic (1.12.1) Add on ",
-      "author": "S4V4GENZ",
-      "stars": 7,
+      "author": "jrc13245",
+      "stars": 2,
       "category": "T",
-      "last_commit": "2018-01-27T06:16:26Z",
-      "added_at": "0001-01-01T00:00:00Z"
+      "last_commit": "2025-12-30T23:46:57Z",
+      "added_at": "2026-01-13T03:46:51.216106279Z"
     },
     {
       "name": "TriviaBot-TurtleWow",
@@ -6574,6 +6621,15 @@
       "category": "M",
       "last_commit": "2025-06-29T11:19:45Z",
       "added_at": "0001-01-01T00:00:00Z"
+    },
+    {
+      "name": "TurtleBeastiary",
+      "url": "https://github.com/CamA-dev/TurtleBeastiary",
+      "author": "CamA-dev",
+      "stars": 1,
+      "category": "B",
+      "last_commit": "2024-07-14T21:54:46Z",
+      "added_at": "2026-01-13T03:46:51.216106279Z"
     },
     {
       "name": "TurtleCalendar",
@@ -6659,7 +6715,7 @@
       "description": "Turtle Pet Search  Bar for TWoW (1.12)",
       "author": "Avery1337",
       "category": "T",
-      "last_commit": "2025-12-25T07:33:49Z",
+      "last_commit": "2026-01-12T18:40:05Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -6734,6 +6790,16 @@
       "category": "U",
       "last_commit": "0001-01-01T00:00:00Z",
       "added_at": "0001-01-01T00:00:00Z"
+    },
+    {
+      "name": "UltimaMacros",
+      "url": "https://github.com/jrc13245/UltimaMacros",
+      "description": "A lightweight, self-contained macro system for **World of Warcraft 1.12.1**.   Provides its own macro storage (up to **2056 characters** per macro) and an in-game editor with per-character or account-wide scope.",
+      "author": "jrc13245",
+      "stars": 4,
+      "category": "U",
+      "last_commit": "2025-10-15T21:07:56Z",
+      "added_at": "2026-01-13T03:46:51.216106279Z"
     },
     {
       "name": "UnicodeFont",
@@ -6893,7 +6959,7 @@
       "name": "VanillaGraphicBoost",
       "url": "https://github.com/hixio-mh/VanillaGraphicBoost",
       "description": "Push the game's visuals to the max because our computers can handle it!",
-      "author": "snitebobbie",
+      "author": "hixiomh",
       "stars": 1,
       "category": "V",
       "last_commit": "2018-04-30T21:50:05Z",
@@ -6989,15 +7055,6 @@
     },
     {
       "name": "Vanilla_oCB",
-      "url": "https://github.com/laytya/Vanilla_oCB",
-      "author": "laytya",
-      "stars": 4,
-      "category": "O",
-      "last_commit": "2025-04-09T09:48:08Z",
-      "added_at": "0001-01-01T00:00:00Z"
-    },
-    {
-      "name": "Vanilla_oCB",
       "url": "https://github.com/Road-block/Vanilla_oCB",
       "author": "Road-block",
       "stars": 4,
@@ -7011,6 +7068,15 @@
       "author": "martinjlowm",
       "category": "O",
       "last_commit": "2017-03-26T15:14:21Z",
+      "added_at": "0001-01-01T00:00:00Z"
+    },
+    {
+      "name": "Vanilla_oCB",
+      "url": "https://github.com/laytya/Vanilla_oCB",
+      "author": "laytya",
+      "stars": 4,
+      "category": "O",
+      "last_commit": "2025-04-09T09:48:08Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -7239,11 +7305,10 @@
     },
     {
       "name": "Wow1.12.1_Addons_Collection",
-      "url": "https://github.com/crazypoultry/Wow1.12.1_Addons_Collection",
-      "author": "crazypoultry",
-      "stars": 33,
+      "url": "https://github.com/freadblangks/Wow1.12.1_Addons_Collection",
+      "author": "freadblangks",
       "category": "Z",
-      "last_commit": "2023-04-04T02:53:08Z",
+      "last_commit": "2023-04-04T08:25:27Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -7257,10 +7322,11 @@
     },
     {
       "name": "Wow1.12.1_Addons_Collection",
-      "url": "https://github.com/freadblangks/Wow1.12.1_Addons_Collection",
-      "author": "freadblangks",
+      "url": "https://github.com/crazypoultry/Wow1.12.1_Addons_Collection",
+      "author": "crazypoultry",
+      "stars": 33,
       "category": "Z",
-      "last_commit": "2023-04-04T08:25:27Z",
+      "last_commit": "2023-04-04T02:53:08Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -7895,22 +7961,22 @@
     },
     {
       "name": "necrosis-twow",
-      "url": "https://github.com/Nedlinin/necrosis-twow",
-      "description": "1.5.2a fork of Necrosis addon for Turtle WoW",
-      "author": "Nedlinin",
-      "stars": 1,
-      "category": "N",
-      "last_commit": "2025-12-03T21:28:24Z",
-      "added_at": "0001-01-01T00:00:00Z"
-    },
-    {
-      "name": "necrosis-twow",
       "url": "https://github.com/pylebecq/necrosis-twow",
       "description": "1.5.2a fork of Necrosis addon for Turtle WoW",
       "author": "pylebecq",
       "stars": 1,
       "category": "N",
       "last_commit": "2026-01-11T11:33:26Z",
+      "added_at": "0001-01-01T00:00:00Z"
+    },
+    {
+      "name": "necrosis-twow",
+      "url": "https://github.com/Nedlinin/necrosis-twow",
+      "description": "1.5.2a fork of Necrosis addon for Turtle WoW",
+      "author": "Nedlinin",
+      "stars": 1,
+      "category": "N",
+      "last_commit": "2025-12-03T21:28:24Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -8024,7 +8090,7 @@
       "author": "jrc13245",
       "stars": 4,
       "category": "P",
-      "last_commit": "2025-11-02T14:16:14Z",
+      "last_commit": "2026-01-12T20:43:56Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -8231,7 +8297,7 @@
       "author": "yani9o",
       "stars": 11,
       "category": "S",
-      "last_commit": "2025-11-12T13:38:40Z",
+      "last_commit": "2026-01-12T23:52:02Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
