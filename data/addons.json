@@ -1,9 +1,9 @@
 {
   "version": 1,
-  "revision": 6,
-  "generated_at": "2026-01-13T03:46:51.216106279Z",
+  "revision": 7,
+  "generated_at": "2026-01-14T03:53:00.331071282Z",
   "source_url": "https://turtle-wow.fandom.com/wiki/Addons",
-  "addon_count": 890,
+  "addon_count": 891,
   "addons": [
     {
       "name": "-Dragonflight3",
@@ -35,15 +35,6 @@
     },
     {
       "name": "Accountant",
-      "url": "https://github.com/terdong/Accountant",
-      "description": "Accountant tracks you incoming / outgoing cash.",
-      "author": "terdong",
-      "category": "A",
-      "last_commit": "2025-12-26T07:02:25Z",
-      "added_at": "2026-01-10T03:42:41.414014379Z"
-    },
-    {
-      "name": "Accountant",
       "url": "https://github.com/wow-vanilla-addons/Accountant",
       "description": "Accountant tracks you incoming / outgoing cash.",
       "author": "wow-vanilla-addons",
@@ -51,6 +42,15 @@
       "category": "A",
       "last_commit": "2016-04-24T21:45:51Z",
       "added_at": "0001-01-01T00:00:00Z"
+    },
+    {
+      "name": "Accountant",
+      "url": "https://github.com/terdong/Accountant",
+      "description": "Accountant tracks you incoming / outgoing cash.",
+      "author": "terdong",
+      "category": "A",
+      "last_commit": "2025-12-26T07:02:25Z",
+      "added_at": "2026-01-10T03:42:41.414014379Z"
     },
     {
       "name": "Ace2",
@@ -237,7 +237,7 @@
       "description": "Overview: Atlas‑TW is a dungeon map browser with an integrated loot panel and quests module. It is compatible with World of Warcraft 1.12 and includes localization support.",
       "author": "byCFM2",
       "stars": 11,
-      "last_commit": "2026-01-02T17:33:37Z",
+      "last_commit": "2026-01-13T22:09:46Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -410,7 +410,7 @@
       "author": "MarcelineVQ",
       "stars": 9,
       "category": "Z",
-      "last_commit": "2025-12-13T01:16:03Z",
+      "last_commit": "2026-01-13T06:58:25Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -1347,21 +1347,21 @@
     },
     {
       "name": "Comix",
+      "url": "https://github.com/Cysthen/Comix",
+      "description": "2012 Comix from Feenix. Mostly Edited by Susangrundle and myself from the Guild Chainpull",
+      "author": "Cysthen",
+      "category": "C",
+      "last_commit": "2025-02-07T23:36:24Z",
+      "added_at": "0001-01-01T00:00:00Z"
+    },
+    {
+      "name": "Comix",
       "url": "https://github.com/Goose404/Comix",
       "description": "comix addon for wow client 1.12 and turtlewow twow",
       "author": "Goose404",
       "stars": 1,
       "category": "C",
       "last_commit": "2025-04-26T20:25:08Z",
-      "added_at": "0001-01-01T00:00:00Z"
-    },
-    {
-      "name": "Comix",
-      "url": "https://github.com/Cysthen/Comix",
-      "description": "2012 Comix from Feenix. Mostly Edited by Susangrundle and myself from the Guild Chainpull",
-      "author": "Cysthen",
-      "category": "C",
-      "last_commit": "2025-02-07T23:36:24Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -1378,9 +1378,9 @@
       "url": "https://github.com/pepordev/ConsoleExperienceClassic",
       "description": "Wow Classic (1.12) Console Experience (Gamepad support) compatible with TurtleWoW",
       "author": "pepordev",
-      "stars": 7,
+      "stars": 8,
       "category": "C",
-      "last_commit": "2026-01-12T20:41:23Z",
+      "last_commit": "2026-01-13T12:50:30Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -1459,7 +1459,7 @@
       "author": "pepopo978",
       "stars": 21,
       "category": "Z",
-      "last_commit": "2026-01-13T01:53:13Z",
+      "last_commit": "2026-01-13T15:17:10Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -1592,7 +1592,7 @@
       "author": "DeterminedPanda",
       "stars": 18,
       "category": "D",
-      "last_commit": "2026-01-12T17:34:20Z",
+      "last_commit": "2026-01-13T17:36:37Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -1659,9 +1659,9 @@
       "url": "https://github.com/Player-Doite/DoiteAuras",
       "description": "Ability, buff, debuff \u0026 item tracker for Vanilla WoW.",
       "author": "Player-Doite",
-      "stars": 8,
+      "stars": 10,
       "category": "D",
-      "last_commit": "2026-01-05T10:02:34Z",
+      "last_commit": "2026-01-13T20:18:31Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -3214,6 +3214,15 @@
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
+      "name": "KronosGMAddon",
+      "url": "https://github.com/GrenderG/KronosGMAddon",
+      "description": "Vanilla Wow 1.12.1 GM Addon built around Kronos-WoW.com Core.",
+      "author": "GrenderG",
+      "category": "Z",
+      "last_commit": "2021-03-28T05:29:12Z",
+      "added_at": "2026-01-14T03:53:00.331071282Z"
+    },
+    {
       "name": "LFGHelper",
       "url": "https://github.com/ralliartse/LFGHelper",
       "description": "A system to filter LFG and LFM in TWoW",
@@ -3674,19 +3683,19 @@
     },
     {
       "name": "MasterTradeSkills",
+      "url": "https://github.com/ImmortalSom/MasterTradeSkills",
+      "category": "M",
+      "last_commit": "0001-01-01T00:00:00Z",
+      "added_at": "0001-01-01T00:00:00Z"
+    },
+    {
+      "name": "MasterTradeSkills",
       "url": "https://github.com/refaim/MasterTradeSkills",
       "description": "Vanilla WoW 1.12.1 and Turtle WoW addon. Adds trade skill information to tooltips of ingredients.",
       "author": "refaim",
       "stars": 18,
       "category": "M",
       "last_commit": "2025-12-21T08:40:16Z",
-      "added_at": "0001-01-01T00:00:00Z"
-    },
-    {
-      "name": "MasterTradeSkills",
-      "url": "https://github.com/ImmortalSom/MasterTradeSkills",
-      "category": "M",
-      "last_commit": "0001-01-01T00:00:00Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -3799,21 +3808,21 @@
     },
     {
       "name": "MobHealth",
-      "url": "https://github.com/FrostShock/MobHealth",
-      "description": "Displays health values.",
-      "author": "FrostShock",
-      "category": "M",
-      "last_commit": "2021-09-15T08:58:55Z",
-      "added_at": "0001-01-01T00:00:00Z"
-    },
-    {
-      "name": "MobHealth",
       "url": "https://github.com/kc8pnd/MobHealth",
       "description": "Displays health values.",
       "author": "kc8pnd",
       "stars": 3,
       "category": "M",
       "last_commit": "2016-12-21T00:19:17Z",
+      "added_at": "0001-01-01T00:00:00Z"
+    },
+    {
+      "name": "MobHealth",
+      "url": "https://github.com/FrostShock/MobHealth",
+      "description": "Displays health values.",
+      "author": "FrostShock",
+      "category": "M",
+      "last_commit": "2021-09-15T08:58:55Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -3929,7 +3938,7 @@
       "url": "https://github.com/MarcelineVQ/MonkeySpeed",
       "description": "MonkeySpeed backported for 1.12 from the TBC version. SuperWoW version.",
       "author": "MarcelineVQ",
-      "stars": 2,
+      "stars": 3,
       "category": "Z",
       "last_commit": "2024-06-21T06:52:28Z",
       "added_at": "0001-01-01T00:00:00Z"
@@ -4102,7 +4111,7 @@
       "author": "zanthor",
       "stars": 3,
       "category": "O",
-      "last_commit": "2026-01-12T16:26:08Z",
+      "last_commit": "2026-01-14T00:04:07Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -4648,22 +4657,22 @@
     },
     {
       "name": "Rank14losSA",
-      "url": "https://github.com/Fiskehatt/Rank14losSA",
-      "description": "An addon that verbally warns you when an enemy uses an important spell (e.g. blind, shield wall, reflector, etc.). Original author: Nogall.",
-      "author": "Fiskehatt",
-      "stars": 7,
-      "category": "R",
-      "last_commit": "2017-06-14T16:46:46Z",
-      "added_at": "0001-01-01T00:00:00Z"
-    },
-    {
-      "name": "Rank14losSA",
       "url": "https://github.com/me0wg4ming/Rank14losSA",
       "description": "An addon that verbally warns you when an enemy uses an important spell (e.g. blind, shield wall, reflector, etc.). Original author: Nogall.",
       "author": "me0wg4ming",
       "stars": 1,
       "category": "Z",
       "last_commit": "2026-01-12T04:00:01Z",
+      "added_at": "0001-01-01T00:00:00Z"
+    },
+    {
+      "name": "Rank14losSA",
+      "url": "https://github.com/Fiskehatt/Rank14losSA",
+      "description": "An addon that verbally warns you when an enemy uses an important spell (e.g. blind, shield wall, reflector, etc.). Original author: Nogall.",
+      "author": "Fiskehatt",
+      "stars": 7,
+      "category": "R",
+      "last_commit": "2017-06-14T16:46:46Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -5610,22 +5619,22 @@
     },
     {
       "name": "SmartHealer",
-      "url": "https://github.com/melbaa/SmartHealer",
-      "description": "vanilla wow 1.12 autoranked heals",
-      "author": "melbaa",
-      "stars": 5,
-      "category": "S",
-      "last_commit": "2024-05-25T12:07:32Z",
-      "added_at": "0001-01-01T00:00:00Z"
-    },
-    {
-      "name": "SmartHealer",
       "url": "https://github.com/dsidirop/SmartHealer",
       "description": "Vanilla WoW 1.12 Autoranked Heals With Support for pfUI's /pfcast command",
       "author": "dsidirop",
       "stars": 2,
       "category": "S",
       "last_commit": "2025-05-03T01:33:35Z",
+      "added_at": "0001-01-01T00:00:00Z"
+    },
+    {
+      "name": "SmartHealer",
+      "url": "https://github.com/melbaa/SmartHealer",
+      "description": "vanilla wow 1.12 autoranked heals",
+      "author": "melbaa",
+      "stars": 5,
+      "category": "S",
+      "last_commit": "2024-05-25T12:07:32Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -5774,22 +5783,22 @@
     },
     {
       "name": "SpamThrottle",
-      "url": "https://github.com/laytya/SpamThrottle",
-      "description": "Vanilla WoW addon to remove unwanted chat messages",
-      "author": "laytya",
-      "stars": 18,
-      "category": "S",
-      "last_commit": "2023-07-26T15:53:58Z",
-      "added_at": "0001-01-01T00:00:00Z"
-    },
-    {
-      "name": "SpamThrottle",
       "url": "https://github.com/Orukxu/SpamThrottle",
       "description": "Vanilla WoW addon to remove unwanted chat messages",
       "author": "Orukxu",
       "stars": 19,
       "category": "S",
       "last_commit": "2019-01-25T18:59:05Z",
+      "added_at": "0001-01-01T00:00:00Z"
+    },
+    {
+      "name": "SpamThrottle",
+      "url": "https://github.com/laytya/SpamThrottle",
+      "description": "Vanilla WoW addon to remove unwanted chat messages",
+      "author": "laytya",
+      "stars": 18,
+      "category": "S",
+      "last_commit": "2023-07-26T15:53:58Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -6315,19 +6324,19 @@
     },
     {
       "name": "Threat",
-      "url": "https://github.com/Xleone1/Threat",
-      "author": "Xleone1",
-      "category": "T",
-      "last_commit": "2025-07-09T00:15:28Z",
-      "added_at": "0001-01-01T00:00:00Z"
-    },
-    {
-      "name": "Threat",
       "url": "https://github.com/muellerj/Threat",
       "author": "muellerj",
       "stars": 2,
       "category": "T",
       "last_commit": "2017-11-05T12:02:17Z",
+      "added_at": "0001-01-01T00:00:00Z"
+    },
+    {
+      "name": "Threat",
+      "url": "https://github.com/Xleone1/Threat",
+      "author": "Xleone1",
+      "category": "T",
+      "last_commit": "2025-07-09T00:15:28Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -7055,11 +7064,11 @@
     },
     {
       "name": "Vanilla_oCB",
-      "url": "https://github.com/Road-block/Vanilla_oCB",
-      "author": "Road-block",
+      "url": "https://github.com/laytya/Vanilla_oCB",
+      "author": "laytya",
       "stars": 4,
       "category": "O",
-      "last_commit": "2017-12-29T09:53:51Z",
+      "last_commit": "2025-04-09T09:48:08Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -7072,11 +7081,11 @@
     },
     {
       "name": "Vanilla_oCB",
-      "url": "https://github.com/laytya/Vanilla_oCB",
-      "author": "laytya",
+      "url": "https://github.com/Road-block/Vanilla_oCB",
+      "author": "Road-block",
       "stars": 4,
       "category": "O",
-      "last_commit": "2025-04-09T09:48:08Z",
+      "last_commit": "2017-12-29T09:53:51Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -7305,19 +7314,19 @@
     },
     {
       "name": "Wow1.12.1_Addons_Collection",
-      "url": "https://github.com/freadblangks/Wow1.12.1_Addons_Collection",
-      "author": "freadblangks",
-      "category": "Z",
-      "last_commit": "2023-04-04T08:25:27Z",
-      "added_at": "0001-01-01T00:00:00Z"
-    },
-    {
-      "name": "Wow1.12.1_Addons_Collection",
       "url": "https://github.com/aim2kill/Wow1.12.1_Addons_Collection",
       "author": "aim2kill",
       "stars": 1,
       "category": "Z",
       "last_commit": "2019-04-27T02:56:04Z",
+      "added_at": "0001-01-01T00:00:00Z"
+    },
+    {
+      "name": "Wow1.12.1_Addons_Collection",
+      "url": "https://github.com/freadblangks/Wow1.12.1_Addons_Collection",
+      "author": "freadblangks",
+      "category": "Z",
+      "last_commit": "2023-04-04T08:25:27Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -7788,21 +7797,21 @@
     },
     {
       "name": "enemyFrames",
-      "url": "https://github.com/byCFM2/enemyFrames",
-      "description": "1.12.1 addon to display enemy players on BGs",
-      "author": "byCFM2",
-      "category": "E",
-      "last_commit": "2025-10-12T16:17:58Z",
-      "added_at": "0001-01-01T00:00:00Z"
-    },
-    {
-      "name": "enemyFrames",
       "url": "https://github.com/zetone/enemyFrames",
       "description": "1.12.1 addon to display enemy players on BGs",
       "author": "zetone",
       "stars": 22,
       "category": "E",
       "last_commit": "2019-02-16T02:25:03Z",
+      "added_at": "0001-01-01T00:00:00Z"
+    },
+    {
+      "name": "enemyFrames",
+      "url": "https://github.com/byCFM2/enemyFrames",
+      "description": "1.12.1 addon to display enemy players on BGs",
+      "author": "byCFM2",
+      "category": "E",
+      "last_commit": "2025-10-12T16:17:58Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -7961,22 +7970,22 @@
     },
     {
       "name": "necrosis-twow",
-      "url": "https://github.com/pylebecq/necrosis-twow",
-      "description": "1.5.2a fork of Necrosis addon for Turtle WoW",
-      "author": "pylebecq",
-      "stars": 1,
-      "category": "N",
-      "last_commit": "2026-01-11T11:33:26Z",
-      "added_at": "0001-01-01T00:00:00Z"
-    },
-    {
-      "name": "necrosis-twow",
       "url": "https://github.com/Nedlinin/necrosis-twow",
       "description": "1.5.2a fork of Necrosis addon for Turtle WoW",
       "author": "Nedlinin",
       "stars": 1,
       "category": "N",
       "last_commit": "2025-12-03T21:28:24Z",
+      "added_at": "0001-01-01T00:00:00Z"
+    },
+    {
+      "name": "necrosis-twow",
+      "url": "https://github.com/pylebecq/necrosis-twow",
+      "description": "1.5.2a fork of Necrosis addon for Turtle WoW",
+      "author": "pylebecq",
+      "stars": 1,
+      "category": "N",
+      "last_commit": "2026-01-11T11:33:26Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -8432,7 +8441,7 @@
       "author": "RetroCro",
       "stars": 3,
       "category": "U",
-      "last_commit": "2026-01-11T18:57:22Z",
+      "last_commit": "2026-01-13T19:20:15Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
