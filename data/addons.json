@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "revision": 9,
-  "generated_at": "2026-01-16T03:47:28.635990587Z",
+  "revision": 10,
+  "generated_at": "2026-01-17T03:41:42.810065639Z",
   "source_url": "https://turtle-wow.fandom.com/wiki/Addons",
   "addon_count": 896,
   "addons": [
@@ -237,7 +237,7 @@
       "description": "Overview: Atlas‑TW is a dungeon map browser with an integrated loot panel and quests module. It is compatible with World of Warcraft 1.12 and includes localization support.",
       "author": "byCFM2",
       "stars": 11,
-      "last_commit": "2026-01-15T19:48:46Z",
+      "last_commit": "2026-01-16T21:59:56Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -1280,7 +1280,7 @@
       "url": "https://github.com/cutiepoka/CleveRoidMacros",
       "description": "Use more advanced and modern style macros with World of Warcraft 1.12.1",
       "author": "cutiepoka",
-      "stars": 6,
+      "stars": 7,
       "category": "C",
       "last_commit": "2025-12-23T14:46:27Z",
       "added_at": "0001-01-01T00:00:00Z"
@@ -1677,7 +1677,7 @@
       "url": "https://github.com/Player-Doite/DoiteAuras",
       "description": "Ability, buff, debuff \u0026 item tracker for Vanilla WoW.",
       "author": "Player-Doite",
-      "stars": 14,
+      "stars": 15,
       "category": "D",
       "last_commit": "2026-01-15T11:37:10Z",
       "added_at": "0001-01-01T00:00:00Z"
@@ -2709,7 +2709,7 @@
       "description": "Simple Effort Points system inspired by ShootyEPGP for Turtle WoW",
       "author": "RollingSmile",
       "category": "G",
-      "last_commit": "2026-01-13T19:11:37Z",
+      "last_commit": "2026-01-16T23:07:00Z",
       "added_at": "2026-01-16T03:47:28.635990587Z"
     },
     {
@@ -3417,7 +3417,7 @@
       "url": "https://github.com/refaim/LibCrafts-1.0",
       "description": "Vanilla WoW 1.12.1 addon library designed to provide an embeddable database of crafting spells, recipes, reagents, results, sources etc",
       "author": "refaim",
-      "stars": 7,
+      "stars": 8,
       "category": "Z",
       "last_commit": "2025-12-21T08:38:03Z",
       "added_at": "0001-01-01T00:00:00Z"
@@ -4434,7 +4434,7 @@
       "url": "https://github.com/OldManAlpha/Puppeteer",
       "description": "A unit frames addon for WoW Vanilla 1.12",
       "author": "OldManAlpha",
-      "stars": 33,
+      "stars": 34,
       "category": "H",
       "last_commit": "2025-12-16T00:32:02Z",
       "added_at": "0001-01-01T00:00:00Z"
@@ -5403,7 +5403,7 @@
       "url": "https://github.com/shagu/ShaguTweaks",
       "description": "A collection of tweaks and enhancements to the default wow 1.12.1 interface",
       "author": "shagu",
-      "stars": 94,
+      "stars": 95,
       "last_commit": "2025-08-15T14:37:22Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
@@ -6036,7 +6036,7 @@
       "author": "jrc13245",
       "stars": 23,
       "category": "Z",
-      "last_commit": "2026-01-15T22:09:57Z",
+      "last_commit": "2026-01-16T14:33:31Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -7609,7 +7609,7 @@
       "url": "https://github.com/OldManAlpha/aux-addon",
       "description": "Auction House addOn for Vanilla (1.12) IMPORTANT: The folder name must be \"aux-addon\"",
       "author": "OldManAlpha",
-      "stars": 13,
+      "stars": 14,
       "last_commit": "2026-01-15T22:10:18Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
@@ -7873,7 +7873,7 @@
       "author": "vatichild",
       "stars": 8,
       "category": "G",
-      "last_commit": "2026-01-15T00:01:47Z",
+      "last_commit": "2026-01-16T22:30:05Z",
       "added_at": "2026-01-09T03:47:44.343941466Z"
     },
     {
@@ -8425,7 +8425,7 @@
       "description": "Raid boss announcer for Vanilla.",
       "author": "Player-Doite",
       "stars": 11,
-      "last_commit": "2025-12-09T10:31:59Z",
+      "last_commit": "2026-01-16T10:27:35Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
