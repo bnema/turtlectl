@@ -1,16 +1,16 @@
 {
   "version": 1,
-  "revision": 11,
-  "generated_at": "2026-01-18T03:51:58.977057594Z",
+  "revision": 12,
+  "generated_at": "2026-01-19T03:54:21.561835163Z",
   "source_url": "https://turtle-wow.fandom.com/wiki/Addons",
-  "addon_count": 899,
+  "addon_count": 902,
   "addons": [
     {
       "name": "-Dragonflight3",
       "url": "https://github.com/Flaxic-LUA/-Dragonflight3",
       "description": "A new UI for 1.12.1",
       "author": "Flaxic-LUA",
-      "stars": 10,
+      "stars": 11,
       "category": "Z",
       "last_commit": "2026-01-17T16:27:04Z",
       "added_at": "2026-01-09T03:47:44.343941466Z"
@@ -182,6 +182,15 @@
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
+      "name": "AntiAfk",
+      "url": "https://github.com/acid9000/AntiAfk",
+      "description": "1.12 Vanilla WoW and Turtle WoW anti-afk addon",
+      "author": "acid9000",
+      "category": "A",
+      "last_commit": "2026-01-18T20:03:35Z",
+      "added_at": "2026-01-19T03:54:21.561835163Z"
+    },
+    {
       "name": "AntiSpamStopCast",
       "url": "https://github.com/thepparker/AntiSpamStopCast",
       "description": "Simple addon to prevent cancelling of fresh spell casts when mashing the button while still allowing other spells to cancel (i.e. frostbolt spam cancel into counterspell)",
@@ -237,7 +246,7 @@
       "description": "Overview: Atlas‑TW is a dungeon map browser with an integrated loot panel and quests module. It is compatible with World of Warcraft 1.12 and includes localization support.",
       "author": "byCFM2",
       "stars": 11,
-      "last_commit": "2026-01-16T21:59:56Z",
+      "last_commit": "2026-01-18T16:50:12Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -515,6 +524,16 @@
       "category": "A",
       "last_commit": "2025-06-10T09:29:20Z",
       "added_at": "0001-01-01T00:00:00Z"
+    },
+    {
+      "name": "Aux-addon",
+      "url": "https://github.com/acid9000/Aux-addon",
+      "description": "Auction House addOn for Vanilla (1.12) IMPORTANT: The folder name must be \"aux-addon\"",
+      "author": "acid9000",
+      "stars": 2,
+      "category": "A",
+      "last_commit": "2026-01-18T20:46:23Z",
+      "added_at": "2026-01-19T03:54:21.561835163Z"
     },
     {
       "name": "BGFlag",
@@ -1610,7 +1629,7 @@
       "author": "DeterminedPanda",
       "stars": 19,
       "category": "D",
-      "last_commit": "2026-01-15T21:49:10Z",
+      "last_commit": "2026-01-19T01:09:44Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -1677,7 +1696,7 @@
       "url": "https://github.com/Player-Doite/DoiteAuras",
       "description": "Ability, buff, debuff \u0026 item tracker for Vanilla WoW.",
       "author": "Player-Doite",
-      "stars": 15,
+      "stars": 16,
       "category": "D",
       "last_commit": "2026-01-15T11:37:10Z",
       "added_at": "0001-01-01T00:00:00Z"
@@ -4127,7 +4146,7 @@
       "author": "trumpetx",
       "stars": 2,
       "category": "N",
-      "last_commit": "2026-01-17T15:46:02Z",
+      "last_commit": "2026-01-18T23:29:19Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -4701,22 +4720,22 @@
     },
     {
       "name": "Rank14losSA",
-      "url": "https://github.com/me0wg4ming/Rank14losSA",
-      "description": "An addon that verbally warns you when an enemy uses an important spell (e.g. blind, shield wall, reflector, etc.). Original author: Nogall.",
-      "author": "me0wg4ming",
-      "stars": 1,
-      "category": "Z",
-      "last_commit": "2026-01-12T04:00:01Z",
-      "added_at": "0001-01-01T00:00:00Z"
-    },
-    {
-      "name": "Rank14losSA",
       "url": "https://github.com/Fiskehatt/Rank14losSA",
       "description": "An addon that verbally warns you when an enemy uses an important spell (e.g. blind, shield wall, reflector, etc.). Original author: Nogall.",
       "author": "Fiskehatt",
       "stars": 7,
       "category": "R",
       "last_commit": "2017-06-14T16:46:46Z",
+      "added_at": "0001-01-01T00:00:00Z"
+    },
+    {
+      "name": "Rank14losSA",
+      "url": "https://github.com/me0wg4ming/Rank14losSA",
+      "description": "An addon that verbally warns you when an enemy uses an important spell (e.g. blind, shield wall, reflector, etc.). Original author: Nogall.",
+      "author": "me0wg4ming",
+      "stars": 1,
+      "category": "Z",
+      "last_commit": "2026-01-12T04:00:01Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -4865,6 +4884,15 @@
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
+      "name": "RoarGuild",
+      "url": "https://github.com/Morkahja/RoarGuild",
+      "description": "Plays roar-guild emotes from multiple independently configured action slots. GodBod: Triggers healthy micro-exercises from action slots. Combined single addon, independent functionality.",
+      "author": "Morkahja",
+      "category": "R",
+      "last_commit": "2026-01-18T16:49:12Z",
+      "added_at": "2026-01-19T03:54:21.561835163Z"
+    },
+    {
       "name": "RogueFocus",
       "url": "https://github.com/Road-block/RogueFocus",
       "description": "RogueFocus Classic WoW addon for 1.12.x",
@@ -4982,16 +5010,6 @@
     },
     {
       "name": "SP_SwingTimer",
-      "url": "https://github.com/balakethelock/SP_SwingTimer",
-      "description": "WoW 1.12.1 Addon: Auto Attack Swing Timer",
-      "author": "balakethelock",
-      "stars": 8,
-      "category": "S",
-      "last_commit": "2025-01-13T17:15:15Z",
-      "added_at": "0001-01-01T00:00:00Z"
-    },
-    {
-      "name": "SP_SwingTimer",
       "url": "https://github.com/MarcelineVQ/SP_SwingTimer",
       "description": "Auto-Attack Swing Timer",
       "author": "MarcelineVQ",
@@ -5001,13 +5019,13 @@
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
-      "name": "SUCC-bag",
-      "url": "https://github.com/Otari98/SUCC-bag",
-      "description": "Sublime User Convenience Collection - player inventory and bank",
-      "author": "Otari98",
-      "stars": 3,
+      "name": "SP_SwingTimer",
+      "url": "https://github.com/balakethelock/SP_SwingTimer",
+      "description": "WoW 1.12.1 Addon: Auto Attack Swing Timer",
+      "author": "balakethelock",
+      "stars": 8,
       "category": "S",
-      "last_commit": "2025-10-07T17:26:20Z",
+      "last_commit": "2025-01-13T17:15:15Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -5018,6 +5036,16 @@
       "stars": 1,
       "category": "S",
       "last_commit": "2021-10-27T17:25:05Z",
+      "added_at": "0001-01-01T00:00:00Z"
+    },
+    {
+      "name": "SUCC-bag",
+      "url": "https://github.com/Otari98/SUCC-bag",
+      "description": "Sublime User Convenience Collection - player inventory and bank",
+      "author": "Otari98",
+      "stars": 3,
+      "category": "S",
+      "last_commit": "2025-10-07T17:26:20Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -5209,21 +5237,21 @@
     },
     {
       "name": "ShaguClock",
+      "url": "https://github.com/FrostShock/ShaguClock",
+      "description": "A Vanilla and TBC Addon that draws a simple movable clock on the screen",
+      "author": "FrostShock",
+      "category": "S",
+      "last_commit": "2021-05-17T04:30:54Z",
+      "added_at": "0001-01-01T00:00:00Z"
+    },
+    {
+      "name": "ShaguClock",
       "url": "https://github.com/shagu/ShaguClock",
       "description": "A Vanilla and TBC Addon that draws a simple movable clock on the screen",
       "author": "shagu",
       "stars": 5,
       "category": "S",
       "last_commit": "2020-09-20T14:21:48Z",
-      "added_at": "0001-01-01T00:00:00Z"
-    },
-    {
-      "name": "ShaguClock",
-      "url": "https://github.com/FrostShock/ShaguClock",
-      "description": "A Vanilla and TBC Addon that draws a simple movable clock on the screen",
-      "author": "FrostShock",
-      "category": "S",
-      "last_commit": "2021-05-17T04:30:54Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -5766,6 +5794,15 @@
     },
     {
       "name": "SortBags",
+      "url": "https://github.com/Magues17/SortBags",
+      "description": "Bag Sorting addon for Turtle WoW",
+      "author": "Magues17",
+      "category": "S",
+      "last_commit": "2025-11-05T17:12:00Z",
+      "added_at": "2026-01-10T03:42:41.414014379Z"
+    },
+    {
+      "name": "SortBags",
       "url": "https://github.com/shirsig/SortBags",
       "description": "Bag sorting for Classic (1.13) IMPORTANT: If you want buttons get this too: https://github.com/shirsig/Cleanup IMPORTANT: The folder name must be \"SortBags\" IMPORTANT: The Vanilla (1.12) version moved here https://github.com/shirsig/SortBags-vanilla",
       "author": "shirsig",
@@ -5773,15 +5810,6 @@
       "category": "S",
       "last_commit": "2025-07-09T11:09:54Z",
       "added_at": "0001-01-01T00:00:00Z"
-    },
-    {
-      "name": "SortBags",
-      "url": "https://github.com/Magues17/SortBags",
-      "description": "Bag Sorting addon for Turtle WoW",
-      "author": "Magues17",
-      "category": "S",
-      "last_commit": "2025-11-05T17:12:00Z",
-      "added_at": "2026-01-10T03:42:41.414014379Z"
     },
     {
       "name": "SortBags-vanilla",
@@ -5833,22 +5861,22 @@
     },
     {
       "name": "SpamThrottle",
-      "url": "https://github.com/Orukxu/SpamThrottle",
-      "description": "Vanilla WoW addon to remove unwanted chat messages",
-      "author": "Orukxu",
-      "stars": 19,
-      "category": "S",
-      "last_commit": "2019-01-25T18:59:05Z",
-      "added_at": "0001-01-01T00:00:00Z"
-    },
-    {
-      "name": "SpamThrottle",
       "url": "https://github.com/laytya/SpamThrottle",
       "description": "Vanilla WoW addon to remove unwanted chat messages",
       "author": "laytya",
       "stars": 18,
       "category": "S",
       "last_commit": "2023-07-26T15:53:58Z",
+      "added_at": "0001-01-01T00:00:00Z"
+    },
+    {
+      "name": "SpamThrottle",
+      "url": "https://github.com/Orukxu/SpamThrottle",
+      "description": "Vanilla WoW addon to remove unwanted chat messages",
+      "author": "Orukxu",
+      "stars": 19,
+      "category": "S",
+      "last_commit": "2019-01-25T18:59:05Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -6070,7 +6098,7 @@
       "url": "https://github.com/balakethelock/SuperWoW",
       "description": "1.12.1 WoW client mod that expands on API functionalities",
       "author": "balakethelock",
-      "stars": 140,
+      "stars": 141,
       "category": "Z",
       "last_commit": "2025-10-25T09:04:04Z",
       "added_at": "0001-01-01T00:00:00Z"
@@ -6374,19 +6402,19 @@
     },
     {
       "name": "Threat",
+      "url": "https://github.com/Xleone1/Threat",
+      "author": "Xleone1",
+      "category": "T",
+      "last_commit": "2025-07-09T00:15:28Z",
+      "added_at": "0001-01-01T00:00:00Z"
+    },
+    {
+      "name": "Threat",
       "url": "https://github.com/muellerj/Threat",
       "author": "muellerj",
       "stars": 2,
       "category": "T",
       "last_commit": "2017-11-05T12:02:17Z",
-      "added_at": "0001-01-01T00:00:00Z"
-    },
-    {
-      "name": "Threat",
-      "url": "https://github.com/Xleone1/Threat",
-      "author": "Xleone1",
-      "category": "T",
-      "last_commit": "2025-07-09T00:15:28Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -7036,16 +7064,6 @@
     },
     {
       "name": "VanillaGuide",
-      "url": "https://github.com/Zarant/VanillaGuide",
-      "description": "An in-game guide for Vanilla WoW",
-      "author": "Zarant",
-      "stars": 1,
-      "category": "V",
-      "last_commit": "2022-01-17T15:54:36Z",
-      "added_at": "0001-01-01T00:00:00Z"
-    },
-    {
-      "name": "VanillaGuide",
       "url": "https://github.com/TheUnprofessionalGamer/VanillaGuide",
       "description": "We do this later",
       "author": "TheUnprofessionalGamer",
@@ -7053,6 +7071,16 @@
       "category": "V",
       "last_commit": "2024-01-10T16:06:51Z",
       "added_at": "0001-01-01T00:00:00Z"
+    },
+    {
+      "name": "VanillaGuide-Plus",
+      "url": "https://github.com/DonutsDelivery/VanillaGuide-Plus",
+      "description": "questing addon for vanilla wow",
+      "author": "DonutsDelivery",
+      "stars": 1,
+      "category": "V",
+      "last_commit": "2026-01-18T15:10:23Z",
+      "added_at": "2026-01-19T03:54:21.561835163Z"
     },
     {
       "name": "VanillaGuideReloaded",
@@ -7132,20 +7160,20 @@
     },
     {
       "name": "Vanilla_oCB",
-      "url": "https://github.com/Road-block/Vanilla_oCB",
-      "author": "Road-block",
-      "stars": 4,
-      "category": "O",
-      "last_commit": "2017-12-29T09:53:51Z",
-      "added_at": "0001-01-01T00:00:00Z"
-    },
-    {
-      "name": "Vanilla_oCB",
       "url": "https://github.com/laytya/Vanilla_oCB",
       "author": "laytya",
       "stars": 4,
       "category": "O",
       "last_commit": "2025-04-09T09:48:08Z",
+      "added_at": "0001-01-01T00:00:00Z"
+    },
+    {
+      "name": "Vanilla_oCB",
+      "url": "https://github.com/Road-block/Vanilla_oCB",
+      "author": "Road-block",
+      "stars": 4,
+      "category": "O",
+      "last_commit": "2017-12-29T09:53:51Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -7374,6 +7402,15 @@
     },
     {
       "name": "Wow1.12.1_Addons_Collection",
+      "url": "https://github.com/crazypoultry/Wow1.12.1_Addons_Collection",
+      "author": "crazypoultry",
+      "stars": 34,
+      "category": "Z",
+      "last_commit": "2023-04-04T02:53:08Z",
+      "added_at": "0001-01-01T00:00:00Z"
+    },
+    {
+      "name": "Wow1.12.1_Addons_Collection",
       "url": "https://github.com/freadblangks/Wow1.12.1_Addons_Collection",
       "author": "freadblangks",
       "category": "Z",
@@ -7387,15 +7424,6 @@
       "stars": 1,
       "category": "Z",
       "last_commit": "2019-04-27T02:56:04Z",
-      "added_at": "0001-01-01T00:00:00Z"
-    },
-    {
-      "name": "Wow1.12.1_Addons_Collection",
-      "url": "https://github.com/crazypoultry/Wow1.12.1_Addons_Collection",
-      "author": "crazypoultry",
-      "stars": 34,
-      "category": "Z",
-      "last_commit": "2023-04-04T02:53:08Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -7452,7 +7480,7 @@
       "url": "https://github.com/Road-block/XLoot_AddOns",
       "description": "XLoot and Plugins (vanilla) 1.12",
       "author": "Road-block",
-      "stars": 6,
+      "stars": 7,
       "category": "X",
       "last_commit": "2018-02-22T15:37:56Z",
       "added_at": "0001-01-01T00:00:00Z"
@@ -7563,16 +7591,6 @@
     },
     {
       "name": "aDF",
-      "url": "https://github.com/Autignem/aDF",
-      "description": "continuation and update of the adf addom in TWoW",
-      "author": "Autignem",
-      "stars": 1,
-      "category": "A",
-      "last_commit": "2026-01-01T21:13:58Z",
-      "added_at": "2026-01-18T03:51:58.977057594Z"
-    },
-    {
-      "name": "aDF",
       "url": "https://github.com/MarcelineVQ/aDF",
       "description": "A World of Warcraft 1.12 AddOn that tracks certain debuffs on your target",
       "author": "MarcelineVQ",
@@ -7580,6 +7598,16 @@
       "category": "Z",
       "last_commit": "2024-07-17T02:35:59Z",
       "added_at": "0001-01-01T00:00:00Z"
+    },
+    {
+      "name": "aDF",
+      "url": "https://github.com/Autignem/aDF",
+      "description": "continuation and update of the adf addom in TWoW",
+      "author": "Autignem",
+      "stars": 1,
+      "category": "A",
+      "last_commit": "2026-01-01T21:13:58Z",
+      "added_at": "2026-01-18T03:51:58.977057594Z"
     },
     {
       "name": "ag_UnitFrames_Improved",
@@ -7888,9 +7916,9 @@
       "name": "guda",
       "url": "https://github.com/vatichild/guda",
       "author": "vatichild",
-      "stars": 13,
+      "stars": 14,
       "category": "G",
-      "last_commit": "2026-01-08T19:41:12Z",
+      "last_commit": "2026-01-19T00:33:33Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -7899,7 +7927,7 @@
       "author": "vatichild",
       "stars": 8,
       "category": "G",
-      "last_commit": "2026-01-16T22:30:05Z",
+      "last_commit": "2026-01-19T01:27:05Z",
       "added_at": "2026-01-09T03:47:44.343941466Z"
     },
     {
