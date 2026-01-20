@@ -1,9 +1,9 @@
 {
   "version": 1,
-  "revision": 12,
-  "generated_at": "2026-01-19T03:54:21.561835163Z",
+  "revision": 13,
+  "generated_at": "2026-01-20T03:50:45.55001845Z",
   "source_url": "https://turtle-wow.fandom.com/wiki/Addons",
-  "addon_count": 902,
+  "addon_count": 903,
   "addons": [
     {
       "name": "-Dragonflight3",
@@ -143,22 +143,22 @@
     },
     {
       "name": "Altoholic_Vanilla",
-      "url": "https://github.com/nehswu/Altoholic_Vanilla",
-      "description": "Altoholic for Vanilla WoW 1.12 - backported from version 2.4.015 originally written by Thaoky",
-      "author": "nehswu",
-      "stars": 5,
-      "category": "A",
-      "last_commit": "2023-06-13T03:25:22Z",
-      "added_at": "0001-01-01T00:00:00Z"
-    },
-    {
-      "name": "Altoholic_Vanilla",
       "url": "https://github.com/gbl/Altoholic_Vanilla",
       "description": "Altoholic for Vanilla WoW 1.12 - backported from version 2.4.015 originally written by Thaoky, forked from nehswu, with some bug fixes",
       "author": "gbl",
       "stars": 3,
       "category": "A",
       "last_commit": "2025-11-06T09:02:53Z",
+      "added_at": "0001-01-01T00:00:00Z"
+    },
+    {
+      "name": "Altoholic_Vanilla",
+      "url": "https://github.com/nehswu/Altoholic_Vanilla",
+      "description": "Altoholic for Vanilla WoW 1.12 - backported from version 2.4.015 originally written by Thaoky",
+      "author": "nehswu",
+      "stars": 5,
+      "category": "A",
+      "last_commit": "2023-06-13T03:25:22Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -246,7 +246,7 @@
       "description": "Overview: Atlas‑TW is a dungeon map browser with an integrated loot panel and quests module. It is compatible with World of Warcraft 1.12 and includes localization support.",
       "author": "byCFM2",
       "stars": 11,
-      "last_commit": "2026-01-18T16:50:12Z",
+      "last_commit": "2026-01-19T22:15:59Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -1299,7 +1299,7 @@
       "url": "https://github.com/cutiepoka/CleveRoidMacros",
       "description": "Use more advanced and modern style macros with World of Warcraft 1.12.1",
       "author": "cutiepoka",
-      "stars": 7,
+      "stars": 8,
       "category": "C",
       "last_commit": "2025-12-23T14:46:27Z",
       "added_at": "0001-01-01T00:00:00Z"
@@ -1496,7 +1496,7 @@
       "author": "pepopo978",
       "stars": 22,
       "category": "Z",
-      "last_commit": "2026-01-13T15:17:10Z",
+      "last_commit": "2026-01-19T15:31:07Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -1615,7 +1615,7 @@
     {
       "name": "DialogUI",
       "url": "https://github.com/Jslquintero/DialogUI",
-      "description": "This addon is designed for WoW Classic 1.12.1, it modifies how the quest/gossip dialogue looks",
+      "description": "World of Warcraft addon for game client ver 1.12.1 to modify how the quest/gossip dialogue looks.",
       "author": "Jslquintero",
       "stars": 3,
       "category": "D",
@@ -1698,7 +1698,7 @@
       "author": "Player-Doite",
       "stars": 16,
       "category": "D",
-      "last_commit": "2026-01-15T11:37:10Z",
+      "last_commit": "2026-01-19T21:04:27Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -2076,6 +2076,15 @@
       "category": "F",
       "last_commit": "2025-10-16T15:44:24Z",
       "added_at": "0001-01-01T00:00:00Z"
+    },
+    {
+      "name": "Feid",
+      "url": "https://github.com/NiclasEriksen/Feid",
+      "description": "An addon for WoW 1.12.1 to fade in/out UI-elements in combat",
+      "author": "NiclasEriksen",
+      "category": "F",
+      "last_commit": "2026-01-19T02:05:09Z",
+      "added_at": "2026-01-20T03:50:45.55001845Z"
     },
     {
       "name": "FelwoodGather",
@@ -2610,7 +2619,6 @@
       "name": "GrimoireKeeper",
       "url": "https://github.com/Scoboose/GrimoireKeeper",
       "author": "Scoboose",
-      "stars": 1,
       "category": "G",
       "last_commit": "2025-04-02T15:02:52Z",
       "added_at": "0001-01-01T00:00:00Z"
@@ -2665,7 +2673,7 @@
       "author": "redshadowz",
       "stars": 3,
       "category": "G",
-      "last_commit": "2026-01-08T01:09:10Z",
+      "last_commit": "2026-01-19T11:05:08Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -2915,6 +2923,7 @@
       "name": "HonorSpyTurtle",
       "url": "https://github.com/jrc13245/HonorSpyTurtle",
       "author": "jrc13245",
+      "stars": 1,
       "category": "H",
       "last_commit": "2025-10-21T12:18:38Z",
       "added_at": "0001-01-01T00:00:00Z"
@@ -3240,21 +3249,21 @@
     },
     {
       "name": "KillCounter",
+      "url": "https://github.com/bucketss/KillCounter",
+      "description": "kill counter for WoW vanilla client 1.12",
+      "author": "bucketss",
+      "category": "K",
+      "last_commit": "2025-10-29T22:20:35Z",
+      "added_at": "0001-01-01T00:00:00Z"
+    },
+    {
+      "name": "KillCounter",
       "url": "https://github.com/FrostShock/KillCounter",
       "description": "Vanilla WoW (1.12.1) addon for counting kills",
       "author": "FrostShock",
       "stars": 1,
       "category": "K",
       "last_commit": "2022-04-20T03:46:08Z",
-      "added_at": "0001-01-01T00:00:00Z"
-    },
-    {
-      "name": "KillCounter",
-      "url": "https://github.com/bucketss/KillCounter",
-      "description": "kill counter for WoW vanilla client 1.12",
-      "author": "bucketss",
-      "category": "K",
-      "last_commit": "2025-10-29T22:20:35Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -3964,7 +3973,7 @@
       "description": "Places markers on the world map to show the locations of dungeons, raids, and world bosses",
       "author": "tilare",
       "stars": 21,
-      "last_commit": "2025-09-05T10:47:46Z",
+      "last_commit": "2026-01-20T01:22:36Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -4011,6 +4020,7 @@
       "url": "https://github.com/jrc13245/MorunoRankEnhanced",
       "description": "Vanilla addon for estimating PVP-Standings",
       "author": "jrc13245",
+      "stars": 1,
       "category": "M",
       "last_commit": "2025-10-21T12:26:19Z",
       "added_at": "0001-01-01T00:00:00Z"
@@ -4174,7 +4184,7 @@
       "author": "zanthor",
       "stars": 3,
       "category": "O",
-      "last_commit": "2026-01-15T01:55:41Z",
+      "last_commit": "2026-01-19T23:51:34Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -4520,7 +4530,7 @@
       "name": "QuestShell",
       "url": "https://github.com/Valiusha90/QuestShell",
       "author": "Valiusha90",
-      "stars": 10,
+      "stars": 9,
       "category": "Q",
       "last_commit": "2025-08-20T14:43:05Z",
       "added_at": "0001-01-01T00:00:00Z"
@@ -5010,16 +5020,6 @@
     },
     {
       "name": "SP_SwingTimer",
-      "url": "https://github.com/MarcelineVQ/SP_SwingTimer",
-      "description": "Auto-Attack Swing Timer",
-      "author": "MarcelineVQ",
-      "stars": 12,
-      "category": "Z",
-      "last_commit": "2025-05-22T02:21:46Z",
-      "added_at": "0001-01-01T00:00:00Z"
-    },
-    {
-      "name": "SP_SwingTimer",
       "url": "https://github.com/balakethelock/SP_SwingTimer",
       "description": "WoW 1.12.1 Addon: Auto Attack Swing Timer",
       "author": "balakethelock",
@@ -5029,13 +5029,13 @@
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
-      "name": "SUCC-bag",
-      "url": "https://github.com/FrostShock/SUCC-bag",
-      "description": "Sublime User Convenience Collection - player inventory and bank",
-      "author": "FrostShock",
-      "stars": 1,
-      "category": "S",
-      "last_commit": "2021-10-27T17:25:05Z",
+      "name": "SP_SwingTimer",
+      "url": "https://github.com/MarcelineVQ/SP_SwingTimer",
+      "description": "Auto-Attack Swing Timer",
+      "author": "MarcelineVQ",
+      "stars": 12,
+      "category": "Z",
+      "last_commit": "2025-05-22T02:21:46Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -5046,6 +5046,16 @@
       "stars": 3,
       "category": "S",
       "last_commit": "2025-10-07T17:26:20Z",
+      "added_at": "0001-01-01T00:00:00Z"
+    },
+    {
+      "name": "SUCC-bag",
+      "url": "https://github.com/FrostShock/SUCC-bag",
+      "description": "Sublime User Convenience Collection - player inventory and bank",
+      "author": "FrostShock",
+      "stars": 1,
+      "category": "S",
+      "last_commit": "2021-10-27T17:25:05Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -5437,7 +5447,7 @@
       "url": "https://github.com/shagu/ShaguTweaks",
       "description": "A collection of tweaks and enhancements to the default wow 1.12.1 interface",
       "author": "shagu",
-      "stars": 95,
+      "stars": 96,
       "last_commit": "2025-08-15T14:37:22Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
@@ -5808,7 +5818,7 @@
       "author": "shirsig",
       "stars": 32,
       "category": "S",
-      "last_commit": "2025-07-09T11:09:54Z",
+      "last_commit": "2026-01-19T18:32:41Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -6070,7 +6080,7 @@
       "author": "jrc13245",
       "stars": 23,
       "category": "Z",
-      "last_commit": "2026-01-16T14:33:31Z",
+      "last_commit": "2026-01-19T23:00:28Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -6402,19 +6412,19 @@
     },
     {
       "name": "Threat",
-      "url": "https://github.com/Xleone1/Threat",
-      "author": "Xleone1",
-      "category": "T",
-      "last_commit": "2025-07-09T00:15:28Z",
-      "added_at": "0001-01-01T00:00:00Z"
-    },
-    {
-      "name": "Threat",
       "url": "https://github.com/muellerj/Threat",
       "author": "muellerj",
       "stars": 2,
       "category": "T",
       "last_commit": "2017-11-05T12:02:17Z",
+      "added_at": "0001-01-01T00:00:00Z"
+    },
+    {
+      "name": "Threat",
+      "url": "https://github.com/Xleone1/Threat",
+      "author": "Xleone1",
+      "category": "T",
+      "last_commit": "2025-07-09T00:15:28Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -6561,7 +6571,7 @@
       "author": "TheRealFayz",
       "stars": 3,
       "category": "T",
-      "last_commit": "2026-01-12T18:45:47Z",
+      "last_commit": "2026-01-20T00:24:09Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -7079,7 +7089,7 @@
       "author": "DonutsDelivery",
       "stars": 1,
       "category": "V",
-      "last_commit": "2026-01-18T15:10:23Z",
+      "last_commit": "2026-01-19T17:35:24Z",
       "added_at": "2026-01-19T03:54:21.561835163Z"
     },
     {
@@ -7123,22 +7133,22 @@
     },
     {
       "name": "VanillaStoryline",
-      "url": "https://github.com/tubtubs/VanillaStoryline",
-      "description": "Storyline Custom Backport",
-      "author": "tubtubs",
-      "stars": 12,
-      "category": "V",
-      "last_commit": "2025-10-28T06:16:08Z",
-      "added_at": "0001-01-01T00:00:00Z"
-    },
-    {
-      "name": "VanillaStoryline",
       "url": "https://github.com/Voidmenull/VanillaStoryline",
       "description": "Storyline Custom Backport",
       "author": "Voidmenull",
       "stars": 14,
       "category": "V",
       "last_commit": "2016-05-06T17:00:31Z",
+      "added_at": "0001-01-01T00:00:00Z"
+    },
+    {
+      "name": "VanillaStoryline",
+      "url": "https://github.com/tubtubs/VanillaStoryline",
+      "description": "Storyline Custom Backport",
+      "author": "tubtubs",
+      "stars": 12,
+      "category": "V",
+      "last_commit": "2025-10-28T06:16:08Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -7160,20 +7170,20 @@
     },
     {
       "name": "Vanilla_oCB",
-      "url": "https://github.com/laytya/Vanilla_oCB",
-      "author": "laytya",
-      "stars": 4,
-      "category": "O",
-      "last_commit": "2025-04-09T09:48:08Z",
-      "added_at": "0001-01-01T00:00:00Z"
-    },
-    {
-      "name": "Vanilla_oCB",
       "url": "https://github.com/Road-block/Vanilla_oCB",
       "author": "Road-block",
       "stars": 4,
       "category": "O",
       "last_commit": "2017-12-29T09:53:51Z",
+      "added_at": "0001-01-01T00:00:00Z"
+    },
+    {
+      "name": "Vanilla_oCB",
+      "url": "https://github.com/laytya/Vanilla_oCB",
+      "author": "laytya",
+      "stars": 4,
+      "category": "O",
+      "last_commit": "2025-04-09T09:48:08Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -7297,7 +7307,7 @@
       "url": "https://github.com/spawnedc/WhatsTraining_Turtle",
       "description": "Backport of amazing WhatsTraining addon that shows you upcoming trainer abilities, made to work with Turtle WoW",
       "author": "spawnedc",
-      "stars": 12,
+      "stars": 11,
       "category": "W",
       "last_commit": "2025-06-19T20:53:06Z",
       "added_at": "0001-01-01T00:00:00Z"
@@ -7402,19 +7412,19 @@
     },
     {
       "name": "Wow1.12.1_Addons_Collection",
+      "url": "https://github.com/freadblangks/Wow1.12.1_Addons_Collection",
+      "author": "freadblangks",
+      "category": "Z",
+      "last_commit": "2023-04-04T08:25:27Z",
+      "added_at": "0001-01-01T00:00:00Z"
+    },
+    {
+      "name": "Wow1.12.1_Addons_Collection",
       "url": "https://github.com/crazypoultry/Wow1.12.1_Addons_Collection",
       "author": "crazypoultry",
       "stars": 34,
       "category": "Z",
       "last_commit": "2023-04-04T02:53:08Z",
-      "added_at": "0001-01-01T00:00:00Z"
-    },
-    {
-      "name": "Wow1.12.1_Addons_Collection",
-      "url": "https://github.com/freadblangks/Wow1.12.1_Addons_Collection",
-      "author": "freadblangks",
-      "category": "Z",
-      "last_commit": "2023-04-04T08:25:27Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -7591,16 +7601,6 @@
     },
     {
       "name": "aDF",
-      "url": "https://github.com/MarcelineVQ/aDF",
-      "description": "A World of Warcraft 1.12 AddOn that tracks certain debuffs on your target",
-      "author": "MarcelineVQ",
-      "stars": 3,
-      "category": "Z",
-      "last_commit": "2024-07-17T02:35:59Z",
-      "added_at": "0001-01-01T00:00:00Z"
-    },
-    {
-      "name": "aDF",
       "url": "https://github.com/Autignem/aDF",
       "description": "continuation and update of the adf addom in TWoW",
       "author": "Autignem",
@@ -7608,6 +7608,16 @@
       "category": "A",
       "last_commit": "2026-01-01T21:13:58Z",
       "added_at": "2026-01-18T03:51:58.977057594Z"
+    },
+    {
+      "name": "aDF",
+      "url": "https://github.com/MarcelineVQ/aDF",
+      "description": "A World of Warcraft 1.12 AddOn that tracks certain debuffs on your target",
+      "author": "MarcelineVQ",
+      "stars": 3,
+      "category": "Z",
+      "last_commit": "2024-07-17T02:35:59Z",
+      "added_at": "0001-01-01T00:00:00Z"
     },
     {
       "name": "ag_UnitFrames_Improved",
@@ -7895,6 +7905,15 @@
     },
     {
       "name": "enemyFrames",
+      "url": "https://github.com/byCFM2/enemyFrames",
+      "description": "1.12.1 addon to display enemy players on BGs",
+      "author": "byCFM2",
+      "category": "E",
+      "last_commit": "2025-10-12T16:17:58Z",
+      "added_at": "0001-01-01T00:00:00Z"
+    },
+    {
+      "name": "enemyFrames",
       "url": "https://github.com/zetone/enemyFrames",
       "description": "1.12.1 addon to display enemy players on BGs",
       "author": "zetone",
@@ -7904,21 +7923,12 @@
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
-      "name": "enemyFrames",
-      "url": "https://github.com/byCFM2/enemyFrames",
-      "description": "1.12.1 addon to display enemy players on BGs",
-      "author": "byCFM2",
-      "category": "E",
-      "last_commit": "2025-10-12T16:17:58Z",
-      "added_at": "0001-01-01T00:00:00Z"
-    },
-    {
       "name": "guda",
       "url": "https://github.com/vatichild/guda",
       "author": "vatichild",
       "stars": 14,
       "category": "G",
-      "last_commit": "2026-01-19T00:33:33Z",
+      "last_commit": "2026-01-19T18:22:36Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -7966,7 +7976,7 @@
       "description": "debug pretty print for 1.12 and 1.13 IMPORTANT: Use this branch for classic https://github.com/shirsig/inspect/tree/retail IMPORTANT: folder name must be \"!!inspect\"",
       "author": "shirsig",
       "category": "I",
-      "last_commit": "2025-07-09T10:57:39Z",
+      "last_commit": "2026-01-19T18:34:19Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
