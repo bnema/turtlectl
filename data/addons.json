@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "revision": 14,
-  "generated_at": "2026-01-21T03:50:40.640991069Z",
+  "revision": 15,
+  "generated_at": "2026-01-22T03:53:26.682857398Z",
   "source_url": "https://turtle-wow.fandom.com/wiki/Addons",
   "addon_count": 905,
   "addons": [
@@ -1629,7 +1629,7 @@
       "author": "DeterminedPanda",
       "stars": 19,
       "category": "D",
-      "last_commit": "2026-01-21T01:58:31Z",
+      "last_commit": "2026-01-21T23:06:03Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -1696,7 +1696,7 @@
       "url": "https://github.com/Player-Doite/DoiteAuras",
       "description": "Ability, buff, debuff \u0026 item tracker for Vanilla WoW.",
       "author": "Player-Doite",
-      "stars": 17,
+      "stars": 19,
       "category": "D",
       "last_commit": "2026-01-19T21:04:27Z",
       "added_at": "0001-01-01T00:00:00Z"
@@ -4202,7 +4202,7 @@
       "author": "zanthor",
       "stars": 3,
       "category": "O",
-      "last_commit": "2026-01-21T00:10:17Z",
+      "last_commit": "2026-01-21T22:54:51Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -6098,7 +6098,7 @@
       "author": "jrc13245",
       "stars": 23,
       "category": "Z",
-      "last_commit": "2026-01-21T01:05:03Z",
+      "last_commit": "2026-01-21T23:27:54Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -6587,9 +6587,9 @@
       "url": "https://github.com/TheRealFayz/TotemNesia",
       "description": "A comprehensive totem management addon for Shaman in Turtle WoW",
       "author": "TheRealFayz",
-      "stars": 3,
+      "stars": 4,
       "category": "T",
-      "last_commit": "2026-01-21T03:49:40Z",
+      "last_commit": "2026-01-21T04:31:42Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -7946,7 +7946,7 @@
       "author": "vatichild",
       "stars": 14,
       "category": "G",
-      "last_commit": "2026-01-19T18:22:36Z",
+      "last_commit": "2026-01-22T00:18:19Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -7955,7 +7955,7 @@
       "author": "vatichild",
       "stars": 8,
       "category": "G",
-      "last_commit": "2026-01-19T01:27:05Z",
+      "last_commit": "2026-01-21T16:24:20Z",
       "added_at": "2026-01-09T03:47:44.343941466Z"
     },
     {
