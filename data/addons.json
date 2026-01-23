@@ -1,9 +1,9 @@
 {
   "version": 1,
-  "revision": 15,
-  "generated_at": "2026-01-22T03:53:26.682857398Z",
+  "revision": 16,
+  "generated_at": "2026-01-23T03:49:21.675610567Z",
   "source_url": "https://turtle-wow.fandom.com/wiki/Addons",
-  "addon_count": 905,
+  "addon_count": 908,
   "addons": [
     {
       "name": "-Dragonflight3",
@@ -12,7 +12,7 @@
       "author": "Flaxic-LUA",
       "stars": 11,
       "category": "Z",
-      "last_commit": "2026-01-17T16:27:04Z",
+      "last_commit": "2026-01-23T02:43:16Z",
       "added_at": "2026-01-09T03:47:44.343941466Z"
     },
     {
@@ -1064,7 +1064,7 @@
       "url": "https://github.com/Cernie/CatDruidDPS",
       "description": "One button feral druid dps macro for vanilla wow",
       "author": "Cernie",
-      "stars": 9,
+      "stars": 8,
       "category": "C",
       "last_commit": "2021-07-18T22:09:10Z",
       "added_at": "0001-01-01T00:00:00Z"
@@ -1165,6 +1165,15 @@
       "category": "C",
       "last_commit": "2025-08-12T12:53:04Z",
       "added_at": "0001-01-01T00:00:00Z"
+    },
+    {
+      "name": "ChatMonitor",
+      "url": "https://github.com/cryptokn1ght-dev/ChatMonitor",
+      "description": "Addon for Turtle WoW that monitors chat channels such as World and LookingForGroup for specific keywords and alerts you when a match has been found.",
+      "author": "cryptokn1ght-dev",
+      "category": "C",
+      "last_commit": "2026-01-23T02:39:41Z",
+      "added_at": "2026-01-23T03:49:21.675610567Z"
     },
     {
       "name": "ChatTimestamps",
@@ -2140,7 +2149,7 @@
       "description": "Fizzle is an addon that will show you an items durability values above the item in your character frame.",
       "author": "McPewPew",
       "category": "F",
-      "last_commit": "2023-08-31T20:58:43Z",
+      "last_commit": "2026-01-23T01:05:44Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -3249,21 +3258,21 @@
     },
     {
       "name": "KillCounter",
-      "url": "https://github.com/bucketss/KillCounter",
-      "description": "kill counter for WoW vanilla client 1.12",
-      "author": "bucketss",
-      "category": "K",
-      "last_commit": "2025-10-29T22:20:35Z",
-      "added_at": "0001-01-01T00:00:00Z"
-    },
-    {
-      "name": "KillCounter",
       "url": "https://github.com/FrostShock/KillCounter",
       "description": "Vanilla WoW (1.12.1) addon for counting kills",
       "author": "FrostShock",
       "stars": 1,
       "category": "K",
       "last_commit": "2022-04-20T03:46:08Z",
+      "added_at": "0001-01-01T00:00:00Z"
+    },
+    {
+      "name": "KillCounter",
+      "url": "https://github.com/bucketss/KillCounter",
+      "description": "kill counter for WoW vanilla client 1.12",
+      "author": "bucketss",
+      "category": "K",
+      "last_commit": "2025-10-29T22:20:35Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -3443,7 +3452,7 @@
       "url": "https://github.com/refaim/LibCraftingProfessions-1.0",
       "description": "Vanilla WoW 1.12.1 and Turtle WoW addon library designed to provide a universal interface for crafting professions",
       "author": "refaim",
-      "stars": 9,
+      "stars": 10,
       "category": "Z",
       "last_commit": "2025-09-05T07:00:28Z",
       "added_at": "0001-01-01T00:00:00Z"
@@ -3453,7 +3462,7 @@
       "url": "https://github.com/refaim/LibCrafts-1.0",
       "description": "Vanilla WoW 1.12.1 addon library designed to provide an embeddable database of crafting spells, recipes, reagents, results, sources etc",
       "author": "refaim",
-      "stars": 8,
+      "stars": 9,
       "category": "Z",
       "last_commit": "2025-12-21T08:38:03Z",
       "added_at": "0001-01-01T00:00:00Z"
@@ -3639,7 +3648,7 @@
       "url": "https://github.com/PROXiCiDE/MacroExtender",
       "description": "World of Warcraft addon",
       "author": "PROXiCiDE",
-      "stars": 10,
+      "stars": 9,
       "category": "Z",
       "last_commit": "2022-12-31T12:12:56Z",
       "added_at": "0001-01-01T00:00:00Z"
@@ -3755,19 +3764,19 @@
     },
     {
       "name": "MasterTradeSkills",
-      "url": "https://github.com/ImmortalSom/MasterTradeSkills",
+      "url": "https://github.com/refaim/MasterTradeSkills",
+      "description": "Vanilla WoW 1.12.1 and Turtle WoW addon. Adds trade skill information to tooltips of ingredients.",
+      "author": "refaim",
+      "stars": 19,
       "category": "M",
-      "last_commit": "0001-01-01T00:00:00Z",
+      "last_commit": "2025-12-21T08:40:16Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
       "name": "MasterTradeSkills",
-      "url": "https://github.com/refaim/MasterTradeSkills",
-      "description": "Vanilla WoW 1.12.1 and Turtle WoW addon. Adds trade skill information to tooltips of ingredients.",
-      "author": "refaim",
-      "stars": 18,
+      "url": "https://github.com/ImmortalSom/MasterTradeSkills",
       "category": "M",
-      "last_commit": "2025-12-21T08:40:16Z",
+      "last_commit": "0001-01-01T00:00:00Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -3854,7 +3863,7 @@
       "url": "https://github.com/refaim/MissingCrafts",
       "description": "Vanilla WoW 1.12.1 and Turtle WoW addon. Shows the missing crafts for your crafting professions and how to obtain them.",
       "author": "refaim",
-      "stars": 19,
+      "stars": 20,
       "category": "M",
       "last_commit": "2025-12-21T08:41:44Z",
       "added_at": "0001-01-01T00:00:00Z"
@@ -3880,21 +3889,21 @@
     },
     {
       "name": "MobHealth",
+      "url": "https://github.com/FrostShock/MobHealth",
+      "description": "Displays health values.",
+      "author": "FrostShock",
+      "category": "M",
+      "last_commit": "2021-09-15T08:58:55Z",
+      "added_at": "0001-01-01T00:00:00Z"
+    },
+    {
+      "name": "MobHealth",
       "url": "https://github.com/kc8pnd/MobHealth",
       "description": "Displays health values.",
       "author": "kc8pnd",
       "stars": 3,
       "category": "M",
       "last_commit": "2016-12-21T00:19:17Z",
-      "added_at": "0001-01-01T00:00:00Z"
-    },
-    {
-      "name": "MobHealth",
-      "url": "https://github.com/FrostShock/MobHealth",
-      "description": "Displays health values.",
-      "author": "FrostShock",
-      "category": "M",
-      "last_commit": "2021-09-15T08:58:55Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -4000,7 +4009,7 @@
       "url": "https://github.com/MarcelineVQ/ModifiedPowerAuras",
       "description": "An advanced wow 1.12.1 power auras",
       "author": "MarcelineVQ",
-      "stars": 10,
+      "stars": 9,
       "category": "M",
       "last_commit": "2024-05-11T20:36:42Z",
       "added_at": "0001-01-01T00:00:00Z"
@@ -4016,21 +4025,21 @@
     },
     {
       "name": "MonkeySpeed",
+      "url": "https://github.com/TrangOul/MonkeySpeed",
+      "description": "MonkeySpeed backported for 1.12 from the TBC version.",
+      "author": "TrangOul",
+      "category": "M",
+      "last_commit": "2025-11-30T21:26:13Z",
+      "added_at": "0001-01-01T00:00:00Z"
+    },
+    {
+      "name": "MonkeySpeed",
       "url": "https://github.com/MarcelineVQ/MonkeySpeed",
       "description": "MonkeySpeed backported for 1.12 from the TBC version. SuperWoW version.",
       "author": "MarcelineVQ",
       "stars": 3,
       "category": "Z",
       "last_commit": "2024-06-21T06:52:28Z",
-      "added_at": "0001-01-01T00:00:00Z"
-    },
-    {
-      "name": "MonkeySpeed",
-      "url": "https://github.com/TrangOul/MonkeySpeed",
-      "description": "MonkeySpeed backported for 1.12 from the TBC version.",
-      "author": "TrangOul",
-      "category": "M",
-      "last_commit": "2025-11-30T21:26:13Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -4202,7 +4211,7 @@
       "author": "zanthor",
       "stars": 3,
       "category": "O",
-      "last_commit": "2026-01-21T22:54:51Z",
+      "last_commit": "2026-01-22T21:11:23Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -4539,7 +4548,7 @@
       "url": "https://github.com/graved/QuestProgressShare",
       "description": "quest-progress-share",
       "author": "graved",
-      "stars": 5,
+      "stars": 6,
       "category": "Q",
       "last_commit": "2025-10-24T17:54:56Z",
       "added_at": "0001-01-01T00:00:00Z"
@@ -4654,7 +4663,7 @@
       "url": "https://github.com/pepopo978/Rabuffs",
       "description": "Rabuffs Addon (Wow Vanilla 1.12.1)",
       "author": "pepopo978",
-      "stars": 5,
+      "stars": 4,
       "category": "R",
       "last_commit": "2025-12-30T19:56:10Z",
       "added_at": "0001-01-01T00:00:00Z"
@@ -5038,32 +5047,22 @@
     },
     {
       "name": "SP_SwingTimer",
+      "url": "https://github.com/MarcelineVQ/SP_SwingTimer",
+      "description": "Auto-Attack Swing Timer",
+      "author": "MarcelineVQ",
+      "stars": 11,
+      "category": "Z",
+      "last_commit": "2025-05-22T02:21:46Z",
+      "added_at": "0001-01-01T00:00:00Z"
+    },
+    {
+      "name": "SP_SwingTimer",
       "url": "https://github.com/balakethelock/SP_SwingTimer",
       "description": "WoW 1.12.1 Addon: Auto Attack Swing Timer",
       "author": "balakethelock",
       "stars": 8,
       "category": "S",
       "last_commit": "2025-01-13T17:15:15Z",
-      "added_at": "0001-01-01T00:00:00Z"
-    },
-    {
-      "name": "SP_SwingTimer",
-      "url": "https://github.com/MarcelineVQ/SP_SwingTimer",
-      "description": "Auto-Attack Swing Timer",
-      "author": "MarcelineVQ",
-      "stars": 12,
-      "category": "Z",
-      "last_commit": "2025-05-22T02:21:46Z",
-      "added_at": "0001-01-01T00:00:00Z"
-    },
-    {
-      "name": "SUCC-bag",
-      "url": "https://github.com/FrostShock/SUCC-bag",
-      "description": "Sublime User Convenience Collection - player inventory and bank",
-      "author": "FrostShock",
-      "stars": 1,
-      "category": "S",
-      "last_commit": "2021-10-27T17:25:05Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -5074,6 +5073,16 @@
       "stars": 3,
       "category": "S",
       "last_commit": "2025-10-07T17:26:20Z",
+      "added_at": "0001-01-01T00:00:00Z"
+    },
+    {
+      "name": "SUCC-bag",
+      "url": "https://github.com/FrostShock/SUCC-bag",
+      "description": "Sublime User Convenience Collection - player inventory and bank",
+      "author": "FrostShock",
+      "stars": 1,
+      "category": "S",
+      "last_commit": "2021-10-27T17:25:05Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -5111,7 +5120,7 @@
       "url": "https://github.com/Zerf/SW_Stats-Vanilla",
       "description": "SW Stats for 1.12",
       "author": "Zerf",
-      "stars": 7,
+      "stars": 6,
       "category": "S",
       "last_commit": "2015-10-09T23:24:23Z",
       "added_at": "0001-01-01T00:00:00Z"
@@ -5174,6 +5183,15 @@
       "category": "S",
       "last_commit": "2017-03-16T16:21:14Z",
       "added_at": "0001-01-01T00:00:00Z"
+    },
+    {
+      "name": "SealTracker",
+      "url": "https://github.com/cryptokn1ght-dev/SealTracker",
+      "description": "SealTracker is a lightweight addon for Turtle WoW that displays your current Paladin seal with a countdown timer in a customizable frame.",
+      "author": "cryptokn1ght-dev",
+      "category": "S",
+      "last_commit": "2026-01-23T02:37:37Z",
+      "added_at": "2026-01-23T03:49:21.675610567Z"
     },
     {
       "name": "SeeThunGroups",
@@ -5560,7 +5578,7 @@
       "url": "https://github.com/tr00dudu/ShieldBuddy",
       "description": "TurtleWoW shields tracker",
       "author": "tr00dudu",
-      "stars": 2,
+      "stars": 3,
       "category": "S",
       "last_commit": "2025-07-23T21:49:15Z",
       "added_at": "0001-01-01T00:00:00Z"
@@ -5822,6 +5840,15 @@
     },
     {
       "name": "SortBags",
+      "url": "https://github.com/Magues17/SortBags",
+      "description": "Bag Sorting addon for Turtle WoW",
+      "author": "Magues17",
+      "category": "S",
+      "last_commit": "2025-11-05T17:12:00Z",
+      "added_at": "2026-01-10T03:42:41.414014379Z"
+    },
+    {
+      "name": "SortBags",
       "url": "https://github.com/shirsig/SortBags",
       "description": "Bag sorting for Classic (1.13) IMPORTANT: If you want buttons get this too: https://github.com/shirsig/Cleanup IMPORTANT: The folder name must be \"SortBags\" IMPORTANT: The Vanilla (1.12) version moved here https://github.com/shirsig/SortBags-vanilla",
       "author": "shirsig",
@@ -5829,15 +5856,6 @@
       "category": "S",
       "last_commit": "2026-01-19T18:32:41Z",
       "added_at": "0001-01-01T00:00:00Z"
-    },
-    {
-      "name": "SortBags",
-      "url": "https://github.com/Magues17/SortBags",
-      "description": "Bag Sorting addon for Turtle WoW",
-      "author": "Magues17",
-      "category": "S",
-      "last_commit": "2025-11-05T17:12:00Z",
-      "added_at": "2026-01-10T03:42:41.414014379Z"
     },
     {
       "name": "SortBags-vanilla",
@@ -5889,22 +5907,22 @@
     },
     {
       "name": "SpamThrottle",
-      "url": "https://github.com/laytya/SpamThrottle",
-      "description": "Vanilla WoW addon to remove unwanted chat messages",
-      "author": "laytya",
-      "stars": 18,
-      "category": "S",
-      "last_commit": "2023-07-26T15:53:58Z",
-      "added_at": "0001-01-01T00:00:00Z"
-    },
-    {
-      "name": "SpamThrottle",
       "url": "https://github.com/Orukxu/SpamThrottle",
       "description": "Vanilla WoW addon to remove unwanted chat messages",
       "author": "Orukxu",
       "stars": 19,
       "category": "S",
       "last_commit": "2019-01-25T18:59:05Z",
+      "added_at": "0001-01-01T00:00:00Z"
+    },
+    {
+      "name": "SpamThrottle",
+      "url": "https://github.com/laytya/SpamThrottle",
+      "description": "Vanilla WoW addon to remove unwanted chat messages",
+      "author": "laytya",
+      "stars": 18,
+      "category": "S",
+      "last_commit": "2023-07-26T15:53:58Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -6098,7 +6116,7 @@
       "author": "jrc13245",
       "stars": 23,
       "category": "Z",
-      "last_commit": "2026-01-21T23:27:54Z",
+      "last_commit": "2026-01-22T22:43:58Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -6363,7 +6381,7 @@
       "url": "https://github.com/MarcelineVQ/TankPlates",
       "description": "tanking plates for superwow",
       "author": "MarcelineVQ",
-      "stars": 22,
+      "stars": 21,
       "category": "Z",
       "last_commit": "2025-08-02T02:13:57Z",
       "added_at": "0001-01-01T00:00:00Z"
@@ -6594,22 +6612,22 @@
     },
     {
       "name": "TotemTimers-Enhanced",
+      "url": "https://github.com/MOUZU/TotemTimers-Enhanced",
+      "description": "World of Warcraft AddOn for 1.12.1 (Vanilla) - keep's track of Shaman's Totems, how long they'll last and now also when their next Tick comes.",
+      "author": "MOUZU",
+      "stars": 8,
+      "category": "T",
+      "last_commit": "2024-06-16T21:26:40Z",
+      "added_at": "0001-01-01T00:00:00Z"
+    },
+    {
+      "name": "TotemTimers-Enhanced",
       "url": "https://github.com/mdmcclel/TotemTimers-Enhanced",
       "description": "World of Warcraft AddOn for 1.12.1 (Vanilla) - keep's track of Shaman's Totems, how long they'll last and now also when their next Tick comes.",
       "author": "mdmcclel",
       "stars": 1,
       "category": "T",
       "last_commit": "2024-11-07T02:26:51Z",
-      "added_at": "0001-01-01T00:00:00Z"
-    },
-    {
-      "name": "TotemTimers-Enhanced",
-      "url": "https://github.com/MOUZU/TotemTimers-Enhanced",
-      "description": "World of Warcraft AddOn for 1.12.1 (Vanilla) - keep's track of Shaman's Totems, how long they'll last and now also when their next Tick comes.",
-      "author": "MOUZU",
-      "stars": 9,
-      "category": "T",
-      "last_commit": "2024-06-16T21:26:40Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -6630,6 +6648,15 @@
       "category": "T",
       "last_commit": "2018-06-25T04:23:52Z",
       "added_at": "0001-01-01T00:00:00Z"
+    },
+    {
+      "name": "ToxicTagger",
+      "url": "https://github.com/dogmax/ToxicTagger",
+      "description": "addon for the tagger macro",
+      "author": "dogmax",
+      "category": "T",
+      "last_commit": "2023-01-19T15:01:59Z",
+      "added_at": "2026-01-23T03:49:21.675610567Z"
     },
     {
       "name": "TrackTarget",
@@ -7151,22 +7178,22 @@
     },
     {
       "name": "VanillaStoryline",
-      "url": "https://github.com/Voidmenull/VanillaStoryline",
-      "description": "Storyline Custom Backport",
-      "author": "Voidmenull",
-      "stars": 14,
-      "category": "V",
-      "last_commit": "2016-05-06T17:00:31Z",
-      "added_at": "0001-01-01T00:00:00Z"
-    },
-    {
-      "name": "VanillaStoryline",
       "url": "https://github.com/tubtubs/VanillaStoryline",
       "description": "Storyline Custom Backport",
       "author": "tubtubs",
       "stars": 12,
       "category": "V",
       "last_commit": "2025-10-28T06:16:08Z",
+      "added_at": "0001-01-01T00:00:00Z"
+    },
+    {
+      "name": "VanillaStoryline",
+      "url": "https://github.com/Voidmenull/VanillaStoryline",
+      "description": "Storyline Custom Backport",
+      "author": "Voidmenull",
+      "stars": 14,
+      "category": "V",
+      "last_commit": "2016-05-06T17:00:31Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -7180,11 +7207,11 @@
     },
     {
       "name": "Vanilla_oCB",
-      "url": "https://github.com/Road-block/Vanilla_oCB",
-      "author": "Road-block",
+      "url": "https://github.com/laytya/Vanilla_oCB",
+      "author": "laytya",
       "stars": 4,
       "category": "O",
-      "last_commit": "2017-12-29T09:53:51Z",
+      "last_commit": "2025-04-09T09:48:08Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -7197,11 +7224,11 @@
     },
     {
       "name": "Vanilla_oCB",
-      "url": "https://github.com/laytya/Vanilla_oCB",
-      "author": "laytya",
+      "url": "https://github.com/Road-block/Vanilla_oCB",
+      "author": "Road-block",
       "stars": 4,
       "category": "O",
-      "last_commit": "2025-04-09T09:48:08Z",
+      "last_commit": "2017-12-29T09:53:51Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -7430,19 +7457,19 @@
     },
     {
       "name": "Wow1.12.1_Addons_Collection",
-      "url": "https://github.com/freadblangks/Wow1.12.1_Addons_Collection",
-      "author": "freadblangks",
-      "category": "Z",
-      "last_commit": "2023-04-04T08:25:27Z",
-      "added_at": "0001-01-01T00:00:00Z"
-    },
-    {
-      "name": "Wow1.12.1_Addons_Collection",
       "url": "https://github.com/crazypoultry/Wow1.12.1_Addons_Collection",
       "author": "crazypoultry",
       "stars": 34,
       "category": "Z",
       "last_commit": "2023-04-04T02:53:08Z",
+      "added_at": "0001-01-01T00:00:00Z"
+    },
+    {
+      "name": "Wow1.12.1_Addons_Collection",
+      "url": "https://github.com/freadblangks/Wow1.12.1_Addons_Collection",
+      "author": "freadblangks",
+      "category": "Z",
+      "last_commit": "2023-04-04T08:25:27Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -7946,7 +7973,7 @@
       "author": "vatichild",
       "stars": 14,
       "category": "G",
-      "last_commit": "2026-01-22T00:18:19Z",
+      "last_commit": "2026-01-22T11:19:41Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -7955,7 +7982,7 @@
       "author": "vatichild",
       "stars": 8,
       "category": "G",
-      "last_commit": "2026-01-21T16:24:20Z",
+      "last_commit": "2026-01-22T21:07:20Z",
       "added_at": "2026-01-09T03:47:44.343941466Z"
     },
     {
@@ -8157,7 +8184,7 @@
       "url": "https://github.com/shagu/pfQuest-icons",
       "description": "An extension for pfQuest to use Gatherer icons on resource nodes",
       "author": "shagu",
-      "stars": 22,
+      "stars": 21,
       "category": "P",
       "last_commit": "2025-07-22T19:14:17Z",
       "added_at": "0001-01-01T00:00:00Z"
