@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "revision": 18,
-  "generated_at": "2026-01-25T03:55:02.446474953Z",
+  "revision": 19,
+  "generated_at": "2026-01-26T03:55:40.652077436Z",
   "source_url": "https://turtle-wow.fandom.com/wiki/Addons",
   "addon_count": 914,
   "addons": [
@@ -12,7 +12,7 @@
       "author": "Flaxic-LUA",
       "stars": 11,
       "category": "Z",
-      "last_commit": "2026-01-24T19:48:58Z",
+      "last_commit": "2026-01-25T16:02:30Z",
       "added_at": "2026-01-09T03:47:44.343941466Z"
     },
     {
@@ -1647,7 +1647,7 @@
       "author": "DeterminedPanda",
       "stars": 19,
       "category": "D",
-      "last_commit": "2026-01-23T19:40:30Z",
+      "last_commit": "2026-01-25T22:18:36Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -1714,7 +1714,7 @@
       "url": "https://github.com/Player-Doite/DoiteAuras",
       "description": "Ability, buff, debuff \u0026 item tracker for Vanilla WoW.",
       "author": "Player-Doite",
-      "stars": 19,
+      "stars": 20,
       "category": "D",
       "last_commit": "2026-01-19T21:04:27Z",
       "added_at": "0001-01-01T00:00:00Z"
@@ -2148,6 +2148,7 @@
       "url": "https://github.com/Draiscor/FishSwap",
       "description": "Vanilla WoW addon for switching to your fishing pole, and caching the current weapons for switching back",
       "author": "Draiscor",
+      "stars": 1,
       "category": "F",
       "last_commit": "2025-12-13T10:56:56Z",
       "added_at": "0001-01-01T00:00:00Z"
@@ -4957,7 +4958,7 @@
       "author": "Otari98",
       "stars": 23,
       "category": "R",
-      "last_commit": "2026-01-17T16:38:32Z",
+      "last_commit": "2026-01-25T11:26:13Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -5061,7 +5062,7 @@
       "url": "https://github.com/Ryac1/Ryac_TW_Steamdeck_UI",
       "description": "Steamdeck UI for TurtleWow and other 1.12 servers with 40+ action buttons",
       "author": "Ryac1",
-      "stars": 36,
+      "stars": 37,
       "category": "Z",
       "last_commit": "2025-07-07T12:55:41Z",
       "added_at": "0001-01-01T00:00:00Z"
@@ -6166,7 +6167,7 @@
       "author": "jrc13245",
       "stars": 23,
       "category": "Z",
-      "last_commit": "2026-01-24T22:10:03Z",
+      "last_commit": "2026-01-25T15:51:25Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -6657,7 +6658,7 @@
       "author": "TheRealFayz",
       "stars": 5,
       "category": "T",
-      "last_commit": "2026-01-25T00:28:21Z",
+      "last_commit": "2026-01-25T18:41:08Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -8032,7 +8033,7 @@
       "author": "vatichild",
       "stars": 8,
       "category": "G",
-      "last_commit": "2026-01-22T21:07:20Z",
+      "last_commit": "2026-01-25T18:03:57Z",
       "added_at": "2026-01-09T03:47:44.343941466Z"
     },
     {
@@ -8096,7 +8097,7 @@
       "url": "https://github.com/tekkub/libdatabroker-1-1",
       "description": "WoW Library - A central registry for addons looking for something to display their data",
       "author": "tekkub",
-      "stars": 58,
+      "stars": 59,
       "category": "Z",
       "last_commit": "2015-09-02T06:38:13Z",
       "added_at": "0001-01-01T00:00:00Z"
@@ -8263,7 +8264,7 @@
       "url": "https://github.com/shagu/pfUI",
       "description": "A User Interface Replacement for World of Warcraft: Vanilla \u0026 TBC",
       "author": "shagu",
-      "stars": 397,
+      "stars": 399,
       "last_commit": "2025-08-28T10:10:44Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
