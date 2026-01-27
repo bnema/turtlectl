@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "revision": 19,
-  "generated_at": "2026-01-26T03:55:40.652077436Z",
+  "revision": 20,
+  "generated_at": "2026-01-27T03:53:00.580937692Z",
   "source_url": "https://turtle-wow.fandom.com/wiki/Addons",
   "addon_count": 914,
   "addons": [
@@ -12,7 +12,7 @@
       "author": "Flaxic-LUA",
       "stars": 11,
       "category": "Z",
-      "last_commit": "2026-01-25T16:02:30Z",
+      "last_commit": "2026-01-27T03:12:47Z",
       "added_at": "2026-01-09T03:47:44.343941466Z"
     },
     {
@@ -136,7 +136,7 @@
       "name": "Akkio_Consume_Helper",
       "url": "https://github.com/prodigystudios/Akkio_Consume_Helper",
       "author": "prodigystudios",
-      "stars": 3,
+      "stars": 4,
       "category": "A",
       "last_commit": "2025-09-27T07:53:47Z",
       "added_at": "0001-01-01T00:00:00Z"
@@ -254,7 +254,7 @@
       "url": "https://github.com/Road-block/AttackBar",
       "description": "Player and Enemy Swing Timer addon (1.12)",
       "author": "Road-block",
-      "stars": 10,
+      "stars": 9,
       "category": "A",
       "last_commit": "2017-02-13T14:23:04Z",
       "added_at": "0001-01-01T00:00:00Z"
@@ -437,7 +437,7 @@
       "url": "https://github.com/0ldi/AutoMessage",
       "description": "Modified version of Addon for World of Warcraft 1.12.1 (Vanilla-Classic-WoW)",
       "author": "0ldi",
-      "stars": 7,
+      "stars": 6,
       "category": "A",
       "last_commit": "2016-11-10T19:14:36Z",
       "added_at": "0001-01-01T00:00:00Z"
@@ -493,9 +493,8 @@
     {
       "name": "AutoTurnIn",
       "url": "https://github.com/Valiusha90/AutoTurnIn",
-      "author": "Valiusha90",
       "category": "A",
-      "last_commit": "2025-12-02T15:09:28Z",
+      "last_commit": "0001-01-01T00:00:00Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -1647,7 +1646,7 @@
       "author": "DeterminedPanda",
       "stars": 19,
       "category": "D",
-      "last_commit": "2026-01-25T22:18:36Z",
+      "last_commit": "2026-01-27T01:15:11Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -1714,7 +1713,7 @@
       "url": "https://github.com/Player-Doite/DoiteAuras",
       "description": "Ability, buff, debuff \u0026 item tracker for Vanilla WoW.",
       "author": "Player-Doite",
-      "stars": 20,
+      "stars": 21,
       "category": "D",
       "last_commit": "2026-01-19T21:04:27Z",
       "added_at": "0001-01-01T00:00:00Z"
@@ -2692,7 +2691,7 @@
       "author": "redshadowz",
       "stars": 3,
       "category": "G",
-      "last_commit": "2026-01-19T11:05:08Z",
+      "last_commit": "2026-01-27T00:39:46Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -3203,7 +3202,7 @@
       "url": "https://github.com/Road-block/ItemsOfPower",
       "description": "Item Stat Valuation Addon (1.12 - Vanilla)",
       "author": "Road-block",
-      "stars": 3,
+      "stars": 2,
       "category": "I",
       "last_commit": "2017-02-07T19:03:51Z",
       "added_at": "0001-01-01T00:00:00Z"
@@ -3747,7 +3746,7 @@
       "url": "https://github.com/EinBaum/Mail",
       "description": "Vanilla WoW Mail AddOn. IMPORTANT: The folder name must be \"Mail\".",
       "author": "EinBaum",
-      "stars": 8,
+      "stars": 7,
       "category": "M",
       "last_commit": "2020-11-03T00:41:07Z",
       "added_at": "0001-01-01T00:00:00Z"
@@ -4107,7 +4106,7 @@
       "url": "https://github.com/goamania/MouseHighlightCircle",
       "description": "MouseHighlightCircle: An addon for Turtle WoW (1.12.1). Adds a pixelated white ring around the mouse cursor (transparent center) to reduce clutter. Ideal for raids and PvP. Use /mhc show to display, /mhc hide to hide. Includes pixelring.tga (32x32). Tested on Turtle WoW. Fork/pull request to contribute! MIT License. Developed by @goamania",
       "author": "goamania",
-      "stars": 5,
+      "stars": 6,
       "category": "M",
       "last_commit": "2025-10-13T17:12:23Z",
       "added_at": "0001-01-01T00:00:00Z"
@@ -4261,7 +4260,7 @@
       "author": "zanthor",
       "stars": 3,
       "category": "O",
-      "last_commit": "2026-01-24T00:12:47Z",
+      "last_commit": "2026-01-27T03:25:48Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -4607,10 +4606,8 @@
     {
       "name": "QuestShell",
       "url": "https://github.com/Valiusha90/QuestShell",
-      "author": "Valiusha90",
-      "stars": 9,
       "category": "Q",
-      "last_commit": "2025-08-20T14:43:05Z",
+      "last_commit": "0001-01-01T00:00:00Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -4686,7 +4683,7 @@
       "url": "https://github.com/SabineWren/Quiver",
       "description": "Hunter addon for World of Warcraft 1.12.1 ",
       "author": "SabineWren",
-      "stars": 51,
+      "stars": 52,
       "category": "Q",
       "last_commit": "2025-11-15T05:16:29Z",
       "added_at": "0001-01-01T00:00:00Z"
@@ -4977,7 +4974,7 @@
       "description": "Plays roar-guild emotes from multiple independently configured action slots. GodBod: Triggers healthy micro-exercises from action slots. Combined single addon, independent functionality.",
       "author": "Morkahja",
       "category": "R",
-      "last_commit": "2026-01-24T22:14:53Z",
+      "last_commit": "2026-01-26T13:10:38Z",
       "added_at": "2026-01-19T03:54:21.561835163Z"
     },
     {
@@ -5600,7 +5597,7 @@
       "url": "https://github.com/WouterBink/ShamanFix",
       "description": "Small AddOn for WoW 1.12.1 that changes the shaman class colour to blue.",
       "author": "WouterBink",
-      "stars": 3,
+      "stars": 2,
       "category": "S",
       "last_commit": "2018-05-10T16:52:43Z",
       "added_at": "0001-01-01T00:00:00Z"
@@ -5884,7 +5881,7 @@
       "url": "https://github.com/refaim/SoloRaidTargetIcons",
       "description": "Vanilla WoW 1.12.1 and Turtle WoW addon. Allows to use raid target icons through default Blizzard UI while playing solo.",
       "author": "refaim",
-      "stars": 9,
+      "stars": 10,
       "category": "Z",
       "last_commit": "2025-05-31T19:18:11Z",
       "added_at": "0001-01-01T00:00:00Z"
@@ -6167,7 +6164,7 @@
       "author": "jrc13245",
       "stars": 23,
       "category": "Z",
-      "last_commit": "2026-01-25T15:51:25Z",
+      "last_commit": "2026-01-26T20:18:32Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -6658,7 +6655,7 @@
       "author": "TheRealFayz",
       "stars": 5,
       "category": "T",
-      "last_commit": "2026-01-25T18:41:08Z",
+      "last_commit": "2026-01-26T05:06:42Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -6999,7 +6996,7 @@
       "url": "https://github.com/jrc13245/UltimaMacros",
       "description": "A lightweight, self-contained macro system for **World of Warcraft 1.12.1**.   Provides its own macro storage (up to **2056 characters** per macro) and an in-game editor with per-character or account-wide scope.",
       "author": "jrc13245",
-      "stars": 4,
+      "stars": 3,
       "category": "U",
       "last_commit": "2025-10-15T21:07:56Z",
       "added_at": "2026-01-13T03:46:51.216106279Z"
@@ -8264,7 +8261,7 @@
       "url": "https://github.com/shagu/pfUI",
       "description": "A User Interface Replacement for World of Warcraft: Vanilla \u0026 TBC",
       "author": "shagu",
-      "stars": 399,
+      "stars": 401,
       "last_commit": "2025-08-28T10:10:44Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
@@ -8320,7 +8317,7 @@
       "url": "https://github.com/Bombg/pfUI-bettertotems",
       "description": "pfUI's totem module with some extra features",
       "author": "Bombg",
-      "stars": 3,
+      "stars": 2,
       "category": "P",
       "last_commit": "2025-08-29T14:16:51Z",
       "added_at": "0001-01-01T00:00:00Z"
@@ -8376,7 +8373,7 @@
       "name": "pfUI-turtle",
       "url": "https://github.com/doorknob6/pfUI-turtle",
       "author": "doorknob6",
-      "stars": 32,
+      "stars": 33,
       "last_commit": "2025-09-15T05:41:52Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
@@ -8737,7 +8734,7 @@
       "url": "https://github.com/Ko0z/zUI",
       "description": "This WoW vanilla addon aims to preserve the blizzard look/design but with a modern touch, some quality of life features and as lightweight as possible.",
       "author": "Ko0z",
-      "stars": 67,
+      "stars": 68,
       "category": "Z",
       "last_commit": "2025-08-24T16:31:31Z",
       "added_at": "0001-01-01T00:00:00Z"
