@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "revision": 20,
-  "generated_at": "2026-01-27T03:53:00.580937692Z",
+  "revision": 21,
+  "generated_at": "2026-01-28T03:51:32.148405873Z",
   "source_url": "https://turtle-wow.fandom.com/wiki/Addons",
   "addon_count": 914,
   "addons": [
@@ -12,7 +12,7 @@
       "author": "Flaxic-LUA",
       "stars": 11,
       "category": "Z",
-      "last_commit": "2026-01-27T03:12:47Z",
+      "last_commit": "2026-01-27T11:51:27Z",
       "added_at": "2026-01-09T03:47:44.343941466Z"
     },
     {
@@ -493,8 +493,9 @@
     {
       "name": "AutoTurnIn",
       "url": "https://github.com/Valiusha90/AutoTurnIn",
+      "author": "Valiusha90",
       "category": "A",
-      "last_commit": "0001-01-01T00:00:00Z",
+      "last_commit": "2026-01-27T23:11:14Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -1644,7 +1645,7 @@
       "url": "https://github.com/DeterminedPanda/DifficultBulletinBoard",
       "description": "LFG Bulletin Board for Turtle WoW",
       "author": "DeterminedPanda",
-      "stars": 19,
+      "stars": 20,
       "category": "D",
       "last_commit": "2026-01-27T01:15:11Z",
       "added_at": "0001-01-01T00:00:00Z"
@@ -1713,7 +1714,7 @@
       "url": "https://github.com/Player-Doite/DoiteAuras",
       "description": "Ability, buff, debuff \u0026 item tracker for Vanilla WoW.",
       "author": "Player-Doite",
-      "stars": 21,
+      "stars": 20,
       "category": "D",
       "last_commit": "2026-01-19T21:04:27Z",
       "added_at": "0001-01-01T00:00:00Z"
@@ -2100,7 +2101,7 @@
       "description": "An addon for WoW 1.12.1 to fade in/out UI-elements in combat",
       "author": "NiclasEriksen",
       "category": "F",
-      "last_commit": "2026-01-19T02:05:09Z",
+      "last_commit": "2026-01-27T15:46:55Z",
       "added_at": "2026-01-20T03:50:45.55001845Z"
     },
     {
@@ -2691,7 +2692,7 @@
       "author": "redshadowz",
       "stars": 3,
       "category": "G",
-      "last_commit": "2026-01-27T00:39:46Z",
+      "last_commit": "2026-01-28T03:24:33Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -4260,7 +4261,7 @@
       "author": "zanthor",
       "stars": 3,
       "category": "O",
-      "last_commit": "2026-01-27T03:25:48Z",
+      "last_commit": "2026-01-28T00:16:10Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -4606,8 +4607,10 @@
     {
       "name": "QuestShell",
       "url": "https://github.com/Valiusha90/QuestShell",
+      "author": "Valiusha90",
+      "stars": 1,
       "category": "Q",
-      "last_commit": "0001-01-01T00:00:00Z",
+      "last_commit": "2026-01-27T23:08:57Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -4685,7 +4688,7 @@
       "author": "SabineWren",
       "stars": 52,
       "category": "Q",
-      "last_commit": "2025-11-15T05:16:29Z",
+      "last_commit": "2026-01-28T03:37:55Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -4974,7 +4977,7 @@
       "description": "Plays roar-guild emotes from multiple independently configured action slots. GodBod: Triggers healthy micro-exercises from action slots. Combined single addon, independent functionality.",
       "author": "Morkahja",
       "category": "R",
-      "last_commit": "2026-01-26T13:10:38Z",
+      "last_commit": "2026-01-28T02:08:36Z",
       "added_at": "2026-01-19T03:54:21.561835163Z"
     },
     {
@@ -5643,6 +5646,7 @@
       "url": "https://github.com/ShikawaLePaladin/ShikaSwap",
       "description": "🛡️ShikaSwap is an addon for World of Warcraft 1.12 (Vanilla/Turtle WoW) that automatically equips the correct libram when you cast Paladin spells.",
       "author": "ShikawaLePaladin",
+      "stars": 1,
       "category": "S",
       "last_commit": "2025-12-12T08:46:36Z",
       "added_at": "2026-01-13T03:46:51.216106279Z"
@@ -6164,7 +6168,7 @@
       "author": "jrc13245",
       "stars": 23,
       "category": "Z",
-      "last_commit": "2026-01-26T20:18:32Z",
+      "last_commit": "2026-01-27T22:39:09Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -8261,7 +8265,7 @@
       "url": "https://github.com/shagu/pfUI",
       "description": "A User Interface Replacement for World of Warcraft: Vanilla \u0026 TBC",
       "author": "shagu",
-      "stars": 401,
+      "stars": 402,
       "last_commit": "2025-08-28T10:10:44Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
