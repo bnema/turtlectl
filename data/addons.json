@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "revision": 21,
-  "generated_at": "2026-01-28T03:51:32.148405873Z",
+  "revision": 22,
+  "generated_at": "2026-01-29T03:57:48.586424857Z",
   "source_url": "https://turtle-wow.fandom.com/wiki/Addons",
   "addon_count": 914,
   "addons": [
@@ -1426,7 +1426,7 @@
       "author": "pepordev",
       "stars": 12,
       "category": "C",
-      "last_commit": "2026-01-24T18:14:35Z",
+      "last_commit": "2026-01-28T08:45:56Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -2601,7 +2601,7 @@
       "author": "McPewPew",
       "stars": 7,
       "category": "G",
-      "last_commit": "2025-02-08T08:27:01Z",
+      "last_commit": "2026-01-28T21:43:55Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -2692,7 +2692,7 @@
       "author": "redshadowz",
       "stars": 3,
       "category": "G",
-      "last_commit": "2026-01-28T03:24:33Z",
+      "last_commit": "2026-01-28T22:45:11Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -4261,7 +4261,7 @@
       "author": "zanthor",
       "stars": 3,
       "category": "O",
-      "last_commit": "2026-01-28T00:16:10Z",
+      "last_commit": "2026-01-29T00:30:14Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -4977,7 +4977,7 @@
       "description": "Plays roar-guild emotes from multiple independently configured action slots. GodBod: Triggers healthy micro-exercises from action slots. Combined single addon, independent functionality.",
       "author": "Morkahja",
       "category": "R",
-      "last_commit": "2026-01-28T02:08:36Z",
+      "last_commit": "2026-01-29T00:37:02Z",
       "added_at": "2026-01-19T03:54:21.561835163Z"
     },
     {
@@ -5062,7 +5062,7 @@
       "url": "https://github.com/Ryac1/Ryac_TW_Steamdeck_UI",
       "description": "Steamdeck UI for TurtleWow and other 1.12 servers with 40+ action buttons",
       "author": "Ryac1",
-      "stars": 37,
+      "stars": 38,
       "category": "Z",
       "last_commit": "2025-07-07T12:55:41Z",
       "added_at": "0001-01-01T00:00:00Z"
@@ -6168,7 +6168,7 @@
       "author": "jrc13245",
       "stars": 23,
       "category": "Z",
-      "last_commit": "2026-01-27T22:39:09Z",
+      "last_commit": "2026-01-28T19:08:16Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -7328,7 +7328,7 @@
       "url": "https://github.com/Fiurs-Hearth/WIIIUI",
       "description": "A Warcraft III UI addon for vanilla WoW",
       "author": "Fiurs-Hearth",
-      "stars": 78,
+      "stars": 79,
       "last_commit": "2025-09-06T00:05:44Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
