@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "revision": 22,
-  "generated_at": "2026-01-29T03:57:48.586424857Z",
+  "revision": 23,
+  "generated_at": "2026-01-30T03:57:39.979344901Z",
   "source_url": "https://turtle-wow.fandom.com/wiki/Addons",
   "addon_count": 914,
   "addons": [
@@ -12,7 +12,7 @@
       "author": "Flaxic-LUA",
       "stars": 11,
       "category": "Z",
-      "last_commit": "2026-01-27T11:51:27Z",
+      "last_commit": "2026-01-30T03:43:53Z",
       "added_at": "2026-01-09T03:47:44.343941466Z"
     },
     {
@@ -1647,7 +1647,7 @@
       "author": "DeterminedPanda",
       "stars": 20,
       "category": "D",
-      "last_commit": "2026-01-27T01:15:11Z",
+      "last_commit": "2026-01-30T01:24:24Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -2601,7 +2601,7 @@
       "author": "McPewPew",
       "stars": 7,
       "category": "G",
-      "last_commit": "2026-01-28T21:43:55Z",
+      "last_commit": "2026-01-29T12:16:38Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -2692,7 +2692,7 @@
       "author": "redshadowz",
       "stars": 3,
       "category": "G",
-      "last_commit": "2026-01-28T22:45:11Z",
+      "last_commit": "2026-01-29T07:22:17Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -3416,7 +3416,7 @@
       "author": "Carravan",
       "stars": 3,
       "category": "Z",
-      "last_commit": "2025-12-31T16:51:22Z",
+      "last_commit": "2026-01-29T22:30:02Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -3433,7 +3433,7 @@
       "name": "LazyScript",
       "url": "https://github.com/laytya/LazyScript",
       "author": "laytya",
-      "stars": 32,
+      "stars": 33,
       "category": "L",
       "last_commit": "2025-04-19T09:07:06Z",
       "added_at": "0001-01-01T00:00:00Z"
@@ -4261,7 +4261,7 @@
       "author": "zanthor",
       "stars": 3,
       "category": "O",
-      "last_commit": "2026-01-29T00:30:14Z",
+      "last_commit": "2026-01-30T02:37:31Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -4977,7 +4977,7 @@
       "description": "Plays roar-guild emotes from multiple independently configured action slots. GodBod: Triggers healthy micro-exercises from action slots. Combined single addon, independent functionality.",
       "author": "Morkahja",
       "category": "R",
-      "last_commit": "2026-01-29T00:37:02Z",
+      "last_commit": "2026-01-30T01:00:04Z",
       "added_at": "2026-01-19T03:54:21.561835163Z"
     },
     {
@@ -5277,7 +5277,7 @@
       "url": "https://github.com/anzz1/SellValue",
       "description": "Adds vendor prices to tooltips for vanilla WoW (1.12.1)",
       "author": "anzz1",
-      "stars": 5,
+      "stars": 6,
       "category": "S",
       "last_commit": "2023-12-20T11:43:57Z",
       "added_at": "0001-01-01T00:00:00Z"
@@ -5553,7 +5553,7 @@
       "url": "https://github.com/shagu/ShaguTweaks-extras",
       "description": "Some extra modules and features for the ShaguTweaks addon.",
       "author": "shagu",
-      "stars": 22,
+      "stars": 23,
       "last_commit": "2025-08-15T14:37:21Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
