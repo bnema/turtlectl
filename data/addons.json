@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "revision": 24,
-  "generated_at": "2026-01-31T03:56:59.720913419Z",
+  "revision": 25,
+  "generated_at": "2026-02-01T04:10:56.067404165Z",
   "source_url": "https://turtle-wow.fandom.com/wiki/Addons",
   "addon_count": 915,
   "addons": [
@@ -246,7 +246,7 @@
       "description": "Overview: Atlas‑TW is a dungeon map browser with an integrated loot panel and quests module. It is compatible with World of Warcraft 1.12 and includes localization support.",
       "author": "byCFM2",
       "stars": 11,
-      "last_commit": "2026-01-19T22:15:59Z",
+      "last_commit": "2026-01-31T17:09:11Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -1426,7 +1426,7 @@
       "author": "pepordev",
       "stars": 12,
       "category": "C",
-      "last_commit": "2026-01-30T17:23:17Z",
+      "last_commit": "2026-01-31T08:14:19Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -2692,7 +2692,7 @@
       "author": "redshadowz",
       "stars": 3,
       "category": "G",
-      "last_commit": "2026-01-30T22:22:07Z",
+      "last_commit": "2026-02-01T01:29:02Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -2720,7 +2720,7 @@
       "author": "JeromeM",
       "stars": 1,
       "category": "G",
-      "last_commit": "2026-01-30T22:28:52Z",
+      "last_commit": "2026-01-31T12:56:58Z",
       "added_at": "2026-01-31T03:56:59.720913419Z"
     },
     {
@@ -4264,7 +4264,7 @@
       "author": "zanthor",
       "stars": 3,
       "category": "O",
-      "last_commit": "2026-01-31T01:01:34Z",
+      "last_commit": "2026-01-31T18:47:01Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -6171,7 +6171,7 @@
       "author": "jrc13245",
       "stars": 23,
       "category": "Z",
-      "last_commit": "2026-01-31T03:04:46Z",
+      "last_commit": "2026-02-01T01:08:34Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -8523,7 +8523,7 @@
       "description": "Git-based advanced Vanilla WoW AddOn Manager",
       "author": "refaim",
       "stars": 19,
-      "last_commit": "2025-02-16T06:38:00Z",
+      "last_commit": "2026-01-31T15:35:44Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
