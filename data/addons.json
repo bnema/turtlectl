@@ -1,9 +1,9 @@
 {
   "version": 1,
-  "revision": 27,
-  "generated_at": "2026-02-03T04:01:16.609393504Z",
+  "revision": 28,
+  "generated_at": "2026-02-04T04:00:23.712775613Z",
   "source_url": "https://turtle-wow.fandom.com/wiki/Addons",
-  "addon_count": 914,
+  "addon_count": 916,
   "addons": [
     {
       "name": "-Dragonflight3",
@@ -35,6 +35,15 @@
     },
     {
       "name": "Accountant",
+      "url": "https://github.com/terdong/Accountant",
+      "description": "Accountant tracks you incoming / outgoing cash.",
+      "author": "terdong",
+      "category": "A",
+      "last_commit": "2025-12-26T07:02:25Z",
+      "added_at": "2026-01-10T03:42:41.414014379Z"
+    },
+    {
+      "name": "Accountant",
       "url": "https://github.com/wow-vanilla-addons/Accountant",
       "description": "Accountant tracks you incoming / outgoing cash.",
       "author": "wow-vanilla-addons",
@@ -42,15 +51,6 @@
       "category": "A",
       "last_commit": "2016-04-24T21:45:51Z",
       "added_at": "0001-01-01T00:00:00Z"
-    },
-    {
-      "name": "Accountant",
-      "url": "https://github.com/terdong/Accountant",
-      "description": "Accountant tracks you incoming / outgoing cash.",
-      "author": "terdong",
-      "category": "A",
-      "last_commit": "2025-12-26T07:02:25Z",
-      "added_at": "2026-01-10T03:42:41.414014379Z"
     },
     {
       "name": "Ace2",
@@ -143,22 +143,22 @@
     },
     {
       "name": "Altoholic_Vanilla",
-      "url": "https://github.com/gbl/Altoholic_Vanilla",
-      "description": "Altoholic for Vanilla WoW 1.12 - backported from version 2.4.015 originally written by Thaoky, forked from nehswu, with some bug fixes",
-      "author": "gbl",
-      "stars": 3,
-      "category": "A",
-      "last_commit": "2025-11-06T09:02:53Z",
-      "added_at": "0001-01-01T00:00:00Z"
-    },
-    {
-      "name": "Altoholic_Vanilla",
       "url": "https://github.com/nehswu/Altoholic_Vanilla",
       "description": "Altoholic for Vanilla WoW 1.12 - backported from version 2.4.015 originally written by Thaoky",
       "author": "nehswu",
       "stars": 5,
       "category": "A",
       "last_commit": "2023-06-13T03:25:22Z",
+      "added_at": "0001-01-01T00:00:00Z"
+    },
+    {
+      "name": "Altoholic_Vanilla",
+      "url": "https://github.com/gbl/Altoholic_Vanilla",
+      "description": "Altoholic for Vanilla WoW 1.12 - backported from version 2.4.015 originally written by Thaoky, forked from nehswu, with some bug fixes",
+      "author": "gbl",
+      "stars": 3,
+      "category": "A",
+      "last_commit": "2025-11-06T09:02:53Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -411,6 +411,16 @@
       "category": "A",
       "last_commit": "2025-04-29T01:26:42Z",
       "added_at": "0001-01-01T00:00:00Z"
+    },
+    {
+      "name": "AutoManaPlus",
+      "url": "https://github.com/TheRealFayz/AutoManaPlus",
+      "description": "An addon to manage your mana consuming in Turtle WoW",
+      "author": "TheRealFayz",
+      "stars": 1,
+      "category": "A",
+      "last_commit": "2026-02-04T03:55:10Z",
+      "added_at": "2026-02-04T04:00:23.712775613Z"
     },
     {
       "name": "AutoMarker",
@@ -674,7 +684,7 @@
       "author": "pepopo978",
       "stars": 24,
       "category": "B",
-      "last_commit": "2025-12-05T19:49:38Z",
+      "last_commit": "2026-02-04T01:49:55Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -1403,21 +1413,21 @@
     },
     {
       "name": "Comix",
+      "url": "https://github.com/Cysthen/Comix",
+      "description": "2012 Comix from Feenix. Mostly Edited by Susangrundle and myself from the Guild Chainpull",
+      "author": "Cysthen",
+      "category": "C",
+      "last_commit": "2025-02-07T23:36:24Z",
+      "added_at": "0001-01-01T00:00:00Z"
+    },
+    {
+      "name": "Comix",
       "url": "https://github.com/Goose404/Comix",
       "description": "comix addon for wow client 1.12 and turtlewow twow",
       "author": "Goose404",
       "stars": 1,
       "category": "C",
       "last_commit": "2025-04-26T20:25:08Z",
-      "added_at": "0001-01-01T00:00:00Z"
-    },
-    {
-      "name": "Comix",
-      "url": "https://github.com/Cysthen/Comix",
-      "description": "2012 Comix from Feenix. Mostly Edited by Susangrundle and myself from the Guild Chainpull",
-      "author": "Cysthen",
-      "category": "C",
-      "last_commit": "2025-02-07T23:36:24Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -2106,6 +2116,16 @@
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
+      "name": "FastTOT",
+      "url": "https://github.com/OldManAlpha/FastTOT",
+      "description": "Increases performance of Target of Target in WoW 1.12",
+      "author": "OldManAlpha",
+      "stars": 2,
+      "category": "Z",
+      "last_commit": "2026-02-02T01:40:47Z",
+      "added_at": "2026-02-04T04:00:23.712775613Z"
+    },
+    {
       "name": "Feid",
       "url": "https://github.com/NiclasEriksen/Feid",
       "description": "An addon for WoW 1.12.1 to fade in/out UI-elements in combat",
@@ -2720,7 +2740,7 @@
       "author": "redshadowz",
       "stars": 3,
       "category": "G",
-      "last_commit": "2026-02-02T01:59:38Z",
+      "last_commit": "2026-02-03T09:37:18Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -2748,7 +2768,7 @@
       "author": "JeromeM",
       "stars": 1,
       "category": "G",
-      "last_commit": "2026-02-02T21:50:06Z",
+      "last_commit": "2026-02-03T21:41:16Z",
       "added_at": "2026-01-31T03:56:59.720913419Z"
     },
     {
@@ -3306,21 +3326,21 @@
     },
     {
       "name": "KillCounter",
-      "url": "https://github.com/bucketss/KillCounter",
-      "description": "kill counter for WoW vanilla client 1.12",
-      "author": "bucketss",
-      "category": "K",
-      "last_commit": "2025-10-29T22:20:35Z",
-      "added_at": "0001-01-01T00:00:00Z"
-    },
-    {
-      "name": "KillCounter",
       "url": "https://github.com/FrostShock/KillCounter",
       "description": "Vanilla WoW (1.12.1) addon for counting kills",
       "author": "FrostShock",
       "stars": 1,
       "category": "K",
       "last_commit": "2022-04-20T03:46:08Z",
+      "added_at": "0001-01-01T00:00:00Z"
+    },
+    {
+      "name": "KillCounter",
+      "url": "https://github.com/bucketss/KillCounter",
+      "description": "kill counter for WoW vanilla client 1.12",
+      "author": "bucketss",
+      "category": "K",
+      "last_commit": "2025-10-29T22:20:35Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -3812,19 +3832,19 @@
     },
     {
       "name": "MasterTradeSkills",
+      "url": "https://github.com/ImmortalSom/MasterTradeSkills",
+      "category": "M",
+      "last_commit": "0001-01-01T00:00:00Z",
+      "added_at": "0001-01-01T00:00:00Z"
+    },
+    {
+      "name": "MasterTradeSkills",
       "url": "https://github.com/refaim/MasterTradeSkills",
       "description": "Vanilla WoW 1.12.1 and Turtle WoW addon. Adds trade skill information to tooltips of ingredients.",
       "author": "refaim",
       "stars": 19,
       "category": "M",
       "last_commit": "2025-12-21T08:40:16Z",
-      "added_at": "0001-01-01T00:00:00Z"
-    },
-    {
-      "name": "MasterTradeSkills",
-      "url": "https://github.com/ImmortalSom/MasterTradeSkills",
-      "category": "M",
-      "last_commit": "0001-01-01T00:00:00Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -3946,21 +3966,21 @@
     },
     {
       "name": "MobHealth",
-      "url": "https://github.com/FrostShock/MobHealth",
-      "description": "Displays health values.",
-      "author": "FrostShock",
-      "category": "M",
-      "last_commit": "2021-09-15T08:58:55Z",
-      "added_at": "0001-01-01T00:00:00Z"
-    },
-    {
-      "name": "MobHealth",
       "url": "https://github.com/kc8pnd/MobHealth",
       "description": "Displays health values.",
       "author": "kc8pnd",
       "stars": 3,
       "category": "M",
       "last_commit": "2016-12-21T00:19:17Z",
+      "added_at": "0001-01-01T00:00:00Z"
+    },
+    {
+      "name": "MobHealth",
+      "url": "https://github.com/FrostShock/MobHealth",
+      "description": "Displays health values.",
+      "author": "FrostShock",
+      "category": "M",
+      "last_commit": "2021-09-15T08:58:55Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -4267,7 +4287,7 @@
       "author": "zanthor",
       "stars": 3,
       "category": "O",
-      "last_commit": "2026-02-03T03:09:34Z",
+      "last_commit": "2026-02-04T03:22:02Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -4824,22 +4844,22 @@
     },
     {
       "name": "Rank14losSA",
-      "url": "https://github.com/Fiskehatt/Rank14losSA",
-      "description": "An addon that verbally warns you when an enemy uses an important spell (e.g. blind, shield wall, reflector, etc.). Original author: Nogall.",
-      "author": "Fiskehatt",
-      "stars": 7,
-      "category": "R",
-      "last_commit": "2017-06-14T16:46:46Z",
-      "added_at": "0001-01-01T00:00:00Z"
-    },
-    {
-      "name": "Rank14losSA",
       "url": "https://github.com/me0wg4ming/Rank14losSA",
       "description": "An addon that verbally warns you when an enemy uses an important spell (e.g. blind, shield wall, reflector, etc.). Original author: Nogall.",
       "author": "me0wg4ming",
       "stars": 2,
       "category": "Z",
       "last_commit": "2026-01-12T04:00:01Z",
+      "added_at": "0001-01-01T00:00:00Z"
+    },
+    {
+      "name": "Rank14losSA",
+      "url": "https://github.com/Fiskehatt/Rank14losSA",
+      "description": "An addon that verbally warns you when an enemy uses an important spell (e.g. blind, shield wall, reflector, etc.). Original author: Nogall.",
+      "author": "Fiskehatt",
+      "stars": 7,
+      "category": "R",
+      "last_commit": "2017-06-14T16:46:46Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -5975,22 +5995,22 @@
     },
     {
       "name": "SpamThrottle",
-      "url": "https://github.com/Orukxu/SpamThrottle",
-      "description": "Vanilla WoW addon to remove unwanted chat messages",
-      "author": "Orukxu",
-      "stars": 19,
-      "category": "S",
-      "last_commit": "2019-01-25T18:59:05Z",
-      "added_at": "0001-01-01T00:00:00Z"
-    },
-    {
-      "name": "SpamThrottle",
       "url": "https://github.com/laytya/SpamThrottle",
       "description": "Vanilla WoW addon to remove unwanted chat messages",
       "author": "laytya",
       "stars": 18,
       "category": "S",
       "last_commit": "2023-07-26T15:53:58Z",
+      "added_at": "0001-01-01T00:00:00Z"
+    },
+    {
+      "name": "SpamThrottle",
+      "url": "https://github.com/Orukxu/SpamThrottle",
+      "description": "Vanilla WoW addon to remove unwanted chat messages",
+      "author": "Orukxu",
+      "stars": 19,
+      "category": "S",
+      "last_commit": "2019-01-25T18:59:05Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -6184,7 +6204,7 @@
       "author": "jrc13245",
       "stars": 23,
       "category": "Z",
-      "last_commit": "2026-02-03T03:58:47Z",
+      "last_commit": "2026-02-03T04:07:35Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -6214,7 +6234,7 @@
       "author": "balakethelock",
       "stars": 141,
       "category": "Z",
-      "last_commit": "2025-10-25T09:04:04Z",
+      "last_commit": "2026-02-03T20:37:17Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -6222,9 +6242,9 @@
       "url": "https://github.com/pepopo978/SuperWowCombatLogger",
       "description": "Improved combat log, requires https://github.com/balakethelock/SuperWoW",
       "author": "pepopo978",
-      "stars": 13,
+      "stars": 14,
       "category": "Z",
-      "last_commit": "2026-01-06T18:07:02Z",
+      "last_commit": "2026-02-03T23:55:56Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -6680,22 +6700,22 @@
     },
     {
       "name": "TotemTimers-Enhanced",
-      "url": "https://github.com/MOUZU/TotemTimers-Enhanced",
-      "description": "World of Warcraft AddOn for 1.12.1 (Vanilla) - keep's track of Shaman's Totems, how long they'll last and now also when their next Tick comes.",
-      "author": "MOUZU",
-      "stars": 8,
-      "category": "T",
-      "last_commit": "2024-06-16T21:26:40Z",
-      "added_at": "0001-01-01T00:00:00Z"
-    },
-    {
-      "name": "TotemTimers-Enhanced",
       "url": "https://github.com/mdmcclel/TotemTimers-Enhanced",
       "description": "World of Warcraft AddOn for 1.12.1 (Vanilla) - keep's track of Shaman's Totems, how long they'll last and now also when their next Tick comes.",
       "author": "mdmcclel",
       "stars": 1,
       "category": "T",
       "last_commit": "2024-11-07T02:26:51Z",
+      "added_at": "0001-01-01T00:00:00Z"
+    },
+    {
+      "name": "TotemTimers-Enhanced",
+      "url": "https://github.com/MOUZU/TotemTimers-Enhanced",
+      "description": "World of Warcraft AddOn for 1.12.1 (Vanilla) - keep's track of Shaman's Totems, how long they'll last and now also when their next Tick comes.",
+      "author": "MOUZU",
+      "stars": 8,
+      "category": "T",
+      "last_commit": "2024-06-16T21:26:40Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -7014,7 +7034,7 @@
     {
       "name": "UltimaMacros",
       "url": "https://github.com/jrc13245/UltimaMacros",
-      "description": "A lightweight, self-contained macro system for **World of Warcraft 1.12.1**.   Provides its own macro storage (up to **2056 characters** per macro) and an in-game editor with per-character or account-wide scope.",
+      "description": "A lightweight, self-contained macro system for **World of Warcraft 1.12.1**.   Provides its own macro storage (up to **7000 characters** per macro) and an in-game editor with per-character or account-wide scope.",
       "author": "jrc13245",
       "stars": 3,
       "category": "U",
@@ -7202,7 +7222,7 @@
       "author": "DonutsDelivery",
       "stars": 1,
       "category": "V",
-      "last_commit": "2026-01-19T17:35:24Z",
+      "last_commit": "2026-02-03T22:08:15Z",
       "added_at": "2026-01-19T03:54:21.561835163Z"
     },
     {
@@ -7284,19 +7304,19 @@
     },
     {
       "name": "Vanilla_oCB",
+      "url": "https://github.com/martinjlowm/Vanilla_oCB",
+      "author": "martinjlowm",
+      "category": "O",
+      "last_commit": "2017-03-26T15:14:21Z",
+      "added_at": "0001-01-01T00:00:00Z"
+    },
+    {
+      "name": "Vanilla_oCB",
       "url": "https://github.com/laytya/Vanilla_oCB",
       "author": "laytya",
       "stars": 4,
       "category": "O",
       "last_commit": "2025-04-09T09:48:08Z",
-      "added_at": "0001-01-01T00:00:00Z"
-    },
-    {
-      "name": "Vanilla_oCB",
-      "url": "https://github.com/martinjlowm/Vanilla_oCB",
-      "author": "martinjlowm",
-      "category": "O",
-      "last_commit": "2017-03-26T15:14:21Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -7526,6 +7546,15 @@
     },
     {
       "name": "Wow1.12.1_Addons_Collection",
+      "url": "https://github.com/aim2kill/Wow1.12.1_Addons_Collection",
+      "author": "aim2kill",
+      "stars": 1,
+      "category": "Z",
+      "last_commit": "2019-04-27T02:56:04Z",
+      "added_at": "0001-01-01T00:00:00Z"
+    },
+    {
+      "name": "Wow1.12.1_Addons_Collection",
       "url": "https://github.com/freadblangks/Wow1.12.1_Addons_Collection",
       "author": "freadblangks",
       "category": "Z",
@@ -7539,15 +7568,6 @@
       "stars": 34,
       "category": "Z",
       "last_commit": "2023-04-04T02:53:08Z",
-      "added_at": "0001-01-01T00:00:00Z"
-    },
-    {
-      "name": "Wow1.12.1_Addons_Collection",
-      "url": "https://github.com/aim2kill/Wow1.12.1_Addons_Collection",
-      "author": "aim2kill",
-      "stars": 1,
-      "category": "Z",
-      "last_commit": "2019-04-27T02:56:04Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -7715,16 +7735,6 @@
     },
     {
       "name": "aDF",
-      "url": "https://github.com/Autignem/aDF",
-      "description": "continuation and update of the adf addom in TWoW",
-      "author": "Autignem",
-      "stars": 1,
-      "category": "A",
-      "last_commit": "2026-01-01T21:13:58Z",
-      "added_at": "2026-01-18T03:51:58.977057594Z"
-    },
-    {
-      "name": "aDF",
       "url": "https://github.com/MarcelineVQ/aDF",
       "description": "A World of Warcraft 1.12 AddOn that tracks certain debuffs on your target",
       "author": "MarcelineVQ",
@@ -7732,6 +7742,16 @@
       "category": "Z",
       "last_commit": "2024-07-17T02:35:59Z",
       "added_at": "0001-01-01T00:00:00Z"
+    },
+    {
+      "name": "aDF",
+      "url": "https://github.com/Autignem/aDF",
+      "description": "continuation and update of the adf addom in TWoW",
+      "author": "Autignem",
+      "stars": 1,
+      "category": "A",
+      "last_commit": "2026-01-01T21:13:58Z",
+      "added_at": "2026-01-18T03:51:58.977057594Z"
     },
     {
       "name": "ag_UnitFrames_Improved",
@@ -8185,22 +8205,22 @@
     },
     {
       "name": "necrosis-twow",
-      "url": "https://github.com/Nedlinin/necrosis-twow",
-      "description": "1.5.2a fork of Necrosis addon for Turtle WoW",
-      "author": "Nedlinin",
-      "stars": 1,
-      "category": "N",
-      "last_commit": "2025-12-03T21:28:24Z",
-      "added_at": "0001-01-01T00:00:00Z"
-    },
-    {
-      "name": "necrosis-twow",
       "url": "https://github.com/pylebecq/necrosis-twow",
       "description": "1.5.2a fork of Necrosis addon for Turtle WoW",
       "author": "pylebecq",
       "stars": 1,
       "category": "N",
       "last_commit": "2026-01-17T11:30:23Z",
+      "added_at": "0001-01-01T00:00:00Z"
+    },
+    {
+      "name": "necrosis-twow",
+      "url": "https://github.com/Nedlinin/necrosis-twow",
+      "description": "1.5.2a fork of Necrosis addon for Turtle WoW",
+      "author": "Nedlinin",
+      "stars": 1,
+      "category": "N",
+      "last_commit": "2025-12-03T21:28:24Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -8545,21 +8565,21 @@
     },
     {
       "name": "sorgis_raid_marks",
+      "url": "https://github.com/MarcelineVQ/sorgis_raid_marks",
+      "description": "raid mark targeting and assigning addon for vanilla wow client",
+      "author": "MarcelineVQ",
+      "category": "Z",
+      "last_commit": "2025-02-24T02:38:48Z",
+      "added_at": "0001-01-01T00:00:00Z"
+    },
+    {
+      "name": "sorgis_raid_marks",
       "url": "https://github.com/sorgis-sorgis/sorgis_raid_marks",
       "description": "raid mark targeting and assigning addon for the vanilla (1.12) World of Warcraft client",
       "author": "sorgis-sorgis",
       "stars": 1,
       "category": "S",
       "last_commit": "2025-02-05T09:11:42Z",
-      "added_at": "0001-01-01T00:00:00Z"
-    },
-    {
-      "name": "sorgis_raid_marks",
-      "url": "https://github.com/MarcelineVQ/sorgis_raid_marks",
-      "description": "raid mark targeting and assigning addon for vanilla wow client",
-      "author": "MarcelineVQ",
-      "category": "Z",
-      "last_commit": "2025-02-24T02:38:48Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
