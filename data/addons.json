@@ -1,16 +1,16 @@
 {
   "version": 1,
-  "revision": 28,
-  "generated_at": "2026-02-04T04:00:23.712775613Z",
+  "revision": 29,
+  "generated_at": "2026-02-05T04:01:08.211081897Z",
   "source_url": "https://turtle-wow.fandom.com/wiki/Addons",
-  "addon_count": 916,
+  "addon_count": 917,
   "addons": [
     {
       "name": "-Dragonflight3",
       "url": "https://github.com/Flaxic-LUA/-Dragonflight3",
       "description": "A new UI for 1.12.1",
       "author": "Flaxic-LUA",
-      "stars": 13,
+      "stars": 14,
       "category": "Z",
       "last_commit": "2026-01-30T03:43:53Z",
       "added_at": "2026-01-09T03:47:44.343941466Z"
@@ -419,7 +419,7 @@
       "author": "TheRealFayz",
       "stars": 1,
       "category": "A",
-      "last_commit": "2026-02-04T03:55:10Z",
+      "last_commit": "2026-02-04T04:35:36Z",
       "added_at": "2026-02-04T04:00:23.712775613Z"
     },
     {
@@ -684,7 +684,7 @@
       "author": "pepopo978",
       "stars": 24,
       "category": "B",
-      "last_commit": "2026-02-04T01:49:55Z",
+      "last_commit": "2026-02-04T15:17:00Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -1344,6 +1344,15 @@
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
+      "name": "CliffTells",
+      "url": "https://github.com/ItsLusse/CliffTells",
+      "description": "An addon for Turtle-Wow HC that announces when a guild member dies, levels up, becomes Immortal, or enters the Inferno challenge, and keeps logs of these events.",
+      "author": "ItsLusse",
+      "category": "C",
+      "last_commit": "2025-01-13T15:43:46Z",
+      "added_at": "2026-02-05T04:01:08.211081897Z"
+    },
+    {
       "name": "Clique",
       "url": "https://github.com/shagu/Clique",
       "description": "Simply powerful click-casting interface - by Cladhaire",
@@ -1734,9 +1743,9 @@
       "url": "https://github.com/Player-Doite/DoiteAuras",
       "description": "Ability, buff, debuff \u0026 item tracker for Vanilla WoW.",
       "author": "Player-Doite",
-      "stars": 20,
+      "stars": 21,
       "category": "D",
-      "last_commit": "2026-01-19T21:04:27Z",
+      "last_commit": "2026-02-04T16:41:32Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -2740,7 +2749,7 @@
       "author": "redshadowz",
       "stars": 3,
       "category": "G",
-      "last_commit": "2026-02-03T09:37:18Z",
+      "last_commit": "2026-02-05T03:11:06Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -2768,7 +2777,7 @@
       "author": "JeromeM",
       "stars": 1,
       "category": "G",
-      "last_commit": "2026-02-03T21:41:16Z",
+      "last_commit": "2026-02-04T18:09:18Z",
       "added_at": "2026-01-31T03:56:59.720913419Z"
     },
     {
@@ -3832,19 +3841,19 @@
     },
     {
       "name": "MasterTradeSkills",
-      "url": "https://github.com/ImmortalSom/MasterTradeSkills",
-      "category": "M",
-      "last_commit": "0001-01-01T00:00:00Z",
-      "added_at": "0001-01-01T00:00:00Z"
-    },
-    {
-      "name": "MasterTradeSkills",
       "url": "https://github.com/refaim/MasterTradeSkills",
       "description": "Vanilla WoW 1.12.1 and Turtle WoW addon. Adds trade skill information to tooltips of ingredients.",
       "author": "refaim",
       "stars": 19,
       "category": "M",
       "last_commit": "2025-12-21T08:40:16Z",
+      "added_at": "0001-01-01T00:00:00Z"
+    },
+    {
+      "name": "MasterTradeSkills",
+      "url": "https://github.com/ImmortalSom/MasterTradeSkills",
+      "category": "M",
+      "last_commit": "0001-01-01T00:00:00Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -4030,7 +4039,7 @@
       "author": "refaim",
       "stars": 6,
       "category": "M",
-      "last_commit": "2025-08-16T05:32:18Z",
+      "last_commit": "2026-02-04T16:01:22Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -4287,7 +4296,7 @@
       "author": "zanthor",
       "stars": 3,
       "category": "O",
-      "last_commit": "2026-02-04T03:22:02Z",
+      "last_commit": "2026-02-04T22:01:50Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -4340,21 +4349,21 @@
     },
     {
       "name": "Outfitter",
-      "url": "https://github.com/pepopo978/Outfitter",
-      "author": "pepopo978",
-      "stars": 11,
-      "category": "O",
-      "last_commit": "2025-12-30T19:59:40Z",
-      "added_at": "0001-01-01T00:00:00Z"
-    },
-    {
-      "name": "Outfitter",
       "url": "https://github.com/MarcelineVQ/Outfitter",
       "description": "fix for Turtle WoW - Riding Turtle Mount",
       "author": "MarcelineVQ",
       "stars": 2,
       "category": "O",
       "last_commit": "2025-09-01T01:34:54Z",
+      "added_at": "0001-01-01T00:00:00Z"
+    },
+    {
+      "name": "Outfitter",
+      "url": "https://github.com/pepopo978/Outfitter",
+      "author": "pepopo978",
+      "stars": 11,
+      "category": "O",
+      "last_commit": "2025-12-30T19:59:40Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -4844,22 +4853,22 @@
     },
     {
       "name": "Rank14losSA",
-      "url": "https://github.com/me0wg4ming/Rank14losSA",
-      "description": "An addon that verbally warns you when an enemy uses an important spell (e.g. blind, shield wall, reflector, etc.). Original author: Nogall.",
-      "author": "me0wg4ming",
-      "stars": 2,
-      "category": "Z",
-      "last_commit": "2026-01-12T04:00:01Z",
-      "added_at": "0001-01-01T00:00:00Z"
-    },
-    {
-      "name": "Rank14losSA",
       "url": "https://github.com/Fiskehatt/Rank14losSA",
       "description": "An addon that verbally warns you when an enemy uses an important spell (e.g. blind, shield wall, reflector, etc.). Original author: Nogall.",
       "author": "Fiskehatt",
       "stars": 7,
       "category": "R",
       "last_commit": "2017-06-14T16:46:46Z",
+      "added_at": "0001-01-01T00:00:00Z"
+    },
+    {
+      "name": "Rank14losSA",
+      "url": "https://github.com/me0wg4ming/Rank14losSA",
+      "description": "An addon that verbally warns you when an enemy uses an important spell (e.g. blind, shield wall, reflector, etc.). Original author: Nogall.",
+      "author": "me0wg4ming",
+      "stars": 2,
+      "category": "Z",
+      "last_commit": "2026-01-12T04:00:01Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -5134,22 +5143,22 @@
     },
     {
       "name": "SP_SwingTimer",
-      "url": "https://github.com/MarcelineVQ/SP_SwingTimer",
-      "description": "Auto-Attack Swing Timer",
-      "author": "MarcelineVQ",
-      "stars": 11,
-      "category": "Z",
-      "last_commit": "2025-05-22T02:21:46Z",
-      "added_at": "0001-01-01T00:00:00Z"
-    },
-    {
-      "name": "SP_SwingTimer",
       "url": "https://github.com/balakethelock/SP_SwingTimer",
       "description": "WoW 1.12.1 Addon: Auto Attack Swing Timer",
       "author": "balakethelock",
       "stars": 8,
       "category": "S",
       "last_commit": "2025-01-13T17:15:15Z",
+      "added_at": "0001-01-01T00:00:00Z"
+    },
+    {
+      "name": "SP_SwingTimer",
+      "url": "https://github.com/MarcelineVQ/SP_SwingTimer",
+      "description": "Auto-Attack Swing Timer",
+      "author": "MarcelineVQ",
+      "stars": 11,
+      "category": "Z",
+      "last_commit": "2025-05-22T02:21:46Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -6056,7 +6065,7 @@
       "url": "https://github.com/sica42/Speedometer",
       "description": "Shows your current running speed",
       "author": "sica42",
-      "stars": 1,
+      "stars": 2,
       "category": "S",
       "last_commit": "2025-10-26T22:23:09Z",
       "added_at": "0001-01-01T00:00:00Z"
@@ -6204,7 +6213,7 @@
       "author": "jrc13245",
       "stars": 23,
       "category": "Z",
-      "last_commit": "2026-02-03T04:07:35Z",
+      "last_commit": "2026-02-04T22:34:08Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -6251,7 +6260,7 @@
       "name": "SuperwowInstallation",
       "url": "https://github.com/pepopo978/SuperwowInstallation",
       "author": "pepopo978",
-      "stars": 16,
+      "stars": 17,
       "category": "Z",
       "last_commit": "2025-08-04T17:15:17Z",
       "added_at": "0001-01-01T00:00:00Z"
@@ -7180,7 +7189,7 @@
       "url": "https://github.com/refaim/Vanilla-WoW-1.12-Addon-Development-Libraries-Archive",
       "description": "Curated collection of addon libraries for World of Warcraft 1.12 (Vanilla) developers. This repository hosts dozens of essential libraries gathered from various archives and addon collections, aimed at supporting and enhancing addon development for vanilla WoW. Not the author, just a curator preserving these valuable resources for the community.",
       "author": "refaim",
-      "stars": 11,
+      "stars": 12,
       "category": "Z",
       "last_commit": "2024-10-06T11:36:21Z",
       "added_at": "0001-01-01T00:00:00Z"
@@ -7222,7 +7231,7 @@
       "author": "DonutsDelivery",
       "stars": 1,
       "category": "V",
-      "last_commit": "2026-02-03T22:08:15Z",
+      "last_commit": "2026-02-04T07:30:14Z",
       "added_at": "2026-01-19T03:54:21.561835163Z"
     },
     {
@@ -7364,7 +7373,7 @@
       "url": "https://github.com/Fiurs-Hearth/WIIIUI",
       "description": "A Warcraft III UI addon for vanilla WoW",
       "author": "Fiurs-Hearth",
-      "stars": 79,
+      "stars": 80,
       "last_commit": "2025-09-06T00:05:44Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
