@@ -1,9 +1,9 @@
 {
   "version": 1,
-  "revision": 29,
-  "generated_at": "2026-02-05T04:01:08.211081897Z",
+  "revision": 30,
+  "generated_at": "2026-02-06T04:01:22.768648805Z",
   "source_url": "https://turtle-wow.fandom.com/wiki/Addons",
-  "addon_count": 917,
+  "addon_count": 918,
   "addons": [
     {
       "name": "-Dragonflight3",
@@ -209,6 +209,15 @@
       "category": "A",
       "last_commit": "2025-11-18T05:34:38Z",
       "added_at": "0001-01-01T00:00:00Z"
+    },
+    {
+      "name": "ArcaneSurgeWarning",
+      "url": "https://github.com/AllinGaming/ArcaneSurgeWarning",
+      "description": "addon designed to track the activation and deactivation of the \"Arcane Surge\" spell. It displays a warning icon when the spell is active, along with a countdown timer.",
+      "author": "AllinGaming",
+      "category": "A",
+      "last_commit": "2025-02-18T17:06:00Z",
+      "added_at": "2026-02-06T04:01:22.768648805Z"
     },
     {
       "name": "Arcanum",
@@ -703,7 +712,7 @@
       "author": "tlplayer",
       "stars": 3,
       "category": "B",
-      "last_commit": "2026-02-03T01:54:41Z",
+      "last_commit": "2026-02-05T04:29:47Z",
       "added_at": "2026-02-03T04:01:16.609393504Z"
     },
     {
@@ -767,22 +776,22 @@
     },
     {
       "name": "Bongos",
-      "url": "https://github.com/jacamo555/Bongos",
-      "description": "Vanilla WoW 1.12.1 Action Bars (With Experience Bar included)",
-      "author": "jacamo555",
-      "stars": 1,
-      "category": "B",
-      "last_commit": "2021-11-04T14:35:33Z",
-      "added_at": "0001-01-01T00:00:00Z"
-    },
-    {
-      "name": "Bongos",
       "url": "https://github.com/UndercityAddons-Vanilla/Bongos",
       "description": "Create customized action bars.",
       "author": "UndercityAddons-Vanilla",
       "stars": 5,
       "category": "B",
       "last_commit": "2018-04-11T14:47:52Z",
+      "added_at": "0001-01-01T00:00:00Z"
+    },
+    {
+      "name": "Bongos",
+      "url": "https://github.com/jacamo555/Bongos",
+      "description": "Vanilla WoW 1.12.1 Action Bars (With Experience Bar included)",
+      "author": "jacamo555",
+      "stars": 1,
+      "category": "B",
+      "last_commit": "2021-11-04T14:35:33Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -1422,21 +1431,21 @@
     },
     {
       "name": "Comix",
-      "url": "https://github.com/Cysthen/Comix",
-      "description": "2012 Comix from Feenix. Mostly Edited by Susangrundle and myself from the Guild Chainpull",
-      "author": "Cysthen",
-      "category": "C",
-      "last_commit": "2025-02-07T23:36:24Z",
-      "added_at": "0001-01-01T00:00:00Z"
-    },
-    {
-      "name": "Comix",
       "url": "https://github.com/Goose404/Comix",
       "description": "comix addon for wow client 1.12 and turtlewow twow",
       "author": "Goose404",
       "stars": 1,
       "category": "C",
       "last_commit": "2025-04-26T20:25:08Z",
+      "added_at": "0001-01-01T00:00:00Z"
+    },
+    {
+      "name": "Comix",
+      "url": "https://github.com/Cysthen/Comix",
+      "description": "2012 Comix from Feenix. Mostly Edited by Susangrundle and myself from the Guild Chainpull",
+      "author": "Cysthen",
+      "category": "C",
+      "last_commit": "2025-02-07T23:36:24Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -1453,7 +1462,7 @@
       "url": "https://github.com/pepordev/ConsoleExperienceClassic",
       "description": "Wow Classic (1.12) Console Experience (Gamepad support) compatible with TurtleWoW",
       "author": "pepordev",
-      "stars": 13,
+      "stars": 14,
       "category": "C",
       "last_commit": "2026-01-31T08:14:19Z",
       "added_at": "0001-01-01T00:00:00Z"
@@ -1674,9 +1683,9 @@
       "url": "https://github.com/DeterminedPanda/DifficultBulletinBoard",
       "description": "LFG Bulletin Board for Turtle WoW",
       "author": "DeterminedPanda",
-      "stars": 20,
+      "stars": 21,
       "category": "D",
-      "last_commit": "2026-01-31T02:12:08Z",
+      "last_commit": "2026-02-06T01:21:53Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -1743,9 +1752,9 @@
       "url": "https://github.com/Player-Doite/DoiteAuras",
       "description": "Ability, buff, debuff \u0026 item tracker for Vanilla WoW.",
       "author": "Player-Doite",
-      "stars": 21,
+      "stars": 22,
       "category": "D",
-      "last_commit": "2026-02-04T16:41:32Z",
+      "last_commit": "2026-02-05T21:41:03Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -2693,6 +2702,13 @@
     },
     {
       "name": "GrimoireKeeper",
+      "url": "https://gitlab.com/Artur91425/GrimoireKeeper",
+      "category": "G",
+      "last_commit": "0001-01-01T00:00:00Z",
+      "added_at": "0001-01-01T00:00:00Z"
+    },
+    {
+      "name": "GrimoireKeeper",
       "url": "https://github.com/Scoboose/GrimoireKeeper",
       "author": "Scoboose",
       "category": "G",
@@ -2707,13 +2723,6 @@
       "stars": 1,
       "category": "G",
       "last_commit": "2019-08-23T20:35:34Z",
-      "added_at": "0001-01-01T00:00:00Z"
-    },
-    {
-      "name": "GrimoireKeeper",
-      "url": "https://gitlab.com/Artur91425/GrimoireKeeper",
-      "category": "G",
-      "last_commit": "0001-01-01T00:00:00Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -2749,7 +2758,7 @@
       "author": "redshadowz",
       "stars": 3,
       "category": "G",
-      "last_commit": "2026-02-05T03:11:06Z",
+      "last_commit": "2026-02-05T18:00:43Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -2777,7 +2786,7 @@
       "author": "JeromeM",
       "stars": 1,
       "category": "G",
-      "last_commit": "2026-02-04T18:09:18Z",
+      "last_commit": "2026-02-05T21:36:22Z",
       "added_at": "2026-01-31T03:56:59.720913419Z"
     },
     {
@@ -2915,7 +2924,7 @@
       "url": "https://github.com/Timanaku/HasteDisplay",
       "author": "Timanaku",
       "category": "H",
-      "last_commit": "2026-01-05T13:28:04Z",
+      "last_commit": "2026-02-05T13:55:07Z",
       "added_at": "2026-01-18T03:51:58.977057594Z"
     },
     {
@@ -4296,7 +4305,7 @@
       "author": "zanthor",
       "stars": 3,
       "category": "O",
-      "last_commit": "2026-02-04T22:01:50Z",
+      "last_commit": "2026-02-05T15:22:12Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -4349,21 +4358,21 @@
     },
     {
       "name": "Outfitter",
+      "url": "https://github.com/pepopo978/Outfitter",
+      "author": "pepopo978",
+      "stars": 11,
+      "category": "O",
+      "last_commit": "2025-12-30T19:59:40Z",
+      "added_at": "0001-01-01T00:00:00Z"
+    },
+    {
+      "name": "Outfitter",
       "url": "https://github.com/MarcelineVQ/Outfitter",
       "description": "fix for Turtle WoW - Riding Turtle Mount",
       "author": "MarcelineVQ",
       "stars": 2,
       "category": "O",
       "last_commit": "2025-09-01T01:34:54Z",
-      "added_at": "0001-01-01T00:00:00Z"
-    },
-    {
-      "name": "Outfitter",
-      "url": "https://github.com/pepopo978/Outfitter",
-      "author": "pepopo978",
-      "stars": 11,
-      "category": "O",
-      "last_commit": "2025-12-30T19:59:40Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -5143,16 +5152,6 @@
     },
     {
       "name": "SP_SwingTimer",
-      "url": "https://github.com/balakethelock/SP_SwingTimer",
-      "description": "WoW 1.12.1 Addon: Auto Attack Swing Timer",
-      "author": "balakethelock",
-      "stars": 8,
-      "category": "S",
-      "last_commit": "2025-01-13T17:15:15Z",
-      "added_at": "0001-01-01T00:00:00Z"
-    },
-    {
-      "name": "SP_SwingTimer",
       "url": "https://github.com/MarcelineVQ/SP_SwingTimer",
       "description": "Auto-Attack Swing Timer",
       "author": "MarcelineVQ",
@@ -5162,13 +5161,13 @@
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
-      "name": "SUCC-bag",
-      "url": "https://github.com/FrostShock/SUCC-bag",
-      "description": "Sublime User Convenience Collection - player inventory and bank",
-      "author": "FrostShock",
-      "stars": 1,
+      "name": "SP_SwingTimer",
+      "url": "https://github.com/balakethelock/SP_SwingTimer",
+      "description": "WoW 1.12.1 Addon: Auto Attack Swing Timer",
+      "author": "balakethelock",
+      "stars": 8,
       "category": "S",
-      "last_commit": "2021-10-27T17:25:05Z",
+      "last_commit": "2025-01-13T17:15:15Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -5179,6 +5178,16 @@
       "stars": 3,
       "category": "S",
       "last_commit": "2025-10-07T17:26:20Z",
+      "added_at": "0001-01-01T00:00:00Z"
+    },
+    {
+      "name": "SUCC-bag",
+      "url": "https://github.com/FrostShock/SUCC-bag",
+      "description": "Sublime User Convenience Collection - player inventory and bank",
+      "author": "FrostShock",
+      "stars": 1,
+      "category": "S",
+      "last_commit": "2021-10-27T17:25:05Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -5379,21 +5388,21 @@
     },
     {
       "name": "ShaguClock",
+      "url": "https://github.com/FrostShock/ShaguClock",
+      "description": "A Vanilla and TBC Addon that draws a simple movable clock on the screen",
+      "author": "FrostShock",
+      "category": "S",
+      "last_commit": "2021-05-17T04:30:54Z",
+      "added_at": "0001-01-01T00:00:00Z"
+    },
+    {
+      "name": "ShaguClock",
       "url": "https://github.com/shagu/ShaguClock",
       "description": "A Vanilla and TBC Addon that draws a simple movable clock on the screen",
       "author": "shagu",
       "stars": 5,
       "category": "S",
       "last_commit": "2020-09-20T14:21:48Z",
-      "added_at": "0001-01-01T00:00:00Z"
-    },
-    {
-      "name": "ShaguClock",
-      "url": "https://github.com/FrostShock/ShaguClock",
-      "description": "A Vanilla and TBC Addon that draws a simple movable clock on the screen",
-      "author": "FrostShock",
-      "category": "S",
-      "last_commit": "2021-05-17T04:30:54Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -5937,6 +5946,15 @@
     },
     {
       "name": "SortBags",
+      "url": "https://github.com/Magues17/SortBags",
+      "description": "Bag Sorting addon for Turtle WoW",
+      "author": "Magues17",
+      "category": "S",
+      "last_commit": "2025-11-05T17:12:00Z",
+      "added_at": "2026-01-10T03:42:41.414014379Z"
+    },
+    {
+      "name": "SortBags",
       "url": "https://github.com/shirsig/SortBags",
       "description": "Bag sorting for Classic (1.13) IMPORTANT: If you want buttons get this too: https://github.com/shirsig/Cleanup IMPORTANT: The folder name must be \"SortBags\" IMPORTANT: The Vanilla (1.12) version moved here https://github.com/shirsig/SortBags-vanilla",
       "author": "shirsig",
@@ -5944,15 +5962,6 @@
       "category": "S",
       "last_commit": "2026-01-19T18:32:41Z",
       "added_at": "0001-01-01T00:00:00Z"
-    },
-    {
-      "name": "SortBags",
-      "url": "https://github.com/Magues17/SortBags",
-      "description": "Bag Sorting addon for Turtle WoW",
-      "author": "Magues17",
-      "category": "S",
-      "last_commit": "2025-11-05T17:12:00Z",
-      "added_at": "2026-01-10T03:42:41.414014379Z"
     },
     {
       "name": "SortBags-vanilla",
@@ -6213,7 +6222,7 @@
       "author": "jrc13245",
       "stars": 23,
       "category": "Z",
-      "last_commit": "2026-02-04T22:34:08Z",
+      "last_commit": "2026-02-06T00:33:15Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -8048,21 +8057,21 @@
     },
     {
       "name": "enemyFrames",
+      "url": "https://github.com/byCFM2/enemyFrames",
+      "description": "1.12.1 addon to display enemy players on BGs",
+      "author": "byCFM2",
+      "category": "E",
+      "last_commit": "2025-10-12T16:17:58Z",
+      "added_at": "0001-01-01T00:00:00Z"
+    },
+    {
+      "name": "enemyFrames",
       "url": "https://github.com/zetone/enemyFrames",
       "description": "1.12.1 addon to display enemy players on BGs",
       "author": "zetone",
       "stars": 22,
       "category": "E",
       "last_commit": "2019-02-16T02:25:03Z",
-      "added_at": "0001-01-01T00:00:00Z"
-    },
-    {
-      "name": "enemyFrames",
-      "url": "https://github.com/byCFM2/enemyFrames",
-      "description": "1.12.1 addon to display enemy players on BGs",
-      "author": "byCFM2",
-      "category": "E",
-      "last_commit": "2025-10-12T16:17:58Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -8214,22 +8223,22 @@
     },
     {
       "name": "necrosis-twow",
-      "url": "https://github.com/pylebecq/necrosis-twow",
-      "description": "1.5.2a fork of Necrosis addon for Turtle WoW",
-      "author": "pylebecq",
-      "stars": 1,
-      "category": "N",
-      "last_commit": "2026-01-17T11:30:23Z",
-      "added_at": "0001-01-01T00:00:00Z"
-    },
-    {
-      "name": "necrosis-twow",
       "url": "https://github.com/Nedlinin/necrosis-twow",
       "description": "1.5.2a fork of Necrosis addon for Turtle WoW",
       "author": "Nedlinin",
       "stars": 1,
       "category": "N",
       "last_commit": "2025-12-03T21:28:24Z",
+      "added_at": "0001-01-01T00:00:00Z"
+    },
+    {
+      "name": "necrosis-twow",
+      "url": "https://github.com/pylebecq/necrosis-twow",
+      "description": "1.5.2a fork of Necrosis addon for Turtle WoW",
+      "author": "pylebecq",
+      "stars": 1,
+      "category": "N",
+      "last_commit": "2026-01-17T11:30:23Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
