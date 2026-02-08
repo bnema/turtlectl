@@ -1,16 +1,16 @@
 {
   "version": 1,
-  "revision": 31,
-  "generated_at": "2026-02-07T03:57:31.717390219Z",
+  "revision": 32,
+  "generated_at": "2026-02-08T04:12:28.12244099Z",
   "source_url": "https://turtle-wow.fandom.com/wiki/Addons",
-  "addon_count": 919,
+  "addon_count": 920,
   "addons": [
     {
       "name": "-Dragonflight3",
       "url": "https://github.com/Flaxic-LUA/-Dragonflight3",
       "description": "A new UI for 1.12.1",
       "author": "Flaxic-LUA",
-      "stars": 14,
+      "stars": 15,
       "category": "Z",
       "last_commit": "2026-01-30T03:43:53Z",
       "added_at": "2026-01-09T03:47:44.343941466Z"
@@ -255,7 +255,7 @@
       "description": "Overview: Atlas‑TW is a dungeon map browser with an integrated loot panel and quests module. It is compatible with World of Warcraft 1.12 and includes localization support.",
       "author": "byCFM2",
       "stars": 11,
-      "last_commit": "2026-02-02T21:58:21Z",
+      "last_commit": "2026-02-07T22:23:03Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -712,7 +712,7 @@
       "author": "tlplayer",
       "stars": 3,
       "category": "B",
-      "last_commit": "2026-02-07T02:23:22Z",
+      "last_commit": "2026-02-08T02:21:46Z",
       "added_at": "2026-02-03T04:01:16.609393504Z"
     },
     {
@@ -1685,7 +1685,7 @@
       "author": "DeterminedPanda",
       "stars": 21,
       "category": "D",
-      "last_commit": "2026-02-06T15:03:36Z",
+      "last_commit": "2026-02-07T23:29:17Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -1791,7 +1791,7 @@
       "url": "https://github.com/gashole/DruidManaBar",
       "description": "DruidManaBar AddOn for WoW 1.12",
       "author": "gashole",
-      "stars": 12,
+      "stars": 13,
       "category": "D",
       "last_commit": "2025-08-17T06:38:28Z",
       "added_at": "0001-01-01T00:00:00Z"
@@ -2239,14 +2239,14 @@
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
-      "name": "FlightPath-Turtle",
-      "url": "https://github.com/tilare/FlightPath-Turtle",
+      "name": "FlightTracker",
+      "url": "https://github.com/tilare/FlightTracker",
       "description": "Flight timer addon for 1.12.1",
       "author": "tilare",
       "stars": 6,
       "category": "F",
-      "last_commit": "2025-09-05T12:17:08Z",
-      "added_at": "0001-01-01T00:00:00Z"
+      "last_commit": "2026-02-07T06:08:35Z",
+      "added_at": "2026-02-08T04:12:28.12244099Z"
     },
     {
       "name": "FlyerTimer",
@@ -2702,13 +2702,6 @@
     },
     {
       "name": "GrimoireKeeper",
-      "url": "https://gitlab.com/Artur91425/GrimoireKeeper",
-      "category": "G",
-      "last_commit": "0001-01-01T00:00:00Z",
-      "added_at": "0001-01-01T00:00:00Z"
-    },
-    {
-      "name": "GrimoireKeeper",
       "url": "https://github.com/Scoboose/GrimoireKeeper",
       "author": "Scoboose",
       "category": "G",
@@ -2723,6 +2716,13 @@
       "stars": 1,
       "category": "G",
       "last_commit": "2019-08-23T20:35:34Z",
+      "added_at": "0001-01-01T00:00:00Z"
+    },
+    {
+      "name": "GrimoireKeeper",
+      "url": "https://gitlab.com/Artur91425/GrimoireKeeper",
+      "category": "G",
+      "last_commit": "0001-01-01T00:00:00Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -2759,7 +2759,7 @@
       "author": "redshadowz",
       "stars": 3,
       "category": "G",
-      "last_commit": "2026-02-07T02:05:08Z",
+      "last_commit": "2026-02-08T02:34:25Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -2785,9 +2785,9 @@
       "url": "https://github.com/JeromeM/GuidelimeVanilla",
       "description": "Total rewrite of the Guidelime addon which is not compatible with 1.12",
       "author": "JeromeM",
-      "stars": 1,
+      "stars": 2,
       "category": "G",
-      "last_commit": "2026-02-06T21:14:29Z",
+      "last_commit": "2026-02-07T21:09:22Z",
       "added_at": "2026-01-31T03:56:59.720913419Z"
     },
     {
@@ -3851,19 +3851,19 @@
     },
     {
       "name": "MasterTradeSkills",
+      "url": "https://github.com/ImmortalSom/MasterTradeSkills",
+      "category": "M",
+      "last_commit": "0001-01-01T00:00:00Z",
+      "added_at": "0001-01-01T00:00:00Z"
+    },
+    {
+      "name": "MasterTradeSkills",
       "url": "https://github.com/refaim/MasterTradeSkills",
       "description": "Vanilla WoW 1.12.1 and Turtle WoW addon. Adds trade skill information to tooltips of ingredients.",
       "author": "refaim",
       "stars": 19,
       "category": "M",
       "last_commit": "2025-12-21T08:40:16Z",
-      "added_at": "0001-01-01T00:00:00Z"
-    },
-    {
-      "name": "MasterTradeSkills",
-      "url": "https://github.com/ImmortalSom/MasterTradeSkills",
-      "category": "M",
-      "last_commit": "0001-01-01T00:00:00Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -3985,21 +3985,21 @@
     },
     {
       "name": "MobHealth",
+      "url": "https://github.com/FrostShock/MobHealth",
+      "description": "Displays health values.",
+      "author": "FrostShock",
+      "category": "M",
+      "last_commit": "2021-09-15T08:58:55Z",
+      "added_at": "0001-01-01T00:00:00Z"
+    },
+    {
+      "name": "MobHealth",
       "url": "https://github.com/kc8pnd/MobHealth",
       "description": "Displays health values.",
       "author": "kc8pnd",
       "stars": 3,
       "category": "M",
       "last_commit": "2016-12-21T00:19:17Z",
-      "added_at": "0001-01-01T00:00:00Z"
-    },
-    {
-      "name": "MobHealth",
-      "url": "https://github.com/FrostShock/MobHealth",
-      "description": "Displays health values.",
-      "author": "FrostShock",
-      "category": "M",
-      "last_commit": "2021-09-15T08:58:55Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -4087,7 +4087,7 @@
       "description": "Places markers on the world map to show the locations of dungeons, raids, and world bosses",
       "author": "tilare",
       "stars": 21,
-      "last_commit": "2026-01-20T01:22:36Z",
+      "last_commit": "2026-02-07T06:38:14Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -4174,6 +4174,15 @@
       "category": "M",
       "last_commit": "2025-01-16T07:14:51Z",
       "added_at": "0001-01-01T00:00:00Z"
+    },
+    {
+      "name": "MovementTracker",
+      "url": "https://github.com/tilare/MovementTracker",
+      "description": "Tracks time and distance spent running on foot and while mounted.",
+      "author": "tilare",
+      "category": "M",
+      "last_commit": "2026-02-07T04:49:30Z",
+      "added_at": "2026-02-08T04:12:28.12244099Z"
     },
     {
       "name": "MrPlow",
@@ -4306,7 +4315,7 @@
       "author": "zanthor",
       "stars": 3,
       "category": "O",
-      "last_commit": "2026-02-07T00:48:46Z",
+      "last_commit": "2026-02-07T04:09:00Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -4743,7 +4752,7 @@
       "author": "SabineWren",
       "stars": 52,
       "category": "Q",
-      "last_commit": "2026-02-02T07:58:53Z",
+      "last_commit": "2026-02-08T03:13:21Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -5032,7 +5041,7 @@
       "description": "Plays roar-guild emotes from multiple independently configured action slots. GodBod: Triggers healthy micro-exercises from action slots. Combined single addon, independent functionality.",
       "author": "Morkahja",
       "category": "R",
-      "last_commit": "2026-01-30T23:56:32Z",
+      "last_commit": "2026-02-07T13:07:54Z",
       "added_at": "2026-01-19T03:54:21.561835163Z"
     },
     {
@@ -5153,16 +5162,6 @@
     },
     {
       "name": "SP_SwingTimer",
-      "url": "https://github.com/MarcelineVQ/SP_SwingTimer",
-      "description": "Auto-Attack Swing Timer",
-      "author": "MarcelineVQ",
-      "stars": 11,
-      "category": "Z",
-      "last_commit": "2025-05-22T02:21:46Z",
-      "added_at": "0001-01-01T00:00:00Z"
-    },
-    {
-      "name": "SP_SwingTimer",
       "url": "https://github.com/balakethelock/SP_SwingTimer",
       "description": "WoW 1.12.1 Addon: Auto Attack Swing Timer",
       "author": "balakethelock",
@@ -5172,13 +5171,13 @@
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
-      "name": "SUCC-bag",
-      "url": "https://github.com/Otari98/SUCC-bag",
-      "description": "Sublime User Convenience Collection - player inventory and bank",
-      "author": "Otari98",
-      "stars": 3,
-      "category": "S",
-      "last_commit": "2025-10-07T17:26:20Z",
+      "name": "SP_SwingTimer",
+      "url": "https://github.com/MarcelineVQ/SP_SwingTimer",
+      "description": "Auto-Attack Swing Timer",
+      "author": "MarcelineVQ",
+      "stars": 11,
+      "category": "Z",
+      "last_commit": "2025-05-22T02:21:46Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -5189,6 +5188,16 @@
       "stars": 1,
       "category": "S",
       "last_commit": "2021-10-27T17:25:05Z",
+      "added_at": "0001-01-01T00:00:00Z"
+    },
+    {
+      "name": "SUCC-bag",
+      "url": "https://github.com/Otari98/SUCC-bag",
+      "description": "Sublime User Convenience Collection - player inventory and bank",
+      "author": "Otari98",
+      "stars": 3,
+      "category": "S",
+      "last_commit": "2025-10-07T17:26:20Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -5389,21 +5398,21 @@
     },
     {
       "name": "ShaguClock",
-      "url": "https://github.com/FrostShock/ShaguClock",
-      "description": "A Vanilla and TBC Addon that draws a simple movable clock on the screen",
-      "author": "FrostShock",
-      "category": "S",
-      "last_commit": "2021-05-17T04:30:54Z",
-      "added_at": "0001-01-01T00:00:00Z"
-    },
-    {
-      "name": "ShaguClock",
       "url": "https://github.com/shagu/ShaguClock",
       "description": "A Vanilla and TBC Addon that draws a simple movable clock on the screen",
       "author": "shagu",
       "stars": 5,
       "category": "S",
       "last_commit": "2020-09-20T14:21:48Z",
+      "added_at": "0001-01-01T00:00:00Z"
+    },
+    {
+      "name": "ShaguClock",
+      "url": "https://github.com/FrostShock/ShaguClock",
+      "description": "A Vanilla and TBC Addon that draws a simple movable clock on the screen",
+      "author": "FrostShock",
+      "category": "S",
+      "last_commit": "2021-05-17T04:30:54Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -5947,15 +5956,6 @@
     },
     {
       "name": "SortBags",
-      "url": "https://github.com/Magues17/SortBags",
-      "description": "Bag Sorting addon for Turtle WoW",
-      "author": "Magues17",
-      "category": "S",
-      "last_commit": "2025-11-05T17:12:00Z",
-      "added_at": "2026-01-10T03:42:41.414014379Z"
-    },
-    {
-      "name": "SortBags",
       "url": "https://github.com/shirsig/SortBags",
       "description": "Bag sorting for Classic (1.13) IMPORTANT: If you want buttons get this too: https://github.com/shirsig/Cleanup IMPORTANT: The folder name must be \"SortBags\" IMPORTANT: The Vanilla (1.12) version moved here https://github.com/shirsig/SortBags-vanilla",
       "author": "shirsig",
@@ -5963,6 +5963,15 @@
       "category": "S",
       "last_commit": "2026-01-19T18:32:41Z",
       "added_at": "0001-01-01T00:00:00Z"
+    },
+    {
+      "name": "SortBags",
+      "url": "https://github.com/Magues17/SortBags",
+      "description": "Bag Sorting addon for Turtle WoW",
+      "author": "Magues17",
+      "category": "S",
+      "last_commit": "2025-11-05T17:12:00Z",
+      "added_at": "2026-01-10T03:42:41.414014379Z"
     },
     {
       "name": "SortBags-vanilla",
@@ -6223,7 +6232,7 @@
       "author": "jrc13245",
       "stars": 23,
       "category": "Z",
-      "last_commit": "2026-02-06T21:20:29Z",
+      "last_commit": "2026-02-08T02:57:57Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -8068,21 +8077,21 @@
     },
     {
       "name": "enemyFrames",
-      "url": "https://github.com/byCFM2/enemyFrames",
-      "description": "1.12.1 addon to display enemy players on BGs",
-      "author": "byCFM2",
-      "category": "E",
-      "last_commit": "2025-10-12T16:17:58Z",
-      "added_at": "0001-01-01T00:00:00Z"
-    },
-    {
-      "name": "enemyFrames",
       "url": "https://github.com/zetone/enemyFrames",
       "description": "1.12.1 addon to display enemy players on BGs",
       "author": "zetone",
       "stars": 22,
       "category": "E",
       "last_commit": "2019-02-16T02:25:03Z",
+      "added_at": "0001-01-01T00:00:00Z"
+    },
+    {
+      "name": "enemyFrames",
+      "url": "https://github.com/byCFM2/enemyFrames",
+      "description": "1.12.1 addon to display enemy players on BGs",
+      "author": "byCFM2",
+      "category": "E",
+      "last_commit": "2025-10-12T16:17:58Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -8234,22 +8243,22 @@
     },
     {
       "name": "necrosis-twow",
-      "url": "https://github.com/Nedlinin/necrosis-twow",
-      "description": "1.5.2a fork of Necrosis addon for Turtle WoW",
-      "author": "Nedlinin",
-      "stars": 1,
-      "category": "N",
-      "last_commit": "2025-12-03T21:28:24Z",
-      "added_at": "0001-01-01T00:00:00Z"
-    },
-    {
-      "name": "necrosis-twow",
       "url": "https://github.com/pylebecq/necrosis-twow",
       "description": "1.5.2a fork of Necrosis addon for Turtle WoW",
       "author": "pylebecq",
       "stars": 1,
       "category": "N",
       "last_commit": "2026-01-17T11:30:23Z",
+      "added_at": "0001-01-01T00:00:00Z"
+    },
+    {
+      "name": "necrosis-twow",
+      "url": "https://github.com/Nedlinin/necrosis-twow",
+      "description": "1.5.2a fork of Necrosis addon for Turtle WoW",
+      "author": "Nedlinin",
+      "stars": 1,
+      "category": "N",
+      "last_commit": "2025-12-03T21:28:24Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -8594,21 +8603,21 @@
     },
     {
       "name": "sorgis_raid_marks",
-      "url": "https://github.com/MarcelineVQ/sorgis_raid_marks",
-      "description": "raid mark targeting and assigning addon for vanilla wow client",
-      "author": "MarcelineVQ",
-      "category": "Z",
-      "last_commit": "2025-02-24T02:38:48Z",
-      "added_at": "0001-01-01T00:00:00Z"
-    },
-    {
-      "name": "sorgis_raid_marks",
       "url": "https://github.com/sorgis-sorgis/sorgis_raid_marks",
       "description": "raid mark targeting and assigning addon for the vanilla (1.12) World of Warcraft client",
       "author": "sorgis-sorgis",
       "stars": 1,
       "category": "S",
       "last_commit": "2025-02-05T09:11:42Z",
+      "added_at": "0001-01-01T00:00:00Z"
+    },
+    {
+      "name": "sorgis_raid_marks",
+      "url": "https://github.com/MarcelineVQ/sorgis_raid_marks",
+      "description": "raid mark targeting and assigning addon for vanilla wow client",
+      "author": "MarcelineVQ",
+      "category": "Z",
+      "last_commit": "2025-02-24T02:38:48Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -8779,7 +8788,7 @@
       "author": "SabineWren",
       "stars": 17,
       "category": "Z",
-      "last_commit": "2026-02-06T16:41:05Z",
+      "last_commit": "2026-02-08T02:46:39Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
