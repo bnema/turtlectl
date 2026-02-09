@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "revision": 32,
-  "generated_at": "2026-02-08T04:12:28.12244099Z",
+  "revision": 33,
+  "generated_at": "2026-02-09T04:09:10.841781638Z",
   "source_url": "https://turtle-wow.fandom.com/wiki/Addons",
   "addon_count": 920,
   "addons": [
@@ -255,7 +255,7 @@
       "description": "Overview: Atlas‑TW is a dungeon map browser with an integrated loot panel and quests module. It is compatible with World of Warcraft 1.12 and includes localization support.",
       "author": "byCFM2",
       "stars": 11,
-      "last_commit": "2026-02-07T22:23:03Z",
+      "last_commit": "2026-02-08T23:13:32Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -712,7 +712,7 @@
       "author": "tlplayer",
       "stars": 3,
       "category": "B",
-      "last_commit": "2026-02-08T02:21:46Z",
+      "last_commit": "2026-02-09T02:01:17Z",
       "added_at": "2026-02-03T04:01:16.609393504Z"
     },
     {
@@ -1192,7 +1192,7 @@
       "author": "trumpetx",
       "stars": 2,
       "category": "C",
-      "last_commit": "2025-08-12T12:53:04Z",
+      "last_commit": "2026-02-08T23:05:03Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -1541,7 +1541,7 @@
       "url": "https://github.com/pepopo978/Cursive",
       "description": "Curse tracker and multi curse assistant",
       "author": "pepopo978",
-      "stars": 23,
+      "stars": 24,
       "category": "Z",
       "last_commit": "2026-02-02T15:25:03Z",
       "added_at": "0001-01-01T00:00:00Z"
@@ -1653,7 +1653,7 @@
       "url": "https://github.com/MarcelineVQ/Decursive",
       "description": "twow fork, balake wow enabled",
       "author": "MarcelineVQ",
-      "stars": 14,
+      "stars": 15,
       "category": "Z",
       "last_commit": "2025-05-28T01:45:16Z",
       "added_at": "0001-01-01T00:00:00Z"
@@ -1754,7 +1754,7 @@
       "author": "Player-Doite",
       "stars": 23,
       "category": "D",
-      "last_commit": "2026-02-06T21:34:38Z",
+      "last_commit": "2026-02-08T22:10:00Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -2245,7 +2245,7 @@
       "author": "tilare",
       "stars": 6,
       "category": "F",
-      "last_commit": "2026-02-07T06:08:35Z",
+      "last_commit": "2026-02-08T21:35:23Z",
       "added_at": "2026-02-08T04:12:28.12244099Z"
     },
     {
@@ -2262,7 +2262,7 @@
       "name": "Flyout",
       "url": "https://github.com/luskanek/Flyout",
       "description": "Flyout is a legacy World of Warcraft add-on that allows players to create an expandable action button.",
-      "author": "luskanek",
+      "author": "lookino",
       "stars": 2,
       "category": "F",
       "last_commit": "2026-02-02T16:08:53Z",
@@ -2759,7 +2759,7 @@
       "author": "redshadowz",
       "stars": 3,
       "category": "G",
-      "last_commit": "2026-02-08T02:34:25Z",
+      "last_commit": "2026-02-09T01:35:59Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -2787,7 +2787,7 @@
       "author": "JeromeM",
       "stars": 2,
       "category": "G",
-      "last_commit": "2026-02-07T21:09:22Z",
+      "last_commit": "2026-02-08T18:49:15Z",
       "added_at": "2026-01-31T03:56:59.720913419Z"
     },
     {
@@ -2832,7 +2832,7 @@
       "description": "Simple Effort Points system inspired by ShootyEPGP for Turtle WoW",
       "author": "RollingSmile",
       "category": "G",
-      "last_commit": "2026-02-02T22:55:44Z",
+      "last_commit": "2026-02-09T00:30:50Z",
       "added_at": "2026-01-16T03:47:28.635990587Z"
     },
     {
@@ -3774,7 +3774,7 @@
       "name": "Magnify",
       "url": "https://github.com/luskanek/Magnify",
       "description": "Magnify is a legacy World of Warcraft add-on that allows the player to zoom in the world map.",
-      "author": "luskanek",
+      "author": "lookino",
       "stars": 2,
       "last_commit": "2025-09-10T11:59:32Z",
       "added_at": "0001-01-01T00:00:00Z"
@@ -4049,7 +4049,7 @@
       "author": "refaim",
       "stars": 6,
       "category": "M",
-      "last_commit": "2026-02-06T15:56:09Z",
+      "last_commit": "2026-02-08T04:23:20Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -4315,7 +4315,7 @@
       "author": "zanthor",
       "stars": 3,
       "category": "O",
-      "last_commit": "2026-02-07T04:09:00Z",
+      "last_commit": "2026-02-08T21:32:15Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -4780,7 +4780,7 @@
       "author": "pepopo978",
       "stars": 4,
       "category": "R",
-      "last_commit": "2025-12-30T19:56:10Z",
+      "last_commit": "2026-02-08T15:53:18Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -5041,7 +5041,7 @@
       "description": "Plays roar-guild emotes from multiple independently configured action slots. GodBod: Triggers healthy micro-exercises from action slots. Combined single addon, independent functionality.",
       "author": "Morkahja",
       "category": "R",
-      "last_commit": "2026-02-07T13:07:54Z",
+      "last_commit": "2026-02-08T19:42:41Z",
       "added_at": "2026-01-19T03:54:21.561835163Z"
     },
     {
@@ -6232,7 +6232,7 @@
       "author": "jrc13245",
       "stars": 23,
       "category": "Z",
-      "last_commit": "2026-02-08T02:57:57Z",
+      "last_commit": "2026-02-09T02:22:38Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -7230,7 +7230,7 @@
       "author": "refaim",
       "stars": 22,
       "category": "K",
-      "last_commit": "2025-07-20T11:22:33Z",
+      "last_commit": "2026-02-08T04:26:52Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -8372,7 +8372,7 @@
       "author": "jrc13245",
       "stars": 5,
       "category": "P",
-      "last_commit": "2026-01-23T13:35:18Z",
+      "last_commit": "2026-02-09T03:17:21Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -8653,7 +8653,7 @@
       "url": "https://github.com/Player-Doite/tactica",
       "description": "Raid boss announcer for Vanilla.",
       "author": "Player-Doite",
-      "stars": 12,
+      "stars": 13,
       "last_commit": "2026-01-17T23:27:10Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
@@ -8788,7 +8788,7 @@
       "author": "SabineWren",
       "stars": 17,
       "category": "Z",
-      "last_commit": "2026-02-08T02:46:39Z",
+      "last_commit": "2026-02-08T23:10:53Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
