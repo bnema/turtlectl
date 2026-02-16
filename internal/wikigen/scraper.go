@@ -1,23 +1,27 @@
 package wikigen
 
 import (
+	"encoding/json"
 	"fmt"
 	"io"
 	"net/http"
+	"net/url"
 	"regexp"
 	"strings"
 	"time"
-
-	"golang.org/x/net/html"
 )
 
 // WikiURL is the Turtle WoW addon wiki page
 const WikiURL = "https://turtle-wow.fandom.com/wiki/Addons"
 
+// WikiAPIURL is the MediaWiki API endpoint.
+const WikiAPIURL = "https://turtle-wow.fandom.com/api.php"
+
 // Scraper handles fetching and parsing the wiki page
 type Scraper struct {
-	client  *http.Client
-	timeout time.Duration
+	client      *http.Client
+	timeout     time.Duration
+	endpointURL string
 }
 
 // NewScraper creates a new wiki scraper
@@ -26,7 +30,8 @@ func NewScraper() *Scraper {
 		client: &http.Client{
 			Timeout: 30 * time.Second,
 		},
-		timeout: 30 * time.Second,
+		timeout:     30 * time.Second,
+		endpointURL: WikiAPIURL,
 	}
 }
 
@@ -34,6 +39,23 @@ func NewScraper() *Scraper {
 type ScrapeResult struct {
 	Addons []RawAddon
 	ETag   string
+}
+
+type mediaWikiSection struct {
+	Index string `json:"index"`
+	Line  string `json:"line"`
+}
+
+type mediaWikiSectionsResponse struct {
+	Parse struct {
+		Sections []mediaWikiSection `json:"sections"`
+	} `json:"parse"`
+}
+
+type mediaWikiExternalLinksResponse struct {
+	Parse struct {
+		ExternalLinks []string `json:"externallinks"`
+	} `json:"parse"`
 }
 
 // RawAddon represents a minimal addon entry scraped from wiki (before enrichment)
@@ -49,7 +71,7 @@ var gitURLPattern = regexp.MustCompile(`^https?://(github\.com|gitlab\.com)/[^/]
 // If etag is provided, it will be sent as If-None-Match header
 // Returns nil, nil if page hasn't changed (304 Not Modified)
 func (s *Scraper) Scrape(etag string) (*ScrapeResult, error) {
-	req, err := http.NewRequest("GET", WikiURL, nil)
+	req, err := http.NewRequest("GET", s.buildParseURL("sections", ""), nil)
 	if err != nil {
 		return nil, fmt.Errorf("failed to create request: %w", err)
 	}
@@ -80,10 +102,18 @@ func (s *Scraper) Scrape(etag string) (*ScrapeResult, error) {
 		return nil, fmt.Errorf("failed to read response body: %w", err)
 	}
 
-	// Parse HTML and extract addon URLs
-	addons, err := s.parseHTML(string(body))
+	var parsed mediaWikiSectionsResponse
+	if err := json.Unmarshal(body, &parsed); err != nil {
+		return nil, fmt.Errorf("failed to decode MediaWiki API response: %w", err)
+	}
+
+	if len(parsed.Parse.Sections) == 0 {
+		return nil, fmt.Errorf("MediaWiki API response missing parse.sections")
+	}
+
+	addons, err := s.fetchAddonsBySection(parsed.Parse.Sections)
 	if err != nil {
-		return nil, fmt.Errorf("failed to parse HTML: %w", err)
+		return nil, fmt.Errorf("failed to fetch addon links: %w", err)
 	}
 
 	return &ScrapeResult{
@@ -92,107 +122,93 @@ func (s *Scraper) Scrape(etag string) (*ScrapeResult, error) {
 	}, nil
 }
 
-// parseHTML extracts addon URLs from the wiki HTML
-func (s *Scraper) parseHTML(htmlContent string) ([]RawAddon, error) {
-	doc, err := html.Parse(strings.NewReader(htmlContent))
-	if err != nil {
-		return nil, err
-	}
-
+func (s *Scraper) fetchAddonsBySection(sections []mediaWikiSection) ([]RawAddon, error) {
 	var addons []RawAddon
 	seen := make(map[string]bool) // Deduplicate URLs
-	currentCategory := ""
 
-	// Walk the DOM tree
-	var walk func(*html.Node)
-	walk = func(n *html.Node) {
-		// Track current category (A, B, C, etc.)
-		// Wiki uses h2 or h3 with span id="A", id="B", etc.
-		if n.Type == html.ElementNode && (n.Data == "h2" || n.Data == "h3") {
-			category := extractCategoryFromHeading(n)
-			if category != "" {
-				currentCategory = category
-			}
+	for _, section := range sections {
+		category, ok := sectionToCategory(section.Line)
+		if !ok {
+			continue
 		}
 
-		// Look for anchor tags
-		if n.Type == html.ElementNode && n.Data == "a" {
-			href := getAttr(n, "href")
-			if href != "" {
-				// Normalize URL
-				url := normalizeGitURL(href)
-				if url != "" && !seen[url] {
-					seen[url] = true
-					addons = append(addons, RawAddon{
-						URL:      url,
-						Category: currentCategory,
-					})
-				}
-			}
+		externalLinks, err := s.fetchSectionExternalLinks(section.Index)
+		if err != nil {
+			return nil, err
 		}
 
-		// Recurse into children
-		for c := n.FirstChild; c != nil; c = c.NextSibling {
-			walk(c)
+		for _, href := range externalLinks {
+			repoURL := normalizeGitURL(href)
+			if repoURL == "" || seen[repoURL] {
+				continue
+			}
+
+			seen[repoURL] = true
+			addons = append(addons, RawAddon{
+				URL:      repoURL,
+				Category: category,
+			})
 		}
 	}
-
-	walk(doc)
 
 	return addons, nil
 }
 
-// extractCategoryFromHeading extracts category letter from heading elements
-// Looks for patterns like <h2><span id="A">A</span></h2>
-func extractCategoryFromHeading(n *html.Node) string {
-	// Look for span with single letter id
-	var findSpan func(*html.Node) string
-	findSpan = func(node *html.Node) string {
-		if node.Type == html.ElementNode && node.Data == "span" {
-			id := getAttr(node, "id")
-			// Check if id is a single uppercase letter
-			if len(id) == 1 && id[0] >= 'A' && id[0] <= 'Z' {
-				return id
-			}
-			// Also check class="mw-headline" and look at text content
-			if getAttr(node, "class") == "mw-headline" {
-				text := getTextContent(node)
-				if len(text) == 1 && text[0] >= 'A' && text[0] <= 'Z' {
-					return text
-				}
-			}
-		}
-		for c := node.FirstChild; c != nil; c = c.NextSibling {
-			if result := findSpan(c); result != "" {
-				return result
-			}
-		}
-		return ""
+func (s *Scraper) fetchSectionExternalLinks(sectionIndex string) ([]string, error) {
+	req, err := http.NewRequest("GET", s.buildParseURL("externallinks", sectionIndex), nil)
+	if err != nil {
+		return nil, fmt.Errorf("failed to create request: %w", err)
+	}
+	req.Header.Set("User-Agent", "turtlectl/1.0 (Turtle WoW addon manager)")
+
+	resp, err := s.client.Do(req)
+	if err != nil {
+		return nil, fmt.Errorf("failed to fetch section %s links: %w", sectionIndex, err)
+	}
+	defer func() { _ = resp.Body.Close() }()
+
+	if resp.StatusCode != http.StatusOK {
+		return nil, fmt.Errorf("unexpected status code for section %s: %d", sectionIndex, resp.StatusCode)
 	}
 
-	return findSpan(n)
+	body, err := io.ReadAll(resp.Body)
+	if err != nil {
+		return nil, fmt.Errorf("failed to read section %s response body: %w", sectionIndex, err)
+	}
+
+	var parsed mediaWikiExternalLinksResponse
+	if err := json.Unmarshal(body, &parsed); err != nil {
+		return nil, fmt.Errorf("failed to decode section %s response: %w", sectionIndex, err)
+	}
+
+	return parsed.Parse.ExternalLinks, nil
 }
 
-// getAttr gets an attribute value from an HTML node
-func getAttr(n *html.Node, key string) string {
-	for _, attr := range n.Attr {
-		if attr.Key == key {
-			return attr.Val
-		}
+func (s *Scraper) buildParseURL(prop, section string) string {
+	values := url.Values{}
+	values.Set("action", "parse")
+	values.Set("page", "Addons")
+	values.Set("prop", prop)
+	values.Set("format", "json")
+	values.Set("formatversion", "2")
+	if section != "" {
+		values.Set("section", section)
 	}
-	return ""
+
+	return s.endpointURL + "?" + values.Encode()
 }
 
-// getTextContent extracts text content from a node
-func getTextContent(n *html.Node) string {
-	if n.Type == html.TextNode {
-		return strings.TrimSpace(n.Data)
+func sectionToCategory(line string) (string, bool) {
+	line = strings.TrimSpace(line)
+	if len(line) != 1 {
+		return "", false
 	}
-	var text string
-	for c := n.FirstChild; c != nil; c = c.NextSibling {
-		text += getTextContent(c)
+
+	if line[0] < 'A' || line[0] > 'Z' {
+		return "", false
 	}
-	return strings.TrimSpace(text)
+
+	return line, true
 }
 
 // normalizeGitURL validates and normalizes a Git repository URL
