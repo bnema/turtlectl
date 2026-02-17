@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "revision": 35,
-  "generated_at": "2026-02-16T05:40:13.536136214Z",
+  "revision": 36,
+  "generated_at": "2026-02-17T04:04:12.058517939Z",
   "source_url": "https://turtle-wow.fandom.com/wiki/Addons",
   "addon_count": 861,
   "addons": [
@@ -1643,7 +1643,7 @@
       "url": "https://github.com/uc9089/DistanceDisplay",
       "description": "A visual indicator for distance and LoS for Turtle WoW",
       "author": "uc9089",
-      "stars": 2,
+      "stars": 3,
       "category": "D",
       "last_commit": "2025-04-03T11:06:21Z",
       "added_at": "0001-01-01T00:00:00Z"
@@ -2670,7 +2670,7 @@
       "description": "Simple Effort Points system inspired by ShootyEPGP for Turtle WoW",
       "author": "RollingSmile",
       "category": "G",
-      "last_commit": "2026-02-10T00:47:16Z",
+      "last_commit": "2026-02-17T00:06:24Z",
       "added_at": "2026-01-16T03:47:28.635990587Z"
     },
     {
@@ -3416,7 +3416,7 @@
       "description": "Shows required lockpicking level on lockboxes on Turtle Wow.",
       "author": "Frosdun",
       "category": "L",
-      "last_commit": "2026-02-15T03:23:51Z",
+      "last_commit": "2026-02-17T02:19:34Z",
       "added_at": "2026-02-16T05:40:13.536136214Z"
     },
     {
@@ -3693,7 +3693,7 @@
       "author": "tilare",
       "stars": 7,
       "category": "M",
-      "last_commit": "2026-02-12T05:54:52Z",
+      "last_commit": "2026-02-16T07:13:23Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -4077,7 +4077,7 @@
       "author": "zanthor",
       "stars": 3,
       "category": "O",
-      "last_commit": "2026-02-15T21:21:31Z",
+      "last_commit": "2026-02-16T22:58:50Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -4494,7 +4494,7 @@
       "author": "SabineWren",
       "stars": 52,
       "category": "Q",
-      "last_commit": "2026-02-08T03:13:21Z",
+      "last_commit": "2026-02-16T22:06:46Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -6038,7 +6038,7 @@
       "url": "https://github.com/Khundiann/TWoW-LFG-Bulletin-Board",
       "author": "Khundiann",
       "category": "T",
-      "last_commit": "2026-02-13T19:21:00Z",
+      "last_commit": "2026-02-16T09:04:47Z",
       "added_at": "2026-02-16T05:40:13.536136214Z"
     },
     {
@@ -6259,7 +6259,7 @@
       "author": "Otari98",
       "stars": 33,
       "category": "T",
-      "last_commit": "2026-02-06T16:45:16Z",
+      "last_commit": "2026-02-16T17:57:14Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -6620,7 +6620,7 @@
       "url": "https://github.com/jrc13245/UltimaMacros",
       "description": "A lightweight, self-contained macro system for **World of Warcraft 1.12.1**.   Provides its own macro storage (up to **7000 characters** per macro) and an in-game editor with per-character or account-wide scope.",
       "author": "jrc13245",
-      "stars": 3,
+      "stars": 4,
       "category": "U",
       "last_commit": "2026-02-01T05:47:28Z",
       "added_at": "2026-01-13T03:46:51.216106279Z"
@@ -7288,7 +7288,7 @@
       "url": "https://github.com/Autignem/aDF",
       "description": "continuation and update of the adf addom in TWoW",
       "author": "Autignem",
-      "stars": 1,
+      "stars": 2,
       "category": "A",
       "last_commit": "2026-02-14T22:57:18Z",
       "added_at": "2026-01-18T03:51:58.977057594Z"
@@ -8163,7 +8163,7 @@
       "author": "Player-Doite",
       "stars": 13,
       "category": "T",
-      "last_commit": "2026-02-15T15:37:57Z",
+      "last_commit": "2026-02-16T11:14:17Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
