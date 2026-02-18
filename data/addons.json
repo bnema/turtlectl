@@ -1,9 +1,9 @@
 {
   "version": 1,
-  "revision": 36,
-  "generated_at": "2026-02-17T04:04:12.058517939Z",
+  "revision": 37,
+  "generated_at": "2026-02-18T04:05:41.054544142Z",
   "source_url": "https://turtle-wow.fandom.com/wiki/Addons",
-  "addon_count": 861,
+  "addon_count": 863,
   "addons": [
     {
       "name": "Abraxas",
@@ -399,7 +399,7 @@
       "url": "https://github.com/MickeyPickey/AutoQuest",
       "description": "Addon that instantly auto-accepts quests and auto-turns in quests for the WoW 1.12 vanilla API.",
       "author": "MickeyPickey",
-      "stars": 3,
+      "stars": 4,
       "category": "A",
       "last_commit": "2025-10-20T18:07:47Z",
       "added_at": "2026-01-13T03:46:51.216106279Z"
@@ -644,7 +644,7 @@
       "author": "tlplayer",
       "stars": 4,
       "category": "B",
-      "last_commit": "2026-02-16T04:39:09Z",
+      "last_commit": "2026-02-17T04:32:38Z",
       "added_at": "2026-02-03T04:01:16.609393504Z"
     },
     {
@@ -809,7 +809,7 @@
       "author": "computerequipmentgroup",
       "stars": 1,
       "category": "B",
-      "last_commit": "2025-08-29T20:11:47Z",
+      "last_commit": "2026-02-17T21:32:33Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -1131,6 +1131,7 @@
       "url": "https://github.com/cryptokn1ght-dev/ChatMonitor",
       "description": "Addon for Turtle WoW that monitors chat channels such as World and LookingForGroup for specific keywords and alerts you when a match has been found.",
       "author": "cryptokn1ght-dev",
+      "stars": 1,
       "category": "C",
       "last_commit": "2026-01-23T17:22:03Z",
       "added_at": "2026-01-23T03:49:21.675610567Z"
@@ -1665,7 +1666,7 @@
       "author": "Player-Doite",
       "stars": 25,
       "category": "D",
-      "last_commit": "2026-02-15T15:41:43Z",
+      "last_commit": "2026-02-17T13:33:55Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -2597,7 +2598,7 @@
       "author": "redshadowz",
       "stars": 3,
       "category": "G",
-      "last_commit": "2026-02-13T12:05:32Z",
+      "last_commit": "2026-02-18T00:15:48Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -2894,7 +2895,7 @@
       "url": "https://github.com/enn-wow-addons/HunterSwissKnife",
       "description": "[Discontinued] HunterSwissKnife for World of Warcraft 1.12.1",
       "author": "enn-wow-addons",
-      "stars": 8,
+      "stars": 9,
       "category": "H",
       "last_commit": "2025-01-27T14:52:32Z",
       "added_at": "0001-01-01T00:00:00Z"
@@ -4077,7 +4078,7 @@
       "author": "zanthor",
       "stars": 3,
       "category": "O",
-      "last_commit": "2026-02-16T22:58:50Z",
+      "last_commit": "2026-02-17T23:01:10Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -5546,22 +5547,22 @@
     },
     {
       "name": "SmartHealer",
-      "url": "https://github.com/dsidirop/SmartHealer",
-      "description": "Vanilla WoW 1.12 Autoranked Heals With Support for pfUI's /pfcast command",
-      "author": "dsidirop",
-      "stars": 2,
-      "category": "S",
-      "last_commit": "2025-05-03T01:33:35Z",
-      "added_at": "0001-01-01T00:00:00Z"
-    },
-    {
-      "name": "SmartHealer",
       "url": "https://github.com/melbaa/SmartHealer",
       "description": "vanilla wow 1.12 autoranked heals",
       "author": "melbaa",
       "stars": 5,
       "category": "S",
       "last_commit": "2024-05-25T12:07:32Z",
+      "added_at": "0001-01-01T00:00:00Z"
+    },
+    {
+      "name": "SmartHealer",
+      "url": "https://github.com/dsidirop/SmartHealer",
+      "description": "Vanilla WoW 1.12 Autoranked Heals With Support for pfUI's /pfcast command",
+      "author": "dsidirop",
+      "stars": 2,
+      "category": "S",
+      "last_commit": "2025-05-03T01:33:35Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -5631,6 +5632,15 @@
     },
     {
       "name": "SortBags",
+      "url": "https://github.com/Magues17/SortBags",
+      "description": "Bag Sorting addon for Turtle WoW",
+      "author": "Magues17",
+      "category": "S",
+      "last_commit": "2025-11-05T17:12:00Z",
+      "added_at": "2026-01-10T03:42:41.414014379Z"
+    },
+    {
+      "name": "SortBags",
       "url": "https://github.com/shirsig/SortBags",
       "description": "Bag sorting for Classic (1.13) IMPORTANT: If you want buttons get this too: https://github.com/shirsig/Cleanup IMPORTANT: The folder name must be \"SortBags\" IMPORTANT: The Vanilla (1.12) version moved here https://github.com/shirsig/SortBags-vanilla",
       "author": "shirsig",
@@ -5638,15 +5648,6 @@
       "category": "S",
       "last_commit": "2026-01-19T18:32:41Z",
       "added_at": "0001-01-01T00:00:00Z"
-    },
-    {
-      "name": "SortBags",
-      "url": "https://github.com/Magues17/SortBags",
-      "description": "Bag Sorting addon for Turtle WoW",
-      "author": "Magues17",
-      "category": "S",
-      "last_commit": "2025-11-05T17:12:00Z",
-      "added_at": "2026-01-10T03:42:41.414014379Z"
     },
     {
       "name": "SortBags-vanilla",
@@ -6038,7 +6039,7 @@
       "url": "https://github.com/Khundiann/TWoW-LFG-Bulletin-Board",
       "author": "Khundiann",
       "category": "T",
-      "last_commit": "2026-02-16T09:04:47Z",
+      "last_commit": "2026-02-17T22:00:39Z",
       "added_at": "2026-02-16T05:40:13.536136214Z"
     },
     {
@@ -6304,22 +6305,22 @@
     },
     {
       "name": "TotemTimers-Enhanced",
-      "url": "https://github.com/MOUZU/TotemTimers-Enhanced",
-      "description": "World of Warcraft AddOn for 1.12.1 (Vanilla) - keep's track of Shaman's Totems, how long they'll last and now also when their next Tick comes.",
-      "author": "MOUZU",
-      "stars": 8,
-      "category": "T",
-      "last_commit": "2024-06-16T21:26:40Z",
-      "added_at": "0001-01-01T00:00:00Z"
-    },
-    {
-      "name": "TotemTimers-Enhanced",
       "url": "https://github.com/mdmcclel/TotemTimers-Enhanced",
       "description": "World of Warcraft AddOn for 1.12.1 (Vanilla) - keep's track of Shaman's Totems, how long they'll last and now also when their next Tick comes.",
       "author": "mdmcclel",
       "stars": 1,
       "category": "T",
       "last_commit": "2024-11-07T02:26:51Z",
+      "added_at": "0001-01-01T00:00:00Z"
+    },
+    {
+      "name": "TotemTimers-Enhanced",
+      "url": "https://github.com/MOUZU/TotemTimers-Enhanced",
+      "description": "World of Warcraft AddOn for 1.12.1 (Vanilla) - keep's track of Shaman's Totems, how long they'll last and now also when their next Tick comes.",
+      "author": "MOUZU",
+      "stars": 8,
+      "category": "T",
+      "last_commit": "2024-06-16T21:26:40Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -6592,6 +6593,24 @@
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
+      "name": "Turtle_MapNotes",
+      "url": "https://github.com/nemanuel/Turtle_MapNotes",
+      "description": "A lightweight Turtle WoW addon that adds a merchant-window button to quickly sell all gray-quality (poor) items in your bags.",
+      "author": "nemanuel",
+      "category": "T",
+      "last_commit": "2026-02-16T19:02:50Z",
+      "added_at": "2026-02-18T04:05:41.054544142Z"
+    },
+    {
+      "name": "Turtle_SellAllGraysButton",
+      "url": "https://github.com/nemanuel/Turtle_SellAllGraysButton",
+      "description": "Adds a merchant button to sell all gray-quality items with one click.",
+      "author": "nemanuel",
+      "category": "T",
+      "last_commit": "2026-02-16T19:04:43Z",
+      "added_at": "2026-02-18T04:05:41.054544142Z"
+    },
+    {
       "name": "TwowDpsGirl",
       "url": "https://github.com/ahungry/TwowDpsGirl",
       "category": "D",
@@ -6777,7 +6796,7 @@
       "author": "DonutsDelivery",
       "stars": 1,
       "category": "V",
-      "last_commit": "2026-02-09T12:55:02Z",
+      "last_commit": "2026-02-17T14:49:44Z",
       "added_at": "2026-01-19T03:54:21.561835163Z"
     },
     {
@@ -6869,19 +6888,19 @@
     },
     {
       "name": "Vanilla_oCB",
+      "url": "https://github.com/martinjlowm/Vanilla_oCB",
+      "author": "martinjlowm",
+      "category": "O",
+      "last_commit": "2017-03-26T15:14:21Z",
+      "added_at": "0001-01-01T00:00:00Z"
+    },
+    {
+      "name": "Vanilla_oCB",
       "url": "https://github.com/Road-block/Vanilla_oCB",
       "author": "Road-block",
       "stars": 4,
       "category": "O",
       "last_commit": "2017-12-29T09:53:51Z",
-      "added_at": "0001-01-01T00:00:00Z"
-    },
-    {
-      "name": "Vanilla_oCB",
-      "url": "https://github.com/martinjlowm/Vanilla_oCB",
-      "author": "martinjlowm",
-      "category": "O",
-      "last_commit": "2017-03-26T15:14:21Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -6941,7 +6960,7 @@
       "author": "refaim",
       "stars": 10,
       "category": "W",
-      "last_commit": "2026-02-14T04:51:57Z",
+      "last_commit": "2026-02-17T17:18:31Z",
       "added_at": "2026-02-02T04:07:34.481426499Z"
     },
     {
@@ -7428,7 +7447,7 @@
       "url": "https://github.com/shirsig/ccwatch",
       "description": "CC \u0026 DR timers for Vanilla (1.12) IMPORTANT: The folder name must\"ccwatch\" IMPORTANT: The Classic (1.13) version is here: https://github.com/shirsig/ccc",
       "author": "shirsig",
-      "stars": 7,
+      "stars": 8,
       "category": "C",
       "last_commit": "2021-02-12T10:58:10Z",
       "added_at": "0001-01-01T00:00:00Z"
@@ -7570,6 +7589,15 @@
     },
     {
       "name": "enemyFrames",
+      "url": "https://github.com/byCFM2/enemyFrames",
+      "description": "1.12.1 addon to display enemy players on BGs",
+      "author": "byCFM2",
+      "category": "E",
+      "last_commit": "2025-10-12T16:17:58Z",
+      "added_at": "0001-01-01T00:00:00Z"
+    },
+    {
+      "name": "enemyFrames",
       "url": "https://github.com/zetone/enemyFrames",
       "description": "1.12.1 addon to display enemy players on BGs",
       "author": "zetone",
@@ -7579,19 +7607,10 @@
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
-      "name": "enemyFrames",
-      "url": "https://github.com/byCFM2/enemyFrames",
-      "description": "1.12.1 addon to display enemy players on BGs",
-      "author": "byCFM2",
-      "category": "E",
-      "last_commit": "2025-10-12T16:17:58Z",
-      "added_at": "0001-01-01T00:00:00Z"
-    },
-    {
       "name": "guda",
       "url": "https://github.com/vatichild/guda",
       "author": "vatichild",
-      "stars": 15,
+      "stars": 16,
       "category": "G",
       "last_commit": "2026-01-24T16:10:10Z",
       "added_at": "0001-01-01T00:00:00Z"
@@ -7600,7 +7619,7 @@
       "name": "guda-plates",
       "url": "https://github.com/vatichild/guda-plates",
       "author": "vatichild",
-      "stars": 8,
+      "stars": 9,
       "category": "G",
       "last_commit": "2026-01-25T18:03:57Z",
       "added_at": "2026-01-09T03:47:44.343941466Z"
@@ -7726,22 +7745,22 @@
     },
     {
       "name": "necrosis-twow",
-      "url": "https://github.com/pylebecq/necrosis-twow",
-      "description": "1.5.2a fork of Necrosis addon for Turtle WoW",
-      "author": "pylebecq",
-      "stars": 1,
-      "category": "N",
-      "last_commit": "2026-01-17T11:30:23Z",
-      "added_at": "0001-01-01T00:00:00Z"
-    },
-    {
-      "name": "necrosis-twow",
       "url": "https://github.com/Nedlinin/necrosis-twow",
       "description": "1.5.2a fork of Necrosis addon for Turtle WoW",
       "author": "Nedlinin",
       "stars": 1,
       "category": "N",
       "last_commit": "2025-12-03T21:28:24Z",
+      "added_at": "0001-01-01T00:00:00Z"
+    },
+    {
+      "name": "necrosis-twow",
+      "url": "https://github.com/pylebecq/necrosis-twow",
+      "description": "1.5.2a fork of Necrosis addon for Turtle WoW",
+      "author": "pylebecq",
+      "stars": 1,
+      "category": "N",
+      "last_commit": "2026-01-17T11:30:23Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -7780,7 +7799,7 @@
       "author": "Cliencer",
       "stars": 5,
       "category": "P",
-      "last_commit": "2026-02-12T14:15:07Z",
+      "last_commit": "2026-02-17T08:11:06Z",
       "added_at": "2026-02-16T05:40:13.536136214Z"
     },
     {
@@ -7858,7 +7877,7 @@
       "author": "Arthur-Helias",
       "stars": 2,
       "category": "P",
-      "last_commit": "2026-02-15T22:51:51Z",
+      "last_commit": "2026-02-17T07:00:57Z",
       "added_at": "2026-02-16T05:40:13.536136214Z"
     },
     {
