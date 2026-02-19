@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "revision": 37,
-  "generated_at": "2026-02-18T04:05:41.054544142Z",
+  "revision": 38,
+  "generated_at": "2026-02-19T04:04:38.040450415Z",
   "source_url": "https://turtle-wow.fandom.com/wiki/Addons",
   "addon_count": 863,
   "addons": [
@@ -187,7 +187,7 @@
       "author": "byCFM2",
       "stars": 12,
       "category": "A",
-      "last_commit": "2026-02-14T21:50:32Z",
+      "last_commit": "2026-02-18T20:41:41Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -1666,7 +1666,7 @@
       "author": "Player-Doite",
       "stars": 25,
       "category": "D",
-      "last_commit": "2026-02-17T13:33:55Z",
+      "last_commit": "2026-02-18T23:20:57Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -1919,7 +1919,7 @@
       "url": "https://github.com/laytya/EngBags",
       "description": "EngBags - best bags in Vanilla WOW",
       "author": "laytya",
-      "stars": 6,
+      "stars": 7,
       "category": "E",
       "last_commit": "2023-02-03T06:40:33Z",
       "added_at": "0001-01-01T00:00:00Z"
@@ -2598,7 +2598,7 @@
       "author": "redshadowz",
       "stars": 3,
       "category": "G",
-      "last_commit": "2026-02-18T00:15:48Z",
+      "last_commit": "2026-02-18T05:59:04Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -2624,9 +2624,9 @@
       "url": "https://github.com/JeromeM/GuidelimeVanilla",
       "description": "Total rewrite of the Guidelime addon which is not compatible with 1.12",
       "author": "JeromeM",
-      "stars": 3,
+      "stars": 4,
       "category": "G",
-      "last_commit": "2026-02-14T21:33:24Z",
+      "last_commit": "2026-02-18T22:16:26Z",
       "added_at": "2026-01-31T03:56:59.720913419Z"
     },
     {
@@ -2671,7 +2671,7 @@
       "description": "Simple Effort Points system inspired by ShootyEPGP for Turtle WoW",
       "author": "RollingSmile",
       "category": "G",
-      "last_commit": "2026-02-17T00:06:24Z",
+      "last_commit": "2026-02-18T20:14:21Z",
       "added_at": "2026-01-16T03:47:28.635990587Z"
     },
     {
@@ -3225,7 +3225,7 @@
       "url": "https://github.com/Road-block/KillLog",
       "description": "KillLog WoW Addon (vanilla version)",
       "author": "Road-block",
-      "stars": 5,
+      "stars": 6,
       "category": "K",
       "last_commit": "2016-10-21T14:55:50Z",
       "added_at": "0001-01-01T00:00:00Z"
@@ -3417,7 +3417,7 @@
       "description": "Shows required lockpicking level on lockboxes on Turtle Wow.",
       "author": "Frosdun",
       "category": "L",
-      "last_commit": "2026-02-17T02:19:34Z",
+      "last_commit": "2026-02-19T03:46:16Z",
       "added_at": "2026-02-16T05:40:13.536136214Z"
     },
     {
@@ -3694,7 +3694,7 @@
       "author": "tilare",
       "stars": 7,
       "category": "M",
-      "last_commit": "2026-02-16T07:13:23Z",
+      "last_commit": "2026-02-19T00:11:22Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -4078,7 +4078,7 @@
       "author": "zanthor",
       "stars": 3,
       "category": "O",
-      "last_commit": "2026-02-17T23:01:10Z",
+      "last_commit": "2026-02-19T00:56:09Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -4774,7 +4774,7 @@
       "description": "Plays roar-guild emotes from multiple independently configured action slots. GodBod: Triggers healthy micro-exercises from action slots. Combined single addon, independent functionality.",
       "author": "Morkahja",
       "category": "R",
-      "last_commit": "2026-02-08T19:42:41Z",
+      "last_commit": "2026-02-18T19:40:10Z",
       "added_at": "2026-01-19T03:54:21.561835163Z"
     },
     {
@@ -4782,7 +4782,7 @@
       "url": "https://github.com/Road-block/RogueFocus",
       "description": "RogueFocus Classic WoW addon for 1.12.x",
       "author": "Road-block",
-      "stars": 7,
+      "stars": 8,
       "category": "R",
       "last_commit": "2016-08-28T18:07:57Z",
       "added_at": "0001-01-01T00:00:00Z"
@@ -6463,7 +6463,7 @@
       "author": "sica42",
       "stars": 1,
       "category": "T",
-      "last_commit": "2026-02-09T19:14:53Z",
+      "last_commit": "2026-02-18T18:47:42Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -6948,7 +6948,7 @@
       "url": "https://github.com/Fiurs-Hearth/WIIIUI",
       "description": "A Warcraft III UI addon for vanilla WoW",
       "author": "Fiurs-Hearth",
-      "stars": 81,
+      "stars": 82,
       "category": "W",
       "last_commit": "2025-09-06T00:05:44Z",
       "added_at": "0001-01-01T00:00:00Z"
