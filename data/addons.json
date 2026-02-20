@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "revision": 38,
-  "generated_at": "2026-02-19T04:04:38.040450415Z",
+  "revision": 39,
+  "generated_at": "2026-02-20T04:01:42.880411545Z",
   "source_url": "https://turtle-wow.fandom.com/wiki/Addons",
   "addon_count": 863,
   "addons": [
@@ -185,9 +185,9 @@
       "url": "https://github.com/byCFM2/Atlas-TW",
       "description": "Overview: Atlas‑TW is a dungeon map browser with an integrated loot panel and quests module. It is compatible with World of Warcraft 1.12 and includes localization support.",
       "author": "byCFM2",
-      "stars": 12,
+      "stars": 13,
       "category": "A",
-      "last_commit": "2026-02-18T20:41:41Z",
+      "last_commit": "2026-02-19T20:23:29Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -1404,7 +1404,7 @@
       "url": "https://github.com/Cinecom/ConsumesManager",
       "description": "Easily track and manage your consumables, food buffs, and more across your inventory, bank, and mail, while supporting multiple characters and accounts. ",
       "author": "Cinecom",
-      "stars": 11,
+      "stars": 12,
       "category": "C",
       "last_commit": "2025-10-13T09:00:40Z",
       "added_at": "0001-01-01T00:00:00Z"
@@ -1666,7 +1666,7 @@
       "author": "Player-Doite",
       "stars": 25,
       "category": "D",
-      "last_commit": "2026-02-18T23:20:57Z",
+      "last_commit": "2026-02-19T22:58:52Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -2598,7 +2598,7 @@
       "author": "redshadowz",
       "stars": 3,
       "category": "G",
-      "last_commit": "2026-02-18T05:59:04Z",
+      "last_commit": "2026-02-19T18:22:20Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -2671,7 +2671,7 @@
       "description": "Simple Effort Points system inspired by ShootyEPGP for Turtle WoW",
       "author": "RollingSmile",
       "category": "G",
-      "last_commit": "2026-02-18T20:14:21Z",
+      "last_commit": "2026-02-19T19:10:37Z",
       "added_at": "2026-01-16T03:47:28.635990587Z"
     },
     {
@@ -3417,7 +3417,7 @@
       "description": "Shows required lockpicking level on lockboxes on Turtle Wow.",
       "author": "Frosdun",
       "category": "L",
-      "last_commit": "2026-02-19T03:46:16Z",
+      "last_commit": "2026-02-19T18:50:21Z",
       "added_at": "2026-02-16T05:40:13.536136214Z"
     },
     {
@@ -4336,7 +4336,7 @@
       "name": "ProcDoc",
       "url": "https://github.com/npfs666/ProcDoc",
       "author": "npfs666",
-      "stars": 1,
+      "stars": 2,
       "category": "P",
       "last_commit": "2025-09-06T12:50:13Z",
       "added_at": "0001-01-01T00:00:00Z"
@@ -4774,7 +4774,7 @@
       "description": "Plays roar-guild emotes from multiple independently configured action slots. GodBod: Triggers healthy micro-exercises from action slots. Combined single addon, independent functionality.",
       "author": "Morkahja",
       "category": "R",
-      "last_commit": "2026-02-18T19:40:10Z",
+      "last_commit": "2026-02-19T11:55:23Z",
       "added_at": "2026-01-19T03:54:21.561835163Z"
     },
     {
@@ -6260,7 +6260,7 @@
       "author": "Otari98",
       "stars": 33,
       "category": "T",
-      "last_commit": "2026-02-16T17:57:14Z",
+      "last_commit": "2026-02-19T11:07:42Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -6960,7 +6960,7 @@
       "author": "refaim",
       "stars": 10,
       "category": "W",
-      "last_commit": "2026-02-17T17:18:31Z",
+      "last_commit": "2026-02-19T10:03:51Z",
       "added_at": "2026-02-02T04:07:34.481426499Z"
     },
     {
@@ -7916,7 +7916,7 @@
       "author": "jrc13245",
       "stars": 6,
       "category": "P",
-      "last_commit": "2026-02-15T01:56:07Z",
+      "last_commit": "2026-02-19T22:04:32Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
