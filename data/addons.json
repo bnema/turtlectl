@@ -1,10 +1,19 @@
 {
   "version": 1,
-  "revision": 39,
-  "generated_at": "2026-02-20T04:01:42.880411545Z",
+  "revision": 40,
+  "generated_at": "2026-02-21T03:57:00.294120122Z",
   "source_url": "https://turtle-wow.fandom.com/wiki/Addons",
-  "addon_count": 863,
+  "addon_count": 865,
   "addons": [
+    {
+      "name": "-DragonflightReloaded",
+      "url": "https://github.com/AmonRA/-DragonflightReloaded",
+      "author": "AmonRA",
+      "stars": 8,
+      "category": "D",
+      "last_commit": "2025-08-31T20:26:39Z",
+      "added_at": "2026-02-21T03:57:00.294120122Z"
+    },
     {
       "name": "Abraxas",
       "url": "https://github.com/xorann/Abraxas",
@@ -1363,21 +1372,21 @@
     },
     {
       "name": "Comix",
-      "url": "https://github.com/Cysthen/Comix",
-      "description": "2012 Comix from Feenix. Mostly Edited by Susangrundle and myself from the Guild Chainpull",
-      "author": "Cysthen",
-      "category": "C",
-      "last_commit": "2025-02-07T23:36:24Z",
-      "added_at": "0001-01-01T00:00:00Z"
-    },
-    {
-      "name": "Comix",
       "url": "https://github.com/Goose404/Comix",
       "description": "comix addon for wow client 1.12 and turtlewow twow",
       "author": "Goose404",
       "stars": 1,
       "category": "C",
       "last_commit": "2025-04-26T20:25:08Z",
+      "added_at": "0001-01-01T00:00:00Z"
+    },
+    {
+      "name": "Comix",
+      "url": "https://github.com/Cysthen/Comix",
+      "description": "2012 Comix from Feenix. Mostly Edited by Susangrundle and myself from the Guild Chainpull",
+      "author": "Cysthen",
+      "category": "C",
+      "last_commit": "2025-02-07T23:36:24Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -1666,7 +1675,7 @@
       "author": "Player-Doite",
       "stars": 25,
       "category": "D",
-      "last_commit": "2026-02-19T22:58:52Z",
+      "last_commit": "2026-02-20T15:05:33Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -1687,6 +1696,16 @@
       "category": "D",
       "last_commit": "2025-06-21T22:08:19Z",
       "added_at": "0001-01-01T00:00:00Z"
+    },
+    {
+      "name": "DragonflightUI-Reforged",
+      "url": "https://github.com/Stormhand-dev/DragonflightUI-Reforged",
+      "description": "Dragonflight UI: Reforged is the ultimate evolution of Dragonflight: Reloaded — a Legendary Turtle WoW UI overhaul forged for clarity, power, and immersion. Born from battle-tested roots, it delivers modern dragonsteel precision, fearless defaults, and customizable mastery for the true Azeroth champion.",
+      "author": "Stormhand-dev",
+      "stars": 2,
+      "category": "D",
+      "last_commit": "2026-01-31T03:42:17Z",
+      "added_at": "2026-02-21T03:57:00.294120122Z"
     },
     {
       "name": "DruidConsumable",
@@ -2598,7 +2617,7 @@
       "author": "redshadowz",
       "stars": 3,
       "category": "G",
-      "last_commit": "2026-02-19T18:22:20Z",
+      "last_commit": "2026-02-21T00:47:52Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -2626,7 +2645,7 @@
       "author": "JeromeM",
       "stars": 4,
       "category": "G",
-      "last_commit": "2026-02-18T22:16:26Z",
+      "last_commit": "2026-02-20T22:21:32Z",
       "added_at": "2026-01-31T03:56:59.720913419Z"
     },
     {
@@ -3417,7 +3436,7 @@
       "description": "Shows required lockpicking level on lockboxes on Turtle Wow.",
       "author": "Frosdun",
       "category": "L",
-      "last_commit": "2026-02-19T18:50:21Z",
+      "last_commit": "2026-02-20T20:37:59Z",
       "added_at": "2026-02-16T05:40:13.536136214Z"
     },
     {
@@ -3694,7 +3713,7 @@
       "author": "tilare",
       "stars": 7,
       "category": "M",
-      "last_commit": "2026-02-19T00:11:22Z",
+      "last_commit": "2026-02-20T23:36:46Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -3702,7 +3721,7 @@
       "url": "https://github.com/laytya/Metamap-vanilla",
       "description": "Initial upload",
       "author": "laytya",
-      "stars": 5,
+      "stars": 6,
       "category": "M",
       "last_commit": "2024-06-27T13:58:43Z",
       "added_at": "0001-01-01T00:00:00Z"
@@ -4078,7 +4097,7 @@
       "author": "zanthor",
       "stars": 3,
       "category": "O",
-      "last_commit": "2026-02-19T00:56:09Z",
+      "last_commit": "2026-02-21T03:49:47Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -4774,7 +4793,7 @@
       "description": "Plays roar-guild emotes from multiple independently configured action slots. GodBod: Triggers healthy micro-exercises from action slots. Combined single addon, independent functionality.",
       "author": "Morkahja",
       "category": "R",
-      "last_commit": "2026-02-19T11:55:23Z",
+      "last_commit": "2026-02-20T17:15:52Z",
       "added_at": "2026-01-19T03:54:21.561835163Z"
     },
     {
@@ -5302,7 +5321,7 @@
       "url": "https://github.com/shagu/ShaguTweaks",
       "description": "A collection of tweaks and enhancements to the default wow 1.12.1 interface",
       "author": "shagu",
-      "stars": 96,
+      "stars": 97,
       "category": "S",
       "last_commit": "2025-08-15T14:37:22Z",
       "added_at": "0001-01-01T00:00:00Z"
@@ -6039,7 +6058,7 @@
       "url": "https://github.com/Khundiann/TWoW-LFG-Bulletin-Board",
       "author": "Khundiann",
       "category": "T",
-      "last_commit": "2026-02-17T22:00:39Z",
+      "last_commit": "2026-02-20T12:43:20Z",
       "added_at": "2026-02-16T05:40:13.536136214Z"
     },
     {
@@ -6300,17 +6319,7 @@
       "author": "TheRealFayz",
       "stars": 6,
       "category": "T",
-      "last_commit": "2026-02-06T22:11:27Z",
-      "added_at": "0001-01-01T00:00:00Z"
-    },
-    {
-      "name": "TotemTimers-Enhanced",
-      "url": "https://github.com/mdmcclel/TotemTimers-Enhanced",
-      "description": "World of Warcraft AddOn for 1.12.1 (Vanilla) - keep's track of Shaman's Totems, how long they'll last and now also when their next Tick comes.",
-      "author": "mdmcclel",
-      "stars": 1,
-      "category": "T",
-      "last_commit": "2024-11-07T02:26:51Z",
+      "last_commit": "2026-02-21T03:48:55Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -6321,6 +6330,16 @@
       "stars": 8,
       "category": "T",
       "last_commit": "2024-06-16T21:26:40Z",
+      "added_at": "0001-01-01T00:00:00Z"
+    },
+    {
+      "name": "TotemTimers-Enhanced",
+      "url": "https://github.com/mdmcclel/TotemTimers-Enhanced",
+      "description": "World of Warcraft AddOn for 1.12.1 (Vanilla) - keep's track of Shaman's Totems, how long they'll last and now also when their next Tick comes.",
+      "author": "mdmcclel",
+      "stars": 1,
+      "category": "T",
+      "last_commit": "2024-11-07T02:26:51Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -6417,16 +6436,6 @@
       "author": "cyaohiri",
       "category": "T",
       "last_commit": "2023-12-13T12:51:35Z",
-      "added_at": "0001-01-01T00:00:00Z"
-    },
-    {
-      "name": "Turtle-Dragonflight-ui",
-      "url": "https://github.com/Zedris/Turtle-Dragonflight-ui",
-      "description": "A UI that brings the Dragonflight UI to Turtle WoW.",
-      "author": "Zedris",
-      "stars": 1,
-      "category": "T",
-      "last_commit": "2024-03-17T22:23:54Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -6562,6 +6571,15 @@
       "category": "T",
       "last_commit": "2025-09-20T23:37:13Z",
       "added_at": "2026-02-16T05:40:13.536136214Z"
+    },
+    {
+      "name": "TurtleReagentDisplay",
+      "url": "https://github.com/FrancisEgan/TurtleReagentDisplay",
+      "description": "A lightweight Turtle WoW (1.12) addon that displays reagent counts directly on your action bar buttons",
+      "author": "FrancisEgan",
+      "category": "T",
+      "last_commit": "2026-02-20T21:56:03Z",
+      "added_at": "2026-02-21T03:57:00.294120122Z"
     },
     {
       "name": "TurtleRoleplayingHelper",
@@ -6948,7 +6966,7 @@
       "url": "https://github.com/Fiurs-Hearth/WIIIUI",
       "description": "A Warcraft III UI addon for vanilla WoW",
       "author": "Fiurs-Hearth",
-      "stars": 82,
+      "stars": 83,
       "category": "W",
       "last_commit": "2025-09-06T00:05:44Z",
       "added_at": "0001-01-01T00:00:00Z"
@@ -7877,7 +7895,7 @@
       "author": "Arthur-Helias",
       "stars": 2,
       "category": "P",
-      "last_commit": "2026-02-17T07:00:57Z",
+      "last_commit": "2026-02-21T02:54:42Z",
       "added_at": "2026-02-16T05:40:13.536136214Z"
     },
     {
