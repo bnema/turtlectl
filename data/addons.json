@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "revision": 40,
-  "generated_at": "2026-02-21T03:57:00.294120122Z",
+  "revision": 41,
+  "generated_at": "2026-02-22T04:02:35.757788875Z",
   "source_url": "https://turtle-wow.fandom.com/wiki/Addons",
   "addon_count": 865,
   "addons": [
@@ -370,7 +370,7 @@
       "description": "Automatically use healthstones, and consumables in fight without having to think about it.",
       "author": "TheRealFayz",
       "category": "A",
-      "last_commit": "2026-02-09T21:18:01Z",
+      "last_commit": "2026-02-21T04:23:51Z",
       "added_at": "2026-02-04T04:00:23.712775613Z"
     },
     {
@@ -1132,7 +1132,7 @@
       "author": "trumpetx",
       "stars": 2,
       "category": "C",
-      "last_commit": "2026-02-11T12:39:56Z",
+      "last_commit": "2026-02-22T00:27:00Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -1403,7 +1403,7 @@
       "url": "https://github.com/pepordev/ConsoleExperienceClassic",
       "description": "Wow Classic (1.12) Console Experience (Gamepad support) compatible with TurtleWoW",
       "author": "pepordev",
-      "stars": 17,
+      "stars": 18,
       "category": "C",
       "last_commit": "2026-01-31T08:14:19Z",
       "added_at": "0001-01-01T00:00:00Z"
@@ -1675,7 +1675,7 @@
       "author": "Player-Doite",
       "stars": 25,
       "category": "D",
-      "last_commit": "2026-02-20T15:05:33Z",
+      "last_commit": "2026-02-21T23:34:20Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -2159,7 +2159,7 @@
       "author": "lookino",
       "stars": 2,
       "category": "F",
-      "last_commit": "2026-02-02T16:08:53Z",
+      "last_commit": "2026-02-21T18:22:00Z",
       "added_at": "2026-02-10T04:11:42.43452853Z"
     },
     {
@@ -2617,7 +2617,7 @@
       "author": "redshadowz",
       "stars": 3,
       "category": "G",
-      "last_commit": "2026-02-21T00:47:52Z",
+      "last_commit": "2026-02-21T12:46:26Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -2690,7 +2690,7 @@
       "description": "Simple Effort Points system inspired by ShootyEPGP for Turtle WoW",
       "author": "RollingSmile",
       "category": "G",
-      "last_commit": "2026-02-19T19:10:37Z",
+      "last_commit": "2026-02-21T23:36:18Z",
       "added_at": "2026-01-16T03:47:28.635990587Z"
     },
     {
@@ -3436,7 +3436,7 @@
       "description": "Shows required lockpicking level on lockboxes on Turtle Wow.",
       "author": "Frosdun",
       "category": "L",
-      "last_commit": "2026-02-20T20:37:59Z",
+      "last_commit": "2026-02-21T21:35:49Z",
       "added_at": "2026-02-16T05:40:13.536136214Z"
     },
     {
@@ -4097,7 +4097,7 @@
       "author": "zanthor",
       "stars": 3,
       "category": "O",
-      "last_commit": "2026-02-21T03:49:47Z",
+      "last_commit": "2026-02-21T19:02:17Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -6791,7 +6791,7 @@
       "name": "VanillaGraphicBoost",
       "url": "https://github.com/hixio-mh/VanillaGraphicBoost",
       "description": "Push the game's visuals to the max because our computers can handle it!",
-      "author": "hixiomh",
+      "author": "SNiTEBoBy",
       "stars": 1,
       "category": "V",
       "last_commit": "2018-04-30T21:50:05Z",
@@ -7815,7 +7815,7 @@
       "url": "https://github.com/Cliencer/pfExtend",
       "description": "Extension for pfQuest | Monster loot display \u0026 Quest chain browser for Vanilla WoW 1.12 / Turtle WoW. Drop rates, item farming, quest tracking, prerequisite finder. pfQuest扩展插件 | 怪物掉落显示与任务链浏览器，支持魔兽1.12/Turtle WoW乌龟服。掉落查询、物品farm、任务追踪、前置查找。",
       "author": "Cliencer",
-      "stars": 5,
+      "stars": 7,
       "category": "P",
       "last_commit": "2026-02-17T08:11:06Z",
       "added_at": "2026-02-16T05:40:13.536136214Z"
@@ -7825,7 +7825,7 @@
       "url": "https://github.com/shagu/pfQuest",
       "description": "A Questhelper and Database Addon for World of Warcraft: Vanilla \u0026 TBC",
       "author": "shagu",
-      "stars": 259,
+      "stars": 258,
       "category": "P",
       "last_commit": "2025-08-25T20:26:06Z",
       "added_at": "0001-01-01T00:00:00Z"
@@ -7845,7 +7845,7 @@
       "url": "https://github.com/shagu/pfQuest-turtle",
       "description": "A TurtleWoW DB extension for pfQuest",
       "author": "shagu",
-      "stars": 121,
+      "stars": 120,
       "category": "P",
       "last_commit": "2025-08-27T15:20:01Z",
       "added_at": "0001-01-01T00:00:00Z"
@@ -7874,7 +7874,7 @@
       "url": "https://github.com/shagu/pfUI",
       "description": "A User Interface Replacement for World of Warcraft: Vanilla \u0026 TBC",
       "author": "shagu",
-      "stars": 403,
+      "stars": 402,
       "category": "P",
       "last_commit": "2025-08-28T10:10:44Z",
       "added_at": "0001-01-01T00:00:00Z"
@@ -7895,7 +7895,7 @@
       "author": "Arthur-Helias",
       "stars": 2,
       "category": "P",
-      "last_commit": "2026-02-21T02:54:42Z",
+      "last_commit": "2026-02-22T03:16:57Z",
       "added_at": "2026-02-16T05:40:13.536136214Z"
     },
     {
