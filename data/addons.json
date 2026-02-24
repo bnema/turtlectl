@@ -1,9 +1,9 @@
 {
   "version": 1,
-  "revision": 42,
-  "generated_at": "2026-02-23T04:07:19.195751287Z",
+  "revision": 43,
+  "generated_at": "2026-02-24T04:03:45.083355918Z",
   "source_url": "https://turtle-wow.fandom.com/wiki/Addons",
-  "addon_count": 867,
+  "addon_count": 868,
   "addons": [
     {
       "name": "-DragonflightReloaded",
@@ -194,9 +194,9 @@
       "url": "https://github.com/byCFM2/Atlas-TW",
       "description": "Overview: Atlas‑TW is a dungeon map browser with an integrated loot panel and quests module. It is compatible with World of Warcraft 1.12 and includes localization support.",
       "author": "byCFM2",
-      "stars": 13,
+      "stars": 14,
       "category": "A",
-      "last_commit": "2026-02-19T20:23:29Z",
+      "last_commit": "2026-02-23T12:46:20Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -634,7 +634,7 @@
       "author": "JeromeM",
       "stars": 1,
       "category": "B",
-      "last_commit": "2026-02-12T14:07:42Z",
+      "last_commit": "2026-02-23T17:13:42Z",
       "added_at": "2026-02-16T05:40:13.536136214Z"
     },
     {
@@ -1675,7 +1675,7 @@
       "author": "Player-Doite",
       "stars": 25,
       "category": "D",
-      "last_commit": "2026-02-22T22:18:32Z",
+      "last_commit": "2026-02-23T13:27:06Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -2169,7 +2169,7 @@
       "author": "lookino",
       "stars": 2,
       "category": "F",
-      "last_commit": "2026-02-21T18:22:00Z",
+      "last_commit": "2026-02-23T21:03:06Z",
       "added_at": "2026-02-10T04:11:42.43452853Z"
     },
     {
@@ -3796,21 +3796,21 @@
     },
     {
       "name": "MobHealth",
+      "url": "https://github.com/FrostShock/MobHealth",
+      "description": "Displays health values.",
+      "author": "FrostShock",
+      "category": "M",
+      "last_commit": "2021-09-15T08:58:55Z",
+      "added_at": "0001-01-01T00:00:00Z"
+    },
+    {
+      "name": "MobHealth",
       "url": "https://github.com/kc8pnd/MobHealth",
       "description": "Displays health values.",
       "author": "kc8pnd",
       "stars": 3,
       "category": "M",
       "last_commit": "2016-12-21T00:19:17Z",
-      "added_at": "0001-01-01T00:00:00Z"
-    },
-    {
-      "name": "MobHealth",
-      "url": "https://github.com/FrostShock/MobHealth",
-      "description": "Displays health values.",
-      "author": "FrostShock",
-      "category": "M",
-      "last_commit": "2021-09-15T08:58:55Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -4160,21 +4160,21 @@
     },
     {
       "name": "Outfitter",
-      "url": "https://github.com/MarcelineVQ/Outfitter",
-      "description": "fix for Turtle WoW - Riding Turtle Mount",
-      "author": "MarcelineVQ",
-      "stars": 2,
-      "category": "O",
-      "last_commit": "2026-02-22T05:30:05Z",
-      "added_at": "0001-01-01T00:00:00Z"
-    },
-    {
-      "name": "Outfitter",
       "url": "https://github.com/pepopo978/Outfitter",
       "author": "pepopo978",
       "stars": 11,
       "category": "O",
       "last_commit": "2025-12-30T19:59:40Z",
+      "added_at": "0001-01-01T00:00:00Z"
+    },
+    {
+      "name": "Outfitter",
+      "url": "https://github.com/MarcelineVQ/Outfitter",
+      "description": "fix for Turtle WoW - Riding Turtle Mount",
+      "author": "MarcelineVQ",
+      "stars": 2,
+      "category": "O",
+      "last_commit": "2026-02-24T03:47:19Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -4395,7 +4395,7 @@
       "url": "https://github.com/OldManAlpha/Puppeteer",
       "description": "A unit frames addon for WoW Vanilla 1.12",
       "author": "OldManAlpha",
-      "stars": 35,
+      "stars": 34,
       "category": "H",
       "last_commit": "2025-12-16T00:32:02Z",
       "added_at": "0001-01-01T00:00:00Z"
@@ -4447,7 +4447,7 @@
       "author": "graved",
       "stars": 7,
       "category": "Q",
-      "last_commit": "2025-10-24T17:54:56Z",
+      "last_commit": "2026-02-23T21:21:30Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -4924,22 +4924,22 @@
     },
     {
       "name": "SUCC-bag",
-      "url": "https://github.com/FrostShock/SUCC-bag",
-      "description": "Sublime User Convenience Collection - player inventory and bank",
-      "author": "FrostShock",
-      "stars": 1,
-      "category": "S",
-      "last_commit": "2021-10-27T17:25:05Z",
-      "added_at": "0001-01-01T00:00:00Z"
-    },
-    {
-      "name": "SUCC-bag",
       "url": "https://github.com/Otari98/SUCC-bag",
       "description": "Sublime User Convenience Collection - player inventory and bank",
       "author": "Otari98",
       "stars": 3,
       "category": "S",
       "last_commit": "2025-10-07T17:26:20Z",
+      "added_at": "0001-01-01T00:00:00Z"
+    },
+    {
+      "name": "SUCC-bag",
+      "url": "https://github.com/FrostShock/SUCC-bag",
+      "description": "Sublime User Convenience Collection - player inventory and bank",
+      "author": "FrostShock",
+      "stars": 1,
+      "category": "S",
+      "last_commit": "2021-10-27T17:25:05Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -5728,22 +5728,22 @@
     },
     {
       "name": "SpamThrottle",
-      "url": "https://github.com/Orukxu/SpamThrottle",
-      "description": "Vanilla WoW addon to remove unwanted chat messages",
-      "author": "Orukxu",
-      "stars": 19,
-      "category": "S",
-      "last_commit": "2019-01-25T18:59:05Z",
-      "added_at": "0001-01-01T00:00:00Z"
-    },
-    {
-      "name": "SpamThrottle",
       "url": "https://github.com/laytya/SpamThrottle",
       "description": "Vanilla WoW addon to remove unwanted chat messages",
       "author": "laytya",
       "stars": 18,
       "category": "S",
       "last_commit": "2023-07-26T15:53:58Z",
+      "added_at": "0001-01-01T00:00:00Z"
+    },
+    {
+      "name": "SpamThrottle",
+      "url": "https://github.com/Orukxu/SpamThrottle",
+      "description": "Vanilla WoW addon to remove unwanted chat messages",
+      "author": "Orukxu",
+      "stars": 19,
+      "category": "S",
+      "last_commit": "2019-01-25T18:59:05Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -6334,22 +6334,22 @@
     },
     {
       "name": "TotemTimers-Enhanced",
-      "url": "https://github.com/mdmcclel/TotemTimers-Enhanced",
-      "description": "World of Warcraft AddOn for 1.12.1 (Vanilla) - keep's track of Shaman's Totems, how long they'll last and now also when their next Tick comes.",
-      "author": "mdmcclel",
-      "stars": 1,
-      "category": "T",
-      "last_commit": "2024-11-07T02:26:51Z",
-      "added_at": "0001-01-01T00:00:00Z"
-    },
-    {
-      "name": "TotemTimers-Enhanced",
       "url": "https://github.com/MOUZU/TotemTimers-Enhanced",
       "description": "World of Warcraft AddOn for 1.12.1 (Vanilla) - keep's track of Shaman's Totems, how long they'll last and now also when their next Tick comes.",
       "author": "MOUZU",
       "stars": 8,
       "category": "T",
       "last_commit": "2024-06-16T21:26:40Z",
+      "added_at": "0001-01-01T00:00:00Z"
+    },
+    {
+      "name": "TotemTimers-Enhanced",
+      "url": "https://github.com/mdmcclel/TotemTimers-Enhanced",
+      "description": "World of Warcraft AddOn for 1.12.1 (Vanilla) - keep's track of Shaman's Totems, how long they'll last and now also when their next Tick comes.",
+      "author": "mdmcclel",
+      "stars": 1,
+      "category": "T",
+      "last_commit": "2024-11-07T02:26:51Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -6504,6 +6504,16 @@
       "category": "T",
       "last_commit": "2025-10-07T01:00:09Z",
       "added_at": "0001-01-01T00:00:00Z"
+    },
+    {
+      "name": "TurtleDebug",
+      "url": "https://github.com/FrancisEgan/TurtleDebug",
+      "description": "A pretty-print debug tool for Turtle WoW that allows easy copying and saves your variable list",
+      "author": "FrancisEgan",
+      "stars": 1,
+      "category": "T",
+      "last_commit": "2026-02-23T17:11:36Z",
+      "added_at": "2026-02-24T04:03:45.083355918Z"
     },
     {
       "name": "TurtleEnchant",
@@ -6878,22 +6888,22 @@
     },
     {
       "name": "VanillaStoryline",
-      "url": "https://github.com/Voidmenull/VanillaStoryline",
-      "description": "Storyline Custom Backport",
-      "author": "Voidmenull",
-      "stars": 14,
-      "category": "V",
-      "last_commit": "2016-05-06T17:00:31Z",
-      "added_at": "0001-01-01T00:00:00Z"
-    },
-    {
-      "name": "VanillaStoryline",
       "url": "https://github.com/tubtubs/VanillaStoryline",
       "description": "Storyline Custom Backport",
       "author": "tubtubs",
       "stars": 12,
       "category": "V",
       "last_commit": "2025-10-28T06:16:08Z",
+      "added_at": "0001-01-01T00:00:00Z"
+    },
+    {
+      "name": "VanillaStoryline",
+      "url": "https://github.com/Voidmenull/VanillaStoryline",
+      "description": "Storyline Custom Backport",
+      "author": "Voidmenull",
+      "stars": 14,
+      "category": "V",
+      "last_commit": "2016-05-06T17:00:31Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -7783,22 +7793,22 @@
     },
     {
       "name": "necrosis-twow",
-      "url": "https://github.com/Nedlinin/necrosis-twow",
-      "description": "1.5.2a fork of Necrosis addon for Turtle WoW",
-      "author": "Nedlinin",
-      "stars": 1,
-      "category": "N",
-      "last_commit": "2025-12-03T21:28:24Z",
-      "added_at": "0001-01-01T00:00:00Z"
-    },
-    {
-      "name": "necrosis-twow",
       "url": "https://github.com/pylebecq/necrosis-twow",
       "description": "1.5.2a fork of Necrosis addon for Turtle WoW",
       "author": "pylebecq",
       "stars": 1,
       "category": "N",
       "last_commit": "2026-01-17T11:30:23Z",
+      "added_at": "0001-01-01T00:00:00Z"
+    },
+    {
+      "name": "necrosis-twow",
+      "url": "https://github.com/Nedlinin/necrosis-twow",
+      "description": "1.5.2a fork of Necrosis addon for Turtle WoW",
+      "author": "Nedlinin",
+      "stars": 1,
+      "category": "N",
+      "last_commit": "2025-12-03T21:28:24Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
