@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "revision": 43,
-  "generated_at": "2026-02-24T04:03:45.083355918Z",
+  "revision": 44,
+  "generated_at": "2026-02-25T04:04:55.979169123Z",
   "source_url": "https://turtle-wow.fandom.com/wiki/Addons",
   "addon_count": 868,
   "addons": [
@@ -9,7 +9,7 @@
       "name": "-DragonflightReloaded",
       "url": "https://github.com/AmonRA/-DragonflightReloaded",
       "author": "AmonRA",
-      "stars": 8,
+      "stars": 9,
       "category": "D",
       "last_commit": "2025-08-31T20:26:39Z",
       "added_at": "2026-02-21T03:57:00.294120122Z"
@@ -194,7 +194,7 @@
       "url": "https://github.com/byCFM2/Atlas-TW",
       "description": "Overview: Atlas‑TW is a dungeon map browser with an integrated loot panel and quests module. It is compatible with World of Warcraft 1.12 and includes localization support.",
       "author": "byCFM2",
-      "stars": 14,
+      "stars": 13,
       "category": "A",
       "last_commit": "2026-02-23T12:46:20Z",
       "added_at": "0001-01-01T00:00:00Z"
@@ -1405,7 +1405,7 @@
       "author": "pepordev",
       "stars": 18,
       "category": "C",
-      "last_commit": "2026-01-31T08:14:19Z",
+      "last_commit": "2026-02-24T08:17:03Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -1675,7 +1675,7 @@
       "author": "Player-Doite",
       "stars": 25,
       "category": "D",
-      "last_commit": "2026-02-23T13:27:06Z",
+      "last_commit": "2026-02-24T13:41:52Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -1702,7 +1702,7 @@
       "url": "https://github.com/Stormhand-dev/DragonflightUI-Reforged",
       "description": "Dragonflight UI: Reforged is the ultimate evolution of Dragonflight: Reloaded — a Legendary Turtle WoW UI overhaul forged for clarity, power, and immersion. Born from battle-tested roots, it delivers modern dragonsteel precision, fearless defaults, and customizable mastery for the true Azeroth champion.",
       "author": "Stormhand-dev",
-      "stars": 2,
+      "stars": 3,
       "category": "D",
       "last_commit": "2026-01-31T03:42:17Z",
       "added_at": "2026-02-21T03:57:00.294120122Z"
@@ -1812,7 +1812,7 @@
       "url": "https://github.com/laytya/EQCompare-Vanilla",
       "description": "Equpcompare ACE2 replica. When you shop for items at a vendor or the Auction House and you hover over an item, you get a comparison tooltip showing the \"currently equipped\" item too. This AddOn adds such a feature everywhere in the game where you can hover over items, such as in your bags, in the loot window or on the reward page of a quest. You also receive comparison tooltips when clicking an item link in the chat box.",
       "author": "laytya",
-      "stars": 10,
+      "stars": 11,
       "category": "E",
       "last_commit": "2017-04-06T03:33:25Z",
       "added_at": "0001-01-01T00:00:00Z"
@@ -1879,9 +1879,9 @@
       "url": "https://github.com/MarcelineVQ/EasyLoot",
       "description": "Automatic loot rules for instances and groups. Have loot handle itself.",
       "author": "MarcelineVQ",
-      "stars": 6,
+      "stars": 7,
       "category": "E",
-      "last_commit": "2026-02-22T23:46:11Z",
+      "last_commit": "2026-02-25T03:37:12Z",
       "added_at": "2026-02-23T04:07:19.195751287Z"
     },
     {
@@ -2627,7 +2627,7 @@
       "author": "redshadowz",
       "stars": 3,
       "category": "G",
-      "last_commit": "2026-02-22T14:27:49Z",
+      "last_commit": "2026-02-25T00:58:55Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -3446,7 +3446,7 @@
       "description": "Shows required lockpicking level on lockboxes on Turtle Wow.",
       "author": "Frosdun",
       "category": "L",
-      "last_commit": "2026-02-21T21:35:49Z",
+      "last_commit": "2026-02-25T01:33:10Z",
       "added_at": "2026-02-16T05:40:13.536136214Z"
     },
     {
@@ -4407,7 +4407,7 @@
       "author": "laytya",
       "stars": 8,
       "category": "Q",
-      "last_commit": "2025-05-28T11:08:37Z",
+      "last_commit": "2026-02-24T04:09:11Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -6058,7 +6058,7 @@
       "url": "https://github.com/MarcelineVQ/TWThreat",
       "description": "Turtle WOW's own Threat Meter !",
       "author": "MarcelineVQ",
-      "stars": 10,
+      "stars": 11,
       "category": "T",
       "last_commit": "2025-08-17T02:19:11Z",
       "added_at": "2026-01-16T03:47:28.635990587Z"
@@ -6512,7 +6512,7 @@
       "author": "FrancisEgan",
       "stars": 1,
       "category": "T",
-      "last_commit": "2026-02-23T17:11:36Z",
+      "last_commit": "2026-02-25T01:54:28Z",
       "added_at": "2026-02-24T04:03:45.083355918Z"
     },
     {
@@ -6599,7 +6599,7 @@
       "author": "FrancisEgan",
       "stars": 1,
       "category": "T",
-      "last_commit": "2026-02-20T21:56:03Z",
+      "last_commit": "2026-02-25T01:53:03Z",
       "added_at": "2026-02-21T03:57:00.294120122Z"
     },
     {
@@ -6637,7 +6637,7 @@
       "description": "A lightweight Turtle WoW addon that adds a merchant-window button to quickly sell all gray-quality (poor) items in your bags.",
       "author": "nemanuel",
       "category": "T",
-      "last_commit": "2026-02-16T19:02:50Z",
+      "last_commit": "2026-02-24T07:30:55Z",
       "added_at": "2026-02-18T04:05:41.054544142Z"
     },
     {
@@ -7076,7 +7076,7 @@
       "author": "spawnedc",
       "stars": 12,
       "category": "W",
-      "last_commit": "2026-02-22T10:56:47Z",
+      "last_commit": "2026-02-24T16:00:49Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -7925,7 +7925,7 @@
       "author": "Arthur-Helias",
       "stars": 2,
       "category": "P",
-      "last_commit": "2026-02-22T03:16:57Z",
+      "last_commit": "2026-02-25T03:54:08Z",
       "added_at": "2026-02-16T05:40:13.536136214Z"
     },
     {
