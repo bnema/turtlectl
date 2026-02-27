@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "revision": 45,
-  "generated_at": "2026-02-26T04:02:20.533579857Z",
+  "revision": 46,
+  "generated_at": "2026-02-27T03:59:38.099914245Z",
   "source_url": "https://turtle-wow.fandom.com/wiki/Addons",
   "addon_count": 870,
   "addons": [
@@ -25,6 +25,15 @@
     },
     {
       "name": "Accountant",
+      "url": "https://github.com/terdong/Accountant",
+      "description": "Accountant tracks you incoming / outgoing cash.",
+      "author": "terdong",
+      "category": "A",
+      "last_commit": "2025-12-26T07:02:25Z",
+      "added_at": "2026-01-10T03:42:41.414014379Z"
+    },
+    {
+      "name": "Accountant",
       "url": "https://github.com/wow-vanilla-addons/Accountant",
       "description": "Accountant tracks you incoming / outgoing cash.",
       "author": "wow-vanilla-addons",
@@ -32,15 +41,6 @@
       "category": "A",
       "last_commit": "2016-04-24T21:45:51Z",
       "added_at": "0001-01-01T00:00:00Z"
-    },
-    {
-      "name": "Accountant",
-      "url": "https://github.com/terdong/Accountant",
-      "description": "Accountant tracks you incoming / outgoing cash.",
-      "author": "terdong",
-      "category": "A",
-      "last_commit": "2025-12-26T07:02:25Z",
-      "added_at": "2026-01-10T03:42:41.414014379Z"
     },
     {
       "name": "ActionBarProfiles",
@@ -363,15 +363,6 @@
       "category": "A",
       "last_commit": "2025-04-29T01:26:42Z",
       "added_at": "0001-01-01T00:00:00Z"
-    },
-    {
-      "name": "AutoManaPlus",
-      "url": "https://github.com/TheRealFayz/AutoManaPlus",
-      "description": "Automatically use healthstones, and consumables in fight without having to think about it.",
-      "author": "TheRealFayz",
-      "category": "A",
-      "last_commit": "2026-02-21T04:23:51Z",
-      "added_at": "2026-02-04T04:00:23.712775613Z"
     },
     {
       "name": "AutoMasterLooter",
@@ -798,7 +789,7 @@
       "author": "MarcelineVQ",
       "stars": 4,
       "category": "B",
-      "last_commit": "2025-12-21T14:49:13Z",
+      "last_commit": "2026-02-27T03:32:37Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -1673,9 +1664,9 @@
       "url": "https://github.com/Player-Doite/DoiteAuras",
       "description": "Ability, buff, debuff \u0026 item tracker for Vanilla WoW.",
       "author": "Player-Doite",
-      "stars": 26,
+      "stars": 27,
       "category": "D",
-      "last_commit": "2026-02-24T13:41:52Z",
+      "last_commit": "2026-02-26T13:58:50Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -1881,7 +1872,7 @@
       "author": "MarcelineVQ",
       "stars": 7,
       "category": "E",
-      "last_commit": "2026-02-25T03:37:12Z",
+      "last_commit": "2026-02-26T06:25:12Z",
       "added_at": "2026-02-23T04:07:19.195751287Z"
     },
     {
@@ -2627,7 +2618,7 @@
       "author": "redshadowz",
       "stars": 3,
       "category": "G",
-      "last_commit": "2026-02-25T14:39:09Z",
+      "last_commit": "2026-02-26T13:55:40Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -2653,9 +2644,9 @@
       "url": "https://github.com/JeromeM/GuidelimeVanilla",
       "description": "Total rewrite of the Guidelime addon which is not compatible with 1.12",
       "author": "JeromeM",
-      "stars": 4,
+      "stars": 5,
       "category": "G",
-      "last_commit": "2026-02-22T22:31:02Z",
+      "last_commit": "2026-02-26T20:12:37Z",
       "added_at": "2026-01-31T03:56:59.720913419Z"
     },
     {
@@ -3446,7 +3437,7 @@
       "description": "Shows required lockpicking level on lockboxes on Turtle Wow.",
       "author": "Frosdun",
       "category": "L",
-      "last_commit": "2026-02-25T19:00:40Z",
+      "last_commit": "2026-02-26T20:38:21Z",
       "added_at": "2026-02-16T05:40:13.536136214Z"
     },
     {
@@ -3662,19 +3653,19 @@
     },
     {
       "name": "MasterTradeSkills",
+      "url": "https://github.com/ImmortalSom/MasterTradeSkills",
+      "category": "M",
+      "last_commit": "0001-01-01T00:00:00Z",
+      "added_at": "0001-01-01T00:00:00Z"
+    },
+    {
+      "name": "MasterTradeSkills",
       "url": "https://github.com/refaim/MasterTradeSkills",
       "description": "Vanilla WoW 1.12.1 and Turtle WoW addon. Adds trade skill information to tooltips of ingredients.",
       "author": "refaim",
       "stars": 19,
       "category": "M",
       "last_commit": "2025-12-21T08:40:16Z",
-      "added_at": "0001-01-01T00:00:00Z"
-    },
-    {
-      "name": "MasterTradeSkills",
-      "url": "https://github.com/ImmortalSom/MasterTradeSkills",
-      "category": "M",
-      "last_commit": "0001-01-01T00:00:00Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -4371,6 +4362,15 @@
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
+      "name": "ProfessionLevels",
+      "url": "https://github.com/gregdeichler/ProfessionLevels",
+      "description": "Aprofession tracking addon for Turtle WoW.",
+      "author": "gregdeichler",
+      "category": "P",
+      "last_commit": "2026-02-26T15:24:05Z",
+      "added_at": "2026-02-27T03:59:38.099914245Z"
+    },
+    {
       "name": "Pummeler",
       "url": "https://github.com/Cernie/Pummeler",
       "description": "One button for equipping and using Manual Crowd Pummeler(s) in vanilla World of Warcraft",
@@ -4803,7 +4803,7 @@
       "description": "Plays roar-guild emotes from multiple independently configured action slots. GodBod: Triggers healthy micro-exercises from action slots. Combined single addon, independent functionality.",
       "author": "Morkahja",
       "category": "R",
-      "last_commit": "2026-02-20T17:15:52Z",
+      "last_commit": "2026-02-26T11:48:03Z",
       "added_at": "2026-01-19T03:54:21.561835163Z"
     },
     {
@@ -5661,15 +5661,6 @@
     },
     {
       "name": "SortBags",
-      "url": "https://github.com/Magues17/SortBags",
-      "description": "Bag Sorting addon for Turtle WoW",
-      "author": "Magues17",
-      "category": "S",
-      "last_commit": "2025-11-05T17:12:00Z",
-      "added_at": "2026-01-10T03:42:41.414014379Z"
-    },
-    {
-      "name": "SortBags",
       "url": "https://github.com/shirsig/SortBags",
       "description": "Bag sorting for Classic (1.13) IMPORTANT: If you want buttons get this too: https://github.com/shirsig/Cleanup IMPORTANT: The folder name must be \"SortBags\" IMPORTANT: The Vanilla (1.12) version moved here https://github.com/shirsig/SortBags-vanilla",
       "author": "shirsig",
@@ -5677,6 +5668,15 @@
       "category": "S",
       "last_commit": "2026-01-19T18:32:41Z",
       "added_at": "0001-01-01T00:00:00Z"
+    },
+    {
+      "name": "SortBags",
+      "url": "https://github.com/Magues17/SortBags",
+      "description": "Bag Sorting addon for Turtle WoW",
+      "author": "Magues17",
+      "category": "S",
+      "last_commit": "2025-11-05T17:12:00Z",
+      "added_at": "2026-01-10T03:42:41.414014379Z"
     },
     {
       "name": "SortBags-vanilla",
@@ -5728,22 +5728,22 @@
     },
     {
       "name": "SpamThrottle",
-      "url": "https://github.com/Orukxu/SpamThrottle",
-      "description": "Vanilla WoW addon to remove unwanted chat messages",
-      "author": "Orukxu",
-      "stars": 19,
-      "category": "S",
-      "last_commit": "2019-01-25T18:59:05Z",
-      "added_at": "0001-01-01T00:00:00Z"
-    },
-    {
-      "name": "SpamThrottle",
       "url": "https://github.com/laytya/SpamThrottle",
       "description": "Vanilla WoW addon to remove unwanted chat messages",
       "author": "laytya",
       "stars": 18,
       "category": "S",
       "last_commit": "2023-07-26T15:53:58Z",
+      "added_at": "0001-01-01T00:00:00Z"
+    },
+    {
+      "name": "SpamThrottle",
+      "url": "https://github.com/Orukxu/SpamThrottle",
+      "description": "Vanilla WoW addon to remove unwanted chat messages",
+      "author": "Orukxu",
+      "stars": 19,
+      "category": "S",
+      "last_commit": "2019-01-25T18:59:05Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -6179,19 +6179,19 @@
     },
     {
       "name": "Threat",
-      "url": "https://github.com/Xleone1/Threat",
-      "author": "Xleone1",
-      "category": "T",
-      "last_commit": "2025-07-09T00:15:28Z",
-      "added_at": "0001-01-01T00:00:00Z"
-    },
-    {
-      "name": "Threat",
       "url": "https://github.com/muellerj/Threat",
       "author": "muellerj",
       "stars": 2,
       "category": "T",
       "last_commit": "2017-11-05T12:02:17Z",
+      "added_at": "0001-01-01T00:00:00Z"
+    },
+    {
+      "name": "Threat",
+      "url": "https://github.com/Xleone1/Threat",
+      "author": "Xleone1",
+      "category": "T",
+      "last_commit": "2025-07-09T00:15:28Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -6343,22 +6343,22 @@
     },
     {
       "name": "TotemTimers-Enhanced",
-      "url": "https://github.com/mdmcclel/TotemTimers-Enhanced",
-      "description": "World of Warcraft AddOn for 1.12.1 (Vanilla) - keep's track of Shaman's Totems, how long they'll last and now also when their next Tick comes.",
-      "author": "mdmcclel",
-      "stars": 1,
-      "category": "T",
-      "last_commit": "2024-11-07T02:26:51Z",
-      "added_at": "0001-01-01T00:00:00Z"
-    },
-    {
-      "name": "TotemTimers-Enhanced",
       "url": "https://github.com/MOUZU/TotemTimers-Enhanced",
       "description": "World of Warcraft AddOn for 1.12.1 (Vanilla) - keep's track of Shaman's Totems, how long they'll last and now also when their next Tick comes.",
       "author": "MOUZU",
       "stars": 8,
       "category": "T",
       "last_commit": "2024-06-16T21:26:40Z",
+      "added_at": "0001-01-01T00:00:00Z"
+    },
+    {
+      "name": "TotemTimers-Enhanced",
+      "url": "https://github.com/mdmcclel/TotemTimers-Enhanced",
+      "description": "World of Warcraft AddOn for 1.12.1 (Vanilla) - keep's track of Shaman's Totems, how long they'll last and now also when their next Tick comes.",
+      "author": "mdmcclel",
+      "stars": 1,
+      "category": "T",
+      "last_commit": "2024-11-07T02:26:51Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -6618,7 +6618,7 @@
       "author": "FrancisEgan",
       "stars": 1,
       "category": "T",
-      "last_commit": "2026-02-25T01:53:03Z",
+      "last_commit": "2026-02-26T23:11:54Z",
       "added_at": "2026-02-21T03:57:00.294120122Z"
     },
     {
@@ -6719,7 +6719,7 @@
       "author": "rmarc29",
       "stars": 3,
       "category": "U",
-      "last_commit": "2026-02-13T21:29:00Z",
+      "last_commit": "2026-02-26T09:16:15Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -6946,19 +6946,19 @@
     },
     {
       "name": "Vanilla_oCB",
+      "url": "https://github.com/martinjlowm/Vanilla_oCB",
+      "author": "martinjlowm",
+      "category": "O",
+      "last_commit": "2017-03-26T15:14:21Z",
+      "added_at": "0001-01-01T00:00:00Z"
+    },
+    {
+      "name": "Vanilla_oCB",
       "url": "https://github.com/laytya/Vanilla_oCB",
       "author": "laytya",
       "stars": 4,
       "category": "O",
       "last_commit": "2025-04-09T09:48:08Z",
-      "added_at": "0001-01-01T00:00:00Z"
-    },
-    {
-      "name": "Vanilla_oCB",
-      "url": "https://github.com/martinjlowm/Vanilla_oCB",
-      "author": "martinjlowm",
-      "category": "O",
-      "last_commit": "2017-03-26T15:14:21Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -7376,7 +7376,7 @@
       "author": "Autignem",
       "stars": 2,
       "category": "A",
-      "last_commit": "2026-02-14T22:57:18Z",
+      "last_commit": "2026-02-27T01:02:50Z",
       "added_at": "2026-01-18T03:51:58.977057594Z"
     },
     {
@@ -7656,15 +7656,6 @@
     },
     {
       "name": "enemyFrames",
-      "url": "https://github.com/byCFM2/enemyFrames",
-      "description": "1.12.1 addon to display enemy players on BGs",
-      "author": "byCFM2",
-      "category": "E",
-      "last_commit": "2025-10-12T16:17:58Z",
-      "added_at": "0001-01-01T00:00:00Z"
-    },
-    {
-      "name": "enemyFrames",
       "url": "https://github.com/zetone/enemyFrames",
       "description": "1.12.1 addon to display enemy players on BGs",
       "author": "zetone",
@@ -7674,12 +7665,21 @@
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
+      "name": "enemyFrames",
+      "url": "https://github.com/byCFM2/enemyFrames",
+      "description": "1.12.1 addon to display enemy players on BGs",
+      "author": "byCFM2",
+      "category": "E",
+      "last_commit": "2025-10-12T16:17:58Z",
+      "added_at": "0001-01-01T00:00:00Z"
+    },
+    {
       "name": "guda",
       "url": "https://github.com/vatichild/guda",
       "author": "vatichild",
       "stars": 16,
       "category": "G",
-      "last_commit": "2026-01-24T16:10:10Z",
+      "last_commit": "2026-02-27T01:28:17Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
