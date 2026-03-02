@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "revision": 48,
-  "generated_at": "2026-03-01T04:07:30.757444938Z",
+  "revision": 49,
+  "generated_at": "2026-03-02T03:59:49.805428298Z",
   "source_url": "https://turtle-wow.fandom.com/wiki/Addons",
   "addon_count": 871,
   "addons": [
@@ -1664,7 +1664,7 @@
       "url": "https://github.com/Player-Doite/DoiteAuras",
       "description": "Ability, buff, debuff \u0026 item tracker for Vanilla WoW.",
       "author": "Player-Doite",
-      "stars": 31,
+      "stars": 32,
       "category": "D",
       "last_commit": "2026-02-27T11:26:13Z",
       "added_at": "0001-01-01T00:00:00Z"
@@ -1693,7 +1693,7 @@
       "url": "https://github.com/Stormhand-dev/DragonflightUI-Reforged",
       "description": "Dragonflight UI: Reforged is the ultimate evolution of Dragonflight: Reloaded — a Legendary Turtle WoW UI overhaul forged for clarity, power, and immersion. Born from battle-tested roots, it delivers modern dragonsteel precision, fearless defaults, and customizable mastery for the true Azeroth champion.",
       "author": "Stormhand-dev",
-      "stars": 3,
+      "stars": 4,
       "category": "D",
       "last_commit": "2026-01-31T03:42:17Z",
       "added_at": "2026-02-21T03:57:00.294120122Z"
@@ -1882,7 +1882,7 @@
       "author": "MarcelineVQ",
       "stars": 8,
       "category": "E",
-      "last_commit": "2026-02-26T06:25:12Z",
+      "last_commit": "2026-03-01T07:25:01Z",
       "added_at": "2026-02-23T04:07:19.195751287Z"
     },
     {
@@ -2160,7 +2160,7 @@
       "author": "lookino",
       "stars": 4,
       "category": "F",
-      "last_commit": "2026-02-28T13:10:36Z",
+      "last_commit": "2026-03-01T11:08:44Z",
       "added_at": "2026-02-10T04:11:42.43452853Z"
     },
     {
@@ -2618,7 +2618,7 @@
       "author": "redshadowz",
       "stars": 3,
       "category": "G",
-      "last_commit": "2026-03-01T02:43:53Z",
+      "last_commit": "2026-03-02T03:41:04Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -2691,7 +2691,7 @@
       "description": "Simple Effort Points system inspired by ShootyEPGP for Turtle WoW",
       "author": "RollingSmile",
       "category": "G",
-      "last_commit": "2026-02-21T23:36:18Z",
+      "last_commit": "2026-03-01T23:00:29Z",
       "added_at": "2026-01-16T03:47:28.635990587Z"
     },
     {
@@ -3724,7 +3724,7 @@
       "author": "DuvelCorp",
       "stars": 1,
       "category": "M",
-      "last_commit": "2026-02-27T18:06:30Z",
+      "last_commit": "2026-03-01T08:14:36Z",
       "added_at": "2026-02-28T03:55:12.853188301Z"
     },
     {
@@ -5371,7 +5371,7 @@
       "url": "https://github.com/TokensWorth/ShaguTweaks-mods",
       "description": "I fixed the MAIL, QUEST, LOG, LOOT, MERCHANT",
       "author": "TokensWorth",
-      "stars": 1,
+      "stars": 2,
       "category": "S",
       "last_commit": "2025-04-10T16:35:08Z",
       "added_at": "0001-01-01T00:00:00Z"
@@ -5602,7 +5602,7 @@
       "author": "dsidirop",
       "stars": 2,
       "category": "S",
-      "last_commit": "2026-03-01T03:36:59Z",
+      "last_commit": "2026-03-01T19:46:16Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -6666,7 +6666,7 @@
       "description": "Adds a merchant button to sell all gray-quality items with one click.",
       "author": "nemanuel",
       "category": "T",
-      "last_commit": "2026-02-28T18:30:28Z",
+      "last_commit": "2026-03-01T21:14:37Z",
       "added_at": "2026-02-18T04:05:41.054544142Z"
     },
     {
@@ -8230,6 +8230,7 @@
       "url": "https://github.com/tomek7667/speed-o-meter",
       "description": "addon for turtle wow that measures your speed",
       "author": "tomek7667",
+      "stars": 1,
       "category": "S",
       "last_commit": "2026-02-28T18:05:44Z",
       "added_at": "2026-03-01T04:07:30.757444938Z"
