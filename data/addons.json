@@ -1,9 +1,9 @@
 {
   "version": 1,
-  "revision": 49,
-  "generated_at": "2026-03-02T03:59:49.805428298Z",
+  "revision": 50,
+  "generated_at": "2026-03-03T04:01:07.04674101Z",
   "source_url": "https://turtle-wow.fandom.com/wiki/Addons",
-  "addon_count": 871,
+  "addon_count": 873,
   "addons": [
     {
       "name": "-DragonflightReloaded",
@@ -1664,9 +1664,9 @@
       "url": "https://github.com/Player-Doite/DoiteAuras",
       "description": "Ability, buff, debuff \u0026 item tracker for Vanilla WoW.",
       "author": "Player-Doite",
-      "stars": 32,
+      "stars": 33,
       "category": "D",
-      "last_commit": "2026-02-27T11:26:13Z",
+      "last_commit": "2026-03-02T21:24:28Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -1880,9 +1880,9 @@
       "url": "https://github.com/MarcelineVQ/EasyLoot",
       "description": "Automatic loot rules for instances and groups. Have loot handle itself.",
       "author": "MarcelineVQ",
-      "stars": 8,
+      "stars": 9,
       "category": "E",
-      "last_commit": "2026-03-01T07:25:01Z",
+      "last_commit": "2026-03-02T14:38:25Z",
       "added_at": "2026-02-23T04:07:19.195751287Z"
     },
     {
@@ -2201,6 +2201,33 @@
       "category": "F",
       "last_commit": "2025-10-11T22:55:04Z",
       "added_at": "0001-01-01T00:00:00Z"
+    },
+    {
+      "name": "Forged_MapNotes",
+      "url": "https://github.com/nemanuel/Forged_MapNotes",
+      "description": "A Turtle WoW addon that automatically records gathering locations and lets players create custom map notes.",
+      "author": "nemanuel",
+      "category": "F",
+      "last_commit": "2026-03-02T22:13:26Z",
+      "added_at": "2026-03-03T04:01:07.04674101Z"
+    },
+    {
+      "name": "Forged_PetHappiness",
+      "url": "https://github.com/nemanuel/Forged_PetHappiness",
+      "description": "A Turtle WoW hunter addon that shows pet status in one compact frame",
+      "author": "nemanuel",
+      "category": "F",
+      "last_commit": "2026-03-02T22:12:49Z",
+      "added_at": "2026-03-03T04:01:07.04674101Z"
+    },
+    {
+      "name": "Forged_SellAllGrays",
+      "url": "https://github.com/nemanuel/Forged_SellAllGrays",
+      "description": "A Turtle WoW addon that adds a merchant button to quickly sell all gray (poor-quality) items in your bags with one click.",
+      "author": "nemanuel",
+      "category": "F",
+      "last_commit": "2026-03-02T22:13:49Z",
+      "added_at": "2026-03-03T04:01:07.04674101Z"
     },
     {
       "name": "FrameFade",
@@ -2618,7 +2645,7 @@
       "author": "redshadowz",
       "stars": 3,
       "category": "G",
-      "last_commit": "2026-03-02T03:41:04Z",
+      "last_commit": "2026-03-03T03:47:28Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -2691,7 +2718,7 @@
       "description": "Simple Effort Points system inspired by ShootyEPGP for Turtle WoW",
       "author": "RollingSmile",
       "category": "G",
-      "last_commit": "2026-03-01T23:00:29Z",
+      "last_commit": "2026-03-02T22:15:38Z",
       "added_at": "2026-01-16T03:47:28.635990587Z"
     },
     {
@@ -4405,7 +4432,7 @@
       "url": "https://github.com/OldManAlpha/Puppeteer",
       "description": "A unit frames addon for WoW Vanilla 1.12",
       "author": "OldManAlpha",
-      "stars": 34,
+      "stars": 35,
       "category": "H",
       "last_commit": "2025-12-16T00:32:02Z",
       "added_at": "0001-01-01T00:00:00Z"
@@ -5602,7 +5629,7 @@
       "author": "dsidirop",
       "stars": 2,
       "category": "S",
-      "last_commit": "2026-03-01T19:46:16Z",
+      "last_commit": "2026-03-02T21:03:42Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -6059,7 +6086,7 @@
       "url": "https://github.com/MarcelineVQ/TWThreat",
       "description": "Turtle WOW's own Threat Meter !",
       "author": "MarcelineVQ",
-      "stars": 11,
+      "stars": 12,
       "category": "T",
       "last_commit": "2025-08-17T02:19:11Z",
       "added_at": "2026-01-16T03:47:28.635990587Z"
@@ -6083,15 +6110,6 @@
     },
     {
       "name": "Talentsaver",
-      "url": "https://github.com/pepopo978/Talentsaver",
-      "description": "World of Warcraft AddOn for 1.12.1 (Vanilla) - save \u0026 load your common Talent Specs with just one click!",
-      "author": "pepopo978",
-      "category": "T",
-      "last_commit": "2026-02-13T03:09:18Z",
-      "added_at": "2026-02-16T05:40:13.536136214Z"
-    },
-    {
-      "name": "Talentsaver",
       "url": "https://github.com/MOUZU/Talentsaver",
       "description": "World of Warcraft AddOn for 1.12.1 (Vanilla) - save \u0026 load your common Talent Specs with just one click!",
       "author": "MOUZU",
@@ -6099,6 +6117,15 @@
       "category": "T",
       "last_commit": "2015-07-03T17:02:20Z",
       "added_at": "0001-01-01T00:00:00Z"
+    },
+    {
+      "name": "Talentsaver",
+      "url": "https://github.com/pepopo978/Talentsaver",
+      "description": "World of Warcraft AddOn for 1.12.1 (Vanilla) - save \u0026 load your common Talent Specs with just one click!",
+      "author": "pepopo978",
+      "category": "T",
+      "last_commit": "2026-02-13T03:09:18Z",
+      "added_at": "2026-02-16T05:40:13.536136214Z"
     },
     {
       "name": "TankAssignments",
@@ -6180,19 +6207,19 @@
     },
     {
       "name": "Threat",
+      "url": "https://github.com/Xleone1/Threat",
+      "author": "Xleone1",
+      "category": "T",
+      "last_commit": "2025-07-09T00:15:28Z",
+      "added_at": "0001-01-01T00:00:00Z"
+    },
+    {
+      "name": "Threat",
       "url": "https://github.com/muellerj/Threat",
       "author": "muellerj",
       "stars": 2,
       "category": "T",
       "last_commit": "2017-11-05T12:02:17Z",
-      "added_at": "0001-01-01T00:00:00Z"
-    },
-    {
-      "name": "Threat",
-      "url": "https://github.com/Xleone1/Threat",
-      "author": "Xleone1",
-      "category": "T",
-      "last_commit": "2025-07-09T00:15:28Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -6594,16 +6621,6 @@
     },
     {
       "name": "TurtleRP",
-      "url": "https://github.com/OldManAlpha/TurtleRP",
-      "description": "TurtleRP, an addon for vanilla WoW RPers.",
-      "author": "OldManAlpha",
-      "stars": 4,
-      "category": "T",
-      "last_commit": "2025-09-20T23:37:13Z",
-      "added_at": "2026-02-16T05:40:13.536136214Z"
-    },
-    {
-      "name": "TurtleRP",
       "url": "https://github.com/bratmage/TurtleRP",
       "description": "TurtleRP, an addon for vanilla WoW RPers.",
       "author": "bratmage",
@@ -6611,6 +6628,16 @@
       "category": "T",
       "last_commit": "2026-02-25T16:28:51Z",
       "added_at": "2026-02-26T04:02:20.533579857Z"
+    },
+    {
+      "name": "TurtleRP",
+      "url": "https://github.com/OldManAlpha/TurtleRP",
+      "description": "TurtleRP, an addon for vanilla WoW RPers.",
+      "author": "OldManAlpha",
+      "stars": 4,
+      "category": "T",
+      "last_commit": "2025-09-20T23:37:13Z",
+      "added_at": "2026-02-16T05:40:13.536136214Z"
     },
     {
       "name": "TurtleReagentDisplay",
@@ -6621,6 +6648,16 @@
       "category": "T",
       "last_commit": "2026-02-26T23:11:54Z",
       "added_at": "2026-02-21T03:57:00.294120122Z"
+    },
+    {
+      "name": "TurtleRestedXP",
+      "url": "https://github.com/FrancisEgan/TurtleRestedXP",
+      "description": "A small draggable rested XP progress bar for Turtle WoW",
+      "author": "FrancisEgan",
+      "stars": 1,
+      "category": "T",
+      "last_commit": "2026-03-03T02:53:55Z",
+      "added_at": "2026-03-03T04:01:07.04674101Z"
     },
     {
       "name": "TurtleRoleplayingHelper",
@@ -6650,24 +6687,6 @@
       "category": "T",
       "last_commit": "2024-08-07T23:30:10Z",
       "added_at": "0001-01-01T00:00:00Z"
-    },
-    {
-      "name": "Turtle_MapNotes",
-      "url": "https://github.com/nemanuel/Turtle_MapNotes",
-      "description": "A lightweight Turtle WoW addon that adds a merchant-window button to quickly sell all gray-quality (poor) items in your bags.",
-      "author": "nemanuel",
-      "category": "T",
-      "last_commit": "2026-02-24T07:30:55Z",
-      "added_at": "2026-02-18T04:05:41.054544142Z"
-    },
-    {
-      "name": "Turtle_SellAllGraysButton",
-      "url": "https://github.com/nemanuel/Turtle_SellAllGraysButton",
-      "description": "Adds a merchant button to sell all gray-quality items with one click.",
-      "author": "nemanuel",
-      "category": "T",
-      "last_commit": "2026-03-01T21:14:37Z",
-      "added_at": "2026-02-18T04:05:41.054544142Z"
     },
     {
       "name": "TwowDpsGirl",
@@ -6955,20 +6974,20 @@
     },
     {
       "name": "Vanilla_oCB",
-      "url": "https://github.com/laytya/Vanilla_oCB",
-      "author": "laytya",
-      "stars": 4,
-      "category": "O",
-      "last_commit": "2025-04-09T09:48:08Z",
-      "added_at": "0001-01-01T00:00:00Z"
-    },
-    {
-      "name": "Vanilla_oCB",
       "url": "https://github.com/Road-block/Vanilla_oCB",
       "author": "Road-block",
       "stars": 4,
       "category": "O",
       "last_commit": "2017-12-29T09:53:51Z",
+      "added_at": "0001-01-01T00:00:00Z"
+    },
+    {
+      "name": "Vanilla_oCB",
+      "url": "https://github.com/laytya/Vanilla_oCB",
+      "author": "laytya",
+      "stars": 4,
+      "category": "O",
+      "last_commit": "2025-04-09T09:48:08Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -7657,15 +7676,6 @@
     },
     {
       "name": "enemyFrames",
-      "url": "https://github.com/byCFM2/enemyFrames",
-      "description": "1.12.1 addon to display enemy players on BGs",
-      "author": "byCFM2",
-      "category": "E",
-      "last_commit": "2025-10-12T16:17:58Z",
-      "added_at": "0001-01-01T00:00:00Z"
-    },
-    {
-      "name": "enemyFrames",
       "url": "https://github.com/zetone/enemyFrames",
       "description": "1.12.1 addon to display enemy players on BGs",
       "author": "zetone",
@@ -7675,21 +7685,30 @@
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
+      "name": "enemyFrames",
+      "url": "https://github.com/byCFM2/enemyFrames",
+      "description": "1.12.1 addon to display enemy players on BGs",
+      "author": "byCFM2",
+      "category": "E",
+      "last_commit": "2025-10-12T16:17:58Z",
+      "added_at": "0001-01-01T00:00:00Z"
+    },
+    {
       "name": "guda",
       "url": "https://github.com/vatichild/guda",
       "author": "vatichild",
       "stars": 16,
       "category": "G",
-      "last_commit": "2026-02-28T13:59:38Z",
+      "last_commit": "2026-03-02T11:25:10Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
       "name": "guda-plates",
       "url": "https://github.com/vatichild/guda-plates",
       "author": "vatichild",
-      "stars": 9,
+      "stars": 10,
       "category": "G",
-      "last_commit": "2026-01-25T18:03:57Z",
+      "last_commit": "2026-03-02T14:48:25Z",
       "added_at": "2026-01-09T03:47:44.343941466Z"
     },
     {
@@ -7945,7 +7964,7 @@
       "author": "Arthur-Helias",
       "stars": 3,
       "category": "P",
-      "last_commit": "2026-02-27T08:36:07Z",
+      "last_commit": "2026-03-02T05:06:18Z",
       "added_at": "2026-02-16T05:40:13.536136214Z"
     },
     {
