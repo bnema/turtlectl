@@ -1,9 +1,9 @@
 {
   "version": 1,
-  "revision": 50,
-  "generated_at": "2026-03-03T04:01:07.04674101Z",
+  "revision": 51,
+  "generated_at": "2026-03-04T03:57:25.247190276Z",
   "source_url": "https://turtle-wow.fandom.com/wiki/Addons",
-  "addon_count": 873,
+  "addon_count": 875,
   "addons": [
     {
       "name": "-DragonflightReloaded",
@@ -575,7 +575,7 @@
       "url": "https://github.com/Fiskehatt/BearCastBar",
       "description": "A cool cast bar and swing timer that takes into account latency. Original author: Kuroneko.",
       "author": "Fiskehatt",
-      "stars": 9,
+      "stars": 8,
       "category": "B",
       "last_commit": "2024-04-30T19:53:14Z",
       "added_at": "0001-01-01T00:00:00Z"
@@ -1394,7 +1394,7 @@
       "url": "https://github.com/pepordev/ConsoleExperienceClassic",
       "description": "Wow Classic (1.12) Console Experience (Gamepad support) compatible with TurtleWoW",
       "author": "pepordev",
-      "stars": 21,
+      "stars": 22,
       "category": "C",
       "last_commit": "2026-02-24T08:17:03Z",
       "added_at": "0001-01-01T00:00:00Z"
@@ -1666,7 +1666,7 @@
       "author": "Player-Doite",
       "stars": 33,
       "category": "D",
-      "last_commit": "2026-03-02T21:24:28Z",
+      "last_commit": "2026-03-03T19:53:39Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -2208,7 +2208,7 @@
       "description": "A Turtle WoW addon that automatically records gathering locations and lets players create custom map notes.",
       "author": "nemanuel",
       "category": "F",
-      "last_commit": "2026-03-02T22:13:26Z",
+      "last_commit": "2026-03-03T06:10:52Z",
       "added_at": "2026-03-03T04:01:07.04674101Z"
     },
     {
@@ -2217,7 +2217,7 @@
       "description": "A Turtle WoW hunter addon that shows pet status in one compact frame",
       "author": "nemanuel",
       "category": "F",
-      "last_commit": "2026-03-02T22:12:49Z",
+      "last_commit": "2026-03-03T06:11:18Z",
       "added_at": "2026-03-03T04:01:07.04674101Z"
     },
     {
@@ -2226,7 +2226,7 @@
       "description": "A Turtle WoW addon that adds a merchant button to quickly sell all gray (poor-quality) items in your bags with one click.",
       "author": "nemanuel",
       "category": "F",
-      "last_commit": "2026-03-02T22:13:49Z",
+      "last_commit": "2026-03-03T06:10:25Z",
       "added_at": "2026-03-03T04:01:07.04674101Z"
     },
     {
@@ -2571,7 +2571,7 @@
       "url": "https://github.com/ttcremers/GrayAutoSell",
       "description": "Vanilla World of Warcraft AddOn. Automatically sells all your gray bag items when you interact with a merchant.",
       "author": "ttcremers",
-      "stars": 5,
+      "stars": 4,
       "category": "G",
       "last_commit": "2017-07-15T17:13:46Z",
       "added_at": "0001-01-01T00:00:00Z"
@@ -2645,7 +2645,7 @@
       "author": "redshadowz",
       "stars": 3,
       "category": "G",
-      "last_commit": "2026-03-03T03:47:28Z",
+      "last_commit": "2026-03-03T05:10:40Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -3655,7 +3655,7 @@
       "author": "Otari98",
       "stars": 3,
       "category": "M",
-      "last_commit": "2025-05-20T07:44:01Z",
+      "last_commit": "2026-03-03T09:39:00Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -3680,19 +3680,19 @@
     },
     {
       "name": "MasterTradeSkills",
+      "url": "https://github.com/ImmortalSom/MasterTradeSkills",
+      "category": "M",
+      "last_commit": "0001-01-01T00:00:00Z",
+      "added_at": "0001-01-01T00:00:00Z"
+    },
+    {
+      "name": "MasterTradeSkills",
       "url": "https://github.com/refaim/MasterTradeSkills",
       "description": "Vanilla WoW 1.12.1 and Turtle WoW addon. Adds trade skill information to tooltips of ingredients.",
       "author": "refaim",
       "stars": 19,
       "category": "M",
       "last_commit": "2025-12-21T08:40:16Z",
-      "added_at": "0001-01-01T00:00:00Z"
-    },
-    {
-      "name": "MasterTradeSkills",
-      "url": "https://github.com/ImmortalSom/MasterTradeSkills",
-      "category": "M",
-      "last_commit": "0001-01-01T00:00:00Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -4302,13 +4302,13 @@
     },
     {
       "name": "PizzaWorldBuffs",
-      "url": "https://github.com/neimad-mp/PizzaWorldBuffs",
-      "description": "ARCHIVE of PizzaWorldBuffs by Pizzahawaii for TurtleWoW. The original repository was deleted.",
-      "author": "neimad-mp",
-      "stars": 2,
+      "url": "https://github.com/acid9000/PizzaWorldBuffs",
+      "description": "Updated timers for 1.18.0 fix",
+      "author": "acid9000",
+      "stars": 1,
       "category": "P",
-      "last_commit": "2025-10-07T01:05:39Z",
-      "added_at": "2026-02-03T04:01:16.609393504Z"
+      "last_commit": "2026-03-03T22:10:31Z",
+      "added_at": "2026-03-04T03:57:25.247190276Z"
     },
     {
       "name": "PlayerStates",
@@ -4399,12 +4399,21 @@
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
+      "name": "Profesjonell",
+      "url": "https://github.com/NiclasEriksen/Profesjonell",
+      "description": "A crafting recipe tracker and sync tool for guilds.",
+      "author": "NiclasEriksen",
+      "category": "P",
+      "last_commit": "2026-01-29T10:56:05Z",
+      "added_at": "2026-03-04T03:57:25.247190276Z"
+    },
+    {
       "name": "ProfessionLevels",
       "url": "https://github.com/gregdeichler/ProfessionLevels",
       "description": "Aprofession tracking addon for Turtle WoW.",
       "author": "gregdeichler",
       "category": "P",
-      "last_commit": "2026-02-27T14:21:10Z",
+      "last_commit": "2026-03-03T16:07:56Z",
       "added_at": "2026-02-27T03:59:38.099914245Z"
     },
     {
@@ -4432,7 +4441,7 @@
       "url": "https://github.com/OldManAlpha/Puppeteer",
       "description": "A unit frames addon for WoW Vanilla 1.12",
       "author": "OldManAlpha",
-      "stars": 35,
+      "stars": 36,
       "category": "H",
       "last_commit": "2025-12-16T00:32:02Z",
       "added_at": "0001-01-01T00:00:00Z"
@@ -4770,7 +4779,7 @@
       "url": "https://github.com/hazlema/Rested",
       "description": "Rested XP tracker for Turtle Wow",
       "author": "hazlema",
-      "stars": 9,
+      "stars": 8,
       "category": "R",
       "last_commit": "2021-04-25T02:22:29Z",
       "added_at": "0001-01-01T00:00:00Z"
@@ -5368,7 +5377,7 @@
       "url": "https://github.com/shagu/ShaguTweaks",
       "description": "A collection of tweaks and enhancements to the default wow 1.12.1 interface",
       "author": "shagu",
-      "stars": 97,
+      "stars": 98,
       "category": "S",
       "last_commit": "2025-08-15T14:37:22Z",
       "added_at": "0001-01-01T00:00:00Z"
@@ -5388,7 +5397,7 @@
       "url": "https://github.com/shagu/ShaguTweaks-extras",
       "description": "Some extra modules and features for the ShaguTweaks addon.",
       "author": "shagu",
-      "stars": 24,
+      "stars": 25,
       "category": "S",
       "last_commit": "2025-08-15T14:37:21Z",
       "added_at": "0001-01-01T00:00:00Z"
@@ -5992,7 +6001,7 @@
       "url": "https://github.com/whtmst/T-RestedXP",
       "description": "T-RestedXP is a simple addon for tracking 0% and 100% rested XP in Turtle WoW.",
       "author": "whtmst",
-      "stars": 2,
+      "stars": 1,
       "category": "T",
       "last_commit": "2025-11-29T19:12:02Z",
       "added_at": "0001-01-01T00:00:00Z"
@@ -6110,6 +6119,15 @@
     },
     {
       "name": "Talentsaver",
+      "url": "https://github.com/pepopo978/Talentsaver",
+      "description": "World of Warcraft AddOn for 1.12.1 (Vanilla) - save \u0026 load your common Talent Specs with just one click!",
+      "author": "pepopo978",
+      "category": "T",
+      "last_commit": "2026-02-13T03:09:18Z",
+      "added_at": "2026-02-16T05:40:13.536136214Z"
+    },
+    {
+      "name": "Talentsaver",
       "url": "https://github.com/MOUZU/Talentsaver",
       "description": "World of Warcraft AddOn for 1.12.1 (Vanilla) - save \u0026 load your common Talent Specs with just one click!",
       "author": "MOUZU",
@@ -6117,15 +6135,6 @@
       "category": "T",
       "last_commit": "2015-07-03T17:02:20Z",
       "added_at": "0001-01-01T00:00:00Z"
-    },
-    {
-      "name": "Talentsaver",
-      "url": "https://github.com/pepopo978/Talentsaver",
-      "description": "World of Warcraft AddOn for 1.12.1 (Vanilla) - save \u0026 load your common Talent Specs with just one click!",
-      "author": "pepopo978",
-      "category": "T",
-      "last_commit": "2026-02-13T03:09:18Z",
-      "added_at": "2026-02-16T05:40:13.536136214Z"
     },
     {
       "name": "TankAssignments",
@@ -6207,19 +6216,19 @@
     },
     {
       "name": "Threat",
-      "url": "https://github.com/Xleone1/Threat",
-      "author": "Xleone1",
-      "category": "T",
-      "last_commit": "2025-07-09T00:15:28Z",
-      "added_at": "0001-01-01T00:00:00Z"
-    },
-    {
-      "name": "Threat",
       "url": "https://github.com/muellerj/Threat",
       "author": "muellerj",
       "stars": 2,
       "category": "T",
       "last_commit": "2017-11-05T12:02:17Z",
+      "added_at": "0001-01-01T00:00:00Z"
+    },
+    {
+      "name": "Threat",
+      "url": "https://github.com/Xleone1/Threat",
+      "author": "Xleone1",
+      "category": "T",
+      "last_commit": "2025-07-09T00:15:28Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -6582,6 +6591,15 @@
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
+      "name": "TurtleHonorSpyEnhanced",
+      "url": "https://github.com/dnkrse/TurtleHonorSpyEnhanced",
+      "author": "dnkrse",
+      "stars": 1,
+      "category": "T",
+      "last_commit": "2026-03-04T00:46:24Z",
+      "added_at": "2026-03-04T03:57:25.247190276Z"
+    },
+    {
       "name": "TurtleMail",
       "url": "https://github.com/sica42/TurtleMail",
       "description": "Turrtle WoW Mail AddOn. Automatically opens mail, mail multiple items, autocomplete recipient names, shows collected gold",
@@ -6621,16 +6639,6 @@
     },
     {
       "name": "TurtleRP",
-      "url": "https://github.com/bratmage/TurtleRP",
-      "description": "TurtleRP, an addon for vanilla WoW RPers.",
-      "author": "bratmage",
-      "stars": 2,
-      "category": "T",
-      "last_commit": "2026-02-25T16:28:51Z",
-      "added_at": "2026-02-26T04:02:20.533579857Z"
-    },
-    {
-      "name": "TurtleRP",
       "url": "https://github.com/OldManAlpha/TurtleRP",
       "description": "TurtleRP, an addon for vanilla WoW RPers.",
       "author": "OldManAlpha",
@@ -6638,6 +6646,16 @@
       "category": "T",
       "last_commit": "2025-09-20T23:37:13Z",
       "added_at": "2026-02-16T05:40:13.536136214Z"
+    },
+    {
+      "name": "TurtleRP",
+      "url": "https://github.com/bratmage/TurtleRP",
+      "description": "TurtleRP, an addon for vanilla WoW RPers.",
+      "author": "bratmage",
+      "stars": 2,
+      "category": "T",
+      "last_commit": "2026-02-25T16:28:51Z",
+      "added_at": "2026-02-26T04:02:20.533579857Z"
     },
     {
       "name": "TurtleReagentDisplay",
@@ -6673,7 +6691,7 @@
       "url": "https://github.com/McPewPew/TurtleSnacks",
       "description": "Collects wayward minimap buttons.",
       "author": "McPewPew",
-      "stars": 3,
+      "stars": 2,
       "category": "T",
       "last_commit": "2025-08-30T19:36:10Z",
       "added_at": "0001-01-01T00:00:00Z"
@@ -6974,20 +6992,20 @@
     },
     {
       "name": "Vanilla_oCB",
-      "url": "https://github.com/Road-block/Vanilla_oCB",
-      "author": "Road-block",
-      "stars": 4,
-      "category": "O",
-      "last_commit": "2017-12-29T09:53:51Z",
-      "added_at": "0001-01-01T00:00:00Z"
-    },
-    {
-      "name": "Vanilla_oCB",
       "url": "https://github.com/laytya/Vanilla_oCB",
       "author": "laytya",
       "stars": 4,
       "category": "O",
       "last_commit": "2025-04-09T09:48:08Z",
+      "added_at": "0001-01-01T00:00:00Z"
+    },
+    {
+      "name": "Vanilla_oCB",
+      "url": "https://github.com/Road-block/Vanilla_oCB",
+      "author": "Road-block",
+      "stars": 4,
+      "category": "O",
+      "last_commit": "2017-12-29T09:53:51Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -7676,21 +7694,21 @@
     },
     {
       "name": "enemyFrames",
+      "url": "https://github.com/byCFM2/enemyFrames",
+      "description": "1.12.1 addon to display enemy players on BGs",
+      "author": "byCFM2",
+      "category": "E",
+      "last_commit": "2025-10-12T16:17:58Z",
+      "added_at": "0001-01-01T00:00:00Z"
+    },
+    {
+      "name": "enemyFrames",
       "url": "https://github.com/zetone/enemyFrames",
       "description": "1.12.1 addon to display enemy players on BGs",
       "author": "zetone",
       "stars": 22,
       "category": "E",
       "last_commit": "2019-02-16T02:25:03Z",
-      "added_at": "0001-01-01T00:00:00Z"
-    },
-    {
-      "name": "enemyFrames",
-      "url": "https://github.com/byCFM2/enemyFrames",
-      "description": "1.12.1 addon to display enemy players on BGs",
-      "author": "byCFM2",
-      "category": "E",
-      "last_commit": "2025-10-12T16:17:58Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -7894,7 +7912,7 @@
       "url": "https://github.com/shagu/pfQuest",
       "description": "A Questhelper and Database Addon for World of Warcraft: Vanilla \u0026 TBC",
       "author": "shagu",
-      "stars": 258,
+      "stars": 259,
       "category": "P",
       "last_commit": "2025-08-25T20:26:06Z",
       "added_at": "0001-01-01T00:00:00Z"
