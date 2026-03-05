@@ -1,9 +1,9 @@
 {
   "version": 1,
-  "revision": 51,
-  "generated_at": "2026-03-04T03:57:25.247190276Z",
+  "revision": 52,
+  "generated_at": "2026-03-05T03:59:26.909649405Z",
   "source_url": "https://turtle-wow.fandom.com/wiki/Addons",
-  "addon_count": 875,
+  "addon_count": 877,
   "addons": [
     {
       "name": "-DragonflightReloaded",
@@ -25,15 +25,6 @@
     },
     {
       "name": "Accountant",
-      "url": "https://github.com/terdong/Accountant",
-      "description": "Accountant tracks you incoming / outgoing cash.",
-      "author": "terdong",
-      "category": "A",
-      "last_commit": "2025-12-26T07:02:25Z",
-      "added_at": "2026-01-10T03:42:41.414014379Z"
-    },
-    {
-      "name": "Accountant",
       "url": "https://github.com/wow-vanilla-addons/Accountant",
       "description": "Accountant tracks you incoming / outgoing cash.",
       "author": "wow-vanilla-addons",
@@ -41,6 +32,15 @@
       "category": "A",
       "last_commit": "2016-04-24T21:45:51Z",
       "added_at": "0001-01-01T00:00:00Z"
+    },
+    {
+      "name": "Accountant",
+      "url": "https://github.com/terdong/Accountant",
+      "description": "Accountant tracks you incoming / outgoing cash.",
+      "author": "terdong",
+      "category": "A",
+      "last_commit": "2025-12-26T07:02:25Z",
+      "added_at": "2026-01-10T03:42:41.414014379Z"
     },
     {
       "name": "ActionBarProfiles",
@@ -194,7 +194,7 @@
       "url": "https://github.com/byCFM2/Atlas-TW",
       "description": "Overview: Atlas‑TW is a dungeon map browser with an integrated loot panel and quests module. It is compatible with World of Warcraft 1.12 and includes localization support.",
       "author": "byCFM2",
-      "stars": 13,
+      "stars": 14,
       "category": "A",
       "last_commit": "2026-02-23T12:46:20Z",
       "added_at": "0001-01-01T00:00:00Z"
@@ -389,7 +389,7 @@
       "url": "https://github.com/Road-block/AutoProfit",
       "description": "Easy sell trash to vendor WoW addon (vanilla)",
       "author": "Road-block",
-      "stars": 7,
+      "stars": 8,
       "category": "A",
       "last_commit": "2016-01-19T23:17:04Z",
       "added_at": "0001-01-01T00:00:00Z"
@@ -539,6 +539,15 @@
       "category": "B",
       "last_commit": "2025-08-29T09:52:38Z",
       "added_at": "0001-01-01T00:00:00Z"
+    },
+    {
+      "name": "BananaRepublicProfs",
+      "url": "https://github.com/Fox2k7/BananaRepublicProfs",
+      "description": "Guild profession and recipe sharing addon for Turtle WoW",
+      "author": "Fox2k7",
+      "category": "B",
+      "last_commit": "2026-02-13T23:19:59Z",
+      "added_at": "2026-03-05T03:59:26.909649405Z"
     },
     {
       "name": "Bartender2-Read-Instructions",
@@ -759,6 +768,7 @@
       "url": "https://github.com/ZenSociety/BossDeathTimer",
       "description": "Boss Death Timer is a Vanilla World of Warcraft addon that provides a simple countdown timer displayed on the Boss enemy’s target frame. It estimates the remaining time until the boss dies based on the damage taken over time during combat.",
       "author": "ZenSociety",
+      "stars": 1,
       "category": "B",
       "last_commit": "2025-02-12T07:15:02Z",
       "added_at": "0001-01-01T00:00:00Z"
@@ -1666,7 +1676,7 @@
       "author": "Player-Doite",
       "stars": 33,
       "category": "D",
-      "last_commit": "2026-03-03T19:53:39Z",
+      "last_commit": "2026-03-04T10:08:32Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -1693,7 +1703,7 @@
       "url": "https://github.com/Stormhand-dev/DragonflightUI-Reforged",
       "description": "Dragonflight UI: Reforged is the ultimate evolution of Dragonflight: Reloaded — a Legendary Turtle WoW UI overhaul forged for clarity, power, and immersion. Born from battle-tested roots, it delivers modern dragonsteel precision, fearless defaults, and customizable mastery for the true Azeroth champion.",
       "author": "Stormhand-dev",
-      "stars": 4,
+      "stars": 5,
       "category": "D",
       "last_commit": "2026-01-31T03:42:17Z",
       "added_at": "2026-02-21T03:57:00.294120122Z"
@@ -1882,7 +1892,7 @@
       "author": "MarcelineVQ",
       "stars": 9,
       "category": "E",
-      "last_commit": "2026-03-02T14:38:25Z",
+      "last_commit": "2026-03-04T19:51:12Z",
       "added_at": "2026-02-23T04:07:19.195751287Z"
     },
     {
@@ -1920,6 +1930,7 @@
       "url": "https://github.com/jlabranche/EliteWarriorTTD",
       "description": "Time Till Death",
       "author": "jlabranche",
+      "stars": 1,
       "category": "E",
       "last_commit": "2024-03-15T00:20:04Z",
       "added_at": "0001-01-01T00:00:00Z"
@@ -2588,10 +2599,9 @@
     },
     {
       "name": "GrimoireKeeper",
-      "url": "https://github.com/Scoboose/GrimoireKeeper",
-      "author": "Scoboose",
+      "url": "https://gitlab.com/Artur91425/GrimoireKeeper",
       "category": "G",
-      "last_commit": "2025-04-02T15:02:52Z",
+      "last_commit": "0001-01-01T00:00:00Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -2606,9 +2616,10 @@
     },
     {
       "name": "GrimoireKeeper",
-      "url": "https://gitlab.com/Artur91425/GrimoireKeeper",
+      "url": "https://github.com/Scoboose/GrimoireKeeper",
+      "author": "Scoboose",
       "category": "G",
-      "last_commit": "0001-01-01T00:00:00Z",
+      "last_commit": "2025-04-02T15:02:52Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -2645,7 +2656,7 @@
       "author": "redshadowz",
       "stars": 3,
       "category": "G",
-      "last_commit": "2026-03-03T05:10:40Z",
+      "last_commit": "2026-03-04T08:06:08Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -2671,7 +2682,7 @@
       "url": "https://github.com/JeromeM/GuidelimeVanilla",
       "description": "Total rewrite of the Guidelime addon which is not compatible with 1.12",
       "author": "JeromeM",
-      "stars": 7,
+      "stars": 8,
       "category": "G",
       "last_commit": "2026-02-26T20:12:37Z",
       "added_at": "2026-01-31T03:56:59.720913419Z"
@@ -4106,7 +4117,7 @@
       "author": "trumpetx",
       "stars": 2,
       "category": "N",
-      "last_commit": "2026-01-18T23:29:19Z",
+      "last_commit": "2026-03-05T01:09:09Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -4497,6 +4508,16 @@
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
+      "name": "QuestRepeat",
+      "url": "https://github.com/MarcelineVQ/QuestRepeat",
+      "description": "Repeat quests and rewards.",
+      "author": "MarcelineVQ",
+      "stars": 2,
+      "category": "Q",
+      "last_commit": "2024-05-31T06:58:06Z",
+      "added_at": "2026-03-05T03:59:26.909649405Z"
+    },
+    {
       "name": "QuestShell",
       "url": "https://github.com/Valiusha90/QuestShell",
       "author": "Valiusha90",
@@ -4616,6 +4637,7 @@
       "url": "https://github.com/sica42/RaidCalendar",
       "description": "View and signup to raids in game",
       "author": "sica42",
+      "stars": 1,
       "category": "R",
       "last_commit": "2025-09-27T13:24:18Z",
       "added_at": "0001-01-01T00:00:00Z"
@@ -5638,7 +5660,7 @@
       "author": "dsidirop",
       "stars": 2,
       "category": "S",
-      "last_commit": "2026-03-02T21:03:42Z",
+      "last_commit": "2026-03-04T23:28:14Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -6333,7 +6355,7 @@
       "url": "https://github.com/Otari98/Tmog",
       "description": "The ultimate dressing room for Turtle WoW",
       "author": "Otari98",
-      "stars": 33,
+      "stars": 34,
       "category": "T",
       "last_commit": "2026-02-19T11:07:42Z",
       "added_at": "0001-01-01T00:00:00Z"
@@ -6526,7 +6548,7 @@
       "url": "https://github.com/sica42/TurtleCalendar",
       "description": "In-game calendar with all relevant timers",
       "author": "sica42",
-      "stars": 1,
+      "stars": 2,
       "category": "T",
       "last_commit": "2026-02-18T18:47:42Z",
       "added_at": "0001-01-01T00:00:00Z"
@@ -6596,7 +6618,7 @@
       "author": "dnkrse",
       "stars": 1,
       "category": "T",
-      "last_commit": "2026-03-04T00:46:24Z",
+      "last_commit": "2026-03-04T10:20:39Z",
       "added_at": "2026-03-04T03:57:25.247190276Z"
     },
     {
@@ -6674,7 +6696,7 @@
       "author": "FrancisEgan",
       "stars": 1,
       "category": "T",
-      "last_commit": "2026-03-03T02:53:55Z",
+      "last_commit": "2026-03-04T21:39:50Z",
       "added_at": "2026-03-03T04:01:07.04674101Z"
     },
     {
@@ -7063,7 +7085,7 @@
       "url": "https://github.com/refaim/WIM",
       "description": "Vanilla WoW 1.12.1 addon. Vanilla WoW 1.12.1 and Turtle WoW addon. Gives whispers an instant messenger feel with individual chat windows for each conversation.",
       "author": "refaim",
-      "stars": 10,
+      "stars": 11,
       "category": "W",
       "last_commit": "2026-02-19T10:03:51Z",
       "added_at": "2026-02-02T04:07:34.481426499Z"
@@ -7912,7 +7934,7 @@
       "url": "https://github.com/shagu/pfQuest",
       "description": "A Questhelper and Database Addon for World of Warcraft: Vanilla \u0026 TBC",
       "author": "shagu",
-      "stars": 259,
+      "stars": 258,
       "category": "P",
       "last_commit": "2025-08-25T20:26:06Z",
       "added_at": "0001-01-01T00:00:00Z"
@@ -7951,7 +7973,7 @@
       "url": "https://github.com/shagu/pfStudio",
       "description": "An Ingame-IDE for World of Warcraft (Vanilla 1.12.1)",
       "author": "shagu",
-      "stars": 12,
+      "stars": 13,
       "category": "P",
       "last_commit": "2024-11-04T10:26:41Z",
       "added_at": "0001-01-01T00:00:00Z"
@@ -7982,7 +8004,7 @@
       "author": "Arthur-Helias",
       "stars": 3,
       "category": "P",
-      "last_commit": "2026-03-02T05:06:18Z",
+      "last_commit": "2026-03-04T04:05:04Z",
       "added_at": "2026-02-16T05:40:13.536136214Z"
     },
     {
