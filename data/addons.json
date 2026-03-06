@@ -1,9 +1,9 @@
 {
   "version": 1,
-  "revision": 52,
-  "generated_at": "2026-03-05T03:59:26.909649405Z",
+  "revision": 53,
+  "generated_at": "2026-03-06T03:57:40.344270365Z",
   "source_url": "https://turtle-wow.fandom.com/wiki/Addons",
-  "addon_count": 877,
+  "addon_count": 878,
   "addons": [
     {
       "name": "-DragonflightReloaded",
@@ -25,19 +25,20 @@
     },
     {
       "name": "Accountant",
-      "url": "https://github.com/wow-vanilla-addons/Accountant",
-      "description": "Accountant tracks you incoming / outgoing cash.",
-      "author": "wow-vanilla-addons",
-      "stars": 5,
+      "url": "https://github.com/The-Kludge-Bureau/Accountant",
+      "description": "Tracks your incoming and outgoing gold across multiple time periods and categories",
+      "author": "The-Kludge-Bureau",
+      "stars": 2,
       "category": "A",
-      "last_commit": "2016-04-24T21:45:51Z",
-      "added_at": "0001-01-01T00:00:00Z"
+      "last_commit": "2026-03-05T11:40:01Z",
+      "added_at": "2026-03-06T03:57:40.344270365Z"
     },
     {
       "name": "Accountant",
       "url": "https://github.com/terdong/Accountant",
       "description": "Accountant tracks you incoming / outgoing cash.",
       "author": "terdong",
+      "stars": 1,
       "category": "A",
       "last_commit": "2025-12-26T07:02:25Z",
       "added_at": "2026-01-10T03:42:41.414014379Z"
@@ -1676,7 +1677,7 @@
       "author": "Player-Doite",
       "stars": 33,
       "category": "D",
-      "last_commit": "2026-03-04T10:08:32Z",
+      "last_commit": "2026-03-05T14:27:35Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -2618,6 +2619,7 @@
       "name": "GrimoireKeeper",
       "url": "https://github.com/Scoboose/GrimoireKeeper",
       "author": "Scoboose",
+      "stars": 1,
       "category": "G",
       "last_commit": "2025-04-02T15:02:52Z",
       "added_at": "0001-01-01T00:00:00Z"
@@ -2656,7 +2658,7 @@
       "author": "redshadowz",
       "stars": 3,
       "category": "G",
-      "last_commit": "2026-03-04T08:06:08Z",
+      "last_commit": "2026-03-05T23:48:39Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -3224,7 +3226,7 @@
       "url": "https://github.com/KeijinDE/KeijinAchievementMonitor",
       "description": "KAM is a standalone achievement system for WoW Classic 1.12",
       "author": "KeijinDE",
-      "stars": 3,
+      "stars": 4,
       "category": "K",
       "last_commit": "2025-09-03T19:58:36Z",
       "added_at": "0001-01-01T00:00:00Z"
@@ -3614,7 +3616,7 @@
       "url": "https://github.com/lookino/Magnify",
       "description": "Magnify is a legacy World of Warcraft add-on that allows the player to zoom in the world map.",
       "author": "lookino",
-      "stars": 4,
+      "stars": 5,
       "category": "M",
       "last_commit": "2025-09-10T11:59:32Z",
       "added_at": "2026-02-10T04:11:42.43452853Z"
@@ -3762,7 +3764,7 @@
       "author": "DuvelCorp",
       "stars": 1,
       "category": "M",
-      "last_commit": "2026-03-01T08:14:36Z",
+      "last_commit": "2026-03-05T11:33:27Z",
       "added_at": "2026-02-28T03:55:12.853188301Z"
     },
     {
@@ -4117,7 +4119,7 @@
       "author": "trumpetx",
       "stars": 2,
       "category": "N",
-      "last_commit": "2026-03-05T01:09:09Z",
+      "last_commit": "2026-03-05T10:40:12Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -4318,7 +4320,7 @@
       "author": "acid9000",
       "stars": 1,
       "category": "P",
-      "last_commit": "2026-03-03T22:10:31Z",
+      "last_commit": "2026-03-05T18:22:56Z",
       "added_at": "2026-03-04T03:57:25.247190276Z"
     },
     {
@@ -5660,7 +5662,7 @@
       "author": "dsidirop",
       "stars": 2,
       "category": "S",
-      "last_commit": "2026-03-04T23:28:14Z",
+      "last_commit": "2026-03-05T20:20:23Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -6104,6 +6106,14 @@
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
+      "name": "TWPulse",
+      "url": "https://github.com/FSuhas/TWPulse",
+      "author": "FSuhas",
+      "category": "T",
+      "last_commit": "2025-09-06T08:46:59Z",
+      "added_at": "2026-03-06T03:57:40.344270365Z"
+    },
+    {
       "name": "TWSunders",
       "url": "https://github.com/CosminPOP/TWSunders",
       "description": "Counts the time to 5sunders and outputs it in the chat.",
@@ -6238,19 +6248,19 @@
     },
     {
       "name": "Threat",
+      "url": "https://github.com/Xleone1/Threat",
+      "author": "Xleone1",
+      "category": "T",
+      "last_commit": "2025-07-09T00:15:28Z",
+      "added_at": "0001-01-01T00:00:00Z"
+    },
+    {
+      "name": "Threat",
       "url": "https://github.com/muellerj/Threat",
       "author": "muellerj",
       "stars": 2,
       "category": "T",
       "last_commit": "2017-11-05T12:02:17Z",
-      "added_at": "0001-01-01T00:00:00Z"
-    },
-    {
-      "name": "Threat",
-      "url": "https://github.com/Xleone1/Threat",
-      "author": "Xleone1",
-      "category": "T",
-      "last_commit": "2025-07-09T00:15:28Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -6402,22 +6412,22 @@
     },
     {
       "name": "TotemTimers-Enhanced",
-      "url": "https://github.com/MOUZU/TotemTimers-Enhanced",
-      "description": "World of Warcraft AddOn for 1.12.1 (Vanilla) - keep's track of Shaman's Totems, how long they'll last and now also when their next Tick comes.",
-      "author": "MOUZU",
-      "stars": 8,
-      "category": "T",
-      "last_commit": "2024-06-16T21:26:40Z",
-      "added_at": "0001-01-01T00:00:00Z"
-    },
-    {
-      "name": "TotemTimers-Enhanced",
       "url": "https://github.com/mdmcclel/TotemTimers-Enhanced",
       "description": "World of Warcraft AddOn for 1.12.1 (Vanilla) - keep's track of Shaman's Totems, how long they'll last and now also when their next Tick comes.",
       "author": "mdmcclel",
       "stars": 1,
       "category": "T",
       "last_commit": "2024-11-07T02:26:51Z",
+      "added_at": "0001-01-01T00:00:00Z"
+    },
+    {
+      "name": "TotemTimers-Enhanced",
+      "url": "https://github.com/MOUZU/TotemTimers-Enhanced",
+      "description": "World of Warcraft AddOn for 1.12.1 (Vanilla) - keep's track of Shaman's Totems, how long they'll last and now also when their next Tick comes.",
+      "author": "MOUZU",
+      "stars": 8,
+      "category": "T",
+      "last_commit": "2024-06-16T21:26:40Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -6696,7 +6706,7 @@
       "author": "FrancisEgan",
       "stars": 1,
       "category": "T",
-      "last_commit": "2026-03-04T21:39:50Z",
+      "last_commit": "2026-03-05T15:22:35Z",
       "added_at": "2026-03-03T04:01:07.04674101Z"
     },
     {
@@ -6967,22 +6977,22 @@
     },
     {
       "name": "VanillaStoryline",
-      "url": "https://github.com/tubtubs/VanillaStoryline",
-      "description": "Storyline Custom Backport",
-      "author": "tubtubs",
-      "stars": 12,
-      "category": "V",
-      "last_commit": "2025-10-28T06:16:08Z",
-      "added_at": "0001-01-01T00:00:00Z"
-    },
-    {
-      "name": "VanillaStoryline",
       "url": "https://github.com/Voidmenull/VanillaStoryline",
       "description": "Storyline Custom Backport",
       "author": "Voidmenull",
       "stars": 14,
       "category": "V",
       "last_commit": "2016-05-06T17:00:31Z",
+      "added_at": "0001-01-01T00:00:00Z"
+    },
+    {
+      "name": "VanillaStoryline",
+      "url": "https://github.com/tubtubs/VanillaStoryline",
+      "description": "Storyline Custom Backport",
+      "author": "tubtubs",
+      "stars": 12,
+      "category": "V",
+      "last_commit": "2025-10-28T06:16:08Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -7716,21 +7726,21 @@
     },
     {
       "name": "enemyFrames",
-      "url": "https://github.com/byCFM2/enemyFrames",
-      "description": "1.12.1 addon to display enemy players on BGs",
-      "author": "byCFM2",
-      "category": "E",
-      "last_commit": "2025-10-12T16:17:58Z",
-      "added_at": "0001-01-01T00:00:00Z"
-    },
-    {
-      "name": "enemyFrames",
       "url": "https://github.com/zetone/enemyFrames",
       "description": "1.12.1 addon to display enemy players on BGs",
       "author": "zetone",
       "stars": 22,
       "category": "E",
       "last_commit": "2019-02-16T02:25:03Z",
+      "added_at": "0001-01-01T00:00:00Z"
+    },
+    {
+      "name": "enemyFrames",
+      "url": "https://github.com/byCFM2/enemyFrames",
+      "description": "1.12.1 addon to display enemy players on BGs",
+      "author": "byCFM2",
+      "category": "E",
+      "last_commit": "2025-10-12T16:17:58Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -7872,22 +7882,22 @@
     },
     {
       "name": "necrosis-twow",
-      "url": "https://github.com/Nedlinin/necrosis-twow",
-      "description": "1.5.2a fork of Necrosis addon for Turtle WoW",
-      "author": "Nedlinin",
-      "stars": 1,
-      "category": "N",
-      "last_commit": "2025-12-03T21:28:24Z",
-      "added_at": "0001-01-01T00:00:00Z"
-    },
-    {
-      "name": "necrosis-twow",
       "url": "https://github.com/pylebecq/necrosis-twow",
       "description": "1.5.2a fork of Necrosis addon for Turtle WoW",
       "author": "pylebecq",
       "stars": 1,
       "category": "N",
       "last_commit": "2026-01-17T11:30:23Z",
+      "added_at": "0001-01-01T00:00:00Z"
+    },
+    {
+      "name": "necrosis-twow",
+      "url": "https://github.com/Nedlinin/necrosis-twow",
+      "description": "1.5.2a fork of Necrosis addon for Turtle WoW",
+      "author": "Nedlinin",
+      "stars": 1,
+      "category": "N",
+      "last_commit": "2025-12-03T21:28:24Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
