@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "revision": 53,
-  "generated_at": "2026-03-06T03:57:40.344270365Z",
+  "revision": 54,
+  "generated_at": "2026-03-07T03:56:03.124196986Z",
   "source_url": "https://turtle-wow.fandom.com/wiki/Addons",
   "addon_count": 878,
   "addons": [
@@ -28,9 +28,9 @@
       "url": "https://github.com/The-Kludge-Bureau/Accountant",
       "description": "Tracks your incoming and outgoing gold across multiple time periods and categories",
       "author": "The-Kludge-Bureau",
-      "stars": 2,
+      "stars": 3,
       "category": "A",
-      "last_commit": "2026-03-05T11:40:01Z",
+      "last_commit": "2026-03-06T11:33:53Z",
       "added_at": "2026-03-06T03:57:40.344270365Z"
     },
     {
@@ -197,7 +197,7 @@
       "author": "byCFM2",
       "stars": 14,
       "category": "A",
-      "last_commit": "2026-02-23T12:46:20Z",
+      "last_commit": "2026-03-06T22:14:58Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -1677,7 +1677,7 @@
       "author": "Player-Doite",
       "stars": 33,
       "category": "D",
-      "last_commit": "2026-03-05T14:27:35Z",
+      "last_commit": "2026-03-06T21:53:08Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -2152,7 +2152,7 @@
       "author": "tilare",
       "stars": 8,
       "category": "F",
-      "last_commit": "2026-02-08T21:35:23Z",
+      "last_commit": "2026-03-06T12:37:51Z",
       "added_at": "2026-02-08T04:12:28.12244099Z"
     },
     {
@@ -2658,7 +2658,7 @@
       "author": "redshadowz",
       "stars": 3,
       "category": "G",
-      "last_commit": "2026-03-05T23:48:39Z",
+      "last_commit": "2026-03-06T22:40:47Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -3477,7 +3477,7 @@
       "description": "Turtle WoW addon for seeing the lockpicking level required to open lockboxes by clicking their links in the chat.",
       "author": "Frosdun",
       "category": "L",
-      "last_commit": "2026-02-28T22:55:41Z",
+      "last_commit": "2026-03-06T23:14:45Z",
       "added_at": "2026-02-16T05:40:13.536136214Z"
     },
     {
@@ -6129,7 +6129,7 @@
       "author": "MarcelineVQ",
       "stars": 12,
       "category": "T",
-      "last_commit": "2025-08-17T02:19:11Z",
+      "last_commit": "2026-03-07T00:06:18Z",
       "added_at": "2026-01-16T03:47:28.635990587Z"
     },
     {
@@ -7944,7 +7944,7 @@
       "url": "https://github.com/shagu/pfQuest",
       "description": "A Questhelper and Database Addon for World of Warcraft: Vanilla \u0026 TBC",
       "author": "shagu",
-      "stars": 258,
+      "stars": 259,
       "category": "P",
       "last_commit": "2025-08-25T20:26:06Z",
       "added_at": "0001-01-01T00:00:00Z"
@@ -7964,7 +7964,7 @@
       "url": "https://github.com/shagu/pfQuest-turtle",
       "description": "A TurtleWoW DB extension for pfQuest",
       "author": "shagu",
-      "stars": 120,
+      "stars": 121,
       "category": "P",
       "last_commit": "2025-08-27T15:20:01Z",
       "added_at": "0001-01-01T00:00:00Z"
@@ -8014,7 +8014,7 @@
       "author": "Arthur-Helias",
       "stars": 3,
       "category": "P",
-      "last_commit": "2026-03-04T04:05:04Z",
+      "last_commit": "2026-03-06T04:51:53Z",
       "added_at": "2026-02-16T05:40:13.536136214Z"
     },
     {
