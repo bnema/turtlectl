@@ -1,9 +1,9 @@
 {
   "version": 1,
-  "revision": 54,
-  "generated_at": "2026-03-07T03:56:03.124196986Z",
+  "revision": 55,
+  "generated_at": "2026-03-08T03:58:12.775632617Z",
   "source_url": "https://turtle-wow.fandom.com/wiki/Addons",
-  "addon_count": 878,
+  "addon_count": 879,
   "addons": [
     {
       "name": "-DragonflightReloaded",
@@ -28,7 +28,7 @@
       "url": "https://github.com/The-Kludge-Bureau/Accountant",
       "description": "Tracks your incoming and outgoing gold across multiple time periods and categories",
       "author": "The-Kludge-Bureau",
-      "stars": 3,
+      "stars": 4,
       "category": "A",
       "last_commit": "2026-03-06T11:33:53Z",
       "added_at": "2026-03-06T03:57:40.344270365Z"
@@ -185,7 +185,7 @@
       "url": "https://github.com/Otari98/Artisan",
       "description": "Compact professions window for World of Warcraft 1.12",
       "author": "Otari98",
-      "stars": 17,
+      "stars": 18,
       "category": "A",
       "last_commit": "2025-11-15T15:39:39Z",
       "added_at": "0001-01-01T00:00:00Z"
@@ -1405,7 +1405,7 @@
       "url": "https://github.com/pepordev/ConsoleExperienceClassic",
       "description": "Wow Classic (1.12) Console Experience (Gamepad support) compatible with TurtleWoW",
       "author": "pepordev",
-      "stars": 22,
+      "stars": 23,
       "category": "C",
       "last_commit": "2026-02-24T08:17:03Z",
       "added_at": "0001-01-01T00:00:00Z"
@@ -1608,7 +1608,7 @@
       "author": "DeterminedPanda",
       "stars": 21,
       "category": "D",
-      "last_commit": "2026-02-07T23:29:17Z",
+      "last_commit": "2026-03-07T19:20:22Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -1675,7 +1675,7 @@
       "url": "https://github.com/Player-Doite/DoiteAuras",
       "description": "Ability, buff, debuff \u0026 item tracker for Vanilla WoW.",
       "author": "Player-Doite",
-      "stars": 33,
+      "stars": 35,
       "category": "D",
       "last_commit": "2026-03-06T21:53:08Z",
       "added_at": "0001-01-01T00:00:00Z"
@@ -3477,7 +3477,7 @@
       "description": "Turtle WoW addon for seeing the lockpicking level required to open lockboxes by clicking their links in the chat.",
       "author": "Frosdun",
       "category": "L",
-      "last_commit": "2026-03-06T23:14:45Z",
+      "last_commit": "2026-03-07T15:41:15Z",
       "added_at": "2026-02-16T05:40:13.536136214Z"
     },
     {
@@ -4854,7 +4854,7 @@
       "author": "Otari98",
       "stars": 25,
       "category": "R",
-      "last_commit": "2026-01-25T11:26:13Z",
+      "last_commit": "2026-03-07T11:11:40Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -5363,7 +5363,7 @@
       "author": "Redbu11dev",
       "stars": 5,
       "category": "S",
-      "last_commit": "2025-08-16T04:53:16Z",
+      "last_commit": "2026-03-08T03:13:01Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -6098,20 +6098,20 @@
     },
     {
       "name": "TWPulse",
+      "url": "https://github.com/FSuhas/TWPulse",
+      "author": "FSuhas",
+      "category": "T",
+      "last_commit": "2025-09-06T08:46:59Z",
+      "added_at": "2026-03-06T03:57:40.344270365Z"
+    },
+    {
+      "name": "TWPulse",
       "url": "https://github.com/CosminPOP/TWPulse",
       "description": "Pulse for cooldowns",
       "author": "CosminPOP",
       "category": "T",
       "last_commit": "2022-04-04T09:29:16Z",
       "added_at": "0001-01-01T00:00:00Z"
-    },
-    {
-      "name": "TWPulse",
-      "url": "https://github.com/FSuhas/TWPulse",
-      "author": "FSuhas",
-      "category": "T",
-      "last_commit": "2025-09-06T08:46:59Z",
-      "added_at": "2026-03-06T03:57:40.344270365Z"
     },
     {
       "name": "TWSunders",
@@ -6141,6 +6141,15 @@
       "added_at": "2026-02-16T05:40:13.536136214Z"
     },
     {
+      "name": "TWoWBulkMail",
+      "url": "https://github.com/Khundiann/TWoWBulkMail",
+      "author": "Khundiann",
+      "stars": 1,
+      "category": "T",
+      "last_commit": "2026-03-07T16:08:31Z",
+      "added_at": "2026-03-08T03:58:12.775632617Z"
+    },
+    {
       "name": "TWoWPerHour",
       "url": "https://github.com/Khundiann/TWoWPerHour",
       "description": "World of Warcraft v11200 / Turtle WoW addon for per hour Experience, Honor, Reputation and Gold tracking.",
@@ -6151,15 +6160,6 @@
     },
     {
       "name": "Talentsaver",
-      "url": "https://github.com/pepopo978/Talentsaver",
-      "description": "World of Warcraft AddOn for 1.12.1 (Vanilla) - save \u0026 load your common Talent Specs with just one click!",
-      "author": "pepopo978",
-      "category": "T",
-      "last_commit": "2026-02-13T03:09:18Z",
-      "added_at": "2026-02-16T05:40:13.536136214Z"
-    },
-    {
-      "name": "Talentsaver",
       "url": "https://github.com/MOUZU/Talentsaver",
       "description": "World of Warcraft AddOn for 1.12.1 (Vanilla) - save \u0026 load your common Talent Specs with just one click!",
       "author": "MOUZU",
@@ -6167,6 +6167,15 @@
       "category": "T",
       "last_commit": "2015-07-03T17:02:20Z",
       "added_at": "0001-01-01T00:00:00Z"
+    },
+    {
+      "name": "Talentsaver",
+      "url": "https://github.com/pepopo978/Talentsaver",
+      "description": "World of Warcraft AddOn for 1.12.1 (Vanilla) - save \u0026 load your common Talent Specs with just one click!",
+      "author": "pepopo978",
+      "category": "T",
+      "last_commit": "2026-02-13T03:09:18Z",
+      "added_at": "2026-02-16T05:40:13.536136214Z"
     },
     {
       "name": "TankAssignments",
@@ -6248,19 +6257,19 @@
     },
     {
       "name": "Threat",
-      "url": "https://github.com/Xleone1/Threat",
-      "author": "Xleone1",
-      "category": "T",
-      "last_commit": "2025-07-09T00:15:28Z",
-      "added_at": "0001-01-01T00:00:00Z"
-    },
-    {
-      "name": "Threat",
       "url": "https://github.com/muellerj/Threat",
       "author": "muellerj",
       "stars": 2,
       "category": "T",
       "last_commit": "2017-11-05T12:02:17Z",
+      "added_at": "0001-01-01T00:00:00Z"
+    },
+    {
+      "name": "Threat",
+      "url": "https://github.com/Xleone1/Threat",
+      "author": "Xleone1",
+      "category": "T",
+      "last_commit": "2025-07-09T00:15:28Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -6412,22 +6421,22 @@
     },
     {
       "name": "TotemTimers-Enhanced",
-      "url": "https://github.com/mdmcclel/TotemTimers-Enhanced",
-      "description": "World of Warcraft AddOn for 1.12.1 (Vanilla) - keep's track of Shaman's Totems, how long they'll last and now also when their next Tick comes.",
-      "author": "mdmcclel",
-      "stars": 1,
-      "category": "T",
-      "last_commit": "2024-11-07T02:26:51Z",
-      "added_at": "0001-01-01T00:00:00Z"
-    },
-    {
-      "name": "TotemTimers-Enhanced",
       "url": "https://github.com/MOUZU/TotemTimers-Enhanced",
       "description": "World of Warcraft AddOn for 1.12.1 (Vanilla) - keep's track of Shaman's Totems, how long they'll last and now also when their next Tick comes.",
       "author": "MOUZU",
       "stars": 8,
       "category": "T",
       "last_commit": "2024-06-16T21:26:40Z",
+      "added_at": "0001-01-01T00:00:00Z"
+    },
+    {
+      "name": "TotemTimers-Enhanced",
+      "url": "https://github.com/mdmcclel/TotemTimers-Enhanced",
+      "description": "World of Warcraft AddOn for 1.12.1 (Vanilla) - keep's track of Shaman's Totems, how long they'll last and now also when their next Tick comes.",
+      "author": "mdmcclel",
+      "stars": 1,
+      "category": "T",
+      "last_commit": "2024-11-07T02:26:51Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -6626,9 +6635,9 @@
       "name": "TurtleHonorSpyEnhanced",
       "url": "https://github.com/dnkrse/TurtleHonorSpyEnhanced",
       "author": "dnkrse",
-      "stars": 1,
+      "stars": 2,
       "category": "T",
-      "last_commit": "2026-03-04T10:20:39Z",
+      "last_commit": "2026-03-08T01:35:29Z",
       "added_at": "2026-03-04T03:57:25.247190276Z"
     },
     {
@@ -6671,16 +6680,6 @@
     },
     {
       "name": "TurtleRP",
-      "url": "https://github.com/OldManAlpha/TurtleRP",
-      "description": "TurtleRP, an addon for vanilla WoW RPers.",
-      "author": "OldManAlpha",
-      "stars": 4,
-      "category": "T",
-      "last_commit": "2025-09-20T23:37:13Z",
-      "added_at": "2026-02-16T05:40:13.536136214Z"
-    },
-    {
-      "name": "TurtleRP",
       "url": "https://github.com/bratmage/TurtleRP",
       "description": "TurtleRP, an addon for vanilla WoW RPers.",
       "author": "bratmage",
@@ -6688,6 +6687,16 @@
       "category": "T",
       "last_commit": "2026-02-25T16:28:51Z",
       "added_at": "2026-02-26T04:02:20.533579857Z"
+    },
+    {
+      "name": "TurtleRP",
+      "url": "https://github.com/OldManAlpha/TurtleRP",
+      "description": "TurtleRP, an addon for vanilla WoW RPers.",
+      "author": "OldManAlpha",
+      "stars": 4,
+      "category": "T",
+      "last_commit": "2025-09-20T23:37:13Z",
+      "added_at": "2026-02-16T05:40:13.536136214Z"
     },
     {
       "name": "TurtleReagentDisplay",
@@ -7016,10 +7025,11 @@
     },
     {
       "name": "Vanilla_oCB",
-      "url": "https://github.com/martinjlowm/Vanilla_oCB",
-      "author": "martinjlowm",
+      "url": "https://github.com/Road-block/Vanilla_oCB",
+      "author": "Road-block",
+      "stars": 4,
       "category": "O",
-      "last_commit": "2017-03-26T15:14:21Z",
+      "last_commit": "2017-12-29T09:53:51Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -7033,11 +7043,10 @@
     },
     {
       "name": "Vanilla_oCB",
-      "url": "https://github.com/Road-block/Vanilla_oCB",
-      "author": "Road-block",
-      "stars": 4,
+      "url": "https://github.com/martinjlowm/Vanilla_oCB",
+      "author": "martinjlowm",
       "category": "O",
-      "last_commit": "2017-12-29T09:53:51Z",
+      "last_commit": "2017-03-26T15:14:21Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -7934,7 +7943,7 @@
       "url": "https://github.com/Cliencer/pfExtend",
       "description": "Extension for pfQuest | Monster loot display \u0026 Quest chain browser for Vanilla WoW 1.12 / Turtle WoW. Drop rates, item farming, quest tracking, prerequisite finder. pfQuest扩展插件 | 怪物掉落显示与任务链浏览器，支持魔兽1.12/Turtle WoW乌龟服。掉落查询、物品farm、任务追踪、前置查找。",
       "author": "Cliencer",
-      "stars": 9,
+      "stars": 10,
       "category": "P",
       "last_commit": "2026-02-28T12:07:30Z",
       "added_at": "2026-02-16T05:40:13.536136214Z"
@@ -8014,7 +8023,7 @@
       "author": "Arthur-Helias",
       "stars": 3,
       "category": "P",
-      "last_commit": "2026-03-06T04:51:53Z",
+      "last_commit": "2026-03-07T15:40:45Z",
       "added_at": "2026-02-16T05:40:13.536136214Z"
     },
     {
@@ -8090,7 +8099,7 @@
       "url": "https://github.com/shagu/pfUI-eliteoverlay",
       "description": "Elite Overlay for pfUI Unitframes",
       "author": "shagu",
-      "stars": 10,
+      "stars": 11,
       "category": "P",
       "last_commit": "2025-07-23T18:00:09Z",
       "added_at": "0001-01-01T00:00:00Z"
@@ -8107,7 +8116,7 @@
       "url": "https://github.com/shagu/pfUI-fonts",
       "description": "pfUI font package",
       "author": "shagu",
-      "stars": 3,
+      "stars": 4,
       "category": "P",
       "last_commit": "2020-02-22T10:42:37Z",
       "added_at": "0001-01-01T00:00:00Z"
