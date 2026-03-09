@@ -1,9 +1,9 @@
 {
   "version": 1,
-  "revision": 55,
-  "generated_at": "2026-03-08T03:58:12.775632617Z",
+  "revision": 56,
+  "generated_at": "2026-03-09T04:02:09.32858839Z",
   "source_url": "https://turtle-wow.fandom.com/wiki/Addons",
-  "addon_count": 879,
+  "addon_count": 882,
   "addons": [
     {
       "name": "-DragonflightReloaded",
@@ -185,7 +185,7 @@
       "url": "https://github.com/Otari98/Artisan",
       "description": "Compact professions window for World of Warcraft 1.12",
       "author": "Otari98",
-      "stars": 18,
+      "stars": 19,
       "category": "A",
       "last_commit": "2025-11-15T15:39:39Z",
       "added_at": "0001-01-01T00:00:00Z"
@@ -197,7 +197,7 @@
       "author": "byCFM2",
       "stars": 14,
       "category": "A",
-      "last_commit": "2026-03-06T22:14:58Z",
+      "last_commit": "2026-03-08T18:45:01Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -1677,7 +1677,7 @@
       "author": "Player-Doite",
       "stars": 35,
       "category": "D",
-      "last_commit": "2026-03-06T21:53:08Z",
+      "last_commit": "2026-03-08T14:33:22Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -1878,16 +1878,6 @@
     },
     {
       "name": "EasyLoot",
-      "url": "https://github.com/Numielle/EasyLoot",
-      "description": "Simplify loot distribution.",
-      "author": "Numielle",
-      "stars": 3,
-      "category": "E",
-      "last_commit": "2014-02-15T16:50:05Z",
-      "added_at": "0001-01-01T00:00:00Z"
-    },
-    {
-      "name": "EasyLoot",
       "url": "https://github.com/MarcelineVQ/EasyLoot",
       "description": "Automatic loot rules for instances and groups. Have loot handle itself.",
       "author": "MarcelineVQ",
@@ -1895,6 +1885,16 @@
       "category": "E",
       "last_commit": "2026-03-04T19:51:12Z",
       "added_at": "2026-02-23T04:07:19.195751287Z"
+    },
+    {
+      "name": "EasyLoot",
+      "url": "https://github.com/Numielle/EasyLoot",
+      "description": "Simplify loot distribution.",
+      "author": "Numielle",
+      "stars": 3,
+      "category": "E",
+      "last_commit": "2014-02-15T16:50:05Z",
+      "added_at": "0001-01-01T00:00:00Z"
     },
     {
       "name": "EasyRess",
@@ -2607,21 +2607,21 @@
     },
     {
       "name": "GrimoireKeeper",
+      "url": "https://github.com/Scoboose/GrimoireKeeper",
+      "author": "Scoboose",
+      "stars": 1,
+      "category": "G",
+      "last_commit": "2025-04-02T15:02:52Z",
+      "added_at": "0001-01-01T00:00:00Z"
+    },
+    {
+      "name": "GrimoireKeeper",
       "url": "https://github.com/Lichery/GrimoireKeeper",
       "description": "[1.12.1] Tracks which grimoires your warlock pets have learned.",
       "author": "Artur91425",
       "stars": 1,
       "category": "G",
       "last_commit": "2019-08-23T20:35:34Z",
-      "added_at": "0001-01-01T00:00:00Z"
-    },
-    {
-      "name": "GrimoireKeeper",
-      "url": "https://github.com/Scoboose/GrimoireKeeper",
-      "author": "Scoboose",
-      "stars": 1,
-      "category": "G",
-      "last_commit": "2025-04-02T15:02:52Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -2658,7 +2658,7 @@
       "author": "redshadowz",
       "stars": 3,
       "category": "G",
-      "last_commit": "2026-03-06T22:40:47Z",
+      "last_commit": "2026-03-09T03:01:41Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -3693,19 +3693,19 @@
     },
     {
       "name": "MasterTradeSkills",
-      "url": "https://github.com/ImmortalSom/MasterTradeSkills",
-      "category": "M",
-      "last_commit": "0001-01-01T00:00:00Z",
-      "added_at": "0001-01-01T00:00:00Z"
-    },
-    {
-      "name": "MasterTradeSkills",
       "url": "https://github.com/refaim/MasterTradeSkills",
       "description": "Vanilla WoW 1.12.1 and Turtle WoW addon. Adds trade skill information to tooltips of ingredients.",
       "author": "refaim",
       "stars": 19,
       "category": "M",
       "last_commit": "2025-12-21T08:40:16Z",
+      "added_at": "0001-01-01T00:00:00Z"
+    },
+    {
+      "name": "MasterTradeSkills",
+      "url": "https://github.com/ImmortalSom/MasterTradeSkills",
+      "category": "M",
+      "last_commit": "0001-01-01T00:00:00Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -3811,7 +3811,7 @@
       "url": "https://github.com/refaim/MissingCrafts",
       "description": "Vanilla WoW 1.12.1 and Turtle WoW addon. Shows the missing crafts for your crafting professions and how to obtain them.",
       "author": "refaim",
-      "stars": 21,
+      "stars": 22,
       "category": "M",
       "last_commit": "2025-12-21T08:41:44Z",
       "added_at": "0001-01-01T00:00:00Z"
@@ -4201,21 +4201,21 @@
     },
     {
       "name": "Outfitter",
+      "url": "https://github.com/pepopo978/Outfitter",
+      "author": "pepopo978",
+      "stars": 11,
+      "category": "O",
+      "last_commit": "2025-12-30T19:59:40Z",
+      "added_at": "0001-01-01T00:00:00Z"
+    },
+    {
+      "name": "Outfitter",
       "url": "https://github.com/MarcelineVQ/Outfitter",
       "description": "fix for Turtle WoW - Riding Turtle Mount",
       "author": "MarcelineVQ",
       "stars": 2,
       "category": "O",
       "last_commit": "2026-02-24T03:47:19Z",
-      "added_at": "0001-01-01T00:00:00Z"
-    },
-    {
-      "name": "Outfitter",
-      "url": "https://github.com/pepopo978/Outfitter",
-      "author": "pepopo978",
-      "stars": 11,
-      "category": "O",
-      "last_commit": "2025-12-30T19:59:40Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -4994,22 +4994,22 @@
     },
     {
       "name": "SUCC-bag",
-      "url": "https://github.com/Otari98/SUCC-bag",
-      "description": "Sublime User Convenience Collection - player inventory and bank",
-      "author": "Otari98",
-      "stars": 3,
-      "category": "S",
-      "last_commit": "2025-10-07T17:26:20Z",
-      "added_at": "0001-01-01T00:00:00Z"
-    },
-    {
-      "name": "SUCC-bag",
       "url": "https://github.com/FrostShock/SUCC-bag",
       "description": "Sublime User Convenience Collection - player inventory and bank",
       "author": "FrostShock",
       "stars": 1,
       "category": "S",
       "last_commit": "2021-10-27T17:25:05Z",
+      "added_at": "0001-01-01T00:00:00Z"
+    },
+    {
+      "name": "SUCC-bag",
+      "url": "https://github.com/Otari98/SUCC-bag",
+      "description": "Sublime User Convenience Collection - player inventory and bank",
+      "author": "Otari98",
+      "stars": 3,
+      "category": "S",
+      "last_commit": "2025-10-07T17:26:20Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -5210,21 +5210,21 @@
     },
     {
       "name": "ShaguClock",
-      "url": "https://github.com/FrostShock/ShaguClock",
-      "description": "A Vanilla and TBC Addon that draws a simple movable clock on the screen",
-      "author": "FrostShock",
-      "category": "S",
-      "last_commit": "2021-05-17T04:30:54Z",
-      "added_at": "0001-01-01T00:00:00Z"
-    },
-    {
-      "name": "ShaguClock",
       "url": "https://github.com/shagu/ShaguClock",
       "description": "A Vanilla and TBC Addon that draws a simple movable clock on the screen",
       "author": "shagu",
       "stars": 5,
       "category": "S",
       "last_commit": "2020-09-20T14:21:48Z",
+      "added_at": "0001-01-01T00:00:00Z"
+    },
+    {
+      "name": "ShaguClock",
+      "url": "https://github.com/FrostShock/ShaguClock",
+      "description": "A Vanilla and TBC Addon that draws a simple movable clock on the screen",
+      "author": "FrostShock",
+      "category": "S",
+      "last_commit": "2021-05-17T04:30:54Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -5401,7 +5401,7 @@
       "url": "https://github.com/shagu/ShaguTweaks",
       "description": "A collection of tweaks and enhancements to the default wow 1.12.1 interface",
       "author": "shagu",
-      "stars": 98,
+      "stars": 99,
       "category": "S",
       "last_commit": "2025-08-15T14:37:22Z",
       "added_at": "0001-01-01T00:00:00Z"
@@ -5647,22 +5647,22 @@
     },
     {
       "name": "SmartHealer",
-      "url": "https://github.com/melbaa/SmartHealer",
-      "description": "vanilla wow 1.12 autoranked heals",
-      "author": "melbaa",
-      "stars": 5,
-      "category": "S",
-      "last_commit": "2024-05-25T12:07:32Z",
-      "added_at": "0001-01-01T00:00:00Z"
-    },
-    {
-      "name": "SmartHealer",
       "url": "https://github.com/dsidirop/SmartHealer",
       "description": "Vanilla WoW 1.12 Autoranked Heals With Support for pfUI's /pfcast command",
       "author": "dsidirop",
       "stars": 2,
       "category": "S",
       "last_commit": "2026-03-05T20:20:23Z",
+      "added_at": "0001-01-01T00:00:00Z"
+    },
+    {
+      "name": "SmartHealer",
+      "url": "https://github.com/melbaa/SmartHealer",
+      "description": "vanilla wow 1.12 autoranked heals",
+      "author": "melbaa",
+      "stars": 5,
+      "category": "S",
+      "last_commit": "2024-05-25T12:07:32Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -5732,15 +5732,6 @@
     },
     {
       "name": "SortBags",
-      "url": "https://github.com/Magues17/SortBags",
-      "description": "Bag Sorting addon for Turtle WoW",
-      "author": "Magues17",
-      "category": "S",
-      "last_commit": "2025-11-05T17:12:00Z",
-      "added_at": "2026-01-10T03:42:41.414014379Z"
-    },
-    {
-      "name": "SortBags",
       "url": "https://github.com/shirsig/SortBags",
       "description": "Bag sorting for Classic (1.13) IMPORTANT: If you want buttons get this too: https://github.com/shirsig/Cleanup IMPORTANT: The folder name must be \"SortBags\" IMPORTANT: The Vanilla (1.12) version moved here https://github.com/shirsig/SortBags-vanilla",
       "author": "shirsig",
@@ -5748,6 +5739,15 @@
       "category": "S",
       "last_commit": "2026-01-19T18:32:41Z",
       "added_at": "0001-01-01T00:00:00Z"
+    },
+    {
+      "name": "SortBags",
+      "url": "https://github.com/Magues17/SortBags",
+      "description": "Bag Sorting addon for Turtle WoW",
+      "author": "Magues17",
+      "category": "S",
+      "last_commit": "2025-11-05T17:12:00Z",
+      "added_at": "2026-01-10T03:42:41.414014379Z"
     },
     {
       "name": "SortBags-vanilla",
@@ -6127,7 +6127,7 @@
       "url": "https://github.com/MarcelineVQ/TWThreat",
       "description": "Turtle WOW's own Threat Meter !",
       "author": "MarcelineVQ",
-      "stars": 12,
+      "stars": 13,
       "category": "T",
       "last_commit": "2026-03-07T00:06:18Z",
       "added_at": "2026-01-16T03:47:28.635990587Z"
@@ -6160,6 +6160,15 @@
     },
     {
       "name": "Talentsaver",
+      "url": "https://github.com/pepopo978/Talentsaver",
+      "description": "World of Warcraft AddOn for 1.12.1 (Vanilla) - save \u0026 load your common Talent Specs with just one click!",
+      "author": "pepopo978",
+      "category": "T",
+      "last_commit": "2026-02-13T03:09:18Z",
+      "added_at": "2026-02-16T05:40:13.536136214Z"
+    },
+    {
+      "name": "Talentsaver",
       "url": "https://github.com/MOUZU/Talentsaver",
       "description": "World of Warcraft AddOn for 1.12.1 (Vanilla) - save \u0026 load your common Talent Specs with just one click!",
       "author": "MOUZU",
@@ -6167,15 +6176,6 @@
       "category": "T",
       "last_commit": "2015-07-03T17:02:20Z",
       "added_at": "0001-01-01T00:00:00Z"
-    },
-    {
-      "name": "Talentsaver",
-      "url": "https://github.com/pepopo978/Talentsaver",
-      "description": "World of Warcraft AddOn for 1.12.1 (Vanilla) - save \u0026 load your common Talent Specs with just one click!",
-      "author": "pepopo978",
-      "category": "T",
-      "last_commit": "2026-02-13T03:09:18Z",
-      "added_at": "2026-02-16T05:40:13.536136214Z"
     },
     {
       "name": "TankAssignments",
@@ -6257,19 +6257,19 @@
     },
     {
       "name": "Threat",
+      "url": "https://github.com/Xleone1/Threat",
+      "author": "Xleone1",
+      "category": "T",
+      "last_commit": "2025-07-09T00:15:28Z",
+      "added_at": "0001-01-01T00:00:00Z"
+    },
+    {
+      "name": "Threat",
       "url": "https://github.com/muellerj/Threat",
       "author": "muellerj",
       "stars": 2,
       "category": "T",
       "last_commit": "2017-11-05T12:02:17Z",
-      "added_at": "0001-01-01T00:00:00Z"
-    },
-    {
-      "name": "Threat",
-      "url": "https://github.com/Xleone1/Threat",
-      "author": "Xleone1",
-      "category": "T",
-      "last_commit": "2025-07-09T00:15:28Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -6296,7 +6296,7 @@
       "url": "https://github.com/jrc13245/TimeToKill",
       "description": "Target Death Timer ",
       "author": "jrc13245",
-      "stars": 2,
+      "stars": 3,
       "category": "T",
       "last_commit": "2025-12-06T03:41:13Z",
       "added_at": "2026-01-18T03:51:58.977057594Z"
@@ -6421,22 +6421,22 @@
     },
     {
       "name": "TotemTimers-Enhanced",
-      "url": "https://github.com/MOUZU/TotemTimers-Enhanced",
-      "description": "World of Warcraft AddOn for 1.12.1 (Vanilla) - keep's track of Shaman's Totems, how long they'll last and now also when their next Tick comes.",
-      "author": "MOUZU",
-      "stars": 8,
-      "category": "T",
-      "last_commit": "2024-06-16T21:26:40Z",
-      "added_at": "0001-01-01T00:00:00Z"
-    },
-    {
-      "name": "TotemTimers-Enhanced",
       "url": "https://github.com/mdmcclel/TotemTimers-Enhanced",
       "description": "World of Warcraft AddOn for 1.12.1 (Vanilla) - keep's track of Shaman's Totems, how long they'll last and now also when their next Tick comes.",
       "author": "mdmcclel",
       "stars": 1,
       "category": "T",
       "last_commit": "2024-11-07T02:26:51Z",
+      "added_at": "0001-01-01T00:00:00Z"
+    },
+    {
+      "name": "TotemTimers-Enhanced",
+      "url": "https://github.com/MOUZU/TotemTimers-Enhanced",
+      "description": "World of Warcraft AddOn for 1.12.1 (Vanilla) - keep's track of Shaman's Totems, how long they'll last and now also when their next Tick comes.",
+      "author": "MOUZU",
+      "stars": 8,
+      "category": "T",
+      "last_commit": "2024-06-16T21:26:40Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -6637,7 +6637,7 @@
       "author": "dnkrse",
       "stars": 2,
       "category": "T",
-      "last_commit": "2026-03-08T01:35:29Z",
+      "last_commit": "2026-03-08T20:41:50Z",
       "added_at": "2026-03-04T03:57:25.247190276Z"
     },
     {
@@ -6736,6 +6736,14 @@
       "category": "T",
       "last_commit": "2025-08-30T19:36:10Z",
       "added_at": "0001-01-01T00:00:00Z"
+    },
+    {
+      "name": "TurtleTranslator",
+      "url": "https://github.com/picardebooks/TurtleTranslator",
+      "author": "picardebooks",
+      "category": "T",
+      "last_commit": "2026-03-08T02:27:18Z",
+      "added_at": "2026-03-09T04:02:09.32858839Z"
     },
     {
       "name": "TurtleTweaks",
@@ -7034,19 +7042,19 @@
     },
     {
       "name": "Vanilla_oCB",
+      "url": "https://github.com/martinjlowm/Vanilla_oCB",
+      "author": "martinjlowm",
+      "category": "O",
+      "last_commit": "2017-03-26T15:14:21Z",
+      "added_at": "0001-01-01T00:00:00Z"
+    },
+    {
+      "name": "Vanilla_oCB",
       "url": "https://github.com/laytya/Vanilla_oCB",
       "author": "laytya",
       "stars": 4,
       "category": "O",
       "last_commit": "2025-04-09T09:48:08Z",
-      "added_at": "0001-01-01T00:00:00Z"
-    },
-    {
-      "name": "Vanilla_oCB",
-      "url": "https://github.com/martinjlowm/Vanilla_oCB",
-      "author": "martinjlowm",
-      "category": "O",
-      "last_commit": "2017-03-26T15:14:21Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -7400,6 +7408,15 @@
       "category": "Z",
       "last_commit": "2014-04-05T13:01:45Z",
       "added_at": "0001-01-01T00:00:00Z"
+    },
+    {
+      "name": "ZealCycle-turtle",
+      "url": "https://github.com/TerraBaddie/ZealCycle-turtle",
+      "description": "TWoW Zeal Stacker (Crusader Strike) then Holy Strike Spammer (Prot Paladin)",
+      "author": "TerraBaddie",
+      "category": "Z",
+      "last_commit": "2026-03-03T00:56:48Z",
+      "added_at": "2026-03-09T04:02:09.32858839Z"
     },
     {
       "name": "ZonesLevel",
@@ -7891,22 +7908,22 @@
     },
     {
       "name": "necrosis-twow",
-      "url": "https://github.com/pylebecq/necrosis-twow",
-      "description": "1.5.2a fork of Necrosis addon for Turtle WoW",
-      "author": "pylebecq",
-      "stars": 1,
-      "category": "N",
-      "last_commit": "2026-01-17T11:30:23Z",
-      "added_at": "0001-01-01T00:00:00Z"
-    },
-    {
-      "name": "necrosis-twow",
       "url": "https://github.com/Nedlinin/necrosis-twow",
       "description": "1.5.2a fork of Necrosis addon for Turtle WoW",
       "author": "Nedlinin",
       "stars": 1,
       "category": "N",
       "last_commit": "2025-12-03T21:28:24Z",
+      "added_at": "0001-01-01T00:00:00Z"
+    },
+    {
+      "name": "necrosis-twow",
+      "url": "https://github.com/pylebecq/necrosis-twow",
+      "description": "1.5.2a fork of Necrosis addon for Turtle WoW",
+      "author": "pylebecq",
+      "stars": 1,
+      "category": "N",
+      "last_commit": "2026-01-17T11:30:23Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -7957,6 +7974,16 @@
       "category": "P",
       "last_commit": "2025-08-25T20:26:06Z",
       "added_at": "0001-01-01T00:00:00Z"
+    },
+    {
+      "name": "pfQuest",
+      "url": "https://github.com/The-Kludge-Bureau/pfQuest",
+      "description": "A Questhelper and Database Addon for World of Warcraft: Vanilla \u0026 TBC",
+      "author": "The-Kludge-Bureau",
+      "stars": 2,
+      "category": "P",
+      "last_commit": "2026-03-07T21:02:57Z",
+      "added_at": "2026-03-09T04:02:09.32858839Z"
     },
     {
       "name": "pfQuest-icons",
@@ -8116,7 +8143,7 @@
       "url": "https://github.com/shagu/pfUI-fonts",
       "description": "pfUI font package",
       "author": "shagu",
-      "stars": 4,
+      "stars": 3,
       "category": "P",
       "last_commit": "2020-02-22T10:42:37Z",
       "added_at": "0001-01-01T00:00:00Z"
@@ -8135,7 +8162,7 @@
       "name": "pfUI-turtle",
       "url": "https://github.com/doorknob6/pfUI-turtle",
       "author": "doorknob6",
-      "stars": 34,
+      "stars": 35,
       "category": "P",
       "last_commit": "2025-09-15T05:41:52Z",
       "added_at": "0001-01-01T00:00:00Z"
