@@ -1,9 +1,9 @@
 {
   "version": 1,
-  "revision": 58,
-  "generated_at": "2026-03-11T03:57:32.131068762Z",
+  "revision": 59,
+  "generated_at": "2026-03-12T04:00:47.521938271Z",
   "source_url": "https://turtle-wow.fandom.com/wiki/Addons",
-  "addon_count": 884,
+  "addon_count": 887,
   "addons": [
     {
       "name": "-DragonflightReloaded",
@@ -352,7 +352,7 @@
       "author": "FSuhas",
       "stars": 4,
       "category": "A",
-      "last_commit": "2026-02-10T02:29:16Z",
+      "last_commit": "2026-03-11T22:24:04Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -528,7 +528,7 @@
       "author": "McPewPew",
       "stars": 17,
       "category": "B",
-      "last_commit": "2025-10-30T12:45:11Z",
+      "last_commit": "2026-03-11T15:50:02Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -605,6 +605,7 @@
       "url": "https://github.com/TcavemanT/BeneCast",
       "description": "BeneCast for TurtleWoW",
       "author": "TcavemanT",
+      "stars": 1,
       "category": "B",
       "last_commit": "2025-05-29T11:51:54Z",
       "added_at": "0001-01-01T00:00:00Z"
@@ -652,7 +653,7 @@
       "url": "https://github.com/tlplayer/BetterQuest",
       "description": "Making WoW Classic Quests Better",
       "author": "tlplayer",
-      "stars": 4,
+      "stars": 5,
       "category": "B",
       "last_commit": "2026-02-17T04:32:38Z",
       "added_at": "2026-02-03T04:01:16.609393504Z"
@@ -964,13 +965,12 @@
     },
     {
       "name": "CThunWarner",
-      "url": "https://github.com/0ldi/CThunWarner",
-      "description": "Modified version of Addon for World of Warcraft 1.12.1 (Vanilla-Classic-WoW)",
-      "author": "0ldi",
-      "stars": 3,
+      "url": "https://github.com/McPewPew/CThunWarner",
+      "description": "Modified version of Addon for World of Warcraft 1.12.1 (Turtle WoW)",
+      "author": "McPewPew",
       "category": "C",
-      "last_commit": "2017-06-09T07:58:13Z",
-      "added_at": "0001-01-01T00:00:00Z"
+      "last_commit": "2026-03-11T14:58:08Z",
+      "added_at": "2026-03-12T04:00:47.521938271Z"
     },
     {
       "name": "CallToArms",
@@ -1062,7 +1062,7 @@
       "url": "https://github.com/Cernie/CerniesWonderfulFunctions",
       "description": "Vanilla WoW addon for macro helper functions.",
       "author": "Cernie",
-      "stars": 6,
+      "stars": 7,
       "category": "C",
       "last_commit": "2020-03-06T00:53:48Z",
       "added_at": "0001-01-01T00:00:00Z"
@@ -1374,21 +1374,21 @@
     },
     {
       "name": "Comix",
-      "url": "https://github.com/Cysthen/Comix",
-      "description": "2012 Comix from Feenix. Mostly Edited by Susangrundle and myself from the Guild Chainpull",
-      "author": "Cysthen",
-      "category": "C",
-      "last_commit": "2025-02-07T23:36:24Z",
-      "added_at": "0001-01-01T00:00:00Z"
-    },
-    {
-      "name": "Comix",
       "url": "https://github.com/Goose404/Comix",
       "description": "comix addon for wow client 1.12 and turtlewow twow",
       "author": "Goose404",
       "stars": 1,
       "category": "C",
       "last_commit": "2025-04-26T20:25:08Z",
+      "added_at": "0001-01-01T00:00:00Z"
+    },
+    {
+      "name": "Comix",
+      "url": "https://github.com/Cysthen/Comix",
+      "description": "2012 Comix from Feenix. Mostly Edited by Susangrundle and myself from the Guild Chainpull",
+      "author": "Cysthen",
+      "category": "C",
+      "last_commit": "2025-02-07T23:36:24Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -1405,7 +1405,7 @@
       "url": "https://github.com/pepordev/ConsoleExperienceClassic",
       "description": "Wow Classic (1.12) Console Experience (Gamepad support) compatible with TurtleWoW",
       "author": "pepordev",
-      "stars": 23,
+      "stars": 24,
       "category": "C",
       "last_commit": "2026-03-10T11:11:40Z",
       "added_at": "0001-01-01T00:00:00Z"
@@ -1657,7 +1657,7 @@
       "author": "uc9089",
       "stars": 4,
       "category": "D",
-      "last_commit": "2025-04-03T11:06:21Z",
+      "last_commit": "2026-03-11T13:28:27Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -2085,7 +2085,7 @@
       "description": "Fast Invite Komp Assigner invites players from the Raid-Helper roster and organizes raid groups to match the Raid-Helper Discord composition.",
       "author": "ItsLusse",
       "category": "F",
-      "last_commit": "2026-03-10T16:43:20Z",
+      "last_commit": "2026-03-11T22:11:44Z",
       "added_at": "2026-02-03T04:01:16.609393504Z"
     },
     {
@@ -2600,9 +2600,11 @@
     },
     {
       "name": "GrimoireKeeper",
-      "url": "https://gitlab.com/Artur91425/GrimoireKeeper",
+      "url": "https://github.com/Scoboose/GrimoireKeeper",
+      "author": "Scoboose",
+      "stars": 1,
       "category": "G",
-      "last_commit": "0001-01-01T00:00:00Z",
+      "last_commit": "2025-04-02T15:02:52Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -2617,11 +2619,9 @@
     },
     {
       "name": "GrimoireKeeper",
-      "url": "https://github.com/Scoboose/GrimoireKeeper",
-      "author": "Scoboose",
-      "stars": 1,
+      "url": "https://gitlab.com/Artur91425/GrimoireKeeper",
       "category": "G",
-      "last_commit": "2025-04-02T15:02:52Z",
+      "last_commit": "0001-01-01T00:00:00Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -3262,21 +3262,21 @@
     },
     {
       "name": "KillCounter",
-      "url": "https://github.com/bucketss/KillCounter",
-      "description": "kill counter for WoW vanilla client 1.12",
-      "author": "bucketss",
-      "category": "K",
-      "last_commit": "2025-10-29T22:20:35Z",
-      "added_at": "0001-01-01T00:00:00Z"
-    },
-    {
-      "name": "KillCounter",
       "url": "https://github.com/FrostShock/KillCounter",
       "description": "Vanilla WoW (1.12.1) addon for counting kills",
       "author": "FrostShock",
       "stars": 1,
       "category": "K",
       "last_commit": "2022-04-20T03:46:08Z",
+      "added_at": "0001-01-01T00:00:00Z"
+    },
+    {
+      "name": "KillCounter",
+      "url": "https://github.com/bucketss/KillCounter",
+      "description": "kill counter for WoW vanilla client 1.12",
+      "author": "bucketss",
+      "category": "K",
+      "last_commit": "2025-10-29T22:20:35Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -3796,6 +3796,16 @@
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
+      "name": "MinimapButtonFrame",
+      "url": "https://github.com/McPewPew/MinimapButtonFrame",
+      "description": "This little addon will gather up all of your addon minimap buttons and put them into a movable frame. Backported from TBC v1.9 ",
+      "author": "McPewPew",
+      "stars": 1,
+      "category": "M",
+      "last_commit": "2026-03-11T14:12:20Z",
+      "added_at": "2026-03-12T04:00:47.521938271Z"
+    },
+    {
       "name": "MinimapButtonFrame-vanilla",
       "url": "https://github.com/laytya/MinimapButtonFrame-vanilla",
       "description": "This little addon will gather up all of your addon minimap buttons and put them into a movable frame. Backported from TBC v1.9 ",
@@ -3804,6 +3814,15 @@
       "category": "M",
       "last_commit": "2024-11-05T03:51:31Z",
       "added_at": "0001-01-01T00:00:00Z"
+    },
+    {
+      "name": "MinimapButtonFrameFu",
+      "url": "https://github.com/McPewPew/MinimapButtonFrameFu",
+      "description": "FuBar plugin for MinimapButtonFrame",
+      "author": "McPewPew",
+      "category": "M",
+      "last_commit": "2026-03-11T14:13:38Z",
+      "added_at": "2026-03-12T04:00:47.521938271Z"
     },
     {
       "name": "MissingCrafts",
@@ -4200,21 +4219,21 @@
     },
     {
       "name": "Outfitter",
+      "url": "https://github.com/pepopo978/Outfitter",
+      "author": "pepopo978",
+      "stars": 11,
+      "category": "O",
+      "last_commit": "2025-12-30T19:59:40Z",
+      "added_at": "0001-01-01T00:00:00Z"
+    },
+    {
+      "name": "Outfitter",
       "url": "https://github.com/MarcelineVQ/Outfitter",
       "description": "fix for Turtle WoW - Riding Turtle Mount",
       "author": "MarcelineVQ",
       "stars": 2,
       "category": "O",
       "last_commit": "2026-02-24T03:47:19Z",
-      "added_at": "0001-01-01T00:00:00Z"
-    },
-    {
-      "name": "Outfitter",
-      "url": "https://github.com/pepopo978/Outfitter",
-      "author": "pepopo978",
-      "stars": 11,
-      "category": "O",
-      "last_commit": "2025-12-30T19:59:40Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -4902,7 +4921,7 @@
       "description": "A one-button rotation helper for Rogues on Turtle WoW (1.18 client). Manages combo builders, finishers, buff upkeep (Slice and Dice, Envenom, Rupture), tank/evade cooldowns, threat management via Feint, and PvP trinket automation. Configurable via /rp.",
       "author": "Pokerbhind",
       "category": "R",
-      "last_commit": "2026-03-10T20:11:08Z",
+      "last_commit": "2026-03-11T23:57:30Z",
       "added_at": "2026-03-10T03:57:25.477501236Z"
     },
     {
@@ -4938,7 +4957,7 @@
       "url": "https://github.com/MarcelineVQ/Roid-Macros",
       "description": "Vanilla macros on steroids!",
       "author": "MarcelineVQ",
-      "stars": 16,
+      "stars": 17,
       "category": "R",
       "last_commit": "2026-02-01T23:32:03Z",
       "added_at": "0001-01-01T00:00:00Z"
@@ -5219,21 +5238,21 @@
     },
     {
       "name": "ShaguClock",
+      "url": "https://github.com/FrostShock/ShaguClock",
+      "description": "A Vanilla and TBC Addon that draws a simple movable clock on the screen",
+      "author": "FrostShock",
+      "category": "S",
+      "last_commit": "2021-05-17T04:30:54Z",
+      "added_at": "0001-01-01T00:00:00Z"
+    },
+    {
+      "name": "ShaguClock",
       "url": "https://github.com/shagu/ShaguClock",
       "description": "A Vanilla and TBC Addon that draws a simple movable clock on the screen",
       "author": "shagu",
       "stars": 5,
       "category": "S",
       "last_commit": "2020-09-20T14:21:48Z",
-      "added_at": "0001-01-01T00:00:00Z"
-    },
-    {
-      "name": "ShaguClock",
-      "url": "https://github.com/FrostShock/ShaguClock",
-      "description": "A Vanilla and TBC Addon that draws a simple movable clock on the screen",
-      "author": "FrostShock",
-      "category": "S",
-      "last_commit": "2021-05-17T04:30:54Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -5380,7 +5399,7 @@
       "url": "https://github.com/shagu/ShaguScore",
       "description": "A Vanilla Addon that displays a gearscore alike item rating",
       "author": "shagu",
-      "stars": 11,
+      "stars": 12,
       "category": "S",
       "last_commit": "2024-11-05T10:06:02Z",
       "added_at": "0001-01-01T00:00:00Z"
@@ -5808,22 +5827,22 @@
     },
     {
       "name": "SpamThrottle",
-      "url": "https://github.com/Orukxu/SpamThrottle",
-      "description": "Vanilla WoW addon to remove unwanted chat messages",
-      "author": "Orukxu",
-      "stars": 19,
-      "category": "S",
-      "last_commit": "2019-01-25T18:59:05Z",
-      "added_at": "0001-01-01T00:00:00Z"
-    },
-    {
-      "name": "SpamThrottle",
       "url": "https://github.com/laytya/SpamThrottle",
       "description": "Vanilla WoW addon to remove unwanted chat messages",
       "author": "laytya",
       "stars": 18,
       "category": "S",
       "last_commit": "2023-07-26T15:53:58Z",
+      "added_at": "0001-01-01T00:00:00Z"
+    },
+    {
+      "name": "SpamThrottle",
+      "url": "https://github.com/Orukxu/SpamThrottle",
+      "description": "Vanilla WoW addon to remove unwanted chat messages",
+      "author": "Orukxu",
+      "stars": 19,
+      "category": "S",
+      "last_commit": "2019-01-25T18:59:05Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -6026,7 +6045,7 @@
       "author": "whtmst",
       "stars": 2,
       "category": "T",
-      "last_commit": "2025-11-29T19:23:20Z",
+      "last_commit": "2026-03-11T09:56:35Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -6169,6 +6188,15 @@
     },
     {
       "name": "Talentsaver",
+      "url": "https://github.com/pepopo978/Talentsaver",
+      "description": "World of Warcraft AddOn for 1.12.1 (Vanilla) - save \u0026 load your common Talent Specs with just one click!",
+      "author": "pepopo978",
+      "category": "T",
+      "last_commit": "2026-02-13T03:09:18Z",
+      "added_at": "2026-02-16T05:40:13.536136214Z"
+    },
+    {
+      "name": "Talentsaver",
       "url": "https://github.com/MOUZU/Talentsaver",
       "description": "World of Warcraft AddOn for 1.12.1 (Vanilla) - save \u0026 load your common Talent Specs with just one click!",
       "author": "MOUZU",
@@ -6176,15 +6204,6 @@
       "category": "T",
       "last_commit": "2015-07-03T17:02:20Z",
       "added_at": "0001-01-01T00:00:00Z"
-    },
-    {
-      "name": "Talentsaver",
-      "url": "https://github.com/pepopo978/Talentsaver",
-      "description": "World of Warcraft AddOn for 1.12.1 (Vanilla) - save \u0026 load your common Talent Specs with just one click!",
-      "author": "pepopo978",
-      "category": "T",
-      "last_commit": "2026-02-13T03:09:18Z",
-      "added_at": "2026-02-16T05:40:13.536136214Z"
     },
     {
       "name": "TankAssignments",
@@ -6266,19 +6285,19 @@
     },
     {
       "name": "Threat",
-      "url": "https://github.com/Xleone1/Threat",
-      "author": "Xleone1",
-      "category": "T",
-      "last_commit": "2025-07-09T00:15:28Z",
-      "added_at": "0001-01-01T00:00:00Z"
-    },
-    {
-      "name": "Threat",
       "url": "https://github.com/muellerj/Threat",
       "author": "muellerj",
       "stars": 2,
       "category": "T",
       "last_commit": "2017-11-05T12:02:17Z",
+      "added_at": "0001-01-01T00:00:00Z"
+    },
+    {
+      "name": "Threat",
+      "url": "https://github.com/Xleone1/Threat",
+      "author": "Xleone1",
+      "category": "T",
+      "last_commit": "2025-07-09T00:15:28Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -7468,6 +7487,16 @@
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
+      "name": "__Anticrash",
+      "url": "https://github.com/me0wg4ming/__Anticrash",
+      "description": "Anticrash addon to unregister ALL events before logout and /reload",
+      "author": "me0wg4ming",
+      "stars": 1,
+      "category": "A",
+      "last_commit": "2026-03-11T07:03:02Z",
+      "added_at": "2026-03-12T04:00:47.521938271Z"
+    },
+    {
       "name": "aBindings",
       "url": "https://gitlab.com/aead/aBindings",
       "category": "A",
@@ -7479,7 +7508,7 @@
       "url": "https://github.com/Autignem/aDF",
       "description": "continuation and update of the adf addom in TWoW",
       "author": "Autignem",
-      "stars": 2,
+      "stars": 3,
       "category": "A",
       "last_commit": "2026-02-27T01:02:50Z",
       "added_at": "2026-01-18T03:51:58.977057594Z"
@@ -7782,7 +7811,7 @@
       "name": "guda",
       "url": "https://github.com/vatichild/guda",
       "author": "vatichild",
-      "stars": 16,
+      "stars": 17,
       "category": "G",
       "last_commit": "2026-03-10T16:51:56Z",
       "added_at": "0001-01-01T00:00:00Z"
@@ -7917,22 +7946,22 @@
     },
     {
       "name": "necrosis-twow",
-      "url": "https://github.com/pylebecq/necrosis-twow",
-      "description": "1.5.2a fork of Necrosis addon for Turtle WoW",
-      "author": "pylebecq",
-      "stars": 1,
-      "category": "N",
-      "last_commit": "2026-01-17T11:30:23Z",
-      "added_at": "0001-01-01T00:00:00Z"
-    },
-    {
-      "name": "necrosis-twow",
       "url": "https://github.com/Nedlinin/necrosis-twow",
       "description": "1.5.2a fork of Necrosis addon for Turtle WoW",
       "author": "Nedlinin",
       "stars": 1,
       "category": "N",
       "last_commit": "2025-12-03T21:28:24Z",
+      "added_at": "0001-01-01T00:00:00Z"
+    },
+    {
+      "name": "necrosis-twow",
+      "url": "https://github.com/pylebecq/necrosis-twow",
+      "description": "1.5.2a fork of Necrosis addon for Turtle WoW",
+      "author": "pylebecq",
+      "stars": 1,
+      "category": "N",
+      "last_commit": "2026-01-17T11:30:23Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -7957,15 +7986,6 @@
     },
     {
       "name": "pfDebug",
-      "url": "https://github.com/shagu/pfDebug",
-      "author": "shagu",
-      "stars": 5,
-      "category": "P",
-      "last_commit": "2025-08-16T08:31:12Z",
-      "added_at": "0001-01-01T00:00:00Z"
-    },
-    {
-      "name": "pfDebug",
       "url": "https://github.com/me0wg4ming/pfDebug",
       "description": "enhanced version of pfDebug",
       "author": "me0wg4ming",
@@ -7973,6 +7993,15 @@
       "category": "P",
       "last_commit": "2026-03-10T01:31:23Z",
       "added_at": "2026-03-11T03:57:32.131068762Z"
+    },
+    {
+      "name": "pfDebug",
+      "url": "https://github.com/shagu/pfDebug",
+      "author": "shagu",
+      "stars": 5,
+      "category": "P",
+      "last_commit": "2025-08-16T08:31:12Z",
+      "added_at": "0001-01-01T00:00:00Z"
     },
     {
       "name": "pfExtend",
@@ -8069,7 +8098,7 @@
       "author": "Arthur-Helias",
       "stars": 3,
       "category": "P",
-      "last_commit": "2026-03-07T15:40:45Z",
+      "last_commit": "2026-03-12T03:55:26Z",
       "added_at": "2026-02-16T05:40:13.536136214Z"
     },
     {
@@ -8384,7 +8413,7 @@
       "author": "Player-Doite",
       "stars": 14,
       "category": "T",
-      "last_commit": "2026-02-16T11:14:17Z",
+      "last_commit": "2026-03-11T21:56:48Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
