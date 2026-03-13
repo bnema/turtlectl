@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "revision": 59,
-  "generated_at": "2026-03-12T04:00:47.521938271Z",
+  "revision": 60,
+  "generated_at": "2026-03-13T03:59:22.667410904Z",
   "source_url": "https://turtle-wow.fandom.com/wiki/Addons",
   "addon_count": 887,
   "addons": [
@@ -1893,7 +1893,7 @@
       "author": "MarcelineVQ",
       "stars": 9,
       "category": "E",
-      "last_commit": "2026-03-10T17:18:46Z",
+      "last_commit": "2026-03-13T00:26:00Z",
       "added_at": "2026-02-23T04:07:19.195751287Z"
     },
     {
@@ -3476,7 +3476,7 @@
       "description": "Turtle WoW addon for seeing the lockpicking level required to open lockboxes by clicking their links in the chat.",
       "author": "Frosdun",
       "category": "L",
-      "last_commit": "2026-03-10T00:39:19Z",
+      "last_commit": "2026-03-12T17:22:13Z",
       "added_at": "2026-02-16T05:40:13.536136214Z"
     },
     {
@@ -4640,7 +4640,7 @@
       "author": "pepopo978",
       "stars": 4,
       "category": "R",
-      "last_commit": "2026-02-08T15:53:18Z",
+      "last_commit": "2026-03-12T14:37:13Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -4921,7 +4921,7 @@
       "description": "A one-button rotation helper for Rogues on Turtle WoW (1.18 client). Manages combo builders, finishers, buff upkeep (Slice and Dice, Envenom, Rupture), tank/evade cooldowns, threat management via Feint, and PvP trinket automation. Configurable via /rp.",
       "author": "Pokerbhind",
       "category": "R",
-      "last_commit": "2026-03-11T23:57:30Z",
+      "last_commit": "2026-03-12T17:25:19Z",
       "added_at": "2026-03-10T03:57:25.477501236Z"
     },
     {
@@ -5037,7 +5037,7 @@
       "author": "Otari98",
       "stars": 3,
       "category": "S",
-      "last_commit": "2025-10-07T17:26:20Z",
+      "last_commit": "2026-03-12T10:49:35Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -5690,7 +5690,7 @@
       "author": "dsidirop",
       "stars": 2,
       "category": "S",
-      "last_commit": "2026-03-05T20:20:23Z",
+      "last_commit": "2026-03-12T23:28:16Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -6155,9 +6155,9 @@
       "url": "https://github.com/MarcelineVQ/TWThreat",
       "description": "Turtle WOW's own Threat Meter !",
       "author": "MarcelineVQ",
-      "stars": 13,
+      "stars": 14,
       "category": "T",
-      "last_commit": "2026-03-07T00:06:18Z",
+      "last_commit": "2026-03-12T20:03:14Z",
       "added_at": "2026-01-16T03:47:28.635990587Z"
     },
     {
@@ -8028,9 +8028,9 @@
       "url": "https://github.com/The-Kludge-Bureau/pfQuest",
       "description": "A Questhelper and Database Addon for World of Warcraft: Vanilla \u0026 TBC",
       "author": "The-Kludge-Bureau",
-      "stars": 3,
+      "stars": 4,
       "category": "P",
-      "last_commit": "2026-03-07T21:02:57Z",
+      "last_commit": "2026-03-12T15:56:22Z",
       "added_at": "2026-03-09T04:02:09.32858839Z"
     },
     {
@@ -8413,7 +8413,7 @@
       "author": "Player-Doite",
       "stars": 14,
       "category": "T",
-      "last_commit": "2026-03-11T21:56:48Z",
+      "last_commit": "2026-03-12T18:50:25Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
