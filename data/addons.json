@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "revision": 60,
-  "generated_at": "2026-03-13T03:59:22.667410904Z",
+  "revision": 61,
+  "generated_at": "2026-03-14T03:58:20.940403832Z",
   "source_url": "https://turtle-wow.fandom.com/wiki/Addons",
   "addon_count": 887,
   "addons": [
@@ -127,6 +127,7 @@
       "url": "https://github.com/acid9000/AntiAfk",
       "description": "1.12 Vanilla WoW and Turtle WoW anti-afk addon",
       "author": "acid9000",
+      "stars": 1,
       "category": "A",
       "last_commit": "2026-01-18T20:03:35Z",
       "added_at": "2026-01-19T03:54:21.561835163Z"
@@ -528,7 +529,7 @@
       "author": "McPewPew",
       "stars": 17,
       "category": "B",
-      "last_commit": "2026-03-11T15:50:02Z",
+      "last_commit": "2026-03-13T23:48:18Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -605,7 +606,6 @@
       "url": "https://github.com/TcavemanT/BeneCast",
       "description": "BeneCast for TurtleWoW",
       "author": "TcavemanT",
-      "stars": 1,
       "category": "B",
       "last_commit": "2025-05-29T11:51:54Z",
       "added_at": "0001-01-01T00:00:00Z"
@@ -799,7 +799,7 @@
       "url": "https://github.com/MarcelineVQ/BrainSaver",
       "description": "Save and load talent specs with less mystery",
       "author": "MarcelineVQ",
-      "stars": 4,
+      "stars": 5,
       "category": "B",
       "last_commit": "2026-02-27T19:47:30Z",
       "added_at": "0001-01-01T00:00:00Z"
@@ -1280,7 +1280,7 @@
       "url": "https://github.com/cutiepoka/CleveRoidMacros",
       "description": "Use more advanced and modern style macros with World of Warcraft 1.12.1",
       "author": "cutiepoka",
-      "stars": 9,
+      "stars": 10,
       "category": "C",
       "last_commit": "2025-12-23T14:46:27Z",
       "added_at": "0001-01-01T00:00:00Z"
@@ -1405,7 +1405,7 @@
       "url": "https://github.com/pepordev/ConsoleExperienceClassic",
       "description": "Wow Classic (1.12) Console Experience (Gamepad support) compatible with TurtleWoW",
       "author": "pepordev",
-      "stars": 24,
+      "stars": 26,
       "category": "C",
       "last_commit": "2026-03-10T11:11:40Z",
       "added_at": "0001-01-01T00:00:00Z"
@@ -1417,7 +1417,7 @@
       "author": "Cinecom",
       "stars": 12,
       "category": "C",
-      "last_commit": "2026-03-09T12:40:58Z",
+      "last_commit": "2026-03-13T14:04:32Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -1675,9 +1675,9 @@
       "url": "https://github.com/Player-Doite/DoiteAuras",
       "description": "Ability, buff, debuff \u0026 item tracker for Vanilla WoW.",
       "author": "Player-Doite",
-      "stars": 37,
+      "stars": 38,
       "category": "D",
-      "last_commit": "2026-03-10T18:53:08Z",
+      "last_commit": "2026-03-13T20:45:53Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -1704,7 +1704,7 @@
       "url": "https://github.com/Stormhand-dev/DragonflightUI-Reforged",
       "description": "Dragonflight UI: Reforged is the ultimate evolution of Dragonflight: Reloaded — a Legendary Turtle WoW UI overhaul forged for clarity, power, and immersion. Born from battle-tested roots, it delivers modern dragonsteel precision, fearless defaults, and customizable mastery for the true Azeroth champion.",
       "author": "Stormhand-dev",
-      "stars": 5,
+      "stars": 6,
       "category": "D",
       "last_commit": "2026-01-31T03:42:17Z",
       "added_at": "2026-02-21T03:57:00.294120122Z"
@@ -1893,7 +1893,7 @@
       "author": "MarcelineVQ",
       "stars": 9,
       "category": "E",
-      "last_commit": "2026-03-13T00:26:00Z",
+      "last_commit": "2026-03-13T21:59:43Z",
       "added_at": "2026-02-23T04:07:19.195751287Z"
     },
     {
@@ -2172,7 +2172,7 @@
       "author": "lookino",
       "stars": 4,
       "category": "F",
-      "last_commit": "2026-03-01T11:08:44Z",
+      "last_commit": "2026-03-13T15:01:03Z",
       "added_at": "2026-02-10T04:11:42.43452853Z"
     },
     {
@@ -2238,7 +2238,7 @@
       "description": "A Turtle WoW addon that adds a merchant button to quickly sell all gray (poor-quality) items in your bags with one click.",
       "author": "nemanuel",
       "category": "F",
-      "last_commit": "2026-03-03T06:10:25Z",
+      "last_commit": "2026-03-13T20:24:53Z",
       "added_at": "2026-03-03T04:01:07.04674101Z"
     },
     {
@@ -2658,7 +2658,7 @@
       "author": "redshadowz",
       "stars": 3,
       "category": "G",
-      "last_commit": "2026-03-10T16:57:28Z",
+      "last_commit": "2026-03-13T06:20:54Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -3617,7 +3617,7 @@
       "author": "lookino",
       "stars": 5,
       "category": "M",
-      "last_commit": "2025-09-10T11:59:32Z",
+      "last_commit": "2026-03-13T14:49:43Z",
       "added_at": "2026-02-10T04:11:42.43452853Z"
     },
     {
@@ -3829,7 +3829,7 @@
       "url": "https://github.com/refaim/MissingCrafts",
       "description": "Vanilla WoW 1.12.1 and Turtle WoW addon. Shows the missing crafts for your crafting professions and how to obtain them.",
       "author": "refaim",
-      "stars": 22,
+      "stars": 23,
       "category": "M",
       "last_commit": "2025-12-21T08:41:44Z",
       "added_at": "0001-01-01T00:00:00Z"
@@ -4472,9 +4472,9 @@
       "url": "https://github.com/OldManAlpha/Puppeteer",
       "description": "A unit frames addon for WoW Vanilla 1.12",
       "author": "OldManAlpha",
-      "stars": 36,
+      "stars": 37,
       "category": "H",
-      "last_commit": "2025-12-16T00:32:02Z",
+      "last_commit": "2026-03-13T23:16:49Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -4871,7 +4871,7 @@
       "url": "https://github.com/Otari98/Rinse",
       "description": "Dispel your mates with ease",
       "author": "Otari98",
-      "stars": 25,
+      "stars": 26,
       "category": "R",
       "last_commit": "2026-03-07T11:11:40Z",
       "added_at": "0001-01-01T00:00:00Z"
@@ -4921,7 +4921,7 @@
       "description": "A one-button rotation helper for Rogues on Turtle WoW (1.18 client). Manages combo builders, finishers, buff upkeep (Slice and Dice, Envenom, Rupture), tank/evade cooldowns, threat management via Feint, and PvP trinket automation. Configurable via /rp.",
       "author": "Pokerbhind",
       "category": "R",
-      "last_commit": "2026-03-12T17:25:19Z",
+      "last_commit": "2026-03-13T14:17:56Z",
       "added_at": "2026-03-10T03:57:25.477501236Z"
     },
     {
@@ -4957,7 +4957,7 @@
       "url": "https://github.com/MarcelineVQ/Roid-Macros",
       "description": "Vanilla macros on steroids!",
       "author": "MarcelineVQ",
-      "stars": 17,
+      "stars": 16,
       "category": "R",
       "last_commit": "2026-02-01T23:32:03Z",
       "added_at": "0001-01-01T00:00:00Z"
@@ -6155,7 +6155,7 @@
       "url": "https://github.com/MarcelineVQ/TWThreat",
       "description": "Turtle WOW's own Threat Meter !",
       "author": "MarcelineVQ",
-      "stars": 14,
+      "stars": 15,
       "category": "T",
       "last_commit": "2026-03-12T20:03:14Z",
       "added_at": "2026-01-16T03:47:28.635990587Z"
@@ -7510,7 +7510,7 @@
       "author": "Autignem",
       "stars": 3,
       "category": "A",
-      "last_commit": "2026-02-27T01:02:50Z",
+      "last_commit": "2026-03-13T22:23:27Z",
       "added_at": "2026-01-18T03:51:58.977057594Z"
     },
     {
@@ -7811,9 +7811,9 @@
       "name": "guda",
       "url": "https://github.com/vatichild/guda",
       "author": "vatichild",
-      "stars": 17,
+      "stars": 19,
       "category": "G",
-      "last_commit": "2026-03-10T16:51:56Z",
+      "last_commit": "2026-03-13T11:24:14Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -8030,7 +8030,7 @@
       "author": "The-Kludge-Bureau",
       "stars": 4,
       "category": "P",
-      "last_commit": "2026-03-12T15:56:22Z",
+      "last_commit": "2026-03-13T05:36:51Z",
       "added_at": "2026-03-09T04:02:09.32858839Z"
     },
     {
@@ -8413,7 +8413,7 @@
       "author": "Player-Doite",
       "stars": 14,
       "category": "T",
-      "last_commit": "2026-03-12T18:50:25Z",
+      "last_commit": "2026-03-13T10:15:41Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
