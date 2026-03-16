@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "revision": 62,
-  "generated_at": "2026-03-15T04:11:27.424522647Z",
+  "revision": 63,
+  "generated_at": "2026-03-16T04:13:29.62367475Z",
   "source_url": "https://turtle-wow.fandom.com/wiki/Addons",
   "addon_count": 887,
   "addons": [
@@ -196,9 +196,9 @@
       "url": "https://github.com/byCFM2/Atlas-TW",
       "description": "Overview: Atlas‑TW is a dungeon map browser with an integrated loot panel and quests module. It is compatible with World of Warcraft 1.12 and includes localization support.",
       "author": "byCFM2",
-      "stars": 14,
+      "stars": 15,
       "category": "A",
-      "last_commit": "2026-03-08T18:45:01Z",
+      "last_commit": "2026-03-15T15:35:43Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -1216,16 +1216,6 @@
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
-      "name": "Classic-Snowfall",
-      "url": "https://github.com/Linae-Kronos/Classic-Snowfall",
-      "description": "Classic Snowfall",
-      "author": "Linae-Kronos",
-      "stars": 15,
-      "category": "C",
-      "last_commit": "2017-04-10T16:22:17Z",
-      "added_at": "0001-01-01T00:00:00Z"
-    },
-    {
       "name": "ClassicSnowFall",
       "url": "https://github.com/Road-block/ClassicSnowFall",
       "description": "Cast Abilities on KeyDown WoW Addon (vanilla)",
@@ -1368,6 +1358,7 @@
       "url": "https://github.com/phrxqt/CombatPlates",
       "description": "Nameplate visibility auto-switching and control addon for WoW 1.12 (Vanilla)",
       "author": "phrxqt",
+      "stars": 1,
       "category": "C",
       "last_commit": "2025-08-09T00:29:43Z",
       "added_at": "0001-01-01T00:00:00Z"
@@ -1417,7 +1408,7 @@
       "author": "Cinecom",
       "stars": 12,
       "category": "C",
-      "last_commit": "2026-03-13T14:04:32Z",
+      "last_commit": "2026-03-15T16:13:57Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -1675,9 +1666,9 @@
       "url": "https://github.com/Player-Doite/DoiteAuras",
       "description": "Ability, buff, debuff \u0026 item tracker for Vanilla WoW.",
       "author": "Player-Doite",
-      "stars": 38,
+      "stars": 39,
       "category": "D",
-      "last_commit": "2026-03-14T12:21:31Z",
+      "last_commit": "2026-03-15T19:14:37Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -2266,7 +2257,7 @@
       "url": "https://github.com/refaim/Friend-O-Tron",
       "description": "Vanilla WoW 1.12.1 and Turtle WoW addon. Synchronizes your friends list across all your characters and accounts on the same realm.",
       "author": "refaim",
-      "stars": 6,
+      "stars": 7,
       "category": "F",
       "last_commit": "2025-12-21T07:54:24Z",
       "added_at": "0001-01-01T00:00:00Z"
@@ -2600,11 +2591,9 @@
     },
     {
       "name": "GrimoireKeeper",
-      "url": "https://github.com/Scoboose/GrimoireKeeper",
-      "author": "Scoboose",
-      "stars": 1,
+      "url": "https://gitlab.com/Artur91425/GrimoireKeeper",
       "category": "G",
-      "last_commit": "2025-04-02T15:02:52Z",
+      "last_commit": "0001-01-01T00:00:00Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -2619,9 +2608,11 @@
     },
     {
       "name": "GrimoireKeeper",
-      "url": "https://gitlab.com/Artur91425/GrimoireKeeper",
+      "url": "https://github.com/Scoboose/GrimoireKeeper",
+      "author": "Scoboose",
+      "stars": 1,
       "category": "G",
-      "last_commit": "0001-01-01T00:00:00Z",
+      "last_commit": "2025-04-02T15:02:52Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -2658,7 +2649,7 @@
       "author": "redshadowz",
       "stars": 3,
       "category": "G",
-      "last_commit": "2026-03-14T08:54:21Z",
+      "last_commit": "2026-03-15T22:38:46Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -2731,7 +2722,7 @@
       "description": "Simple Effort Points system inspired by ShootyEPGP for Turtle WoW",
       "author": "RollingSmile",
       "category": "G",
-      "last_commit": "2026-03-10T18:57:19Z",
+      "last_commit": "2026-03-16T00:12:29Z",
       "added_at": "2026-01-16T03:47:28.635990587Z"
     },
     {
@@ -3753,7 +3744,7 @@
       "author": "tilare",
       "stars": 7,
       "category": "M",
-      "last_commit": "2026-03-09T07:41:22Z",
+      "last_commit": "2026-03-15T16:16:45Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -4219,21 +4210,21 @@
     },
     {
       "name": "Outfitter",
-      "url": "https://github.com/pepopo978/Outfitter",
-      "author": "pepopo978",
-      "stars": 11,
-      "category": "O",
-      "last_commit": "2025-12-30T19:59:40Z",
-      "added_at": "0001-01-01T00:00:00Z"
-    },
-    {
-      "name": "Outfitter",
       "url": "https://github.com/MarcelineVQ/Outfitter",
       "description": "fix for Turtle WoW - Riding Turtle Mount",
       "author": "MarcelineVQ",
       "stars": 2,
       "category": "O",
       "last_commit": "2026-02-24T03:47:19Z",
+      "added_at": "0001-01-01T00:00:00Z"
+    },
+    {
+      "name": "Outfitter",
+      "url": "https://github.com/pepopo978/Outfitter",
+      "author": "pepopo978",
+      "stars": 11,
+      "category": "O",
+      "last_commit": "2025-12-30T19:59:40Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -4336,7 +4327,7 @@
       "url": "https://github.com/acid9000/PizzaWorldBuffs",
       "description": "Updated timers for 1.18.0 fix",
       "author": "acid9000",
-      "stars": 1,
+      "stars": 2,
       "category": "P",
       "last_commit": "2026-03-14T17:22:24Z",
       "added_at": "2026-03-04T03:57:25.247190276Z"
@@ -4360,6 +4351,15 @@
       "category": "P",
       "last_commit": "2023-08-23T15:12:36Z",
       "added_at": "0001-01-01T00:00:00Z"
+    },
+    {
+      "name": "PorkNotes",
+      "url": "https://github.com/porkfriedlumpia/PorkNotes",
+      "description": "Write notes about other players, and display them in tooltips and chat. For WoW Vanilla 1.12.",
+      "author": "porkfriedlumpia",
+      "category": "P",
+      "last_commit": "2026-03-16T01:51:05Z",
+      "added_at": "2026-03-16T04:13:29.62367475Z"
     },
     {
       "name": "Possessions",
@@ -4892,7 +4892,7 @@
       "description": "Plays roar-guild emotes from multiple independently configured action slots. GodBod: Triggers healthy micro-exercises from action slots. Combined single addon, independent functionality.",
       "author": "Morkahja",
       "category": "R",
-      "last_commit": "2026-02-28T01:06:19Z",
+      "last_commit": "2026-03-15T18:25:10Z",
       "added_at": "2026-01-19T03:54:21.561835163Z"
     },
     {
@@ -4900,7 +4900,7 @@
       "url": "https://github.com/Road-block/RogueFocus",
       "description": "RogueFocus Classic WoW addon for 1.12.x",
       "author": "Road-block",
-      "stars": 8,
+      "stars": 9,
       "category": "R",
       "last_commit": "2016-08-28T18:07:57Z",
       "added_at": "0001-01-01T00:00:00Z"
@@ -6127,20 +6127,20 @@
     },
     {
       "name": "TWPulse",
+      "url": "https://github.com/FSuhas/TWPulse",
+      "author": "FSuhas",
+      "category": "T",
+      "last_commit": "2025-09-06T08:46:59Z",
+      "added_at": "2026-03-06T03:57:40.344270365Z"
+    },
+    {
+      "name": "TWPulse",
       "url": "https://github.com/CosminPOP/TWPulse",
       "description": "Pulse for cooldowns",
       "author": "CosminPOP",
       "category": "T",
       "last_commit": "2022-04-04T09:29:16Z",
       "added_at": "0001-01-01T00:00:00Z"
-    },
-    {
-      "name": "TWPulse",
-      "url": "https://github.com/FSuhas/TWPulse",
-      "author": "FSuhas",
-      "category": "T",
-      "last_commit": "2025-09-06T08:46:59Z",
-      "added_at": "2026-03-06T03:57:40.344270365Z"
     },
     {
       "name": "TWSunders",
@@ -7791,21 +7791,21 @@
     },
     {
       "name": "enemyFrames",
+      "url": "https://github.com/byCFM2/enemyFrames",
+      "description": "1.12.1 addon to display enemy players on BGs",
+      "author": "byCFM2",
+      "category": "E",
+      "last_commit": "2025-10-12T16:17:58Z",
+      "added_at": "0001-01-01T00:00:00Z"
+    },
+    {
+      "name": "enemyFrames",
       "url": "https://github.com/zetone/enemyFrames",
       "description": "1.12.1 addon to display enemy players on BGs",
       "author": "zetone",
       "stars": 22,
       "category": "E",
       "last_commit": "2019-02-16T02:25:03Z",
-      "added_at": "0001-01-01T00:00:00Z"
-    },
-    {
-      "name": "enemyFrames",
-      "url": "https://github.com/byCFM2/enemyFrames",
-      "description": "1.12.1 addon to display enemy players on BGs",
-      "author": "byCFM2",
-      "category": "E",
-      "last_commit": "2025-10-12T16:17:58Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -8029,7 +8029,7 @@
       "url": "https://github.com/The-Kludge-Bureau/pfQuest",
       "description": "A Questhelper and Database Addon for World of Warcraft: Vanilla \u0026 TBC",
       "author": "The-Kludge-Bureau",
-      "stars": 5,
+      "stars": 6,
       "category": "P",
       "last_commit": "2026-03-13T05:36:51Z",
       "added_at": "2026-03-09T04:02:09.32858839Z"
@@ -8097,9 +8097,9 @@
       "url": "https://github.com/Arthur-Helias/pfUI-LocationPlus",
       "description": "An external module for pfUI that adds a location panel and more!",
       "author": "Arthur-Helias",
-      "stars": 3,
+      "stars": 4,
       "category": "P",
-      "last_commit": "2026-03-14T21:10:06Z",
+      "last_commit": "2026-03-15T12:34:41Z",
       "added_at": "2026-02-16T05:40:13.536136214Z"
     },
     {
@@ -8384,7 +8384,7 @@
       "url": "https://github.com/tomek7667/speed-o-meter",
       "description": "addon for turtle wow that measures your speed",
       "author": "tomek7667",
-      "stars": 1,
+      "stars": 2,
       "category": "S",
       "last_commit": "2026-02-28T18:05:44Z",
       "added_at": "2026-03-01T04:07:30.757444938Z"
@@ -8414,7 +8414,7 @@
       "author": "Player-Doite",
       "stars": 14,
       "category": "T",
-      "last_commit": "2026-03-13T10:15:41Z",
+      "last_commit": "2026-03-15T19:48:36Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
