@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "revision": 63,
-  "generated_at": "2026-03-16T04:13:29.62367475Z",
+  "revision": 64,
+  "generated_at": "2026-03-17T04:02:41.148235513Z",
   "source_url": "https://turtle-wow.fandom.com/wiki/Addons",
   "addon_count": 887,
   "addons": [
@@ -30,7 +30,7 @@
       "author": "The-Kludge-Bureau",
       "stars": 5,
       "category": "A",
-      "last_commit": "2026-03-11T03:32:23Z",
+      "last_commit": "2026-03-16T11:11:16Z",
       "added_at": "2026-03-06T03:57:40.344270365Z"
     },
     {
@@ -196,7 +196,7 @@
       "url": "https://github.com/byCFM2/Atlas-TW",
       "description": "Overview: Atlas‑TW is a dungeon map browser with an integrated loot panel and quests module. It is compatible with World of Warcraft 1.12 and includes localization support.",
       "author": "byCFM2",
-      "stars": 15,
+      "stars": 16,
       "category": "A",
       "last_commit": "2026-03-15T15:35:43Z",
       "added_at": "0001-01-01T00:00:00Z"
@@ -351,7 +351,7 @@
       "url": "https://github.com/FSuhas/AutoLFM",
       "description": "Automated LFM Broadcaster for WoW Vanilla 1.12 (TurtleWoW)",
       "author": "FSuhas",
-      "stars": 4,
+      "stars": 5,
       "category": "A",
       "last_commit": "2026-03-11T22:24:04Z",
       "added_at": "0001-01-01T00:00:00Z"
@@ -1597,7 +1597,7 @@
       "url": "https://github.com/DeterminedPanda/DifficultBulletinBoard",
       "description": "LFG Bulletin Board for Turtle WoW",
       "author": "DeterminedPanda",
-      "stars": 20,
+      "stars": 22,
       "category": "D",
       "last_commit": "2026-03-07T19:20:22Z",
       "added_at": "0001-01-01T00:00:00Z"
@@ -1656,7 +1656,7 @@
       "url": "https://github.com/kc8pnd/DoTimer",
       "description": "Dot Timers for Vanilla WoW",
       "author": "kc8pnd",
-      "stars": 12,
+      "stars": 13,
       "category": "D",
       "last_commit": "2025-04-17T16:54:52Z",
       "added_at": "0001-01-01T00:00:00Z"
@@ -1668,7 +1668,7 @@
       "author": "Player-Doite",
       "stars": 39,
       "category": "D",
-      "last_commit": "2026-03-15T19:14:37Z",
+      "last_commit": "2026-03-16T21:41:32Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -2649,7 +2649,7 @@
       "author": "redshadowz",
       "stars": 3,
       "category": "G",
-      "last_commit": "2026-03-15T22:38:46Z",
+      "last_commit": "2026-03-17T00:49:40Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -2722,7 +2722,7 @@
       "description": "Simple Effort Points system inspired by ShootyEPGP for Turtle WoW",
       "author": "RollingSmile",
       "category": "G",
-      "last_commit": "2026-03-16T00:12:29Z",
+      "last_commit": "2026-03-17T00:30:06Z",
       "added_at": "2026-01-16T03:47:28.635990587Z"
     },
     {
@@ -3014,7 +3014,7 @@
       "author": "Stormhand-dev",
       "stars": 4,
       "category": "I",
-      "last_commit": "2026-01-31T02:48:09Z",
+      "last_commit": "2026-03-17T02:52:58Z",
       "added_at": "2026-02-16T05:40:13.536136214Z"
     },
     {
@@ -3501,7 +3501,7 @@
       "name": "LootBlare-For-RoolFor",
       "url": "https://github.com/FSuhas/LootBlare-For-RoolFor",
       "author": "FSuhas",
-      "stars": 2,
+      "stars": 3,
       "category": "L",
       "last_commit": "2025-10-22T11:46:41Z",
       "added_at": "0001-01-01T00:00:00Z"
@@ -4012,7 +4012,7 @@
       "url": "https://github.com/JembaWoW/MoveAnything",
       "description": "Addon for WoW 1.12",
       "author": "JembaWoW",
-      "stars": 3,
+      "stars": 4,
       "category": "M",
       "last_commit": "2025-01-16T07:14:51Z",
       "added_at": "0001-01-01T00:00:00Z"
@@ -4327,7 +4327,7 @@
       "url": "https://github.com/acid9000/PizzaWorldBuffs",
       "description": "Updated timers for 1.18.0 fix",
       "author": "acid9000",
-      "stars": 2,
+      "stars": 3,
       "category": "P",
       "last_commit": "2026-03-14T17:22:24Z",
       "added_at": "2026-03-04T03:57:25.247190276Z"
@@ -4358,7 +4358,7 @@
       "description": "Write notes about other players, and display them in tooltips and chat. For WoW Vanilla 1.12.",
       "author": "porkfriedlumpia",
       "category": "P",
-      "last_commit": "2026-03-16T01:51:05Z",
+      "last_commit": "2026-03-17T02:21:00Z",
       "added_at": "2026-03-16T04:13:29.62367475Z"
     },
     {
@@ -4482,9 +4482,9 @@
       "url": "https://github.com/laytya/Quartz",
       "description": "Ported Quartz to wow 1.2+ using SuperWOW",
       "author": "laytya",
-      "stars": 9,
+      "stars": 10,
       "category": "Q",
-      "last_commit": "2026-02-24T04:09:11Z",
+      "last_commit": "2026-03-16T08:19:25Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -4640,7 +4640,7 @@
       "author": "pepopo978",
       "stars": 4,
       "category": "R",
-      "last_commit": "2026-03-12T14:37:13Z",
+      "last_commit": "2026-03-16T15:41:40Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -4690,7 +4690,7 @@
       "author": "Goose404",
       "stars": 1,
       "category": "R",
-      "last_commit": "2025-08-26T09:40:09Z",
+      "last_commit": "2026-03-16T08:10:48Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -5429,7 +5429,7 @@
       "url": "https://github.com/shagu/ShaguTweaks",
       "description": "A collection of tweaks and enhancements to the default wow 1.12.1 interface",
       "author": "shagu",
-      "stars": 99,
+      "stars": 100,
       "category": "S",
       "last_commit": "2025-08-15T14:37:22Z",
       "added_at": "0001-01-01T00:00:00Z"
@@ -5688,7 +5688,7 @@
       "url": "https://github.com/dsidirop/SmartHealer",
       "description": "Vanilla WoW 1.12 Autoranked Heals With Support for pfUI's /pfcast command",
       "author": "dsidirop",
-      "stars": 2,
+      "stars": 3,
       "category": "S",
       "last_commit": "2026-03-12T23:28:16Z",
       "added_at": "0001-01-01T00:00:00Z"
@@ -6403,7 +6403,7 @@
       "url": "https://github.com/Otari98/Tmog",
       "description": "The ultimate dressing room for Turtle WoW",
       "author": "Otari98",
-      "stars": 34,
+      "stars": 35,
       "category": "T",
       "last_commit": "2026-02-19T11:07:42Z",
       "added_at": "0001-01-01T00:00:00Z"
@@ -7337,7 +7337,7 @@
       "url": "https://github.com/Redbu11dev/X-Perl-UnitFrames",
       "description": "X-Perl UnitFrames for Vanilla WoW 1.12.1",
       "author": "Redbu11dev",
-      "stars": 2,
+      "stars": 3,
       "category": "X",
       "last_commit": "2025-07-22T09:30:30Z",
       "added_at": "0001-01-01T00:00:00Z"
@@ -7492,7 +7492,7 @@
       "url": "https://github.com/me0wg4ming/__Anticrash",
       "description": "Anticrash addon to unregister ALL events before logout and /reload",
       "author": "me0wg4ming",
-      "stars": 1,
+      "stars": 2,
       "category": "A",
       "last_commit": "2026-03-11T07:03:02Z",
       "added_at": "2026-03-12T04:00:47.521938271Z"
@@ -7990,7 +7990,7 @@
       "url": "https://github.com/me0wg4ming/pfDebug",
       "description": "enhanced version of pfDebug",
       "author": "me0wg4ming",
-      "stars": 1,
+      "stars": 2,
       "category": "P",
       "last_commit": "2026-03-10T01:31:23Z",
       "added_at": "2026-03-11T03:57:32.131068762Z"
@@ -8097,9 +8097,9 @@
       "url": "https://github.com/Arthur-Helias/pfUI-LocationPlus",
       "description": "An external module for pfUI that adds a location panel and more!",
       "author": "Arthur-Helias",
-      "stars": 4,
+      "stars": 5,
       "category": "P",
-      "last_commit": "2026-03-15T12:34:41Z",
+      "last_commit": "2026-03-16T20:37:58Z",
       "added_at": "2026-02-16T05:40:13.536136214Z"
     },
     {
