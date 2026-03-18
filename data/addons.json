@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "revision": 64,
-  "generated_at": "2026-03-17T04:02:41.148235513Z",
+  "revision": 65,
+  "generated_at": "2026-03-18T04:08:11.914792729Z",
   "source_url": "https://turtle-wow.fandom.com/wiki/Addons",
   "addon_count": 887,
   "addons": [
@@ -1396,7 +1396,7 @@
       "url": "https://github.com/pepordev/ConsoleExperienceClassic",
       "description": "Wow Classic (1.12) Console Experience (Gamepad support) compatible with TurtleWoW",
       "author": "pepordev",
-      "stars": 27,
+      "stars": 28,
       "category": "C",
       "last_commit": "2026-03-10T11:11:40Z",
       "added_at": "0001-01-01T00:00:00Z"
@@ -1599,7 +1599,7 @@
       "author": "DeterminedPanda",
       "stars": 22,
       "category": "D",
-      "last_commit": "2026-03-07T19:20:22Z",
+      "last_commit": "2026-03-18T01:50:43Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -1668,7 +1668,7 @@
       "author": "Player-Doite",
       "stars": 39,
       "category": "D",
-      "last_commit": "2026-03-16T21:41:32Z",
+      "last_commit": "2026-03-17T19:39:17Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -1695,7 +1695,7 @@
       "url": "https://github.com/Stormhand-dev/DragonflightUI-Reforged",
       "description": "Dragonflight UI: Reforged is the ultimate evolution of Dragonflight: Reloaded — a Legendary Turtle WoW UI overhaul forged for clarity, power, and immersion. Born from battle-tested roots, it delivers modern dragonsteel precision, fearless defaults, and customizable mastery for the true Azeroth champion.",
       "author": "Stormhand-dev",
-      "stars": 6,
+      "stars": 7,
       "category": "D",
       "last_commit": "2026-01-31T03:42:17Z",
       "added_at": "2026-02-21T03:57:00.294120122Z"
@@ -2017,7 +2017,7 @@
       "url": "https://github.com/moiian/FFXIVCrossHotbar",
       "description": "an ActionBar AddOn for WoW 1.12 (Vanilla) ",
       "author": "moiian",
-      "stars": 7,
+      "stars": 8,
       "category": "F",
       "last_commit": "2025-08-30T15:07:53Z",
       "added_at": "0001-01-01T00:00:00Z"
@@ -2113,6 +2113,7 @@
       "url": "https://github.com/McPewPew/Fizzle",
       "description": "Fizzle is an addon that will show you an items durability values above the item in your character frame.",
       "author": "McPewPew",
+      "stars": 1,
       "category": "F",
       "last_commit": "2026-01-23T01:05:44Z",
       "added_at": "0001-01-01T00:00:00Z"
@@ -2649,7 +2650,7 @@
       "author": "redshadowz",
       "stars": 3,
       "category": "G",
-      "last_commit": "2026-03-17T00:49:40Z",
+      "last_commit": "2026-03-17T11:32:10Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -2910,7 +2911,7 @@
       "description": "# HolyShift A cat druid one-button dps addon for turtle wow and other useful feral druid functions.",
       "author": "qrospars",
       "category": "H",
-      "last_commit": "2026-02-14T15:11:28Z",
+      "last_commit": "2026-03-17T19:46:47Z",
       "added_at": "2026-02-16T05:40:13.536136214Z"
     },
     {
@@ -3501,7 +3502,7 @@
       "name": "LootBlare-For-RoolFor",
       "url": "https://github.com/FSuhas/LootBlare-For-RoolFor",
       "author": "FSuhas",
-      "stars": 3,
+      "stars": 4,
       "category": "L",
       "last_commit": "2025-10-22T11:46:41Z",
       "added_at": "0001-01-01T00:00:00Z"
@@ -3993,7 +3994,7 @@
       "url": "https://github.com/goamania/MouseHighlightCircle",
       "description": "MouseHighlightCircle: An addon for Turtle WoW (1.12.1). Adds a pixelated white ring around the mouse cursor (transparent center) to reduce clutter. Ideal for raids and PvP. Use /mhc show to display, /mhc hide to hide. Includes pixelring.tga (32x32). Tested on Turtle WoW. Fork/pull request to contribute! MIT License. Developed by @goamania",
       "author": "goamania",
-      "stars": 6,
+      "stars": 7,
       "category": "M",
       "last_commit": "2025-10-13T17:12:23Z",
       "added_at": "0001-01-01T00:00:00Z"
@@ -4358,7 +4359,7 @@
       "description": "Write notes about other players, and display them in tooltips and chat. For WoW Vanilla 1.12.",
       "author": "porkfriedlumpia",
       "category": "P",
-      "last_commit": "2026-03-17T02:21:00Z",
+      "last_commit": "2026-03-17T20:31:50Z",
       "added_at": "2026-03-16T04:13:29.62367475Z"
     },
     {
@@ -4366,7 +4367,7 @@
       "url": "https://github.com/refaim/Possessions",
       "description": "Vanilla WoW 1.12.1 and Turtle WoW addon. Provides a searchable and filterable list of all items across all your characters on a single account.",
       "author": "refaim",
-      "stars": 2,
+      "stars": 3,
       "category": "P",
       "last_commit": "2025-06-15T12:26:54Z",
       "added_at": "0001-01-01T00:00:00Z"
@@ -4580,7 +4581,7 @@
       "url": "https://github.com/DennisWG/QuickBind",
       "description": "Mouseover keybinds for Vanilla action bars",
       "author": "DennisWG",
-      "stars": 9,
+      "stars": 10,
       "category": "Q",
       "last_commit": "2016-11-25T15:01:27Z",
       "added_at": "0001-01-01T00:00:00Z"
@@ -4959,7 +4960,7 @@
       "author": "MarcelineVQ",
       "stars": 16,
       "category": "R",
-      "last_commit": "2026-02-01T23:32:03Z",
+      "last_commit": "2026-03-17T19:30:04Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -5035,7 +5036,7 @@
       "url": "https://github.com/Otari98/SUCC-bag",
       "description": "Sublime User Convenience Collection - player inventory and bank",
       "author": "Otari98",
-      "stars": 3,
+      "stars": 4,
       "category": "S",
       "last_commit": "2026-03-12T10:49:35Z",
       "added_at": "0001-01-01T00:00:00Z"
@@ -5908,7 +5909,7 @@
       "url": "https://github.com/grimfiendish/StatCompare",
       "description": "Character and target stats for gear checks or easily comparing your gear to others.",
       "author": "grimfiendish",
-      "stars": 9,
+      "stars": 10,
       "category": "S",
       "last_commit": "2025-04-25T22:56:08Z",
       "added_at": "0001-01-01T00:00:00Z"
@@ -6064,7 +6065,7 @@
       "url": "https://github.com/refaim/TNE-FiveSec",
       "description": "Vanilla WoW 1.12.1 addon. Displays five second rule mana regeneration helper bar.",
       "author": "refaim",
-      "stars": 4,
+      "stars": 5,
       "category": "T",
       "last_commit": "2022-11-10T16:05:48Z",
       "added_at": "0001-01-01T00:00:00Z"
@@ -6666,7 +6667,7 @@
       "author": "dnkrse",
       "stars": 2,
       "category": "T",
-      "last_commit": "2026-03-09T14:35:40Z",
+      "last_commit": "2026-03-18T00:20:01Z",
       "added_at": "2026-03-04T03:57:25.247190276Z"
     },
     {
@@ -7131,7 +7132,7 @@
       "url": "https://github.com/Fiurs-Hearth/WIIIUI",
       "description": "A Warcraft III UI addon for vanilla WoW",
       "author": "Fiurs-Hearth",
-      "stars": 82,
+      "stars": 83,
       "category": "W",
       "last_commit": "2025-09-06T00:05:44Z",
       "added_at": "0001-01-01T00:00:00Z"
@@ -7812,9 +7813,9 @@
       "name": "guda",
       "url": "https://github.com/vatichild/guda",
       "author": "vatichild",
-      "stars": 20,
+      "stars": 22,
       "category": "G",
-      "last_commit": "2026-03-14T13:24:25Z",
+      "last_commit": "2026-03-17T23:00:33Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -8019,7 +8020,7 @@
       "url": "https://github.com/shagu/pfQuest",
       "description": "A Questhelper and Database Addon for World of Warcraft: Vanilla \u0026 TBC",
       "author": "shagu",
-      "stars": 259,
+      "stars": 260,
       "category": "P",
       "last_commit": "2025-08-25T20:26:06Z",
       "added_at": "0001-01-01T00:00:00Z"
@@ -8031,7 +8032,7 @@
       "author": "The-Kludge-Bureau",
       "stars": 6,
       "category": "P",
-      "last_commit": "2026-03-13T05:36:51Z",
+      "last_commit": "2026-03-17T11:30:51Z",
       "added_at": "2026-03-09T04:02:09.32858839Z"
     },
     {
@@ -8097,7 +8098,7 @@
       "url": "https://github.com/Arthur-Helias/pfUI-LocationPlus",
       "description": "An external module for pfUI that adds a location panel and more!",
       "author": "Arthur-Helias",
-      "stars": 5,
+      "stars": 6,
       "category": "P",
       "last_commit": "2026-03-16T20:37:58Z",
       "added_at": "2026-02-16T05:40:13.536136214Z"
@@ -8499,7 +8500,7 @@
       "url": "https://github.com/Ko0z/zUI",
       "description": "This WoW vanilla addon aims to preserve the blizzard look/design but with a modern touch, some quality of life features and as lightweight as possible.",
       "author": "Ko0z",
-      "stars": 68,
+      "stars": 69,
       "category": "Z",
       "last_commit": "2025-08-24T16:31:31Z",
       "added_at": "0001-01-01T00:00:00Z"
