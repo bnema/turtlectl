@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "revision": 65,
-  "generated_at": "2026-03-18T04:08:11.914792729Z",
+  "revision": 66,
+  "generated_at": "2026-03-19T04:06:51.543162152Z",
   "source_url": "https://turtle-wow.fandom.com/wiki/Addons",
   "addon_count": 887,
   "addons": [
@@ -30,7 +30,7 @@
       "author": "The-Kludge-Bureau",
       "stars": 5,
       "category": "A",
-      "last_commit": "2026-03-16T11:11:16Z",
+      "last_commit": "2026-03-19T03:38:13Z",
       "added_at": "2026-03-06T03:57:40.344270365Z"
     },
     {
@@ -304,6 +304,7 @@
       "url": "https://github.com/ERitzman/AutoDB",
       "description": "Archive of AutoDB for TurtleWoW (original Lexiebean no longer on GitHub)",
       "author": "ERitzman",
+      "stars": 1,
       "category": "A",
       "last_commit": "2025-09-01T09:17:39Z",
       "added_at": "0001-01-01T00:00:00Z"
@@ -1396,7 +1397,7 @@
       "url": "https://github.com/pepordev/ConsoleExperienceClassic",
       "description": "Wow Classic (1.12) Console Experience (Gamepad support) compatible with TurtleWoW",
       "author": "pepordev",
-      "stars": 28,
+      "stars": 29,
       "category": "C",
       "last_commit": "2026-03-10T11:11:40Z",
       "added_at": "0001-01-01T00:00:00Z"
@@ -1668,7 +1669,7 @@
       "author": "Player-Doite",
       "stars": 39,
       "category": "D",
-      "last_commit": "2026-03-17T19:39:17Z",
+      "last_commit": "2026-03-18T16:10:18Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -2142,7 +2143,7 @@
       "url": "https://github.com/tilare/FlightTracker",
       "description": "Flight timer addon for 1.12.1",
       "author": "tilare",
-      "stars": 8,
+      "stars": 9,
       "category": "F",
       "last_commit": "2026-03-06T12:37:51Z",
       "added_at": "2026-02-08T04:12:28.12244099Z"
@@ -2221,7 +2222,7 @@
       "description": "A Turtle WoW hunter addon that shows pet status in one compact frame",
       "author": "nemanuel",
       "category": "F",
-      "last_commit": "2026-03-03T06:11:18Z",
+      "last_commit": "2026-03-18T08:30:58Z",
       "added_at": "2026-03-03T04:01:07.04674101Z"
     },
     {
@@ -2650,7 +2651,7 @@
       "author": "redshadowz",
       "stars": 3,
       "category": "G",
-      "last_commit": "2026-03-17T11:32:10Z",
+      "last_commit": "2026-03-18T23:39:24Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -3361,7 +3362,7 @@
       "name": "LazyScript",
       "url": "https://github.com/laytya/LazyScript",
       "author": "laytya",
-      "stars": 33,
+      "stars": 34,
       "category": "L",
       "last_commit": "2025-04-19T09:07:06Z",
       "added_at": "0001-01-01T00:00:00Z"
@@ -5430,7 +5431,7 @@
       "url": "https://github.com/shagu/ShaguTweaks",
       "description": "A collection of tweaks and enhancements to the default wow 1.12.1 interface",
       "author": "shagu",
-      "stars": 100,
+      "stars": 101,
       "category": "S",
       "last_commit": "2025-08-15T14:37:22Z",
       "added_at": "0001-01-01T00:00:00Z"
@@ -7340,7 +7341,7 @@
       "author": "Redbu11dev",
       "stars": 3,
       "category": "X",
-      "last_commit": "2025-07-22T09:30:30Z",
+      "last_commit": "2026-03-18T17:10:11Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -7455,7 +7456,7 @@
       "author": "Arthur-Helias",
       "stars": 1,
       "category": "Z",
-      "last_commit": "2026-03-14T21:05:53Z",
+      "last_commit": "2026-03-19T00:53:25Z",
       "added_at": "2026-02-16T05:40:13.536136214Z"
     },
     {
@@ -8020,7 +8021,7 @@
       "url": "https://github.com/shagu/pfQuest",
       "description": "A Questhelper and Database Addon for World of Warcraft: Vanilla \u0026 TBC",
       "author": "shagu",
-      "stars": 260,
+      "stars": 261,
       "category": "P",
       "last_commit": "2025-08-25T20:26:06Z",
       "added_at": "0001-01-01T00:00:00Z"
@@ -8098,9 +8099,9 @@
       "url": "https://github.com/Arthur-Helias/pfUI-LocationPlus",
       "description": "An external module for pfUI that adds a location panel and more!",
       "author": "Arthur-Helias",
-      "stars": 6,
+      "stars": 7,
       "category": "P",
-      "last_commit": "2026-03-16T20:37:58Z",
+      "last_commit": "2026-03-19T00:52:50Z",
       "added_at": "2026-02-16T05:40:13.536136214Z"
     },
     {
@@ -8110,7 +8111,7 @@
       "author": "Arthur-Helias",
       "stars": 2,
       "category": "P",
-      "last_commit": "2026-02-27T08:36:40Z",
+      "last_commit": "2026-03-19T00:53:50Z",
       "added_at": "2026-02-16T05:40:13.536136214Z"
     },
     {
@@ -8156,7 +8157,7 @@
       "url": "https://github.com/Bombg/pfUI-bettertotems",
       "description": "pfUI's totem module with some extra features",
       "author": "Bombg",
-      "stars": 3,
+      "stars": 4,
       "category": "P",
       "last_commit": "2025-08-29T14:16:51Z",
       "added_at": "0001-01-01T00:00:00Z"
