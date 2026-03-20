@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "revision": 66,
-  "generated_at": "2026-03-19T04:06:51.543162152Z",
+  "revision": 67,
+  "generated_at": "2026-03-20T04:00:01.940806385Z",
   "source_url": "https://turtle-wow.fandom.com/wiki/Addons",
   "addon_count": 887,
   "addons": [
@@ -1667,7 +1667,7 @@
       "url": "https://github.com/Player-Doite/DoiteAuras",
       "description": "Ability, buff, debuff \u0026 item tracker for Vanilla WoW.",
       "author": "Player-Doite",
-      "stars": 39,
+      "stars": 40,
       "category": "D",
       "last_commit": "2026-03-18T16:10:18Z",
       "added_at": "0001-01-01T00:00:00Z"
@@ -1877,16 +1877,6 @@
       "category": "E",
       "last_commit": "2014-02-15T16:50:05Z",
       "added_at": "0001-01-01T00:00:00Z"
-    },
-    {
-      "name": "EasyLoot",
-      "url": "https://github.com/MarcelineVQ/EasyLoot",
-      "description": "Automatic loot rules for instances and groups. Have loot handle itself.",
-      "author": "MarcelineVQ",
-      "stars": 9,
-      "category": "E",
-      "last_commit": "2026-03-14T04:36:50Z",
-      "added_at": "2026-02-23T04:07:19.195751287Z"
     },
     {
       "name": "EasyRess",
@@ -2593,6 +2583,15 @@
     },
     {
       "name": "GrimoireKeeper",
+      "url": "https://github.com/Scoboose/GrimoireKeeper",
+      "author": "Scoboose",
+      "stars": 1,
+      "category": "G",
+      "last_commit": "2025-04-02T15:02:52Z",
+      "added_at": "0001-01-01T00:00:00Z"
+    },
+    {
+      "name": "GrimoireKeeper",
       "url": "https://gitlab.com/Artur91425/GrimoireKeeper",
       "category": "G",
       "last_commit": "0001-01-01T00:00:00Z",
@@ -2606,15 +2605,6 @@
       "stars": 1,
       "category": "G",
       "last_commit": "2019-08-23T20:35:34Z",
-      "added_at": "0001-01-01T00:00:00Z"
-    },
-    {
-      "name": "GrimoireKeeper",
-      "url": "https://github.com/Scoboose/GrimoireKeeper",
-      "author": "Scoboose",
-      "stars": 1,
-      "category": "G",
-      "last_commit": "2025-04-02T15:02:52Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -2651,7 +2641,7 @@
       "author": "redshadowz",
       "stars": 3,
       "category": "G",
-      "last_commit": "2026-03-18T23:39:24Z",
+      "last_commit": "2026-03-19T15:36:05Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -3255,21 +3245,21 @@
     },
     {
       "name": "KillCounter",
+      "url": "https://github.com/bucketss/KillCounter",
+      "description": "kill counter for WoW vanilla client 1.12",
+      "author": "bucketss",
+      "category": "K",
+      "last_commit": "2025-10-29T22:20:35Z",
+      "added_at": "0001-01-01T00:00:00Z"
+    },
+    {
+      "name": "KillCounter",
       "url": "https://github.com/FrostShock/KillCounter",
       "description": "Vanilla WoW (1.12.1) addon for counting kills",
       "author": "FrostShock",
       "stars": 1,
       "category": "K",
       "last_commit": "2022-04-20T03:46:08Z",
-      "added_at": "0001-01-01T00:00:00Z"
-    },
-    {
-      "name": "KillCounter",
-      "url": "https://github.com/bucketss/KillCounter",
-      "description": "kill counter for WoW vanilla client 1.12",
-      "author": "bucketss",
-      "category": "K",
-      "last_commit": "2025-10-29T22:20:35Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -3376,6 +3366,16 @@
       "category": "C",
       "last_commit": "2015-03-23T19:25:15Z",
       "added_at": "0001-01-01T00:00:00Z"
+    },
+    {
+      "name": "LazyWeirdo",
+      "url": "https://github.com/MarcelineVQ/LazyWeirdo",
+      "description": "Automatic loot rules for instances and groups. Have loot handle itself.",
+      "author": "MarcelineVQ",
+      "stars": 9,
+      "category": "L",
+      "last_commit": "2026-03-19T04:40:58Z",
+      "added_at": "2026-03-20T04:00:01.940806385Z"
     },
     {
       "name": "Lazyspell",
@@ -3756,7 +3756,7 @@
       "author": "DuvelCorp",
       "stars": 2,
       "category": "M",
-      "last_commit": "2026-03-10T23:42:15Z",
+      "last_commit": "2026-03-19T15:36:01Z",
       "added_at": "2026-02-28T03:55:12.853188301Z"
     },
     {
@@ -4437,7 +4437,7 @@
       "description": "A crafting recipe tracker and sync tool for guilds.",
       "author": "NiclasEriksen",
       "category": "P",
-      "last_commit": "2026-03-10T22:33:38Z",
+      "last_commit": "2026-03-20T00:53:28Z",
       "added_at": "2026-03-04T03:57:25.247190276Z"
     },
     {
@@ -4476,7 +4476,7 @@
       "author": "OldManAlpha",
       "stars": 37,
       "category": "H",
-      "last_commit": "2026-03-13T23:16:49Z",
+      "last_commit": "2026-03-20T01:26:48Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -4486,7 +4486,7 @@
       "author": "laytya",
       "stars": 10,
       "category": "Q",
-      "last_commit": "2026-03-16T08:19:25Z",
+      "last_commit": "2026-03-20T02:28:11Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -4662,7 +4662,7 @@
       "author": "sica42",
       "stars": 1,
       "category": "R",
-      "last_commit": "2025-09-27T13:24:18Z",
+      "last_commit": "2026-03-19T15:24:20Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -4923,7 +4923,7 @@
       "description": "A one-button rotation helper for Rogues on Turtle WoW (1.18 client). Manages combo builders, finishers, buff upkeep (Slice and Dice, Envenom, Rupture), tank/evade cooldowns, threat management via Feint, and PvP trinket automation. Configurable via /rp.",
       "author": "Pokerbhind",
       "category": "R",
-      "last_commit": "2026-03-13T14:17:56Z",
+      "last_commit": "2026-03-19T14:02:11Z",
       "added_at": "2026-03-10T03:57:25.477501236Z"
     },
     {
@@ -6164,14 +6164,6 @@
       "added_at": "2026-01-16T03:47:28.635990587Z"
     },
     {
-      "name": "TWoW-LFG-Bulletin-Board",
-      "url": "https://github.com/Khundiann/TWoW-LFG-Bulletin-Board",
-      "author": "Khundiann",
-      "category": "T",
-      "last_commit": "2026-02-20T12:43:20Z",
-      "added_at": "2026-02-16T05:40:13.536136214Z"
-    },
-    {
       "name": "TWoWBulkMail",
       "url": "https://github.com/Khundiann/TWoWBulkMail",
       "author": "Khundiann",
@@ -6179,6 +6171,14 @@
       "category": "T",
       "last_commit": "2026-03-09T16:26:09Z",
       "added_at": "2026-03-08T03:58:12.775632617Z"
+    },
+    {
+      "name": "TWoWLFGBulletinBoard",
+      "url": "https://github.com/Khundiann/TWoWLFGBulletinBoard",
+      "author": "Khundiann",
+      "category": "T",
+      "last_commit": "2026-03-20T01:40:06Z",
+      "added_at": "2026-03-20T04:00:01.940806385Z"
     },
     {
       "name": "TWoWPerHour",
@@ -7816,7 +7816,7 @@
       "author": "vatichild",
       "stars": 22,
       "category": "G",
-      "last_commit": "2026-03-17T23:00:33Z",
+      "last_commit": "2026-03-19T14:40:55Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -8033,7 +8033,7 @@
       "author": "The-Kludge-Bureau",
       "stars": 6,
       "category": "P",
-      "last_commit": "2026-03-17T11:30:51Z",
+      "last_commit": "2026-03-19T12:22:58Z",
       "added_at": "2026-03-09T04:02:09.32858839Z"
     },
     {
@@ -8109,7 +8109,7 @@
       "url": "https://github.com/Arthur-Helias/pfUI-MoreDatatexts",
       "description": "An external module for pfUI that adds more datatexts!",
       "author": "Arthur-Helias",
-      "stars": 2,
+      "stars": 3,
       "category": "P",
       "last_commit": "2026-03-19T00:53:50Z",
       "added_at": "2026-02-16T05:40:13.536136214Z"
