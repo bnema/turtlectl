@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "revision": 68,
-  "generated_at": "2026-03-21T03:56:42.349923628Z",
+  "revision": 69,
+  "generated_at": "2026-03-22T04:04:48.925232659Z",
   "source_url": "https://turtle-wow.fandom.com/wiki/Addons",
   "addon_count": 888,
   "addons": [
@@ -28,7 +28,7 @@
       "url": "https://github.com/The-Kludge-Bureau/Accountant",
       "description": "Tracks your incoming and outgoing gold across multiple time periods and categories",
       "author": "The-Kludge-Bureau",
-      "stars": 5,
+      "stars": 6,
       "category": "A",
       "last_commit": "2026-03-19T03:38:13Z",
       "added_at": "2026-03-06T03:57:40.344270365Z"
@@ -196,9 +196,9 @@
       "url": "https://github.com/byCFM2/Atlas-TW",
       "description": "Overview: Atlas‑TW is a dungeon map browser with an integrated loot panel and quests module. It is compatible with World of Warcraft 1.12 and includes localization support.",
       "author": "byCFM2",
-      "stars": 16,
+      "stars": 21,
       "category": "A",
-      "last_commit": "2026-03-20T23:57:01Z",
+      "last_commit": "2026-03-22T01:54:35Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -1668,9 +1668,9 @@
       "url": "https://github.com/Player-Doite/DoiteAuras",
       "description": "Ability, buff, debuff \u0026 item tracker for Vanilla WoW.",
       "author": "Player-Doite",
-      "stars": 40,
+      "stars": 39,
       "category": "D",
-      "last_commit": "2026-03-18T16:10:18Z",
+      "last_commit": "2026-03-21T19:46:37Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -2156,7 +2156,7 @@
       "author": "lookino",
       "stars": 4,
       "category": "F",
-      "last_commit": "2026-03-13T15:01:03Z",
+      "last_commit": "2026-03-21T17:05:16Z",
       "added_at": "2026-02-10T04:11:42.43452853Z"
     },
     {
@@ -2567,7 +2567,7 @@
       "url": "https://github.com/ttcremers/GrayAutoSell",
       "description": "Vanilla World of Warcraft AddOn. Automatically sells all your gray bag items when you interact with a merchant.",
       "author": "ttcremers",
-      "stars": 4,
+      "stars": 5,
       "category": "G",
       "last_commit": "2017-07-15T17:13:46Z",
       "added_at": "0001-01-01T00:00:00Z"
@@ -2642,7 +2642,7 @@
       "author": "redshadowz",
       "stars": 3,
       "category": "G",
-      "last_commit": "2026-03-21T01:23:10Z",
+      "last_commit": "2026-03-22T02:14:42Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -3005,7 +3005,7 @@
       "url": "https://github.com/Stormhand81/Immersion",
       "description": "Immersion is a lightweight addon that hides cluttered UI elements and shows them only when needed. It detects Dragonflight UI: Reforged automatically, offers smart mouse-over visibility, and delivers a cleaner, more cinematic World of Warcraft experience with zero configuration.",
       "author": "Stormhand-dev",
-      "stars": 4,
+      "stars": 5,
       "category": "I",
       "last_commit": "2026-03-17T02:52:58Z",
       "added_at": "2026-02-16T05:40:13.536136214Z"
@@ -3053,9 +3053,9 @@
       "url": "https://github.com/Arthur-Helias/InstanceJournal",
       "description": "World of Warcraft's original instance journal re-imagined for TurtleWoW!",
       "author": "Arthur-Helias",
-      "stars": 4,
+      "stars": 6,
       "category": "I",
-      "last_commit": "2026-03-21T02:53:42Z",
+      "last_commit": "2026-03-21T19:54:14Z",
       "added_at": "2026-03-21T03:56:42.349923628Z"
     },
     {
@@ -3298,7 +3298,7 @@
       "description": "A system to filter LFG and LFM in TWoW",
       "author": "ralliartse",
       "category": "L",
-      "last_commit": "2025-08-24T20:58:32Z",
+      "last_commit": "2026-03-21T17:01:17Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -3385,7 +3385,7 @@
       "author": "MarcelineVQ",
       "stars": 9,
       "category": "L",
-      "last_commit": "2026-03-19T04:40:58Z",
+      "last_commit": "2026-03-21T07:08:45Z",
       "added_at": "2026-03-20T04:00:01.940806385Z"
     },
     {
@@ -4487,7 +4487,7 @@
       "author": "OldManAlpha",
       "stars": 37,
       "category": "H",
-      "last_commit": "2026-03-21T00:22:33Z",
+      "last_commit": "2026-03-21T08:52:30Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -4625,7 +4625,7 @@
       "author": "SabineWren",
       "stars": 52,
       "category": "Q",
-      "last_commit": "2026-02-16T22:06:46Z",
+      "last_commit": "2026-03-21T05:19:24Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -4933,8 +4933,9 @@
       "url": "https://github.com/Pokerbhind/RoguePoker",
       "description": "A one-button rotation helper for Rogues on Turtle WoW (1.18 client). Manages combo builders, finishers, buff upkeep (Slice and Dice, Envenom, Rupture), tank/evade cooldowns, threat management via Feint, and PvP trinket automation. Configurable via /rp.",
       "author": "Pokerbhind",
+      "stars": 1,
       "category": "R",
-      "last_commit": "2026-03-19T14:02:11Z",
+      "last_commit": "2026-03-21T16:12:12Z",
       "added_at": "2026-03-10T03:57:25.477501236Z"
     },
     {
@@ -5703,7 +5704,7 @@
       "author": "dsidirop",
       "stars": 3,
       "category": "S",
-      "last_commit": "2026-03-12T23:28:16Z",
+      "last_commit": "2026-03-21T20:32:08Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -6180,7 +6181,7 @@
       "author": "Khundiann",
       "stars": 1,
       "category": "T",
-      "last_commit": "2026-03-09T16:26:09Z",
+      "last_commit": "2026-03-21T15:15:22Z",
       "added_at": "2026-03-08T03:58:12.775632617Z"
     },
     {
@@ -6418,7 +6419,7 @@
       "author": "Otari98",
       "stars": 35,
       "category": "T",
-      "last_commit": "2026-02-19T11:07:42Z",
+      "last_commit": "2026-03-21T14:38:21Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -6533,7 +6534,7 @@
       "url": "https://github.com/refaim/TradeSkillsData-turtle",
       "description": "Turtle WoW addon. Provides database of turtle-specific trade skill recipes, vendors and sources.",
       "author": "refaim",
-      "stars": 7,
+      "stars": 8,
       "category": "M",
       "last_commit": "2025-06-17T15:33:09Z",
       "added_at": "0001-01-01T00:00:00Z"
@@ -6687,7 +6688,7 @@
       "url": "https://github.com/sica42/TurtleMail",
       "description": "Turrtle WoW Mail AddOn. Automatically opens mail, mail multiple items, autocomplete recipient names, shows collected gold",
       "author": "sica42",
-      "stars": 18,
+      "stars": 19,
       "category": "T",
       "last_commit": "2025-09-10T17:29:37Z",
       "added_at": "0001-01-01T00:00:00Z"
@@ -7506,7 +7507,7 @@
       "url": "https://github.com/me0wg4ming/__Anticrash",
       "description": "Anticrash addon to unregister ALL events before logout and /reload",
       "author": "me0wg4ming",
-      "stars": 2,
+      "stars": 3,
       "category": "A",
       "last_commit": "2026-03-11T07:03:02Z",
       "added_at": "2026-03-12T04:00:47.521938271Z"
@@ -7582,7 +7583,7 @@
       "url": "https://github.com/OldManAlpha/aux-addon",
       "description": "Auction House addOn for Vanilla (1.12) IMPORTANT: The folder name must be \"aux-addon\"",
       "author": "OldManAlpha",
-      "stars": 15,
+      "stars": 16,
       "category": "A",
       "last_commit": "2026-01-15T22:10:18Z",
       "added_at": "0001-01-01T00:00:00Z"
@@ -8043,7 +8044,7 @@
       "url": "https://github.com/The-Kludge-Bureau/pfQuest",
       "description": "A Questhelper and Database Addon for World of Warcraft: Vanilla \u0026 TBC",
       "author": "The-Kludge-Bureau",
-      "stars": 6,
+      "stars": 9,
       "category": "P",
       "last_commit": "2026-03-19T12:22:58Z",
       "added_at": "2026-03-09T04:02:09.32858839Z"
@@ -8428,7 +8429,7 @@
       "author": "Player-Doite",
       "stars": 14,
       "category": "T",
-      "last_commit": "2026-03-15T19:48:36Z",
+      "last_commit": "2026-03-21T14:14:28Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
