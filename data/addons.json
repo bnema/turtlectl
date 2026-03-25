@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "revision": 71,
-  "generated_at": "2026-03-24T04:03:13.979790979Z",
+  "revision": 72,
+  "generated_at": "2026-03-25T04:04:32.15402772Z",
   "source_url": "https://turtle-wow.fandom.com/wiki/Addons",
   "addon_count": 888,
   "addons": [
@@ -196,9 +196,9 @@
       "url": "https://github.com/byCFM2/Atlas-TW",
       "description": "Overview: Atlas‑TW is a dungeon map browser with an integrated loot panel and quests module. It is compatible with World of Warcraft 1.12 and includes localization support.",
       "author": "byCFM2",
-      "stars": 23,
+      "stars": 24,
       "category": "A",
-      "last_commit": "2026-03-23T19:28:42Z",
+      "last_commit": "2026-03-24T21:22:56Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -627,7 +627,7 @@
       "url": "https://github.com/pepopo978/BetterCharacterStats",
       "description": "More useful character statistics AddOn for World of Warcraft 1.12",
       "author": "pepopo978",
-      "stars": 24,
+      "stars": 25,
       "category": "B",
       "last_commit": "2026-02-04T15:17:00Z",
       "added_at": "0001-01-01T00:00:00Z"
@@ -1697,7 +1697,7 @@
       "url": "https://github.com/Stormhand-dev/DragonflightUI-Reforged",
       "description": "Dragonflight UI: Reforged is the ultimate evolution of Dragonflight: Reloaded — a Legendary Turtle WoW UI overhaul forged for clarity, power, and immersion. Born from battle-tested roots, it delivers modern dragonsteel precision, fearless defaults, and customizable mastery for the true Azeroth champion.",
       "author": "Stormhand-dev",
-      "stars": 7,
+      "stars": 9,
       "category": "D",
       "last_commit": "2026-01-31T03:42:17Z",
       "added_at": "2026-02-21T03:57:00.294120122Z"
@@ -2404,7 +2404,7 @@
       "url": "https://github.com/cubenicke/Fury",
       "description": "Fury addon, one button warrior for World of Warcraft 1.12.1 (Vanilla-Classic-WoW)",
       "author": "cubenicke",
-      "stars": 16,
+      "stars": 17,
       "category": "F",
       "last_commit": "2022-10-08T13:41:00Z",
       "added_at": "0001-01-01T00:00:00Z"
@@ -2642,7 +2642,7 @@
       "author": "redshadowz",
       "stars": 3,
       "category": "G",
-      "last_commit": "2026-03-24T03:17:06Z",
+      "last_commit": "2026-03-24T20:59:13Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -3053,9 +3053,9 @@
       "url": "https://github.com/Arthur-Helias/InstanceJournal",
       "description": "World of Warcraft's original instance journal re-imagined for TurtleWoW!",
       "author": "Arthur-Helias",
-      "stars": 13,
+      "stars": 14,
       "category": "I",
-      "last_commit": "2026-03-23T05:00:45Z",
+      "last_commit": "2026-03-24T22:25:12Z",
       "added_at": "2026-03-21T03:56:42.349923628Z"
     },
     {
@@ -3616,13 +3616,13 @@
     },
     {
       "name": "Magnify",
-      "url": "https://github.com/paokkerkir/Magnify",
-      "description": "Magnify is a legacy World of Warcraft 1.12 add-on that allows the player to zoom in the world map. Updated for better compatibility with Shagutweaks and LevelRange.",
-      "author": "paokkerkir",
-      "stars": 4,
+      "url": "https://github.com/lookino/Magnify",
+      "description": "Magnify is a legacy World of Warcraft add-on that allows the player to zoom in the world map.",
+      "author": "lookino",
+      "stars": 6,
       "category": "M",
-      "last_commit": "2026-03-22T02:25:43Z",
-      "added_at": "2026-03-24T04:03:13.979790979Z"
+      "last_commit": "2026-03-24T20:19:27Z",
+      "added_at": "2026-03-25T04:04:32.15402772Z"
     },
     {
       "name": "Mail",
@@ -3767,7 +3767,7 @@
       "author": "DuvelCorp",
       "stars": 3,
       "category": "M",
-      "last_commit": "2026-03-23T21:29:29Z",
+      "last_commit": "2026-03-24T13:28:57Z",
       "added_at": "2026-02-28T03:55:12.853188301Z"
     },
     {
@@ -3854,7 +3854,7 @@
       "author": "rfelleto",
       "stars": 1,
       "category": "M",
-      "last_commit": "2024-05-21T20:14:41Z",
+      "last_commit": "2026-03-25T01:12:01Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -5634,7 +5634,7 @@
       "url": "https://github.com/Road-block/SimpleRaidTargetIcons",
       "description": "Target Marking and Mark Targetting Improvements (vanilla wow, 1.12)",
       "author": "Road-block",
-      "stars": 13,
+      "stars": 14,
       "category": "S",
       "last_commit": "2018-05-26T16:03:11Z",
       "added_at": "0001-01-01T00:00:00Z"
@@ -6858,7 +6858,7 @@
       "url": "https://github.com/rmarc29/UnifiedTalentGuides",
       "description": "This is an AddOn for World of Warcraft Vanilla (v.1.12), that will show players what talent to choose depending on what class they're playing. The guides are based on wowhead, hcguides and other websites",
       "author": "rmarc29",
-      "stars": 3,
+      "stars": 4,
       "category": "U",
       "last_commit": "2026-02-26T09:16:15Z",
       "added_at": "0001-01-01T00:00:00Z"
@@ -7204,7 +7204,7 @@
       "url": "https://github.com/Cernie/WarriorTank",
       "description": "One button warrior tanking macro for vanilla World of Warcraft",
       "author": "Cernie",
-      "stars": 3,
+      "stars": 4,
       "category": "W",
       "last_commit": "2018-11-19T15:20:25Z",
       "added_at": "0001-01-01T00:00:00Z"
@@ -7216,7 +7216,7 @@
       "author": "Goose404",
       "stars": 2,
       "category": "W",
-      "last_commit": "2025-05-25T20:10:08Z",
+      "last_commit": "2026-03-24T23:24:13Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -7519,7 +7519,7 @@
       "author": "me0wg4ming",
       "stars": 3,
       "category": "A",
-      "last_commit": "2026-03-11T07:03:02Z",
+      "last_commit": "2026-03-24T20:47:45Z",
       "added_at": "2026-03-12T04:00:47.521938271Z"
     },
     {
@@ -8046,7 +8046,7 @@
       "author": "The-Kludge-Bureau",
       "stars": 14,
       "category": "P",
-      "last_commit": "2026-03-19T12:22:58Z",
+      "last_commit": "2026-03-25T03:40:29Z",
       "added_at": "2026-03-09T04:02:09.32858839Z"
     },
     {
@@ -8066,7 +8066,7 @@
       "author": "The-Kludge-Bureau",
       "stars": 11,
       "category": "P",
-      "last_commit": "2026-03-23T07:59:18Z",
+      "last_commit": "2026-03-25T03:49:37Z",
       "added_at": "2026-03-24T04:03:13.979790979Z"
     },
     {
@@ -8093,9 +8093,9 @@
       "url": "https://github.com/me0wg4ming/pfUI",
       "description": "A User Interface Replacement for World of Warcraft on the Server Turtle-WoW",
       "author": "me0wg4ming",
-      "stars": 51,
+      "stars": 54,
       "category": "P",
-      "last_commit": "2026-03-23T14:43:28Z",
+      "last_commit": "2026-03-24T17:41:02Z",
       "added_at": "2026-03-24T04:03:13.979790979Z"
     },
     {
@@ -8219,7 +8219,7 @@
       "author": "liiora",
       "stars": 1,
       "category": "P",
-      "last_commit": "2025-12-03T11:01:33Z",
+      "last_commit": "2026-03-24T11:47:53Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
