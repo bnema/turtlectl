@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "revision": 72,
-  "generated_at": "2026-03-25T04:04:32.15402772Z",
+  "revision": 73,
+  "generated_at": "2026-03-26T04:11:19.283392516Z",
   "source_url": "https://turtle-wow.fandom.com/wiki/Addons",
   "addon_count": 888,
   "addons": [
@@ -196,9 +196,9 @@
       "url": "https://github.com/byCFM2/Atlas-TW",
       "description": "Overview: Atlas‑TW is a dungeon map browser with an integrated loot panel and quests module. It is compatible with World of Warcraft 1.12 and includes localization support.",
       "author": "byCFM2",
-      "stars": 24,
+      "stars": 25,
       "category": "A",
-      "last_commit": "2026-03-24T21:22:56Z",
+      "last_commit": "2026-03-25T20:18:59Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -1282,7 +1282,7 @@
       "url": "https://github.com/DanielAdolfsson/CleverMacro",
       "description": "Extended Commands for Vanilla WoW",
       "author": "DanielAdolfsson",
-      "stars": 16,
+      "stars": 17,
       "category": "C",
       "last_commit": "2018-04-23T18:41:58Z",
       "added_at": "0001-01-01T00:00:00Z"
@@ -1670,7 +1670,7 @@
       "author": "Player-Doite",
       "stars": 40,
       "category": "D",
-      "last_commit": "2026-03-22T21:45:06Z",
+      "last_commit": "2026-03-25T12:10:20Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -1697,9 +1697,9 @@
       "url": "https://github.com/Stormhand-dev/DragonflightUI-Reforged",
       "description": "Dragonflight UI: Reforged is the ultimate evolution of Dragonflight: Reloaded — a Legendary Turtle WoW UI overhaul forged for clarity, power, and immersion. Born from battle-tested roots, it delivers modern dragonsteel precision, fearless defaults, and customizable mastery for the true Azeroth champion.",
       "author": "Stormhand-dev",
-      "stars": 9,
+      "stars": 8,
       "category": "D",
-      "last_commit": "2026-01-31T03:42:17Z",
+      "last_commit": "2026-03-25T18:51:03Z",
       "added_at": "2026-02-21T03:57:00.294120122Z"
     },
     {
@@ -2136,7 +2136,7 @@
       "author": "tilare",
       "stars": 10,
       "category": "F",
-      "last_commit": "2026-03-22T05:21:55Z",
+      "last_commit": "2026-03-25T06:26:15Z",
       "added_at": "2026-02-08T04:12:28.12244099Z"
     },
     {
@@ -2642,7 +2642,7 @@
       "author": "redshadowz",
       "stars": 3,
       "category": "G",
-      "last_commit": "2026-03-24T20:59:13Z",
+      "last_commit": "2026-03-26T00:32:07Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -3053,9 +3053,9 @@
       "url": "https://github.com/Arthur-Helias/InstanceJournal",
       "description": "World of Warcraft's original instance journal re-imagined for TurtleWoW!",
       "author": "Arthur-Helias",
-      "stars": 14,
+      "stars": 15,
       "category": "I",
-      "last_commit": "2026-03-24T22:25:12Z",
+      "last_commit": "2026-03-25T08:38:05Z",
       "added_at": "2026-03-21T03:56:42.349923628Z"
     },
     {
@@ -3385,7 +3385,7 @@
       "author": "MarcelineVQ",
       "stars": 10,
       "category": "L",
-      "last_commit": "2026-03-21T07:08:45Z",
+      "last_commit": "2026-03-25T20:03:21Z",
       "added_at": "2026-03-20T04:00:01.940806385Z"
     },
     {
@@ -3757,7 +3757,7 @@
       "author": "tilare",
       "stars": 10,
       "category": "M",
-      "last_commit": "2026-03-23T21:13:31Z",
+      "last_commit": "2026-03-25T06:52:47Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -4006,7 +4006,7 @@
       "url": "https://github.com/goamania/MouseHighlightCircle",
       "description": "MouseHighlightCircle: An addon for Turtle WoW (1.12.1). Adds a pixelated white ring around the mouse cursor (transparent center) to reduce clutter. Ideal for raids and PvP. Use /mhc show to display, /mhc hide to hide. Includes pixelring.tga (32x32). Tested on Turtle WoW. Fork/pull request to contribute! MIT License. Developed by @goamania",
       "author": "goamania",
-      "stars": 7,
+      "stars": 8,
       "category": "M",
       "last_commit": "2025-10-13T17:12:23Z",
       "added_at": "0001-01-01T00:00:00Z"
@@ -4036,7 +4036,7 @@
       "description": "Tracks time and distance spent running on foot and while mounted.",
       "author": "tilare",
       "category": "M",
-      "last_commit": "2026-02-07T04:49:30Z",
+      "last_commit": "2026-03-25T08:31:52Z",
       "added_at": "2026-02-08T04:12:28.12244099Z"
     },
     {
@@ -4438,7 +4438,7 @@
       "url": "https://github.com/thezephyrsong/ProcDoc",
       "description": "Proc tracker for Turtle WoW",
       "author": "thezephyrsong",
-      "stars": 3,
+      "stars": 4,
       "category": "P",
       "last_commit": "2026-03-21T10:16:40Z",
       "added_at": "2026-03-24T04:03:13.979790979Z"
@@ -4674,7 +4674,7 @@
       "author": "sica42",
       "stars": 1,
       "category": "R",
-      "last_commit": "2026-03-19T15:24:20Z",
+      "last_commit": "2026-03-25T23:51:17Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -4731,6 +4731,7 @@
       "url": "https://github.com/akzkak/RaidSummonPlus",
       "description": "A Warlock raid utility for WoW 1.12.1.  IMPORTANT: The folder name must be \"RaidSummonPlus\". ",
       "author": "akzkak",
+      "stars": 1,
       "category": "R",
       "last_commit": "2025-09-14T22:23:03Z",
       "added_at": "0001-01-01T00:00:00Z"
@@ -6710,7 +6711,7 @@
       "description": "Turtle Pet Search  Bar for TWoW (1.12)",
       "author": "Avery1337",
       "category": "T",
-      "last_commit": "2026-01-12T18:40:05Z",
+      "last_commit": "2026-03-25T06:47:01Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -6788,13 +6789,14 @@
       "description": "An Addon to create requests for Ports or summons of to accept them and do the ports / summons",
       "author": "Fragglechen",
       "category": "T",
-      "last_commit": "2026-03-21T18:53:44Z",
+      "last_commit": "2026-03-25T19:59:33Z",
       "added_at": "2026-03-23T04:09:25.46330723Z"
     },
     {
       "name": "TurtleTranslator",
       "url": "https://github.com/picardebooks/TurtleTranslator",
       "author": "picardebooks",
+      "stars": 1,
       "category": "T",
       "last_commit": "2026-03-08T02:27:18Z",
       "added_at": "2026-03-09T04:02:09.32858839Z"
@@ -7477,7 +7479,7 @@
       "url": "https://github.com/Arthur-Helias/ZonesLevel",
       "description": "A lightweight Turtle WoW addon that displays the mouse hovered zone's level under its title on the world map.",
       "author": "Arthur-Helias",
-      "stars": 4,
+      "stars": 5,
       "category": "Z",
       "last_commit": "2026-03-19T00:53:25Z",
       "added_at": "2026-02-16T05:40:13.536136214Z"
@@ -7487,7 +7489,7 @@
       "url": "https://github.com/Xian55/Zorlen",
       "description": "Zorlen Functions Library + 1.18.0 Turtle WoW custom spells",
       "author": "Xian55",
-      "stars": 5,
+      "stars": 6,
       "category": "Z",
       "last_commit": "2026-02-28T16:05:50Z",
       "added_at": "0001-01-01T00:00:00Z"
@@ -7723,7 +7725,7 @@
       "url": "https://github.com/Chad90b/codex",
       "description": "World of Warcraft (1.12) addon which displays mob spells on mouseover.",
       "author": "Chad90b",
-      "stars": 1,
+      "stars": 2,
       "category": "C",
       "last_commit": "2023-04-21T13:03:16Z",
       "added_at": "0001-01-01T00:00:00Z"
@@ -8046,7 +8048,7 @@
       "author": "The-Kludge-Bureau",
       "stars": 14,
       "category": "P",
-      "last_commit": "2026-03-25T03:40:29Z",
+      "last_commit": "2026-03-25T14:37:01Z",
       "added_at": "2026-03-09T04:02:09.32858839Z"
     },
     {
@@ -8064,7 +8066,7 @@
       "url": "https://github.com/The-Kludge-Bureau/pfQuest-turtle",
       "description": "A TurtleWoW DB extension for pfQuest",
       "author": "The-Kludge-Bureau",
-      "stars": 11,
+      "stars": 12,
       "category": "P",
       "last_commit": "2026-03-25T03:49:37Z",
       "added_at": "2026-03-24T04:03:13.979790979Z"
@@ -8095,7 +8097,7 @@
       "author": "me0wg4ming",
       "stars": 54,
       "category": "P",
-      "last_commit": "2026-03-24T17:41:02Z",
+      "last_commit": "2026-03-25T18:14:48Z",
       "added_at": "2026-03-24T04:03:13.979790979Z"
     },
     {
@@ -8142,7 +8144,7 @@
       "url": "https://github.com/jrc13245/pfUI-WeakIcons",
       "description": "Allows the creation of aura tracking icons",
       "author": "jrc13245",
-      "stars": 4,
+      "stars": 5,
       "category": "P",
       "last_commit": "2025-12-22T23:16:59Z",
       "added_at": "0001-01-01T00:00:00Z"
@@ -8151,7 +8153,7 @@
       "name": "pfUI-addonskinner",
       "url": "https://github.com/jrc13245/pfUI-addonskinner",
       "author": "jrc13245",
-      "stars": 8,
+      "stars": 9,
       "category": "P",
       "last_commit": "2026-02-28T19:37:10Z",
       "added_at": "0001-01-01T00:00:00Z"
@@ -8219,7 +8221,7 @@
       "author": "liiora",
       "stars": 1,
       "category": "P",
-      "last_commit": "2026-03-24T11:47:53Z",
+      "last_commit": "2026-03-25T21:13:16Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
