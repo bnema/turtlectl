@@ -1,9 +1,9 @@
 {
   "version": 1,
-  "revision": 73,
-  "generated_at": "2026-03-26T04:11:19.283392516Z",
+  "revision": 74,
+  "generated_at": "2026-03-27T04:11:19.042665927Z",
   "source_url": "https://turtle-wow.fandom.com/wiki/Addons",
-  "addon_count": 888,
+  "addon_count": 889,
   "addons": [
     {
       "name": "-DragonflightReloaded",
@@ -25,16 +25,6 @@
     },
     {
       "name": "Accountant",
-      "url": "https://github.com/The-Kludge-Bureau/Accountant",
-      "description": "Tracks your incoming and outgoing gold across multiple time periods and categories",
-      "author": "The-Kludge-Bureau",
-      "stars": 6,
-      "category": "A",
-      "last_commit": "2026-03-19T03:38:13Z",
-      "added_at": "2026-03-06T03:57:40.344270365Z"
-    },
-    {
-      "name": "Accountant",
       "url": "https://github.com/terdong/Accountant",
       "description": "Accountant tracks you incoming / outgoing cash.",
       "author": "terdong",
@@ -42,6 +32,16 @@
       "category": "A",
       "last_commit": "2025-12-26T07:02:25Z",
       "added_at": "2026-01-10T03:42:41.414014379Z"
+    },
+    {
+      "name": "Accountant",
+      "url": "https://github.com/The-Kludge-Bureau/Accountant",
+      "description": "Tracks your incoming and outgoing gold across multiple time periods and categories",
+      "author": "The-Kludge-Bureau",
+      "stars": 6,
+      "category": "A",
+      "last_commit": "2026-03-19T03:38:13Z",
+      "added_at": "2026-03-06T03:57:40.344270365Z"
     },
     {
       "name": "ActionBarProfiles",
@@ -68,7 +68,7 @@
       "url": "https://github.com/Shellyoung/AdvancedTradeSkillWindow2",
       "description": "Improved window for your professions for World of Warcraft Vanilla",
       "author": "Shellyoung",
-      "stars": 20,
+      "stars": 21,
       "category": "A",
       "last_commit": "2026-02-01T11:46:19Z",
       "added_at": "0001-01-01T00:00:00Z"
@@ -196,7 +196,7 @@
       "url": "https://github.com/byCFM2/Atlas-TW",
       "description": "Overview: Atlas‑TW is a dungeon map browser with an integrated loot panel and quests module. It is compatible with World of Warcraft 1.12 and includes localization support.",
       "author": "byCFM2",
-      "stars": 25,
+      "stars": 24,
       "category": "A",
       "last_commit": "2026-03-25T20:18:59Z",
       "added_at": "0001-01-01T00:00:00Z"
@@ -471,6 +471,15 @@
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
+      "name": "Aux-Revamped-opaque",
+      "url": "https://github.com/ftkun/Aux-Revamped-opaque",
+      "description": "Auction House addOn for Vanilla (1.12) IMPORTANT: The folder name must be \"aux-addon\"",
+      "author": "ftkun",
+      "category": "A",
+      "last_commit": "2026-03-23T10:32:44Z",
+      "added_at": "2026-03-27T04:11:19.042665927Z"
+    },
+    {
       "name": "Aux-addon",
       "url": "https://github.com/acid9000/Aux-addon",
       "description": "Auction House addOn for Vanilla (1.12) IMPORTANT: The folder name must be \"aux-addon\"",
@@ -624,13 +633,13 @@
     },
     {
       "name": "BetterCharacterStats",
-      "url": "https://github.com/pepopo978/BetterCharacterStats",
+      "url": "https://github.com/Otari98/BetterCharacterStats",
       "description": "More useful character statistics AddOn for World of Warcraft 1.12",
-      "author": "pepopo978",
-      "stars": 25,
+      "author": "Otari98",
+      "stars": 8,
       "category": "B",
-      "last_commit": "2026-02-04T15:17:00Z",
-      "added_at": "0001-01-01T00:00:00Z"
+      "last_commit": "2026-03-26T09:04:42Z",
+      "added_at": "2026-03-27T04:11:19.042665927Z"
     },
     {
       "name": "BetterEverlookBroadcastingCo",
@@ -1272,7 +1281,7 @@
       "url": "https://github.com/cutiepoka/CleveRoidMacros",
       "description": "Use more advanced and modern style macros with World of Warcraft 1.12.1",
       "author": "cutiepoka",
-      "stars": 10,
+      "stars": 9,
       "category": "C",
       "last_commit": "2025-12-23T14:46:27Z",
       "added_at": "0001-01-01T00:00:00Z"
@@ -1367,21 +1376,21 @@
     },
     {
       "name": "Comix",
+      "url": "https://github.com/Cysthen/Comix",
+      "description": "2012 Comix from Feenix. Mostly Edited by Susangrundle and myself from the Guild Chainpull",
+      "author": "Cysthen",
+      "category": "C",
+      "last_commit": "2025-02-07T23:36:24Z",
+      "added_at": "0001-01-01T00:00:00Z"
+    },
+    {
+      "name": "Comix",
       "url": "https://github.com/Goose404/Comix",
       "description": "comix addon for wow client 1.12 and turtlewow twow",
       "author": "Goose404",
       "stars": 1,
       "category": "C",
       "last_commit": "2025-04-26T20:25:08Z",
-      "added_at": "0001-01-01T00:00:00Z"
-    },
-    {
-      "name": "Comix",
-      "url": "https://github.com/Cysthen/Comix",
-      "description": "2012 Comix from Feenix. Mostly Edited by Susangrundle and myself from the Guild Chainpull",
-      "author": "Cysthen",
-      "category": "C",
-      "last_commit": "2025-02-07T23:36:24Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -1398,7 +1407,7 @@
       "url": "https://github.com/pepordev/ConsoleExperienceClassic",
       "description": "Wow Classic (1.12) Console Experience (Gamepad support) compatible with TurtleWoW",
       "author": "pepordev",
-      "stars": 29,
+      "stars": 30,
       "category": "C",
       "last_commit": "2026-03-10T11:11:40Z",
       "added_at": "0001-01-01T00:00:00Z"
@@ -1670,7 +1679,7 @@
       "author": "Player-Doite",
       "stars": 40,
       "category": "D",
-      "last_commit": "2026-03-25T12:10:20Z",
+      "last_commit": "2026-03-26T15:22:16Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -2156,7 +2165,7 @@
       "author": "lookino",
       "stars": 4,
       "category": "F",
-      "last_commit": "2026-03-23T19:05:27Z",
+      "last_commit": "2026-03-26T19:34:03Z",
       "added_at": "2026-02-10T04:11:42.43452853Z"
     },
     {
@@ -3053,7 +3062,7 @@
       "url": "https://github.com/Arthur-Helias/InstanceJournal",
       "description": "World of Warcraft's original instance journal re-imagined for TurtleWoW!",
       "author": "Arthur-Helias",
-      "stars": 15,
+      "stars": 14,
       "category": "I",
       "last_commit": "2026-03-25T08:38:05Z",
       "added_at": "2026-03-21T03:56:42.349923628Z"
@@ -3256,21 +3265,21 @@
     },
     {
       "name": "KillCounter",
-      "url": "https://github.com/bucketss/KillCounter",
-      "description": "kill counter for WoW vanilla client 1.12",
-      "author": "bucketss",
-      "category": "K",
-      "last_commit": "2025-10-29T22:20:35Z",
-      "added_at": "0001-01-01T00:00:00Z"
-    },
-    {
-      "name": "KillCounter",
       "url": "https://github.com/FrostShock/KillCounter",
       "description": "Vanilla WoW (1.12.1) addon for counting kills",
       "author": "FrostShock",
       "stars": 1,
       "category": "K",
       "last_commit": "2022-04-20T03:46:08Z",
+      "added_at": "0001-01-01T00:00:00Z"
+    },
+    {
+      "name": "KillCounter",
+      "url": "https://github.com/bucketss/KillCounter",
+      "description": "kill counter for WoW vanilla client 1.12",
+      "author": "bucketss",
+      "category": "K",
+      "last_commit": "2025-10-29T22:20:35Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -3696,19 +3705,19 @@
     },
     {
       "name": "MasterTradeSkills",
-      "url": "https://github.com/ImmortalSom/MasterTradeSkills",
-      "category": "M",
-      "last_commit": "0001-01-01T00:00:00Z",
-      "added_at": "0001-01-01T00:00:00Z"
-    },
-    {
-      "name": "MasterTradeSkills",
       "url": "https://github.com/refaim/MasterTradeSkills",
       "description": "Vanilla WoW 1.12.1 and Turtle WoW addon. Adds trade skill information to tooltips of ingredients.",
       "author": "refaim",
       "stars": 19,
       "category": "M",
       "last_commit": "2025-12-21T08:40:16Z",
+      "added_at": "0001-01-01T00:00:00Z"
+    },
+    {
+      "name": "MasterTradeSkills",
+      "url": "https://github.com/ImmortalSom/MasterTradeSkills",
+      "category": "M",
+      "last_commit": "0001-01-01T00:00:00Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -3757,7 +3766,7 @@
       "author": "tilare",
       "stars": 10,
       "category": "M",
-      "last_commit": "2026-03-25T06:52:47Z",
+      "last_commit": "2026-03-27T04:01:15Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -4458,7 +4467,7 @@
       "description": "Aprofession tracking addon for Turtle WoW.",
       "author": "gregdeichler",
       "category": "P",
-      "last_commit": "2026-03-03T16:07:56Z",
+      "last_commit": "2026-03-26T20:10:43Z",
       "added_at": "2026-02-27T03:59:38.099914245Z"
     },
     {
@@ -4672,7 +4681,7 @@
       "url": "https://github.com/sica42/RaidCalendar",
       "description": "View and signup to raids in game",
       "author": "sica42",
-      "stars": 1,
+      "stars": 2,
       "category": "R",
       "last_commit": "2026-03-25T23:51:17Z",
       "added_at": "0001-01-01T00:00:00Z"
@@ -6190,6 +6199,7 @@
       "name": "TWoWLFGBulletinBoard",
       "url": "https://github.com/Khundiann/TWoWLFGBulletinBoard",
       "author": "Khundiann",
+      "stars": 1,
       "category": "T",
       "last_commit": "2026-03-23T22:12:52Z",
       "added_at": "2026-03-20T04:00:01.940806385Z"
@@ -6421,7 +6431,7 @@
       "author": "Otari98",
       "stars": 35,
       "category": "T",
-      "last_commit": "2026-03-21T14:38:21Z",
+      "last_commit": "2026-03-26T18:26:21Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -6682,7 +6692,7 @@
       "author": "dnkrse",
       "stars": 2,
       "category": "T",
-      "last_commit": "2026-03-20T21:29:49Z",
+      "last_commit": "2026-03-27T01:05:55Z",
       "added_at": "2026-03-04T03:57:25.247190276Z"
     },
     {
@@ -6741,7 +6751,7 @@
       "author": "bratmage",
       "stars": 2,
       "category": "T",
-      "last_commit": "2026-02-25T16:28:51Z",
+      "last_commit": "2026-03-26T22:09:01Z",
       "added_at": "2026-02-26T04:02:20.533579857Z"
     },
     {
@@ -7050,22 +7060,22 @@
     },
     {
       "name": "VanillaStoryline",
-      "url": "https://github.com/Voidmenull/VanillaStoryline",
-      "description": "Storyline Custom Backport",
-      "author": "Voidmenull",
-      "stars": 14,
-      "category": "V",
-      "last_commit": "2016-05-06T17:00:31Z",
-      "added_at": "0001-01-01T00:00:00Z"
-    },
-    {
-      "name": "VanillaStoryline",
       "url": "https://github.com/tubtubs/VanillaStoryline",
       "description": "Storyline Custom Backport",
       "author": "tubtubs",
       "stars": 12,
       "category": "V",
       "last_commit": "2025-10-28T06:16:08Z",
+      "added_at": "0001-01-01T00:00:00Z"
+    },
+    {
+      "name": "VanillaStoryline",
+      "url": "https://github.com/Voidmenull/VanillaStoryline",
+      "description": "Storyline Custom Backport",
+      "author": "Voidmenull",
+      "stars": 14,
+      "category": "V",
+      "last_commit": "2016-05-06T17:00:31Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -7098,19 +7108,19 @@
     },
     {
       "name": "Vanilla_oCB",
+      "url": "https://github.com/martinjlowm/Vanilla_oCB",
+      "author": "martinjlowm",
+      "category": "O",
+      "last_commit": "2017-03-26T15:14:21Z",
+      "added_at": "0001-01-01T00:00:00Z"
+    },
+    {
+      "name": "Vanilla_oCB",
       "url": "https://github.com/Road-block/Vanilla_oCB",
       "author": "Road-block",
       "stars": 4,
       "category": "O",
       "last_commit": "2017-12-29T09:53:51Z",
-      "added_at": "0001-01-01T00:00:00Z"
-    },
-    {
-      "name": "Vanilla_oCB",
-      "url": "https://github.com/martinjlowm/Vanilla_oCB",
-      "author": "martinjlowm",
-      "category": "O",
-      "last_commit": "2017-03-26T15:14:21Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -7519,7 +7529,7 @@
       "url": "https://github.com/me0wg4ming/__Anticrash",
       "description": "Anticrash addon to unregister ALL events before logout and /reload",
       "author": "me0wg4ming",
-      "stars": 3,
+      "stars": 4,
       "category": "A",
       "last_commit": "2026-03-24T20:47:45Z",
       "added_at": "2026-03-12T04:00:47.521938271Z"
@@ -8046,7 +8056,7 @@
       "url": "https://github.com/The-Kludge-Bureau/pfQuest",
       "description": "A Questhelper and Database Addon for World of Warcraft: Vanilla \u0026 TBC",
       "author": "The-Kludge-Bureau",
-      "stars": 14,
+      "stars": 15,
       "category": "P",
       "last_commit": "2026-03-25T14:37:01Z",
       "added_at": "2026-03-09T04:02:09.32858839Z"
@@ -8056,7 +8066,7 @@
       "url": "https://github.com/shagu/pfQuest-icons",
       "description": "An extension for pfQuest to use Gatherer icons on resource nodes",
       "author": "shagu",
-      "stars": 21,
+      "stars": 22,
       "category": "P",
       "last_commit": "2025-07-22T19:14:17Z",
       "added_at": "0001-01-01T00:00:00Z"
@@ -8066,7 +8076,7 @@
       "url": "https://github.com/The-Kludge-Bureau/pfQuest-turtle",
       "description": "A TurtleWoW DB extension for pfQuest",
       "author": "The-Kludge-Bureau",
-      "stars": 12,
+      "stars": 13,
       "category": "P",
       "last_commit": "2026-03-25T03:49:37Z",
       "added_at": "2026-03-24T04:03:13.979790979Z"
@@ -8097,7 +8107,7 @@
       "author": "me0wg4ming",
       "stars": 54,
       "category": "P",
-      "last_commit": "2026-03-25T18:14:48Z",
+      "last_commit": "2026-03-26T14:29:15Z",
       "added_at": "2026-03-24T04:03:13.979790979Z"
     },
     {
@@ -8105,6 +8115,7 @@
       "url": "https://github.com/mr-rosh/pfUI-CustomMedia",
       "description": "External module for pfUI.",
       "author": "mr-rosh",
+      "stars": 1,
       "category": "P",
       "last_commit": "2025-12-02T12:07:02Z",
       "added_at": "0001-01-01T00:00:00Z"
@@ -8114,7 +8125,7 @@
       "url": "https://github.com/Arthur-Helias/pfUI-LocationPlus",
       "description": "An external module for pfUI that adds a location panel and more!",
       "author": "Arthur-Helias",
-      "stars": 8,
+      "stars": 7,
       "category": "P",
       "last_commit": "2026-03-20T18:50:54Z",
       "added_at": "2026-02-16T05:40:13.536136214Z"
@@ -8155,7 +8166,7 @@
       "author": "jrc13245",
       "stars": 9,
       "category": "P",
-      "last_commit": "2026-02-28T19:37:10Z",
+      "last_commit": "2026-03-27T00:55:57Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -8381,7 +8392,7 @@
       "url": "https://github.com/sorgis-sorgis/sorgis_raid_marks",
       "description": "raid mark targeting and assigning addon for the vanilla (1.12) World of Warcraft client",
       "author": "sorgis-sorgis",
-      "stars": 1,
+      "stars": 2,
       "category": "S",
       "last_commit": "2025-02-05T09:11:42Z",
       "added_at": "0001-01-01T00:00:00Z"
