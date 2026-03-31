@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "revision": 77,
-  "generated_at": "2026-03-30T04:17:37.475370624Z",
+  "revision": 78,
+  "generated_at": "2026-03-31T04:11:56.675216355Z",
   "source_url": "https://turtle-wow.fandom.com/wiki/Addons",
   "addon_count": 892,
   "addons": [
@@ -198,7 +198,7 @@
       "author": "byCFM2",
       "stars": 25,
       "category": "A",
-      "last_commit": "2026-03-29T19:47:27Z",
+      "last_commit": "2026-03-30T18:05:37Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -1679,7 +1679,7 @@
       "author": "Player-Doite",
       "stars": 41,
       "category": "D",
-      "last_commit": "2026-03-28T22:56:58Z",
+      "last_commit": "2026-03-30T20:49:30Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -2213,7 +2213,7 @@
       "description": "A Turtle WoW addon that automatically records gathering locations and lets players create custom map notes.",
       "author": "nemanuel",
       "category": "F",
-      "last_commit": "2026-03-03T06:10:52Z",
+      "last_commit": "2026-03-30T19:21:19Z",
       "added_at": "2026-03-03T04:01:07.04674101Z"
     },
     {
@@ -2222,7 +2222,7 @@
       "description": "A Turtle WoW hunter addon that shows pet status in one compact frame",
       "author": "nemanuel",
       "category": "F",
-      "last_commit": "2026-03-18T08:30:58Z",
+      "last_commit": "2026-03-30T19:45:44Z",
       "added_at": "2026-03-03T04:01:07.04674101Z"
     },
     {
@@ -2509,7 +2509,7 @@
       "url": "https://github.com/MarcelineVQ/GentleGC",
       "description": "Run garbage collection without pause-the-world allocation",
       "author": "MarcelineVQ",
-      "stars": 7,
+      "stars": 9,
       "category": "G",
       "last_commit": "2024-10-15T21:52:07Z",
       "added_at": "0001-01-01T00:00:00Z"
@@ -2659,7 +2659,7 @@
       "author": "redshadowz",
       "stars": 3,
       "category": "G",
-      "last_commit": "2026-03-26T00:32:07Z",
+      "last_commit": "2026-03-31T01:12:11Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -2732,7 +2732,7 @@
       "description": "Simple Effort Points system inspired by ShootyEPGP for Turtle WoW",
       "author": "RollingSmile",
       "category": "G",
-      "last_commit": "2026-03-29T23:23:36Z",
+      "last_commit": "2026-03-30T23:46:17Z",
       "added_at": "2026-01-16T03:47:28.635990587Z"
     },
     {
@@ -3380,7 +3380,7 @@
       "name": "LazyScript",
       "url": "https://github.com/laytya/LazyScript",
       "author": "laytya",
-      "stars": 34,
+      "stars": 35,
       "category": "L",
       "last_commit": "2025-04-19T09:07:06Z",
       "added_at": "0001-01-01T00:00:00Z"
@@ -3638,7 +3638,7 @@
       "author": "lookino",
       "stars": 6,
       "category": "M",
-      "last_commit": "2026-03-24T20:19:27Z",
+      "last_commit": "2026-03-30T17:24:04Z",
       "added_at": "2026-03-25T04:04:32.15402772Z"
     },
     {
@@ -4503,7 +4503,7 @@
       "url": "https://github.com/OldManAlpha/Puppeteer",
       "description": "A unit frames addon for WoW Vanilla 1.12",
       "author": "OldManAlpha",
-      "stars": 38,
+      "stars": 39,
       "category": "H",
       "last_commit": "2026-03-28T07:01:25Z",
       "added_at": "0001-01-01T00:00:00Z"
@@ -6768,7 +6768,7 @@
       "author": "bratmage",
       "stars": 2,
       "category": "T",
-      "last_commit": "2026-03-27T14:10:37Z",
+      "last_commit": "2026-03-30T15:58:40Z",
       "added_at": "2026-02-26T04:02:20.533579857Z"
     },
     {
@@ -7874,7 +7874,7 @@
       "name": "guda",
       "url": "https://github.com/vatichild/guda",
       "author": "vatichild",
-      "stars": 23,
+      "stars": 24,
       "category": "G",
       "last_commit": "2026-03-29T16:20:47Z",
       "added_at": "0001-01-01T00:00:00Z"
@@ -8081,7 +8081,7 @@
       "url": "https://github.com/The-Kludge-Bureau/pfQuest",
       "description": "A Questhelper and Database Addon for World of Warcraft: Vanilla \u0026 TBC",
       "author": "The-Kludge-Bureau",
-      "stars": 17,
+      "stars": 18,
       "category": "P",
       "last_commit": "2026-03-28T11:08:04Z",
       "added_at": "2026-03-09T04:02:09.32858839Z"
@@ -8130,9 +8130,9 @@
       "url": "https://github.com/me0wg4ming/pfUI",
       "description": "A User Interface Replacement for World of Warcraft on the Server Turtle-WoW",
       "author": "me0wg4ming",
-      "stars": 55,
+      "stars": 56,
       "category": "P",
-      "last_commit": "2026-03-30T01:23:02Z",
+      "last_commit": "2026-03-31T02:29:42Z",
       "added_at": "2026-03-24T04:03:13.979790979Z"
     },
     {
