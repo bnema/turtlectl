@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "revision": 78,
-  "generated_at": "2026-03-31T04:11:56.675216355Z",
+  "revision": 79,
+  "generated_at": "2026-04-01T04:19:09.917713704Z",
   "source_url": "https://turtle-wow.fandom.com/wiki/Addons",
   "addon_count": 892,
   "addons": [
@@ -196,9 +196,9 @@
       "url": "https://github.com/byCFM2/Atlas-TW",
       "description": "Overview: Atlas‑TW is a dungeon map browser with an integrated loot panel and quests module. It is compatible with World of Warcraft 1.12 and includes localization support.",
       "author": "byCFM2",
-      "stars": 25,
+      "stars": 26,
       "category": "A",
-      "last_commit": "2026-03-30T18:05:37Z",
+      "last_commit": "2026-03-31T18:28:08Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -1677,9 +1677,9 @@
       "url": "https://github.com/Player-Doite/DoiteAuras",
       "description": "Ability, buff, debuff \u0026 item tracker for Vanilla WoW.",
       "author": "Player-Doite",
-      "stars": 41,
+      "stars": 43,
       "category": "D",
-      "last_commit": "2026-03-30T20:49:30Z",
+      "last_commit": "2026-03-31T10:44:07Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -2213,7 +2213,7 @@
       "description": "A Turtle WoW addon that automatically records gathering locations and lets players create custom map notes.",
       "author": "nemanuel",
       "category": "F",
-      "last_commit": "2026-03-30T19:21:19Z",
+      "last_commit": "2026-03-31T15:26:48Z",
       "added_at": "2026-03-03T04:01:07.04674101Z"
     },
     {
@@ -2423,7 +2423,7 @@
       "url": "https://github.com/Ageous27/GCDTimerBar",
       "author": "Ageous27",
       "category": "G",
-      "last_commit": "2026-03-26T01:50:10Z",
+      "last_commit": "2026-03-31T16:49:45Z",
       "added_at": "2026-03-30T04:17:37.475370624Z"
     },
     {
@@ -2659,7 +2659,7 @@
       "author": "redshadowz",
       "stars": 3,
       "category": "G",
-      "last_commit": "2026-03-31T01:12:11Z",
+      "last_commit": "2026-04-01T02:02:01Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -3072,7 +3072,7 @@
       "author": "Arthur-Helias",
       "stars": 16,
       "category": "I",
-      "last_commit": "2026-03-30T01:50:20Z",
+      "last_commit": "2026-03-31T22:02:47Z",
       "added_at": "2026-03-21T03:56:42.349923628Z"
     },
     {
@@ -3784,7 +3784,7 @@
       "author": "DuvelCorp",
       "stars": 4,
       "category": "M",
-      "last_commit": "2026-03-24T13:28:57Z",
+      "last_commit": "2026-03-31T19:28:23Z",
       "added_at": "2026-02-28T03:55:12.853188301Z"
     },
     {
@@ -6768,7 +6768,7 @@
       "author": "bratmage",
       "stars": 2,
       "category": "T",
-      "last_commit": "2026-03-30T15:58:40Z",
+      "last_commit": "2026-04-01T01:40:56Z",
       "added_at": "2026-02-26T04:02:20.533579857Z"
     },
     {
@@ -7573,7 +7573,7 @@
       "author": "Autignem",
       "stars": 3,
       "category": "A",
-      "last_commit": "2026-03-30T02:26:39Z",
+      "last_commit": "2026-03-31T19:10:01Z",
       "added_at": "2026-01-18T03:51:58.977057594Z"
     },
     {
@@ -7874,7 +7874,7 @@
       "name": "guda",
       "url": "https://github.com/vatichild/guda",
       "author": "vatichild",
-      "stars": 24,
+      "stars": 25,
       "category": "G",
       "last_commit": "2026-03-29T16:20:47Z",
       "added_at": "0001-01-01T00:00:00Z"
@@ -8081,7 +8081,7 @@
       "url": "https://github.com/The-Kludge-Bureau/pfQuest",
       "description": "A Questhelper and Database Addon for World of Warcraft: Vanilla \u0026 TBC",
       "author": "The-Kludge-Bureau",
-      "stars": 18,
+      "stars": 20,
       "category": "P",
       "last_commit": "2026-03-28T11:08:04Z",
       "added_at": "2026-03-09T04:02:09.32858839Z"
@@ -8132,7 +8132,7 @@
       "author": "me0wg4ming",
       "stars": 56,
       "category": "P",
-      "last_commit": "2026-03-31T02:29:42Z",
+      "last_commit": "2026-04-01T03:19:31Z",
       "added_at": "2026-03-24T04:03:13.979790979Z"
     },
     {
@@ -8466,7 +8466,7 @@
       "author": "Player-Doite",
       "stars": 14,
       "category": "T",
-      "last_commit": "2026-03-21T14:14:28Z",
+      "last_commit": "2026-03-31T18:31:28Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
