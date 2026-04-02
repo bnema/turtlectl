@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "revision": 79,
-  "generated_at": "2026-04-01T04:19:09.917713704Z",
+  "revision": 80,
+  "generated_at": "2026-04-02T04:09:41.355470934Z",
   "source_url": "https://turtle-wow.fandom.com/wiki/Addons",
   "addon_count": 892,
   "addons": [
@@ -1679,7 +1679,7 @@
       "author": "Player-Doite",
       "stars": 43,
       "category": "D",
-      "last_commit": "2026-03-31T10:44:07Z",
+      "last_commit": "2026-04-01T08:39:37Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -1706,7 +1706,7 @@
       "url": "https://github.com/Stormhand-dev/DragonflightUI-Reforged",
       "description": "Dragonflight UI: Reforged is the ultimate evolution of Dragonflight: Reloaded — a Legendary Turtle WoW UI overhaul forged for clarity, power, and immersion. Born from battle-tested roots, it delivers modern dragonsteel precision, fearless defaults, and customizable mastery for the true Azeroth champion.",
       "author": "Stormhand-dev",
-      "stars": 10,
+      "stars": 11,
       "category": "D",
       "last_commit": "2026-03-25T18:51:03Z",
       "added_at": "2026-02-21T03:57:00.294120122Z"
@@ -2659,7 +2659,7 @@
       "author": "redshadowz",
       "stars": 3,
       "category": "G",
-      "last_commit": "2026-04-01T02:02:01Z",
+      "last_commit": "2026-04-02T02:55:36Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -3032,7 +3032,7 @@
       "url": "https://github.com/moiian/ImmersiveDialogUI",
       "description": "A enhanced conversation addon for World of Warcraft 1.12 (Vanilla/Turtle WoW) with a focus on immersion and customization.",
       "author": "moiian",
-      "stars": 9,
+      "stars": 8,
       "category": "I",
       "last_commit": "2025-08-25T18:10:32Z",
       "added_at": "0001-01-01T00:00:00Z"
@@ -3070,9 +3070,9 @@
       "url": "https://github.com/Arthur-Helias/InstanceJournal",
       "description": "World of Warcraft's original instance journal re-imagined for TurtleWoW!",
       "author": "Arthur-Helias",
-      "stars": 16,
+      "stars": 18,
       "category": "I",
-      "last_commit": "2026-03-31T22:02:47Z",
+      "last_commit": "2026-04-02T01:59:36Z",
       "added_at": "2026-03-21T03:56:42.349923628Z"
     },
     {
@@ -3402,7 +3402,7 @@
       "author": "MarcelineVQ",
       "stars": 10,
       "category": "L",
-      "last_commit": "2026-03-25T20:03:21Z",
+      "last_commit": "2026-04-01T16:19:59Z",
       "added_at": "2026-03-20T04:00:01.940806385Z"
     },
     {
@@ -4455,7 +4455,7 @@
       "url": "https://github.com/thezephyrsong/ProcDoc",
       "description": "Proc tracker for Turtle WoW",
       "author": "thezephyrsong",
-      "stars": 4,
+      "stars": 5,
       "category": "P",
       "last_commit": "2026-03-21T10:16:40Z",
       "added_at": "2026-03-24T04:03:13.979790979Z"
@@ -4503,7 +4503,7 @@
       "url": "https://github.com/OldManAlpha/Puppeteer",
       "description": "A unit frames addon for WoW Vanilla 1.12",
       "author": "OldManAlpha",
-      "stars": 39,
+      "stars": 38,
       "category": "H",
       "last_commit": "2026-03-28T07:01:25Z",
       "added_at": "0001-01-01T00:00:00Z"
@@ -4671,7 +4671,7 @@
       "author": "pepopo978",
       "stars": 4,
       "category": "R",
-      "last_commit": "2026-03-16T15:41:40Z",
+      "last_commit": "2026-04-01T23:46:58Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -4905,7 +4905,7 @@
       "author": "Otari98",
       "stars": 27,
       "category": "R",
-      "last_commit": "2026-03-07T11:11:40Z",
+      "last_commit": "2026-04-01T17:04:58Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -5048,7 +5048,7 @@
       "url": "https://github.com/balakethelock/SP_SwingTimer",
       "description": "WoW 1.12.1 Addon: Auto Attack Swing Timer",
       "author": "balakethelock",
-      "stars": 8,
+      "stars": 7,
       "category": "S",
       "last_commit": "2025-01-13T17:15:15Z",
       "added_at": "0001-01-01T00:00:00Z"
@@ -6236,6 +6236,7 @@
       "url": "https://github.com/pepopo978/Talentsaver",
       "description": "World of Warcraft AddOn for 1.12.1 (Vanilla) - save \u0026 load your common Talent Specs with just one click!",
       "author": "pepopo978",
+      "stars": 1,
       "category": "T",
       "last_commit": "2026-02-13T03:09:18Z",
       "added_at": "2026-02-16T05:40:13.536136214Z"
@@ -6488,7 +6489,7 @@
       "description": "A modern, lightweight TotemTimers addon rebuilt for Turtle WoW",
       "author": "gregdeichler",
       "category": "T",
-      "last_commit": "2026-03-27T20:25:48Z",
+      "last_commit": "2026-04-01T23:15:02Z",
       "added_at": "2026-03-30T04:17:37.475370624Z"
     },
     {
@@ -6641,7 +6642,7 @@
       "author": "sica42",
       "stars": 2,
       "category": "T",
-      "last_commit": "2026-02-18T18:47:42Z",
+      "last_commit": "2026-04-01T09:12:59Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -6768,7 +6769,7 @@
       "author": "bratmage",
       "stars": 2,
       "category": "T",
-      "last_commit": "2026-04-01T01:40:56Z",
+      "last_commit": "2026-04-01T14:54:42Z",
       "added_at": "2026-02-26T04:02:20.533579857Z"
     },
     {
@@ -7039,7 +7040,7 @@
       "url": "https://github.com/DonutsDelivery/VanillaGuide-Plus",
       "description": "questing addon for vanilla wow",
       "author": "DonutsDelivery",
-      "stars": 3,
+      "stars": 2,
       "category": "V",
       "last_commit": "2026-03-14T08:22:51Z",
       "added_at": "2026-01-19T03:54:21.561835163Z"
@@ -7721,7 +7722,7 @@
       "url": "https://github.com/shirsig/cdframes",
       "description": "Cooldown timers for player, target and targettarget. IMPORTANT: Folder name must be \"cdframes\".",
       "author": "shirsig",
-      "stars": 35,
+      "stars": 36,
       "category": "C",
       "last_commit": "2019-06-09T08:40:06Z",
       "added_at": "0001-01-01T00:00:00Z"
@@ -7883,7 +7884,7 @@
       "name": "guda-plates",
       "url": "https://github.com/vatichild/guda-plates",
       "author": "vatichild",
-      "stars": 12,
+      "stars": 13,
       "category": "G",
       "last_commit": "2026-03-02T14:48:25Z",
       "added_at": "2026-01-09T03:47:44.343941466Z"
@@ -8081,7 +8082,7 @@
       "url": "https://github.com/The-Kludge-Bureau/pfQuest",
       "description": "A Questhelper and Database Addon for World of Warcraft: Vanilla \u0026 TBC",
       "author": "The-Kludge-Bureau",
-      "stars": 20,
+      "stars": 22,
       "category": "P",
       "last_commit": "2026-03-28T11:08:04Z",
       "added_at": "2026-03-09T04:02:09.32858839Z"
@@ -8101,7 +8102,7 @@
       "url": "https://github.com/The-Kludge-Bureau/pfQuest-turtle",
       "description": "A TurtleWoW DB extension for pfQuest",
       "author": "The-Kludge-Bureau",
-      "stars": 15,
+      "stars": 16,
       "category": "P",
       "last_commit": "2026-03-28T20:54:43Z",
       "added_at": "2026-03-24T04:03:13.979790979Z"
@@ -8132,7 +8133,7 @@
       "author": "me0wg4ming",
       "stars": 56,
       "category": "P",
-      "last_commit": "2026-04-01T03:19:31Z",
+      "last_commit": "2026-04-02T04:07:53Z",
       "added_at": "2026-03-24T04:03:13.979790979Z"
     },
     {
@@ -8188,7 +8189,7 @@
       "name": "pfUI-addonskinner",
       "url": "https://github.com/jrc13245/pfUI-addonskinner",
       "author": "jrc13245",
-      "stars": 9,
+      "stars": 10,
       "category": "P",
       "last_commit": "2026-03-27T00:55:57Z",
       "added_at": "0001-01-01T00:00:00Z"
@@ -8466,7 +8467,7 @@
       "author": "Player-Doite",
       "stars": 14,
       "category": "T",
-      "last_commit": "2026-03-31T18:31:28Z",
+      "last_commit": "2026-04-01T16:42:34Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
