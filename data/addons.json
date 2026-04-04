@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "revision": 81,
-  "generated_at": "2026-04-03T04:10:07.113153395Z",
+  "revision": 82,
+  "generated_at": "2026-04-04T04:02:27.09592799Z",
   "source_url": "https://turtle-wow.fandom.com/wiki/Addons",
   "addon_count": 892,
   "addons": [
@@ -198,7 +198,7 @@
       "author": "byCFM2",
       "stars": 27,
       "category": "A",
-      "last_commit": "2026-04-02T21:41:32Z",
+      "last_commit": "2026-04-03T23:19:18Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -475,6 +475,7 @@
       "url": "https://github.com/ftkun/Aux-Revamped-opaque",
       "description": "Auction House addOn for Vanilla (1.12) IMPORTANT: The folder name must be \"aux-addon\"",
       "author": "ftkun",
+      "stars": 1,
       "category": "A",
       "last_commit": "2026-03-23T10:32:44Z",
       "added_at": "2026-03-27T04:11:19.042665927Z"
@@ -538,7 +539,7 @@
       "url": "https://github.com/McPewPew/Bagnon",
       "description": "Vanilla WoW - Bagnon combines all your bags into one big bag! (see installation instructions below)",
       "author": "McPewPew",
-      "stars": 19,
+      "stars": 20,
       "category": "B",
       "last_commit": "2026-03-14T22:13:03Z",
       "added_at": "0001-01-01T00:00:00Z"
@@ -1610,7 +1611,7 @@
       "author": "DeterminedPanda",
       "stars": 22,
       "category": "D",
-      "last_commit": "2026-03-28T20:11:14Z",
+      "last_commit": "2026-04-04T03:19:54Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -3072,7 +3073,7 @@
       "author": "Arthur-Helias",
       "stars": 18,
       "category": "I",
-      "last_commit": "2026-04-03T01:58:54Z",
+      "last_commit": "2026-04-03T16:25:28Z",
       "added_at": "2026-03-21T03:56:42.349923628Z"
     },
     {
@@ -4503,7 +4504,7 @@
       "url": "https://github.com/OldManAlpha/Puppeteer",
       "description": "A unit frames addon for WoW Vanilla 1.12",
       "author": "OldManAlpha",
-      "stars": 39,
+      "stars": 40,
       "category": "H",
       "last_commit": "2026-03-28T07:01:25Z",
       "added_at": "0001-01-01T00:00:00Z"
@@ -6189,7 +6190,7 @@
       "url": "https://github.com/MarcelineVQ/TWThreat",
       "description": "Turtle WOW's own Threat Meter !",
       "author": "MarcelineVQ",
-      "stars": 16,
+      "stars": 17,
       "category": "T",
       "last_commit": "2026-03-23T23:37:35Z",
       "added_at": "2026-01-16T03:47:28.635990587Z"
@@ -6718,7 +6719,7 @@
       "url": "https://github.com/sica42/TurtleMail",
       "description": "Turrtle WoW Mail AddOn. Automatically opens mail, mail multiple items, autocomplete recipient names, shows collected gold",
       "author": "sica42",
-      "stars": 18,
+      "stars": 17,
       "category": "T",
       "last_commit": "2025-09-10T17:29:37Z",
       "added_at": "0001-01-01T00:00:00Z"
@@ -7204,7 +7205,7 @@
       "url": "https://github.com/refaim/WIM",
       "description": "Vanilla WoW 1.12.1 addon. Vanilla WoW 1.12.1 and Turtle WoW addon. Gives whispers an instant messenger feel with individual chat windows for each conversation.",
       "author": "refaim",
-      "stars": 12,
+      "stars": 11,
       "category": "W",
       "last_commit": "2026-02-19T10:03:51Z",
       "added_at": "2026-02-02T04:07:34.481426499Z"
@@ -7875,7 +7876,7 @@
       "name": "guda",
       "url": "https://github.com/vatichild/guda",
       "author": "vatichild",
-      "stars": 24,
+      "stars": 23,
       "category": "G",
       "last_commit": "2026-04-02T22:04:22Z",
       "added_at": "0001-01-01T00:00:00Z"
@@ -7884,7 +7885,7 @@
       "name": "guda-plates",
       "url": "https://github.com/vatichild/guda-plates",
       "author": "vatichild",
-      "stars": 15,
+      "stars": 14,
       "category": "G",
       "last_commit": "2026-04-02T20:49:43Z",
       "added_at": "2026-01-09T03:47:44.343941466Z"
@@ -8082,7 +8083,7 @@
       "url": "https://github.com/The-Kludge-Bureau/pfQuest",
       "description": "A Questhelper and Database Addon for World of Warcraft: Vanilla \u0026 TBC",
       "author": "The-Kludge-Bureau",
-      "stars": 22,
+      "stars": 23,
       "category": "P",
       "last_commit": "2026-03-28T11:08:04Z",
       "added_at": "2026-03-09T04:02:09.32858839Z"
@@ -8102,7 +8103,7 @@
       "url": "https://github.com/The-Kludge-Bureau/pfQuest-turtle",
       "description": "A TurtleWoW DB extension for pfQuest",
       "author": "The-Kludge-Bureau",
-      "stars": 16,
+      "stars": 17,
       "category": "P",
       "last_commit": "2026-03-28T20:54:43Z",
       "added_at": "2026-03-24T04:03:13.979790979Z"
@@ -8133,7 +8134,7 @@
       "author": "me0wg4ming",
       "stars": 57,
       "category": "P",
-      "last_commit": "2026-04-03T03:32:58Z",
+      "last_commit": "2026-04-03T22:50:41Z",
       "added_at": "2026-03-24T04:03:13.979790979Z"
     },
     {
@@ -8152,7 +8153,7 @@
       "author": "Arthur-Helias",
       "stars": 7,
       "category": "P",
-      "last_commit": "2026-03-30T03:28:07Z",
+      "last_commit": "2026-04-03T22:29:58Z",
       "added_at": "2026-02-16T05:40:13.536136214Z"
     },
     {
@@ -8467,7 +8468,7 @@
       "author": "Player-Doite",
       "stars": 14,
       "category": "T",
-      "last_commit": "2026-04-02T21:21:24Z",
+      "last_commit": "2026-04-03T17:52:36Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -8552,7 +8553,7 @@
       "url": "https://github.com/Ko0z/zUI",
       "description": "This WoW vanilla addon aims to preserve the blizzard look/design but with a modern touch, some quality of life features and as lightweight as possible.",
       "author": "Ko0z",
-      "stars": 69,
+      "stars": 68,
       "category": "Z",
       "last_commit": "2025-08-24T16:31:31Z",
       "added_at": "0001-01-01T00:00:00Z"
