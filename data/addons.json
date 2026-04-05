@@ -1,9 +1,9 @@
 {
   "version": 1,
-  "revision": 82,
-  "generated_at": "2026-04-04T04:02:27.09592799Z",
+  "revision": 83,
+  "generated_at": "2026-04-05T04:12:22.484960967Z",
   "source_url": "https://turtle-wow.fandom.com/wiki/Addons",
-  "addon_count": 892,
+  "addon_count": 893,
   "addons": [
     {
       "name": "-DragonflightReloaded",
@@ -198,7 +198,7 @@
       "author": "byCFM2",
       "stars": 27,
       "category": "A",
-      "last_commit": "2026-04-03T23:19:18Z",
+      "last_commit": "2026-04-04T18:58:29Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -1154,7 +1154,7 @@
       "url": "https://github.com/cryptokn1ght-dev/ChatMonitor",
       "description": "Addon for Turtle WoW that monitors chat channels such as World and LookingForGroup for specific keywords and alerts you when a match has been found.",
       "author": "cryptokn1ght-dev",
-      "stars": 1,
+      "stars": 2,
       "category": "C",
       "last_commit": "2026-01-23T17:22:03Z",
       "added_at": "2026-01-23T03:49:21.675610567Z"
@@ -1408,7 +1408,7 @@
       "url": "https://github.com/pepordev/ConsoleExperienceClassic",
       "description": "Wow Classic (1.12) Console Experience (Gamepad support) compatible with TurtleWoW",
       "author": "pepordev",
-      "stars": 31,
+      "stars": 32,
       "category": "C",
       "last_commit": "2026-03-10T11:11:40Z",
       "added_at": "0001-01-01T00:00:00Z"
@@ -1611,7 +1611,7 @@
       "author": "DeterminedPanda",
       "stars": 22,
       "category": "D",
-      "last_commit": "2026-04-04T03:19:54Z",
+      "last_commit": "2026-04-05T01:22:27Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -2214,7 +2214,7 @@
       "description": "A Turtle WoW addon that automatically records gathering locations and lets players create custom map notes.",
       "author": "nemanuel",
       "category": "F",
-      "last_commit": "2026-03-31T15:26:48Z",
+      "last_commit": "2026-04-04T14:11:51Z",
       "added_at": "2026-03-03T04:01:07.04674101Z"
     },
     {
@@ -2733,7 +2733,7 @@
       "description": "Simple Effort Points system inspired by ShootyEPGP for Turtle WoW",
       "author": "RollingSmile",
       "category": "G",
-      "last_commit": "2026-03-30T23:46:17Z",
+      "last_commit": "2026-04-04T21:16:38Z",
       "added_at": "2026-01-16T03:47:28.635990587Z"
     },
     {
@@ -3073,7 +3073,7 @@
       "author": "Arthur-Helias",
       "stars": 18,
       "category": "I",
-      "last_commit": "2026-04-03T16:25:28Z",
+      "last_commit": "2026-04-04T13:28:17Z",
       "added_at": "2026-03-21T03:56:42.349923628Z"
     },
     {
@@ -3785,7 +3785,7 @@
       "author": "DuvelCorp",
       "stars": 5,
       "category": "M",
-      "last_commit": "2026-03-31T19:28:23Z",
+      "last_commit": "2026-04-04T21:45:57Z",
       "added_at": "2026-02-28T03:55:12.853188301Z"
     },
     {
@@ -4458,7 +4458,7 @@
       "author": "thezephyrsong",
       "stars": 5,
       "category": "P",
-      "last_commit": "2026-03-21T10:16:40Z",
+      "last_commit": "2026-04-05T04:00:10Z",
       "added_at": "2026-03-24T04:03:13.979790979Z"
     },
     {
@@ -4906,7 +4906,7 @@
       "author": "Otari98",
       "stars": 27,
       "category": "R",
-      "last_commit": "2026-04-01T17:04:58Z",
+      "last_commit": "2026-04-04T06:46:38Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -5794,16 +5794,6 @@
     },
     {
       "name": "SortBags",
-      "url": "https://github.com/Magues17/SortBags",
-      "description": "Bag Sorting addon for Turtle WoW",
-      "author": "Magues17",
-      "stars": 1,
-      "category": "S",
-      "last_commit": "2025-11-05T17:12:00Z",
-      "added_at": "2026-01-10T03:42:41.414014379Z"
-    },
-    {
-      "name": "SortBags",
       "url": "https://github.com/shirsig/SortBags",
       "description": "Bag sorting for Classic (1.13) IMPORTANT: If you want buttons get this too: https://github.com/shirsig/Cleanup IMPORTANT: The folder name must be \"SortBags\" IMPORTANT: The Vanilla (1.12) version moved here https://github.com/shirsig/SortBags-vanilla",
       "author": "shirsig",
@@ -5811,6 +5801,16 @@
       "category": "S",
       "last_commit": "2026-01-19T18:32:41Z",
       "added_at": "0001-01-01T00:00:00Z"
+    },
+    {
+      "name": "SortBags",
+      "url": "https://github.com/Magues17/SortBags",
+      "description": "Bag Sorting addon for Turtle WoW",
+      "author": "Magues17",
+      "stars": 1,
+      "category": "S",
+      "last_commit": "2025-11-05T17:12:00Z",
+      "added_at": "2026-01-10T03:42:41.414014379Z"
     },
     {
       "name": "SortBags-vanilla",
@@ -5862,22 +5862,22 @@
     },
     {
       "name": "SpamThrottle",
-      "url": "https://github.com/laytya/SpamThrottle",
-      "description": "Vanilla WoW addon to remove unwanted chat messages",
-      "author": "laytya",
-      "stars": 18,
-      "category": "S",
-      "last_commit": "2023-07-26T15:53:58Z",
-      "added_at": "0001-01-01T00:00:00Z"
-    },
-    {
-      "name": "SpamThrottle",
       "url": "https://github.com/Orukxu/SpamThrottle",
       "description": "Vanilla WoW addon to remove unwanted chat messages",
       "author": "Orukxu",
       "stars": 19,
       "category": "S",
       "last_commit": "2019-01-25T18:59:05Z",
+      "added_at": "0001-01-01T00:00:00Z"
+    },
+    {
+      "name": "SpamThrottle",
+      "url": "https://github.com/laytya/SpamThrottle",
+      "description": "Vanilla WoW addon to remove unwanted chat messages",
+      "author": "laytya",
+      "stars": 18,
+      "category": "S",
+      "last_commit": "2023-07-26T15:53:58Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -6161,20 +6161,20 @@
     },
     {
       "name": "TWPulse",
-      "url": "https://github.com/FSuhas/TWPulse",
-      "author": "FSuhas",
-      "category": "T",
-      "last_commit": "2025-09-06T08:46:59Z",
-      "added_at": "2026-03-06T03:57:40.344270365Z"
-    },
-    {
-      "name": "TWPulse",
       "url": "https://github.com/CosminPOP/TWPulse",
       "description": "Pulse for cooldowns",
       "author": "CosminPOP",
       "category": "T",
       "last_commit": "2022-04-04T09:29:16Z",
       "added_at": "0001-01-01T00:00:00Z"
+    },
+    {
+      "name": "TWPulse",
+      "url": "https://github.com/FSuhas/TWPulse",
+      "author": "FSuhas",
+      "category": "T",
+      "last_commit": "2025-09-06T08:46:59Z",
+      "added_at": "2026-03-06T03:57:40.344270365Z"
     },
     {
       "name": "TWSunders",
@@ -6322,19 +6322,19 @@
     },
     {
       "name": "Threat",
-      "url": "https://github.com/Xleone1/Threat",
-      "author": "Xleone1",
-      "category": "T",
-      "last_commit": "2025-07-09T00:15:28Z",
-      "added_at": "0001-01-01T00:00:00Z"
-    },
-    {
-      "name": "Threat",
       "url": "https://github.com/muellerj/Threat",
       "author": "muellerj",
       "stars": 2,
       "category": "T",
       "last_commit": "2017-11-05T12:02:17Z",
+      "added_at": "0001-01-01T00:00:00Z"
+    },
+    {
+      "name": "Threat",
+      "url": "https://github.com/Xleone1/Threat",
+      "author": "Xleone1",
+      "category": "T",
+      "last_commit": "2025-07-09T00:15:28Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -6495,22 +6495,22 @@
     },
     {
       "name": "TotemTimers-Enhanced",
-      "url": "https://github.com/MOUZU/TotemTimers-Enhanced",
-      "description": "World of Warcraft AddOn for 1.12.1 (Vanilla) - keep's track of Shaman's Totems, how long they'll last and now also when their next Tick comes.",
-      "author": "MOUZU",
-      "stars": 8,
-      "category": "T",
-      "last_commit": "2024-06-16T21:26:40Z",
-      "added_at": "0001-01-01T00:00:00Z"
-    },
-    {
-      "name": "TotemTimers-Enhanced",
       "url": "https://github.com/mdmcclel/TotemTimers-Enhanced",
       "description": "World of Warcraft AddOn for 1.12.1 (Vanilla) - keep's track of Shaman's Totems, how long they'll last and now also when their next Tick comes.",
       "author": "mdmcclel",
       "stars": 1,
       "category": "T",
       "last_commit": "2024-11-07T02:26:51Z",
+      "added_at": "0001-01-01T00:00:00Z"
+    },
+    {
+      "name": "TotemTimers-Enhanced",
+      "url": "https://github.com/MOUZU/TotemTimers-Enhanced",
+      "description": "World of Warcraft AddOn for 1.12.1 (Vanilla) - keep's track of Shaman's Totems, how long they'll last and now also when their next Tick comes.",
+      "author": "MOUZU",
+      "stars": 8,
+      "category": "T",
+      "last_commit": "2024-06-16T21:26:40Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -6643,7 +6643,7 @@
       "author": "sica42",
       "stars": 3,
       "category": "T",
-      "last_commit": "2026-04-01T09:12:59Z",
+      "last_commit": "2026-04-04T11:12:32Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -6755,16 +6755,6 @@
     },
     {
       "name": "TurtleRP",
-      "url": "https://github.com/OldManAlpha/TurtleRP",
-      "description": "TurtleRP, an addon for vanilla WoW RPers.",
-      "author": "OldManAlpha",
-      "stars": 5,
-      "category": "T",
-      "last_commit": "2025-09-20T23:37:13Z",
-      "added_at": "2026-02-16T05:40:13.536136214Z"
-    },
-    {
-      "name": "TurtleRP",
       "url": "https://github.com/bratmage/TurtleRP",
       "description": "TurtleRP, an addon for vanilla WoW RPers.",
       "author": "bratmage",
@@ -6772,6 +6762,16 @@
       "category": "T",
       "last_commit": "2026-04-01T14:54:42Z",
       "added_at": "2026-02-26T04:02:20.533579857Z"
+    },
+    {
+      "name": "TurtleRP",
+      "url": "https://github.com/OldManAlpha/TurtleRP",
+      "description": "TurtleRP, an addon for vanilla WoW RPers.",
+      "author": "OldManAlpha",
+      "stars": 5,
+      "category": "T",
+      "last_commit": "2025-09-20T23:37:13Z",
+      "added_at": "2026-02-16T05:40:13.536136214Z"
     },
     {
       "name": "TurtleReagentDisplay",
@@ -6993,7 +6993,7 @@
       "author": "alchem1ster",
       "stars": 3,
       "category": "I",
-      "last_commit": "2024-08-03T15:12:27Z",
+      "last_commit": "2026-04-04T12:23:40Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -7087,22 +7087,22 @@
     },
     {
       "name": "VanillaStoryline",
-      "url": "https://github.com/tubtubs/VanillaStoryline",
-      "description": "Storyline Custom Backport",
-      "author": "tubtubs",
-      "stars": 12,
-      "category": "V",
-      "last_commit": "2025-10-28T06:16:08Z",
-      "added_at": "0001-01-01T00:00:00Z"
-    },
-    {
-      "name": "VanillaStoryline",
       "url": "https://github.com/Voidmenull/VanillaStoryline",
       "description": "Storyline Custom Backport",
       "author": "Voidmenull",
       "stars": 14,
       "category": "V",
       "last_commit": "2016-05-06T17:00:31Z",
+      "added_at": "0001-01-01T00:00:00Z"
+    },
+    {
+      "name": "VanillaStoryline",
+      "url": "https://github.com/tubtubs/VanillaStoryline",
+      "description": "Storyline Custom Backport",
+      "author": "tubtubs",
+      "stars": 12,
+      "category": "V",
+      "last_commit": "2025-10-28T06:16:08Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -7126,15 +7126,6 @@
     },
     {
       "name": "Vanilla_oCB",
-      "url": "https://github.com/Road-block/Vanilla_oCB",
-      "author": "Road-block",
-      "stars": 4,
-      "category": "O",
-      "last_commit": "2017-12-29T09:53:51Z",
-      "added_at": "0001-01-01T00:00:00Z"
-    },
-    {
-      "name": "Vanilla_oCB",
       "url": "https://github.com/laytya/Vanilla_oCB",
       "author": "laytya",
       "stars": 4,
@@ -7148,6 +7139,15 @@
       "author": "martinjlowm",
       "category": "O",
       "last_commit": "2017-03-26T15:14:21Z",
+      "added_at": "0001-01-01T00:00:00Z"
+    },
+    {
+      "name": "Vanilla_oCB",
+      "url": "https://github.com/Road-block/Vanilla_oCB",
+      "author": "Road-block",
+      "stars": 4,
+      "category": "O",
+      "last_commit": "2017-12-29T09:53:51Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -7169,6 +7169,14 @@
       "category": "V",
       "last_commit": "2024-05-06T08:01:29Z",
       "added_at": "0001-01-01T00:00:00Z"
+    },
+    {
+      "name": "Vizput",
+      "url": "https://github.com/gregdeichler/Vizput",
+      "author": "gregdeichler",
+      "category": "V",
+      "last_commit": "2026-04-04T13:26:49Z",
+      "added_at": "2026-04-05T04:12:22.484960967Z"
     },
     {
       "name": "VoidBattle",
@@ -8132,7 +8140,7 @@
       "url": "https://github.com/me0wg4ming/pfUI",
       "description": "A User Interface Replacement for World of Warcraft on the Server Turtle-WoW",
       "author": "me0wg4ming",
-      "stars": 57,
+      "stars": 58,
       "category": "P",
       "last_commit": "2026-04-03T22:50:41Z",
       "added_at": "2026-03-24T04:03:13.979790979Z"
@@ -8468,7 +8476,7 @@
       "author": "Player-Doite",
       "stars": 14,
       "category": "T",
-      "last_commit": "2026-04-03T17:52:36Z",
+      "last_commit": "2026-04-04T12:18:26Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
