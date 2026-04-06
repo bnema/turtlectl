@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "revision": 83,
-  "generated_at": "2026-04-05T04:12:22.484960967Z",
+  "revision": 84,
+  "generated_at": "2026-04-06T04:16:56.711567978Z",
   "source_url": "https://turtle-wow.fandom.com/wiki/Addons",
   "addon_count": 893,
   "addons": [
@@ -198,7 +198,7 @@
       "author": "byCFM2",
       "stars": 27,
       "category": "A",
-      "last_commit": "2026-04-04T18:58:29Z",
+      "last_commit": "2026-04-05T17:49:49Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -1272,7 +1272,7 @@
       "url": "https://github.com/shirsig/Cleanup-vanilla",
       "description": "Bag sorting buttons for Vanilla (1.12) IMPORTANT: Requires https://github.com/shirsig/SortBags-vanilla IMPORTANT: Folder name must be \"Cleanup\"",
       "author": "shirsig",
-      "stars": 12,
+      "stars": 13,
       "category": "C",
       "last_commit": "2024-11-04T17:13:37Z",
       "added_at": "0001-01-01T00:00:00Z"
@@ -1680,7 +1680,7 @@
       "author": "Player-Doite",
       "stars": 43,
       "category": "D",
-      "last_commit": "2026-04-01T08:39:37Z",
+      "last_commit": "2026-04-05T21:35:47Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -2115,7 +2115,7 @@
       "url": "https://github.com/McPewPew/Fizzle",
       "description": "Fizzle is an addon that will show you an items durability values above the item in your character frame.",
       "author": "McPewPew",
-      "stars": 1,
+      "stars": 2,
       "category": "F",
       "last_commit": "2026-01-23T01:05:44Z",
       "added_at": "0001-01-01T00:00:00Z"
@@ -2733,7 +2733,7 @@
       "description": "Simple Effort Points system inspired by ShootyEPGP for Turtle WoW",
       "author": "RollingSmile",
       "category": "G",
-      "last_commit": "2026-04-04T21:16:38Z",
+      "last_commit": "2026-04-06T02:14:26Z",
       "added_at": "2026-01-16T03:47:28.635990587Z"
     },
     {
@@ -3025,7 +3025,7 @@
       "author": "Stormhand-dev",
       "stars": 5,
       "category": "I",
-      "last_commit": "2026-03-17T02:52:58Z",
+      "last_commit": "2026-04-06T01:09:20Z",
       "added_at": "2026-02-16T05:40:13.536136214Z"
     },
     {
@@ -3851,7 +3851,7 @@
       "url": "https://github.com/refaim/MissingCrafts",
       "description": "Vanilla WoW 1.12.1 and Turtle WoW addon. Shows the missing crafts for your crafting professions and how to obtain them.",
       "author": "refaim",
-      "stars": 24,
+      "stars": 25,
       "category": "M",
       "last_commit": "2025-12-21T08:41:44Z",
       "added_at": "0001-01-01T00:00:00Z"
@@ -4159,7 +4159,7 @@
       "author": "trumpetx",
       "stars": 2,
       "category": "N",
-      "last_commit": "2026-03-05T10:40:12Z",
+      "last_commit": "2026-04-05T13:22:24Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -4456,9 +4456,9 @@
       "url": "https://github.com/thezephyrsong/ProcDoc",
       "description": "Proc tracker for Turtle WoW",
       "author": "thezephyrsong",
-      "stars": 5,
+      "stars": 6,
       "category": "P",
-      "last_commit": "2026-04-05T04:00:10Z",
+      "last_commit": "2026-04-05T23:54:28Z",
       "added_at": "2026-03-24T04:03:13.979790979Z"
     },
     {
@@ -5463,7 +5463,7 @@
       "url": "https://github.com/shagu/ShaguTweaks",
       "description": "A collection of tweaks and enhancements to the default wow 1.12.1 interface",
       "author": "shagu",
-      "stars": 103,
+      "stars": 104,
       "category": "S",
       "last_commit": "2025-08-15T14:37:22Z",
       "added_at": "0001-01-01T00:00:00Z"
@@ -5817,7 +5817,7 @@
       "url": "https://github.com/shirsig/SortBags-vanilla",
       "description": "Bag sorting for Vanilla (1.12) IMPORTANT: If you want buttons get this too: https://github.com/shirsig/Cleanup-vanilla IMPORTANT: The folder name must be \"SortBags\"",
       "author": "shirsig",
-      "stars": 26,
+      "stars": 27,
       "category": "S",
       "last_commit": "2024-11-04T17:14:21Z",
       "added_at": "0001-01-01T00:00:00Z"
@@ -7886,7 +7886,7 @@
       "author": "vatichild",
       "stars": 23,
       "category": "G",
-      "last_commit": "2026-04-02T22:04:22Z",
+      "last_commit": "2026-04-05T23:23:19Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -7895,7 +7895,7 @@
       "author": "vatichild",
       "stars": 14,
       "category": "G",
-      "last_commit": "2026-04-02T20:49:43Z",
+      "last_commit": "2026-04-05T19:29:45Z",
       "added_at": "2026-01-09T03:47:44.343941466Z"
     },
     {
@@ -8024,7 +8024,7 @@
       "author": "pylebecq",
       "stars": 1,
       "category": "N",
-      "last_commit": "2026-01-17T11:30:23Z",
+      "last_commit": "2026-04-05T08:12:29Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -8081,7 +8081,7 @@
       "url": "https://github.com/Cliencer/pfExtend",
       "description": "Extension for pfQuest | Monster loot display \u0026 Quest chain browser for Vanilla WoW 1.12 / Turtle WoW. Drop rates, item farming, quest tracking, prerequisite finder. pfQuest扩展插件 | 怪物掉落显示与任务链浏览器，支持魔兽1.12/Turtle WoW乌龟服。掉落查询、物品farm、任务追踪、前置查找。",
       "author": "Cliencer",
-      "stars": 14,
+      "stars": 15,
       "category": "P",
       "last_commit": "2026-03-27T08:03:06Z",
       "added_at": "2026-02-16T05:40:13.536136214Z"
@@ -8091,7 +8091,7 @@
       "url": "https://github.com/The-Kludge-Bureau/pfQuest",
       "description": "A Questhelper and Database Addon for World of Warcraft: Vanilla \u0026 TBC",
       "author": "The-Kludge-Bureau",
-      "stars": 23,
+      "stars": 24,
       "category": "P",
       "last_commit": "2026-03-28T11:08:04Z",
       "added_at": "2026-03-09T04:02:09.32858839Z"
@@ -8476,7 +8476,7 @@
       "author": "Player-Doite",
       "stars": 14,
       "category": "T",
-      "last_commit": "2026-04-04T12:18:26Z",
+      "last_commit": "2026-04-05T21:13:48Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
