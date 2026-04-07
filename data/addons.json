@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "revision": 84,
-  "generated_at": "2026-04-06T04:16:56.711567978Z",
+  "revision": 85,
+  "generated_at": "2026-04-07T04:11:19.193240229Z",
   "source_url": "https://turtle-wow.fandom.com/wiki/Addons",
   "addon_count": 893,
   "addons": [
@@ -198,7 +198,7 @@
       "author": "byCFM2",
       "stars": 27,
       "category": "A",
-      "last_commit": "2026-04-05T17:49:49Z",
+      "last_commit": "2026-04-06T11:46:31Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -1611,7 +1611,7 @@
       "author": "DeterminedPanda",
       "stars": 22,
       "category": "D",
-      "last_commit": "2026-04-05T01:22:27Z",
+      "last_commit": "2026-04-06T21:08:54Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -1680,7 +1680,7 @@
       "author": "Player-Doite",
       "stars": 43,
       "category": "D",
-      "last_commit": "2026-04-05T21:35:47Z",
+      "last_commit": "2026-04-06T16:41:54Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -2144,7 +2144,7 @@
       "url": "https://github.com/tilare/FlightTracker",
       "description": "Flight timer addon for 1.12.1",
       "author": "tilare",
-      "stars": 10,
+      "stars": 11,
       "category": "F",
       "last_commit": "2026-03-25T06:26:15Z",
       "added_at": "2026-02-08T04:12:28.12244099Z"
@@ -2733,7 +2733,7 @@
       "description": "Simple Effort Points system inspired by ShootyEPGP for Turtle WoW",
       "author": "RollingSmile",
       "category": "G",
-      "last_commit": "2026-04-06T02:14:26Z",
+      "last_commit": "2026-04-06T22:50:33Z",
       "added_at": "2026-01-16T03:47:28.635990587Z"
     },
     {
@@ -3033,7 +3033,7 @@
       "url": "https://github.com/moiian/ImmersiveDialogUI",
       "description": "A enhanced conversation addon for World of Warcraft 1.12 (Vanilla/Turtle WoW) with a focus on immersion and customization.",
       "author": "moiian",
-      "stars": 8,
+      "stars": 9,
       "category": "I",
       "last_commit": "2025-08-25T18:10:32Z",
       "added_at": "0001-01-01T00:00:00Z"
@@ -3073,7 +3073,7 @@
       "author": "Arthur-Helias",
       "stars": 18,
       "category": "I",
-      "last_commit": "2026-04-04T13:28:17Z",
+      "last_commit": "2026-04-06T12:48:18Z",
       "added_at": "2026-03-21T03:56:42.349923628Z"
     },
     {
@@ -3403,7 +3403,7 @@
       "author": "MarcelineVQ",
       "stars": 10,
       "category": "L",
-      "last_commit": "2026-04-01T16:19:59Z",
+      "last_commit": "2026-04-06T18:07:57Z",
       "added_at": "2026-03-20T04:00:01.940806385Z"
     },
     {
@@ -4476,7 +4476,7 @@
       "description": "Aprofession tracking addon for Turtle WoW.",
       "author": "gregdeichler",
       "category": "P",
-      "last_commit": "2026-03-27T20:16:26Z",
+      "last_commit": "2026-04-06T16:51:06Z",
       "added_at": "2026-02-27T03:59:38.099914245Z"
     },
     {
@@ -5502,7 +5502,7 @@
       "name": "ShaguTweaks-more-mods",
       "url": "https://github.com/CrimsonHollow/ShaguTweaks-more-mods",
       "author": "CrimsonHollow",
-      "stars": 10,
+      "stars": 9,
       "category": "S",
       "last_commit": "2023-10-19T20:55:05Z",
       "added_at": "0001-01-01T00:00:00Z"
@@ -5724,7 +5724,7 @@
       "author": "dsidirop",
       "stars": 3,
       "category": "S",
-      "last_commit": "2026-03-21T20:32:08Z",
+      "last_commit": "2026-04-06T18:57:44Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -7886,7 +7886,7 @@
       "author": "vatichild",
       "stars": 23,
       "category": "G",
-      "last_commit": "2026-04-05T23:23:19Z",
+      "last_commit": "2026-04-06T15:20:54Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -8140,7 +8140,7 @@
       "url": "https://github.com/me0wg4ming/pfUI",
       "description": "A User Interface Replacement for World of Warcraft on the Server Turtle-WoW",
       "author": "me0wg4ming",
-      "stars": 58,
+      "stars": 59,
       "category": "P",
       "last_commit": "2026-04-03T22:50:41Z",
       "added_at": "2026-03-24T04:03:13.979790979Z"
