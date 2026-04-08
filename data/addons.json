@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "revision": 85,
-  "generated_at": "2026-04-07T04:11:19.193240229Z",
+  "revision": 86,
+  "generated_at": "2026-04-08T04:12:06.244168983Z",
   "source_url": "https://turtle-wow.fandom.com/wiki/Addons",
   "addon_count": 893,
   "addons": [
@@ -1408,7 +1408,7 @@
       "url": "https://github.com/pepordev/ConsoleExperienceClassic",
       "description": "Wow Classic (1.12) Console Experience (Gamepad support) compatible with TurtleWoW",
       "author": "pepordev",
-      "stars": 32,
+      "stars": 33,
       "category": "C",
       "last_commit": "2026-03-10T11:11:40Z",
       "added_at": "0001-01-01T00:00:00Z"
@@ -1698,6 +1698,7 @@
       "url": "https://github.com/alchem1ster/DragonflightReloaded",
       "description": "A wow ui for 1.12.1.",
       "author": "alchem1ster",
+      "stars": 1,
       "category": "D",
       "last_commit": "2025-06-21T22:08:19Z",
       "added_at": "0001-01-01T00:00:00Z"
@@ -4467,7 +4468,7 @@
       "description": "A crafting recipe tracker and sync tool for guilds.",
       "author": "NiclasEriksen",
       "category": "P",
-      "last_commit": "2026-03-20T00:53:28Z",
+      "last_commit": "2026-04-07T18:06:09Z",
       "added_at": "2026-03-04T03:57:25.247190276Z"
     },
     {
@@ -6190,7 +6191,7 @@
       "url": "https://github.com/MarcelineVQ/TWThreat",
       "description": "Turtle WOW's own Threat Meter !",
       "author": "MarcelineVQ",
-      "stars": 17,
+      "stars": 18,
       "category": "T",
       "last_commit": "2026-03-23T23:37:35Z",
       "added_at": "2026-01-16T03:47:28.635990587Z"
@@ -7213,7 +7214,7 @@
       "url": "https://github.com/refaim/WIM",
       "description": "Vanilla WoW 1.12.1 addon. Vanilla WoW 1.12.1 and Turtle WoW addon. Gives whispers an instant messenger feel with individual chat windows for each conversation.",
       "author": "refaim",
-      "stars": 11,
+      "stars": 12,
       "category": "W",
       "last_commit": "2026-02-19T10:03:51Z",
       "added_at": "2026-02-02T04:07:34.481426499Z"
