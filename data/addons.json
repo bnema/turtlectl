@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "revision": 87,
-  "generated_at": "2026-04-09T04:10:55.613769417Z",
+  "revision": 88,
+  "generated_at": "2026-04-10T04:18:00.024987705Z",
   "source_url": "https://turtle-wow.fandom.com/wiki/Addons",
   "addon_count": 893,
   "addons": [
@@ -665,7 +665,7 @@
       "url": "https://github.com/tlplayer/BetterQuest",
       "description": "Making WoW Classic Quests Better",
       "author": "tlplayer",
-      "stars": 5,
+      "stars": 6,
       "category": "B",
       "last_commit": "2026-03-30T03:30:14Z",
       "added_at": "2026-02-03T04:01:16.609393504Z"
@@ -1408,7 +1408,7 @@
       "url": "https://github.com/pepordev/ConsoleExperienceClassic",
       "description": "Wow Classic (1.12) Console Experience (Gamepad support) compatible with TurtleWoW",
       "author": "pepordev",
-      "stars": 33,
+      "stars": 34,
       "category": "C",
       "last_commit": "2026-03-10T11:11:40Z",
       "added_at": "0001-01-01T00:00:00Z"
@@ -1680,7 +1680,7 @@
       "author": "Player-Doite",
       "stars": 43,
       "category": "D",
-      "last_commit": "2026-04-08T19:22:23Z",
+      "last_commit": "2026-04-09T21:25:24Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -2734,7 +2734,7 @@
       "description": "Simple Effort Points system inspired by ShootyEPGP for Turtle WoW",
       "author": "RollingSmile",
       "category": "G",
-      "last_commit": "2026-04-06T22:50:33Z",
+      "last_commit": "2026-04-09T18:08:18Z",
       "added_at": "2026-01-16T03:47:28.635990587Z"
     },
     {
@@ -3034,7 +3034,7 @@
       "url": "https://github.com/moiian/ImmersiveDialogUI",
       "description": "A enhanced conversation addon for World of Warcraft 1.12 (Vanilla/Turtle WoW) with a focus on immersion and customization.",
       "author": "moiian",
-      "stars": 9,
+      "stars": 10,
       "category": "I",
       "last_commit": "2025-08-25T18:10:32Z",
       "added_at": "0001-01-01T00:00:00Z"
@@ -3074,7 +3074,7 @@
       "author": "Arthur-Helias",
       "stars": 20,
       "category": "I",
-      "last_commit": "2026-04-09T03:09:21Z",
+      "last_commit": "2026-04-10T02:21:17Z",
       "added_at": "2026-03-21T03:56:42.349923628Z"
     },
     {
@@ -4469,7 +4469,7 @@
       "description": "A crafting recipe tracker and sync tool for guilds.",
       "author": "NiclasEriksen",
       "category": "P",
-      "last_commit": "2026-04-08T10:34:28Z",
+      "last_commit": "2026-04-09T20:42:43Z",
       "added_at": "2026-03-04T03:57:25.247190276Z"
     },
     {
@@ -5465,7 +5465,7 @@
       "url": "https://github.com/shagu/ShaguTweaks",
       "description": "A collection of tweaks and enhancements to the default wow 1.12.1 interface",
       "author": "shagu",
-      "stars": 104,
+      "stars": 105,
       "category": "S",
       "last_commit": "2025-08-15T14:37:22Z",
       "added_at": "0001-01-01T00:00:00Z"
@@ -6082,7 +6082,7 @@
       "author": "whtmst",
       "stars": 2,
       "category": "T",
-      "last_commit": "2026-03-11T09:56:35Z",
+      "last_commit": "2026-04-09T23:09:22Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -6721,7 +6721,7 @@
       "url": "https://github.com/sica42/TurtleMail",
       "description": "Turrtle WoW Mail AddOn. Automatically opens mail, mail multiple items, autocomplete recipient names, shows collected gold",
       "author": "sica42",
-      "stars": 17,
+      "stars": 18,
       "category": "T",
       "last_commit": "2025-09-10T17:29:37Z",
       "added_at": "0001-01-01T00:00:00Z"
@@ -7215,7 +7215,7 @@
       "url": "https://github.com/refaim/WIM",
       "description": "Vanilla WoW 1.12.1 addon. Vanilla WoW 1.12.1 and Turtle WoW addon. Gives whispers an instant messenger feel with individual chat windows for each conversation.",
       "author": "refaim",
-      "stars": 12,
+      "stars": 13,
       "category": "W",
       "last_commit": "2026-02-19T10:03:51Z",
       "added_at": "2026-02-02T04:07:34.481426499Z"
@@ -7888,7 +7888,7 @@
       "author": "vatichild",
       "stars": 22,
       "category": "G",
-      "last_commit": "2026-04-09T00:07:42Z",
+      "last_commit": "2026-04-09T12:41:19Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -8093,7 +8093,7 @@
       "url": "https://github.com/The-Kludge-Bureau/pfQuest",
       "description": "A Questhelper and Database Addon for World of Warcraft: Vanilla \u0026 TBC",
       "author": "The-Kludge-Bureau",
-      "stars": 24,
+      "stars": 25,
       "category": "P",
       "last_commit": "2026-03-28T11:08:04Z",
       "added_at": "2026-03-09T04:02:09.32858839Z"
@@ -8144,7 +8144,7 @@
       "author": "me0wg4ming",
       "stars": 60,
       "category": "P",
-      "last_commit": "2026-04-03T22:50:41Z",
+      "last_commit": "2026-04-09T18:34:13Z",
       "added_at": "2026-03-24T04:03:13.979790979Z"
     },
     {
@@ -8478,7 +8478,7 @@
       "author": "Player-Doite",
       "stars": 14,
       "category": "T",
-      "last_commit": "2026-04-05T21:13:48Z",
+      "last_commit": "2026-04-09T15:35:31Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -8563,7 +8563,7 @@
       "url": "https://github.com/Ko0z/zUI",
       "description": "This WoW vanilla addon aims to preserve the blizzard look/design but with a modern touch, some quality of life features and as lightweight as possible.",
       "author": "Ko0z",
-      "stars": 68,
+      "stars": 69,
       "category": "Z",
       "last_commit": "2025-08-24T16:31:31Z",
       "added_at": "0001-01-01T00:00:00Z"
