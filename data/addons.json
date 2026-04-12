@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "revision": 89,
-  "generated_at": "2026-04-11T04:05:46.316076562Z",
+  "revision": 90,
+  "generated_at": "2026-04-12T04:18:49.806545115Z",
   "source_url": "https://turtle-wow.fandom.com/wiki/Addons",
   "addon_count": 894,
   "addons": [
@@ -198,7 +198,7 @@
       "author": "byCFM2",
       "stars": 27,
       "category": "A",
-      "last_commit": "2026-04-06T11:46:31Z",
+      "last_commit": "2026-04-11T20:53:25Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -667,7 +667,7 @@
       "author": "tlplayer",
       "stars": 6,
       "category": "B",
-      "last_commit": "2026-03-30T03:30:14Z",
+      "last_commit": "2026-04-11T13:34:53Z",
       "added_at": "2026-02-03T04:01:16.609393504Z"
     },
     {
@@ -1333,7 +1333,7 @@
       "author": "mr-rosh",
       "stars": 1,
       "category": "C",
-      "last_commit": "2025-09-14T20:09:39Z",
+      "last_commit": "2026-04-11T14:03:32Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -1680,7 +1680,7 @@
       "author": "Player-Doite",
       "stars": 43,
       "category": "D",
-      "last_commit": "2026-04-10T12:55:57Z",
+      "last_commit": "2026-04-11T14:13:59Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -2565,10 +2565,8 @@
     {
       "name": "GodMode",
       "url": "https://github.com/qiaeru/GodMode",
-      "description": "A comprehensive GUI toolbox for Game Masters on World of Warcraft Vanilla 1.12.1 private servers.",
-      "author": "qiaeru",
       "category": "G",
-      "last_commit": "2026-01-23T14:54:23Z",
+      "last_commit": "0001-01-01T00:00:00Z",
       "added_at": "2026-02-03T04:01:16.609393504Z"
     },
     {
@@ -2741,7 +2739,7 @@
       "name": "GuildSearch",
       "url": "https://github.com/yutsuku/GuildSearch",
       "author": "yutsuku",
-      "stars": 2,
+      "stars": 3,
       "category": "G",
       "last_commit": "2018-02-27T14:58:09Z",
       "added_at": "0001-01-01T00:00:00Z"
@@ -3073,7 +3071,7 @@
       "author": "Arthur-Helias",
       "stars": 20,
       "category": "I",
-      "last_commit": "2026-04-10T15:11:03Z",
+      "last_commit": "2026-04-11T17:27:31Z",
       "added_at": "2026-03-21T03:56:42.349923628Z"
     },
     {
@@ -3677,7 +3675,7 @@
       "url": "https://github.com/EinBaum/MapTarget",
       "description": "WoW 1.12.1 Addon: Minimap tracking improvements for hunters",
       "author": "EinBaum",
-      "stars": 5,
+      "stars": 6,
       "category": "M",
       "last_commit": "2017-09-23T01:29:08Z",
       "added_at": "0001-01-01T00:00:00Z"
@@ -4156,7 +4154,7 @@
       "author": "trumpetx",
       "stars": 2,
       "category": "N",
-      "last_commit": "2026-04-05T13:22:24Z",
+      "last_commit": "2026-04-11T22:10:52Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -4502,7 +4500,7 @@
       "url": "https://github.com/OldManAlpha/Puppeteer",
       "description": "A unit frames addon for WoW Vanilla 1.12",
       "author": "OldManAlpha",
-      "stars": 41,
+      "stars": 42,
       "category": "H",
       "last_commit": "2026-03-28T07:01:25Z",
       "added_at": "0001-01-01T00:00:00Z"
@@ -4759,7 +4757,7 @@
       "author": "Weirdpuppy94",
       "stars": 2,
       "category": "R",
-      "last_commit": "2026-04-10T14:58:41Z",
+      "last_commit": "2026-04-11T18:58:55Z",
       "added_at": "2026-04-11T04:05:46.316076562Z"
     },
     {
@@ -7798,7 +7796,7 @@
       "url": "https://github.com/shirsig/crafty",
       "description": "Vanilla WoW craft/tradeskill window filter. IMPORTANT: The folder name must be \"crafty\".",
       "author": "shirsig",
-      "stars": 18,
+      "stars": 19,
       "category": "C",
       "last_commit": "2019-11-02T06:27:44Z",
       "added_at": "0001-01-01T00:00:00Z"
@@ -8150,7 +8148,7 @@
       "author": "me0wg4ming",
       "stars": 63,
       "category": "P",
-      "last_commit": "2026-04-10T15:31:06Z",
+      "last_commit": "2026-04-11T21:22:49Z",
       "added_at": "2026-03-24T04:03:13.979790979Z"
     },
     {
@@ -8159,7 +8157,7 @@
       "description": "External module for pfUI.",
       "author": "mr-rosh",
       "category": "P",
-      "last_commit": "2025-12-02T12:07:02Z",
+      "last_commit": "2026-04-11T14:04:17Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
