@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "revision": 91,
-  "generated_at": "2026-04-13T04:23:58.986899974Z",
+  "revision": 92,
+  "generated_at": "2026-04-14T04:18:20.03724336Z",
   "source_url": "https://turtle-wow.fandom.com/wiki/Addons",
   "addon_count": 894,
   "addons": [
@@ -198,7 +198,7 @@
       "author": "byCFM2",
       "stars": 27,
       "category": "A",
-      "last_commit": "2026-04-12T21:22:44Z",
+      "last_commit": "2026-04-13T20:22:17Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -1408,7 +1408,7 @@
       "url": "https://github.com/pepordev/ConsoleExperienceClassic",
       "description": "Wow Classic (1.12) Console Experience (Gamepad support) compatible with TurtleWoW",
       "author": "pepordev",
-      "stars": 34,
+      "stars": 35,
       "category": "C",
       "last_commit": "2026-03-10T11:11:40Z",
       "added_at": "0001-01-01T00:00:00Z"
@@ -1680,7 +1680,7 @@
       "author": "Player-Doite",
       "stars": 45,
       "category": "D",
-      "last_commit": "2026-04-12T21:04:00Z",
+      "last_commit": "2026-04-13T21:37:47Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -1708,7 +1708,7 @@
       "url": "https://github.com/Stormhand-dev/DragonflightUI-Reforged",
       "description": "Dragonflight UI: Reforged is the ultimate evolution of Dragonflight: Reloaded — a Legendary Turtle WoW UI overhaul forged for clarity, power, and immersion. Born from battle-tested roots, it delivers modern dragonsteel precision, fearless defaults, and customizable mastery for the true Azeroth champion.",
       "author": "Stormhand-dev",
-      "stars": 11,
+      "stars": 12,
       "category": "D",
       "last_commit": "2026-03-25T18:51:03Z",
       "added_at": "2026-02-21T03:57:00.294120122Z"
@@ -2659,7 +2659,7 @@
       "author": "redshadowz",
       "stars": 3,
       "category": "G",
-      "last_commit": "2026-04-12T20:15:22Z",
+      "last_commit": "2026-04-14T04:12:22Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -3021,7 +3021,7 @@
       "url": "https://github.com/Stormhand81/Immersion",
       "description": "Immersion is a lightweight addon that hides cluttered UI elements and shows them only when needed. It detects Dragonflight UI: Reforged automatically, offers smart mouse-over visibility, and delivers a cleaner, more cinematic World of Warcraft experience with zero configuration.",
       "author": "Stormhand-dev",
-      "stars": 5,
+      "stars": 6,
       "category": "I",
       "last_commit": "2026-04-06T01:09:20Z",
       "added_at": "2026-02-16T05:40:13.536136214Z"
@@ -3071,7 +3071,7 @@
       "author": "Arthur-Helias",
       "stars": 20,
       "category": "I",
-      "last_commit": "2026-04-13T01:33:07Z",
+      "last_commit": "2026-04-13T15:07:45Z",
       "added_at": "2026-03-21T03:56:42.349923628Z"
     },
     {
@@ -6511,7 +6511,7 @@
       "url": "https://github.com/MOUZU/TotemTimers-Enhanced",
       "description": "World of Warcraft AddOn for 1.12.1 (Vanilla) - keep's track of Shaman's Totems, how long they'll last and now also when their next Tick comes.",
       "author": "MOUZU",
-      "stars": 8,
+      "stars": 9,
       "category": "T",
       "last_commit": "2024-06-16T21:26:40Z",
       "added_at": "0001-01-01T00:00:00Z"
@@ -6712,7 +6712,7 @@
       "name": "TurtleHonorSpyEnhanced",
       "url": "https://github.com/dnkrse/TurtleHonorSpyEnhanced",
       "author": "dnkrse",
-      "stars": 2,
+      "stars": 3,
       "category": "T",
       "last_commit": "2026-03-27T14:30:13Z",
       "added_at": "2026-03-04T03:57:25.247190276Z"
