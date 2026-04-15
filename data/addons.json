@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "revision": 92,
-  "generated_at": "2026-04-14T04:18:20.03724336Z",
+  "revision": 93,
+  "generated_at": "2026-04-15T04:17:24.623675838Z",
   "source_url": "https://turtle-wow.fandom.com/wiki/Addons",
   "addon_count": 894,
   "addons": [
@@ -198,7 +198,7 @@
       "author": "byCFM2",
       "stars": 27,
       "category": "A",
-      "last_commit": "2026-04-13T20:22:17Z",
+      "last_commit": "2026-04-14T21:24:28Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -2659,7 +2659,7 @@
       "author": "redshadowz",
       "stars": 3,
       "category": "G",
-      "last_commit": "2026-04-14T04:12:22Z",
+      "last_commit": "2026-04-15T03:31:40Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -3468,7 +3468,7 @@
       "url": "https://github.com/Zedorff/LockAssignment",
       "author": "Zedorff",
       "category": "L",
-      "last_commit": "2026-02-09T22:53:20Z",
+      "last_commit": "2026-04-14T18:11:13Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -4907,7 +4907,7 @@
       "url": "https://github.com/Otari98/Rinse",
       "description": "Dispel your mates with ease",
       "author": "Otari98",
-      "stars": 27,
+      "stars": 28,
       "category": "R",
       "last_commit": "2026-04-04T06:46:38Z",
       "added_at": "0001-01-01T00:00:00Z"
@@ -6890,7 +6890,7 @@
       "url": "https://github.com/Daribon/UnicodeFont",
       "description": "Addon for reading Chinese, Russian, Korean etc on any vanilla client.",
       "author": "Daribon",
-      "stars": 14,
+      "stars": 15,
       "category": "U",
       "last_commit": "2023-08-25T10:02:03Z",
       "added_at": "0001-01-01T00:00:00Z"
@@ -8143,7 +8143,7 @@
       "url": "https://github.com/me0wg4ming/pfUI",
       "description": "A User Interface Replacement for World of Warcraft on the Server Turtle-WoW",
       "author": "me0wg4ming",
-      "stars": 63,
+      "stars": 64,
       "category": "P",
       "last_commit": "2026-04-11T21:22:49Z",
       "added_at": "2026-03-24T04:03:13.979790979Z"
