@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "revision": 93,
-  "generated_at": "2026-04-15T04:17:24.623675838Z",
+  "revision": 94,
+  "generated_at": "2026-04-16T04:21:20.614850924Z",
   "source_url": "https://turtle-wow.fandom.com/wiki/Addons",
   "addon_count": 894,
   "addons": [
@@ -1668,7 +1668,7 @@
       "url": "https://github.com/kc8pnd/DoTimer",
       "description": "Dot Timers for Vanilla WoW",
       "author": "kc8pnd",
-      "stars": 13,
+      "stars": 12,
       "category": "D",
       "last_commit": "2025-04-17T16:54:52Z",
       "added_at": "0001-01-01T00:00:00Z"
@@ -1680,7 +1680,7 @@
       "author": "Player-Doite",
       "stars": 45,
       "category": "D",
-      "last_commit": "2026-04-13T21:37:47Z",
+      "last_commit": "2026-04-15T21:49:38Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -6201,28 +6201,22 @@
     {
       "name": "TWoWBulkMail",
       "url": "https://github.com/Khundiann/TWoWBulkMail",
-      "author": "Khundiann",
-      "stars": 1,
       "category": "T",
-      "last_commit": "2026-03-21T15:15:22Z",
+      "last_commit": "0001-01-01T00:00:00Z",
       "added_at": "2026-03-08T03:58:12.775632617Z"
     },
     {
       "name": "TWoWLFGBulletinBoard",
       "url": "https://github.com/Khundiann/TWoWLFGBulletinBoard",
-      "author": "Khundiann",
-      "stars": 1,
       "category": "T",
-      "last_commit": "2026-03-27T17:03:21Z",
+      "last_commit": "0001-01-01T00:00:00Z",
       "added_at": "2026-03-20T04:00:01.940806385Z"
     },
     {
       "name": "TWoWPerHour",
       "url": "https://github.com/Khundiann/TWoWPerHour",
-      "description": "World of Warcraft v11200 / Turtle WoW addon for per hour Experience, Honor, Reputation and Gold tracking.",
-      "author": "Khundiann",
       "category": "T",
-      "last_commit": "2026-02-25T07:30:51Z",
+      "last_commit": "0001-01-01T00:00:00Z",
       "added_at": "2026-02-26T04:02:20.533579857Z"
     },
     {
@@ -6646,7 +6640,7 @@
       "author": "sica42",
       "stars": 3,
       "category": "T",
-      "last_commit": "2026-04-04T11:12:32Z",
+      "last_commit": "2026-04-15T12:40:51Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -6763,7 +6757,7 @@
       "author": "bratmage",
       "stars": 3,
       "category": "T",
-      "last_commit": "2026-04-01T14:54:42Z",
+      "last_commit": "2026-04-16T00:48:00Z",
       "added_at": "2026-02-26T04:02:20.533579857Z"
     },
     {
@@ -7889,7 +7883,7 @@
       "author": "vatichild",
       "stars": 22,
       "category": "G",
-      "last_commit": "2026-04-10T18:15:31Z",
+      "last_commit": "2026-04-15T22:33:42Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -8164,7 +8158,7 @@
       "author": "Arthur-Helias",
       "stars": 7,
       "category": "P",
-      "last_commit": "2026-04-12T18:29:09Z",
+      "last_commit": "2026-04-15T23:40:16Z",
       "added_at": "2026-02-16T05:40:13.536136214Z"
     },
     {
@@ -8351,7 +8345,7 @@
       "url": "https://github.com/obszczymucha/roll-for-vanilla",
       "description": "An addon that automates rolling for items for vanilla WoW.",
       "author": "obszczymucha",
-      "stars": 17,
+      "stars": 18,
       "category": "R",
       "last_commit": "2025-02-27T07:01:45Z",
       "added_at": "0001-01-01T00:00:00Z"
