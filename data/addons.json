@@ -1,9 +1,9 @@
 {
   "version": 1,
-  "revision": 94,
-  "generated_at": "2026-04-16T04:21:20.614850924Z",
+  "revision": 95,
+  "generated_at": "2026-04-17T04:19:54.379674189Z",
   "source_url": "https://turtle-wow.fandom.com/wiki/Addons",
-  "addon_count": 894,
+  "addon_count": 895,
   "addons": [
     {
       "name": "-DragonflightReloaded",
@@ -25,16 +25,6 @@
     },
     {
       "name": "Accountant",
-      "url": "https://github.com/The-Kludge-Bureau/Accountant",
-      "description": "Tracks your incoming and outgoing gold across multiple time periods and categories",
-      "author": "The-Kludge-Bureau",
-      "stars": 6,
-      "category": "A",
-      "last_commit": "2026-03-19T03:38:13Z",
-      "added_at": "2026-03-06T03:57:40.344270365Z"
-    },
-    {
-      "name": "Accountant",
       "url": "https://github.com/terdong/Accountant",
       "description": "Accountant tracks you incoming / outgoing cash.",
       "author": "terdong",
@@ -42,6 +32,16 @@
       "category": "A",
       "last_commit": "2025-12-26T07:02:25Z",
       "added_at": "2026-01-10T03:42:41.414014379Z"
+    },
+    {
+      "name": "Accountant",
+      "url": "https://github.com/The-Kludge-Bureau/Accountant",
+      "description": "Tracks your incoming and outgoing gold across multiple time periods and categories",
+      "author": "The-Kludge-Bureau",
+      "stars": 6,
+      "category": "A",
+      "last_commit": "2026-03-19T03:38:13Z",
+      "added_at": "2026-03-06T03:57:40.344270365Z"
     },
     {
       "name": "ActionBarProfiles",
@@ -94,22 +94,22 @@
     },
     {
       "name": "Altoholic_Vanilla",
-      "url": "https://github.com/nehswu/Altoholic_Vanilla",
-      "description": "Altoholic for Vanilla WoW 1.12 - backported from version 2.4.015 originally written by Thaoky",
-      "author": "nehswu",
-      "stars": 5,
-      "category": "A",
-      "last_commit": "2023-06-13T03:25:22Z",
-      "added_at": "0001-01-01T00:00:00Z"
-    },
-    {
-      "name": "Altoholic_Vanilla",
       "url": "https://github.com/gbl/Altoholic_Vanilla",
       "description": "Altoholic for Vanilla WoW 1.12 - backported from version 2.4.015 originally written by Thaoky, forked from nehswu, with some bug fixes",
       "author": "gbl",
       "stars": 3,
       "category": "A",
       "last_commit": "2025-11-06T09:02:53Z",
+      "added_at": "0001-01-01T00:00:00Z"
+    },
+    {
+      "name": "Altoholic_Vanilla",
+      "url": "https://github.com/nehswu/Altoholic_Vanilla",
+      "description": "Altoholic for Vanilla WoW 1.12 - backported from version 2.4.015 originally written by Thaoky",
+      "author": "nehswu",
+      "stars": 5,
+      "category": "A",
+      "last_commit": "2023-06-13T03:25:22Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -637,7 +637,7 @@
       "url": "https://github.com/Otari98/BetterCharacterStats",
       "description": "More useful character statistics AddOn for World of Warcraft 1.12",
       "author": "Otari98",
-      "stars": 8,
+      "stars": 9,
       "category": "B",
       "last_commit": "2026-03-26T09:04:42Z",
       "added_at": "2026-03-27T04:11:19.042665927Z"
@@ -1178,6 +1178,16 @@
       "added_at": "2026-01-16T03:47:28.635990587Z"
     },
     {
+      "name": "ChronicleCompanion",
+      "url": "https://github.com/Emyrk/ChronicleCompanion",
+      "description": "Offical addon for ChronicleClassic",
+      "author": "Emyrk",
+      "stars": 4,
+      "category": "C",
+      "last_commit": "2026-04-17T01:12:21Z",
+      "added_at": "2026-04-17T04:19:54.379674189Z"
+    },
+    {
       "name": "ChroniclesBuffAssignments",
       "url": "https://github.com/EinBaum/ChroniclesBuffAssignments",
       "description": "WoW 1.12.1 Addon: Generate raid buff assignments",
@@ -1377,21 +1387,21 @@
     },
     {
       "name": "Comix",
+      "url": "https://github.com/Cysthen/Comix",
+      "description": "2012 Comix from Feenix. Mostly Edited by Susangrundle and myself from the Guild Chainpull",
+      "author": "Cysthen",
+      "category": "C",
+      "last_commit": "2025-02-07T23:36:24Z",
+      "added_at": "0001-01-01T00:00:00Z"
+    },
+    {
+      "name": "Comix",
       "url": "https://github.com/Goose404/Comix",
       "description": "comix addon for wow client 1.12 and turtlewow twow",
       "author": "Goose404",
       "stars": 1,
       "category": "C",
       "last_commit": "2025-04-26T20:25:08Z",
-      "added_at": "0001-01-01T00:00:00Z"
-    },
-    {
-      "name": "Comix",
-      "url": "https://github.com/Cysthen/Comix",
-      "description": "2012 Comix from Feenix. Mostly Edited by Susangrundle and myself from the Guild Chainpull",
-      "author": "Cysthen",
-      "category": "C",
-      "last_commit": "2025-02-07T23:36:24Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -1680,7 +1690,7 @@
       "author": "Player-Doite",
       "stars": 45,
       "category": "D",
-      "last_commit": "2026-04-15T21:49:38Z",
+      "last_commit": "2026-04-16T21:04:45Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -1710,7 +1720,7 @@
       "author": "Stormhand-dev",
       "stars": 12,
       "category": "D",
-      "last_commit": "2026-03-25T18:51:03Z",
+      "last_commit": "2026-04-17T04:18:18Z",
       "added_at": "2026-02-21T03:57:00.294120122Z"
     },
     {
@@ -2417,7 +2427,7 @@
       "author": "cubenicke",
       "stars": 17,
       "category": "F",
-      "last_commit": "2022-10-08T13:41:00Z",
+      "last_commit": "2026-04-16T20:09:50Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -2601,11 +2611,9 @@
     },
     {
       "name": "GrimoireKeeper",
-      "url": "https://github.com/Scoboose/GrimoireKeeper",
-      "author": "Scoboose",
-      "stars": 1,
+      "url": "https://gitlab.com/Artur91425/GrimoireKeeper",
       "category": "G",
-      "last_commit": "2025-04-02T15:02:52Z",
+      "last_commit": "0001-01-01T00:00:00Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -2620,9 +2628,11 @@
     },
     {
       "name": "GrimoireKeeper",
-      "url": "https://gitlab.com/Artur91425/GrimoireKeeper",
+      "url": "https://github.com/Scoboose/GrimoireKeeper",
+      "author": "Scoboose",
+      "stars": 1,
       "category": "G",
-      "last_commit": "0001-01-01T00:00:00Z",
+      "last_commit": "2025-04-02T15:02:52Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -3859,7 +3869,7 @@
       "url": "https://github.com/refaim/MissingTradeSkillsList",
       "description": "Vanilla WoW 1.12.1 and Turtle WoW addon. Show the recipes/skills for a tradeskill and where to get them.",
       "author": "refaim",
-      "stars": 15,
+      "stars": 16,
       "category": "M",
       "last_commit": "2025-06-17T15:32:55Z",
       "added_at": "0001-01-01T00:00:00Z"
@@ -4237,21 +4247,21 @@
     },
     {
       "name": "Outfitter",
+      "url": "https://github.com/pepopo978/Outfitter",
+      "author": "pepopo978",
+      "stars": 11,
+      "category": "O",
+      "last_commit": "2025-12-30T19:59:40Z",
+      "added_at": "0001-01-01T00:00:00Z"
+    },
+    {
+      "name": "Outfitter",
       "url": "https://github.com/MarcelineVQ/Outfitter",
       "description": "fix for Turtle WoW - Riding Turtle Mount",
       "author": "MarcelineVQ",
       "stars": 2,
       "category": "O",
       "last_commit": "2026-02-24T03:47:19Z",
-      "added_at": "0001-01-01T00:00:00Z"
-    },
-    {
-      "name": "Outfitter",
-      "url": "https://github.com/pepopo978/Outfitter",
-      "author": "pepopo978",
-      "stars": 11,
-      "category": "O",
-      "last_commit": "2025-12-30T19:59:40Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -4625,7 +4635,7 @@
       "url": "https://github.com/Sulpitz/QuickHeal",
       "description": "QuickHeal for Vanilla WoW 1.12. with integration for HealComm (Luna unit Frames).",
       "author": "Sulpitz",
-      "stars": 17,
+      "stars": 18,
       "category": "Q",
       "last_commit": "2024-03-17T18:56:36Z",
       "added_at": "0001-01-01T00:00:00Z"
@@ -5059,22 +5069,22 @@
     },
     {
       "name": "SUCC-bag",
-      "url": "https://github.com/Otari98/SUCC-bag",
-      "description": "Sublime User Convenience Collection - player inventory and bank",
-      "author": "Otari98",
-      "stars": 4,
-      "category": "S",
-      "last_commit": "2026-03-12T10:49:35Z",
-      "added_at": "0001-01-01T00:00:00Z"
-    },
-    {
-      "name": "SUCC-bag",
       "url": "https://github.com/FrostShock/SUCC-bag",
       "description": "Sublime User Convenience Collection - player inventory and bank",
       "author": "FrostShock",
       "stars": 1,
       "category": "S",
       "last_commit": "2021-10-27T17:25:05Z",
+      "added_at": "0001-01-01T00:00:00Z"
+    },
+    {
+      "name": "SUCC-bag",
+      "url": "https://github.com/Otari98/SUCC-bag",
+      "description": "Sublime User Convenience Collection - player inventory and bank",
+      "author": "Otari98",
+      "stars": 4,
+      "category": "S",
+      "last_commit": "2026-03-12T10:49:35Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -5797,16 +5807,6 @@
     },
     {
       "name": "SortBags",
-      "url": "https://github.com/Magues17/SortBags",
-      "description": "Bag Sorting addon for Turtle WoW",
-      "author": "Magues17",
-      "stars": 1,
-      "category": "S",
-      "last_commit": "2025-11-05T17:12:00Z",
-      "added_at": "2026-01-10T03:42:41.414014379Z"
-    },
-    {
-      "name": "SortBags",
       "url": "https://github.com/shirsig/SortBags",
       "description": "Bag sorting for Classic (1.13) IMPORTANT: If you want buttons get this too: https://github.com/shirsig/Cleanup IMPORTANT: The folder name must be \"SortBags\" IMPORTANT: The Vanilla (1.12) version moved here https://github.com/shirsig/SortBags-vanilla",
       "author": "shirsig",
@@ -5814,6 +5814,16 @@
       "category": "S",
       "last_commit": "2026-01-19T18:32:41Z",
       "added_at": "0001-01-01T00:00:00Z"
+    },
+    {
+      "name": "SortBags",
+      "url": "https://github.com/Magues17/SortBags",
+      "description": "Bag Sorting addon for Turtle WoW",
+      "author": "Magues17",
+      "stars": 1,
+      "category": "S",
+      "last_commit": "2025-11-05T17:12:00Z",
+      "added_at": "2026-01-10T03:42:41.414014379Z"
     },
     {
       "name": "SortBags-vanilla",
@@ -5865,22 +5875,22 @@
     },
     {
       "name": "SpamThrottle",
-      "url": "https://github.com/laytya/SpamThrottle",
-      "description": "Vanilla WoW addon to remove unwanted chat messages",
-      "author": "laytya",
-      "stars": 18,
-      "category": "S",
-      "last_commit": "2023-07-26T15:53:58Z",
-      "added_at": "0001-01-01T00:00:00Z"
-    },
-    {
-      "name": "SpamThrottle",
       "url": "https://github.com/Orukxu/SpamThrottle",
       "description": "Vanilla WoW addon to remove unwanted chat messages",
       "author": "Orukxu",
       "stars": 19,
       "category": "S",
       "last_commit": "2019-01-25T18:59:05Z",
+      "added_at": "0001-01-01T00:00:00Z"
+    },
+    {
+      "name": "SpamThrottle",
+      "url": "https://github.com/laytya/SpamThrottle",
+      "description": "Vanilla WoW addon to remove unwanted chat messages",
+      "author": "laytya",
+      "stars": 18,
+      "category": "S",
+      "last_commit": "2023-07-26T15:53:58Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -6024,7 +6034,7 @@
       "url": "https://github.com/refaim/SuperIgnore",
       "description": "Turtle WoW addon. Unlimited ignore list with extras (+spam blocker)",
       "author": "refaim",
-      "stars": 10,
+      "stars": 11,
       "category": "S",
       "last_commit": "2026-01-30T14:59:01Z",
       "added_at": "0001-01-01T00:00:00Z"
@@ -6319,19 +6329,19 @@
     },
     {
       "name": "Threat",
-      "url": "https://github.com/Xleone1/Threat",
-      "author": "Xleone1",
-      "category": "T",
-      "last_commit": "2025-07-09T00:15:28Z",
-      "added_at": "0001-01-01T00:00:00Z"
-    },
-    {
-      "name": "Threat",
       "url": "https://github.com/muellerj/Threat",
       "author": "muellerj",
       "stars": 2,
       "category": "T",
       "last_commit": "2017-11-05T12:02:17Z",
+      "added_at": "0001-01-01T00:00:00Z"
+    },
+    {
+      "name": "Threat",
+      "url": "https://github.com/Xleone1/Threat",
+      "author": "Xleone1",
+      "category": "T",
+      "last_commit": "2025-07-09T00:15:28Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -6640,7 +6650,7 @@
       "author": "sica42",
       "stars": 3,
       "category": "T",
-      "last_commit": "2026-04-15T12:40:51Z",
+      "last_commit": "2026-04-16T07:07:23Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -6755,7 +6765,7 @@
       "url": "https://github.com/bratmage/TurtleRP",
       "description": "TurtleRP, an addon for vanilla WoW RPers.",
       "author": "bratmage",
-      "stars": 3,
+      "stars": 4,
       "category": "T",
       "last_commit": "2026-04-16T00:48:00Z",
       "added_at": "2026-02-26T04:02:20.533579857Z"
@@ -7084,22 +7094,22 @@
     },
     {
       "name": "VanillaStoryline",
-      "url": "https://github.com/Voidmenull/VanillaStoryline",
-      "description": "Storyline Custom Backport",
-      "author": "Voidmenull",
-      "stars": 14,
-      "category": "V",
-      "last_commit": "2016-05-06T17:00:31Z",
-      "added_at": "0001-01-01T00:00:00Z"
-    },
-    {
-      "name": "VanillaStoryline",
       "url": "https://github.com/tubtubs/VanillaStoryline",
       "description": "Storyline Custom Backport",
       "author": "tubtubs",
       "stars": 12,
       "category": "V",
       "last_commit": "2025-10-28T06:16:08Z",
+      "added_at": "0001-01-01T00:00:00Z"
+    },
+    {
+      "name": "VanillaStoryline",
+      "url": "https://github.com/Voidmenull/VanillaStoryline",
+      "description": "Storyline Custom Backport",
+      "author": "Voidmenull",
+      "stars": 14,
+      "category": "V",
+      "last_commit": "2016-05-06T17:00:31Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -7123,19 +7133,19 @@
     },
     {
       "name": "Vanilla_oCB",
-      "url": "https://github.com/martinjlowm/Vanilla_oCB",
-      "author": "martinjlowm",
-      "category": "O",
-      "last_commit": "2017-03-26T15:14:21Z",
-      "added_at": "0001-01-01T00:00:00Z"
-    },
-    {
-      "name": "Vanilla_oCB",
       "url": "https://github.com/Road-block/Vanilla_oCB",
       "author": "Road-block",
       "stars": 4,
       "category": "O",
       "last_commit": "2017-12-29T09:53:51Z",
+      "added_at": "0001-01-01T00:00:00Z"
+    },
+    {
+      "name": "Vanilla_oCB",
+      "url": "https://github.com/martinjlowm/Vanilla_oCB",
+      "author": "martinjlowm",
+      "category": "O",
+      "last_commit": "2017-03-26T15:14:21Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -7883,7 +7893,7 @@
       "author": "vatichild",
       "stars": 22,
       "category": "G",
-      "last_commit": "2026-04-15T22:33:42Z",
+      "last_commit": "2026-04-16T10:01:40Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -8088,7 +8098,7 @@
       "url": "https://github.com/The-Kludge-Bureau/pfQuest",
       "description": "A Questhelper and Database Addon for World of Warcraft: Vanilla \u0026 TBC",
       "author": "The-Kludge-Bureau",
-      "stars": 25,
+      "stars": 26,
       "category": "P",
       "last_commit": "2026-03-28T11:08:04Z",
       "added_at": "2026-03-09T04:02:09.32858839Z"
