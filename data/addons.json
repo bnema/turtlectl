@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "revision": 96,
-  "generated_at": "2026-04-18T04:10:42.06868911Z",
+  "revision": 97,
+  "generated_at": "2026-04-19T04:21:03.249622166Z",
   "source_url": "https://turtle-wow.fandom.com/wiki/Addons",
   "addon_count": 895,
   "addons": [
@@ -68,7 +68,7 @@
       "url": "https://github.com/Shellyoung/AdvancedTradeSkillWindow2",
       "description": "Improved window for your professions for World of Warcraft Vanilla",
       "author": "Shellyoung",
-      "stars": 20,
+      "stars": 21,
       "category": "A",
       "last_commit": "2026-03-27T19:02:30Z",
       "added_at": "0001-01-01T00:00:00Z"
@@ -198,7 +198,7 @@
       "author": "byCFM2",
       "stars": 27,
       "category": "A",
-      "last_commit": "2026-04-14T21:24:28Z",
+      "last_commit": "2026-04-18T15:52:36Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -465,7 +465,7 @@
       "url": "https://github.com/Nelethor/Aux-Revamped",
       "description": "Auction House addOn for Vanilla (1.12) IMPORTANT: The folder name must be \"aux-addon\"",
       "author": "Nelethor",
-      "stars": 15,
+      "stars": 16,
       "category": "A",
       "last_commit": "2025-06-10T09:29:20Z",
       "added_at": "0001-01-01T00:00:00Z"
@@ -762,7 +762,7 @@
       "name": "BonusScanner",
       "url": "https://github.com/jrc13245/BonusScanner",
       "author": "jrc13245",
-      "stars": 2,
+      "stars": 3,
       "category": "B",
       "last_commit": "2025-09-06T14:53:35Z",
       "added_at": "0001-01-01T00:00:00Z"
@@ -1184,7 +1184,7 @@
       "author": "Emyrk",
       "stars": 4,
       "category": "C",
-      "last_commit": "2026-04-17T23:59:47Z",
+      "last_commit": "2026-04-18T14:55:30Z",
       "added_at": "2026-04-17T04:19:54.379674189Z"
     },
     {
@@ -1621,7 +1621,7 @@
       "author": "DeterminedPanda",
       "stars": 22,
       "category": "D",
-      "last_commit": "2026-04-10T15:36:34Z",
+      "last_commit": "2026-04-18T20:00:00Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -1690,7 +1690,7 @@
       "author": "Player-Doite",
       "stars": 45,
       "category": "D",
-      "last_commit": "2026-04-17T20:01:29Z",
+      "last_commit": "2026-04-18T11:31:57Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -2669,7 +2669,7 @@
       "author": "redshadowz",
       "stars": 3,
       "category": "G",
-      "last_commit": "2026-04-15T03:31:40Z",
+      "last_commit": "2026-04-19T00:53:14Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -3503,10 +3503,8 @@
     {
       "name": "LockboxLevelTooltip",
       "url": "https://github.com/Frosdun/LockboxLevelTooltip",
-      "description": "Turtle WoW addon for seeing the lockpicking level required to open lockboxes by clicking their links in the chat.",
-      "author": "Frosdun",
       "category": "L",
-      "last_commit": "2026-04-13T00:04:26Z",
+      "last_commit": "0001-01-01T00:00:00Z",
       "added_at": "2026-02-16T05:40:13.536136214Z"
     },
     {
@@ -4507,9 +4505,9 @@
       "url": "https://github.com/OldManAlpha/Puppeteer",
       "description": "A unit frames addon for WoW Vanilla 1.12",
       "author": "OldManAlpha",
-      "stars": 42,
+      "stars": 43,
       "category": "H",
-      "last_commit": "2026-04-12T06:03:14Z",
+      "last_commit": "2026-04-19T00:13:31Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -4917,7 +4915,7 @@
       "url": "https://github.com/Otari98/Rinse",
       "description": "Dispel your mates with ease",
       "author": "Otari98",
-      "stars": 28,
+      "stars": 29,
       "category": "R",
       "last_commit": "2026-04-04T06:46:38Z",
       "added_at": "0001-01-01T00:00:00Z"
@@ -5043,7 +5041,7 @@
       "url": "https://github.com/EinBaum/SP_Overpower",
       "description": "WoW 1.12.1 Addon: Warrior Overpower Alert + Timer",
       "author": "EinBaum",
-      "stars": 8,
+      "stars": 9,
       "category": "S",
       "last_commit": "2019-03-23T03:58:13Z",
       "added_at": "0001-01-01T00:00:00Z"
@@ -5417,7 +5415,7 @@
       "url": "https://github.com/shagu/ShaguPlates",
       "description": "An export of the pfUI nameplates for World of Warcraft: Vanilla and TBC",
       "author": "shagu",
-      "stars": 50,
+      "stars": 49,
       "category": "S",
       "last_commit": "2025-06-05T22:19:23Z",
       "added_at": "0001-01-01T00:00:00Z"
@@ -5476,7 +5474,7 @@
       "url": "https://github.com/shagu/ShaguTweaks",
       "description": "A collection of tweaks and enhancements to the default wow 1.12.1 interface",
       "author": "shagu",
-      "stars": 105,
+      "stars": 104,
       "category": "S",
       "last_commit": "2025-08-15T14:37:22Z",
       "added_at": "0001-01-01T00:00:00Z"
@@ -5506,7 +5504,7 @@
       "url": "https://github.com/TokensWorth/ShaguTweaks-mods",
       "description": "I fixed the MAIL, QUEST, LOG, LOOT, MERCHANT",
       "author": "TokensWorth",
-      "stars": 2,
+      "stars": 3,
       "category": "S",
       "last_commit": "2025-04-10T16:35:08Z",
       "added_at": "0001-01-01T00:00:00Z"
@@ -6767,7 +6765,7 @@
       "author": "bratmage",
       "stars": 4,
       "category": "T",
-      "last_commit": "2026-04-17T22:30:56Z",
+      "last_commit": "2026-04-18T15:07:06Z",
       "added_at": "2026-02-26T04:02:20.533579857Z"
     },
     {
@@ -7038,7 +7036,7 @@
       "url": "https://github.com/TheUnprofessionalGamer/VanillaGuide",
       "description": "We do this later",
       "author": "TheUnprofessionalGamer",
-      "stars": 3,
+      "stars": 2,
       "category": "V",
       "last_commit": "2024-01-10T16:06:51Z",
       "added_at": "0001-01-01T00:00:00Z"
@@ -8088,7 +8086,7 @@
       "url": "https://github.com/Cliencer/pfExtend",
       "description": "Extension for pfQuest | Monster loot display \u0026 Quest chain browser for Vanilla WoW 1.12 / Turtle WoW. Drop rates, item farming, quest tracking, prerequisite finder. pfQuest扩展插件 | 怪物掉落显示与任务链浏览器，支持魔兽1.12/Turtle WoW乌龟服。掉落查询、物品farm、任务追踪、前置查找。",
       "author": "Cliencer",
-      "stars": 15,
+      "stars": 16,
       "category": "P",
       "last_commit": "2026-03-27T08:03:06Z",
       "added_at": "2026-02-16T05:40:13.536136214Z"
