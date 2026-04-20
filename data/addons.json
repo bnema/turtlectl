@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "revision": 97,
-  "generated_at": "2026-04-19T04:21:03.249622166Z",
+  "revision": 98,
+  "generated_at": "2026-04-20T04:23:51.419302395Z",
   "source_url": "https://turtle-wow.fandom.com/wiki/Addons",
   "addon_count": 895,
   "addons": [
@@ -1621,7 +1621,7 @@
       "author": "DeterminedPanda",
       "stars": 22,
       "category": "D",
-      "last_commit": "2026-04-18T20:00:00Z",
+      "last_commit": "2026-04-19T22:04:43Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -1718,7 +1718,7 @@
       "url": "https://github.com/Stormhand-dev/DragonflightUI-Reforged",
       "description": "Dragonflight UI: Reforged is the ultimate evolution of Dragonflight: Reloaded — a Legendary Turtle WoW UI overhaul forged for clarity, power, and immersion. Born from battle-tested roots, it delivers modern dragonsteel precision, fearless defaults, and customizable mastery for the true Azeroth champion.",
       "author": "Stormhand-dev",
-      "stars": 12,
+      "stars": 13,
       "category": "D",
       "last_commit": "2026-04-17T04:18:18Z",
       "added_at": "2026-02-21T03:57:00.294120122Z"
@@ -6716,7 +6716,7 @@
       "author": "dnkrse",
       "stars": 3,
       "category": "T",
-      "last_commit": "2026-03-27T14:30:13Z",
+      "last_commit": "2026-04-19T10:22:04Z",
       "added_at": "2026-03-04T03:57:25.247190276Z"
     },
     {
@@ -7016,7 +7016,7 @@
       "url": "https://github.com/refaim/Vanilla-WoW-Lua-Definitions",
       "description": "Vanilla WoW 1.12.1 Lua definitions for statically typed World of Warcraft addon development using Luanalysis IDE",
       "author": "refaim",
-      "stars": 22,
+      "stars": 23,
       "category": "K",
       "last_commit": "2026-02-08T04:26:52Z",
       "added_at": "0001-01-01T00:00:00Z"
@@ -7208,7 +7208,7 @@
       "url": "https://github.com/Fiurs-Hearth/WIIIUI",
       "description": "A Warcraft III UI addon for vanilla WoW",
       "author": "Fiurs-Hearth",
-      "stars": 83,
+      "stars": 84,
       "category": "W",
       "last_commit": "2025-09-06T00:05:44Z",
       "added_at": "0001-01-01T00:00:00Z"
@@ -7284,11 +7284,8 @@
     {
       "name": "WhatsTraining_Turtle",
       "url": "https://github.com/spawnedc/WhatsTraining_Turtle",
-      "description": "Backport of amazing WhatsTraining addon that shows you upcoming trainer abilities, made to work with Turtle WoW",
-      "author": "spawnedc",
-      "stars": 12,
       "category": "W",
-      "last_commit": "2026-02-28T16:59:48Z",
+      "last_commit": "0001-01-01T00:00:00Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
