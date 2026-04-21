@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "revision": 98,
-  "generated_at": "2026-04-20T04:23:51.419302395Z",
+  "revision": 99,
+  "generated_at": "2026-04-21T04:19:18.17628103Z",
   "source_url": "https://turtle-wow.fandom.com/wiki/Addons",
   "addon_count": 895,
   "addons": [
@@ -1184,7 +1184,7 @@
       "author": "Emyrk",
       "stars": 4,
       "category": "C",
-      "last_commit": "2026-04-18T14:55:30Z",
+      "last_commit": "2026-04-20T23:55:13Z",
       "added_at": "2026-04-17T04:19:54.379674189Z"
     },
     {
@@ -4507,7 +4507,7 @@
       "author": "OldManAlpha",
       "stars": 43,
       "category": "H",
-      "last_commit": "2026-04-19T00:13:31Z",
+      "last_commit": "2026-04-21T03:54:10Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -5474,7 +5474,7 @@
       "url": "https://github.com/shagu/ShaguTweaks",
       "description": "A collection of tweaks and enhancements to the default wow 1.12.1 interface",
       "author": "shagu",
-      "stars": 104,
+      "stars": 105,
       "category": "S",
       "last_commit": "2025-08-15T14:37:22Z",
       "added_at": "0001-01-01T00:00:00Z"
@@ -7208,7 +7208,7 @@
       "url": "https://github.com/Fiurs-Hearth/WIIIUI",
       "description": "A Warcraft III UI addon for vanilla WoW",
       "author": "Fiurs-Hearth",
-      "stars": 84,
+      "stars": 85,
       "category": "W",
       "last_commit": "2025-09-06T00:05:44Z",
       "added_at": "0001-01-01T00:00:00Z"
@@ -8142,7 +8142,7 @@
       "url": "https://github.com/me0wg4ming/pfUI",
       "description": "A User Interface Replacement for World of Warcraft on the Server Turtle-WoW",
       "author": "me0wg4ming",
-      "stars": 64,
+      "stars": 65,
       "category": "P",
       "last_commit": "2026-04-11T21:22:49Z",
       "added_at": "2026-03-24T04:03:13.979790979Z"
