@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "revision": 99,
-  "generated_at": "2026-04-21T04:19:18.17628103Z",
+  "revision": 100,
+  "generated_at": "2026-04-22T04:18:02.856305488Z",
   "source_url": "https://turtle-wow.fandom.com/wiki/Addons",
   "addon_count": 895,
   "addons": [
@@ -38,7 +38,7 @@
       "url": "https://github.com/The-Kludge-Bureau/Accountant",
       "description": "Tracks your incoming and outgoing gold across multiple time periods and categories",
       "author": "The-Kludge-Bureau",
-      "stars": 6,
+      "stars": 5,
       "category": "A",
       "last_commit": "2026-03-19T03:38:13Z",
       "added_at": "2026-03-06T03:57:40.344270365Z"
@@ -196,7 +196,7 @@
       "url": "https://github.com/byCFM2/Atlas-TW",
       "description": "Overview: Atlas‑TW is a dungeon map browser with an integrated loot panel and quests module. It is compatible with World of Warcraft 1.12 and includes localization support.",
       "author": "byCFM2",
-      "stars": 27,
+      "stars": 28,
       "category": "A",
       "last_commit": "2026-04-18T15:52:36Z",
       "added_at": "0001-01-01T00:00:00Z"
@@ -549,7 +549,7 @@
       "url": "https://github.com/Skillkrote/Bagshui",
       "description": "Feng shui for your bags 🎒 All-in-one auto-categorizing and sorting inventory addon with customizable layout and rules for Vanilla WoW 1.12 (and Turtle WoW)",
       "author": "Skillkrote",
-      "stars": 10,
+      "stars": 9,
       "category": "B",
       "last_commit": "2025-08-29T09:52:38Z",
       "added_at": "0001-01-01T00:00:00Z"
@@ -989,7 +989,7 @@
       "url": "https://github.com/Road-block/CallToArms",
       "description": "Group Hosting, Finding Addon for WoW (vanilla)",
       "author": "Road-block",
-      "stars": 4,
+      "stars": 5,
       "category": "C",
       "last_commit": "2018-05-31T19:38:14Z",
       "added_at": "0001-01-01T00:00:00Z"
@@ -1008,7 +1008,7 @@
       "url": "https://github.com/shagu/Cartographer",
       "description": "Fork of Cartographer with a simple fix for zone errors on Turtle WoW (awaiting pull request)",
       "author": "shagu",
-      "stars": 6,
+      "stars": 5,
       "category": "C",
       "last_commit": "2024-11-25T17:31:36Z",
       "added_at": "0001-01-01T00:00:00Z"
@@ -1184,7 +1184,7 @@
       "author": "Emyrk",
       "stars": 4,
       "category": "C",
-      "last_commit": "2026-04-20T23:55:13Z",
+      "last_commit": "2026-04-21T18:44:36Z",
       "added_at": "2026-04-17T04:19:54.379674189Z"
     },
     {
@@ -1688,7 +1688,7 @@
       "url": "https://github.com/Player-Doite/DoiteAuras",
       "description": "Ability, buff, debuff \u0026 item tracker for Vanilla WoW.",
       "author": "Player-Doite",
-      "stars": 45,
+      "stars": 44,
       "category": "D",
       "last_commit": "2026-04-18T11:31:57Z",
       "added_at": "0001-01-01T00:00:00Z"
@@ -1720,7 +1720,7 @@
       "author": "Stormhand-dev",
       "stars": 13,
       "category": "D",
-      "last_commit": "2026-04-17T04:18:18Z",
+      "last_commit": "2026-04-22T03:40:20Z",
       "added_at": "2026-02-21T03:57:00.294120122Z"
     },
     {
@@ -2714,7 +2714,7 @@
       "url": "https://github.com/graved/GuildMainTagger",
       "author": "graved",
       "category": "G",
-      "last_commit": "2025-09-27T10:54:56Z",
+      "last_commit": "2026-04-21T16:00:05Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -4505,7 +4505,7 @@
       "url": "https://github.com/OldManAlpha/Puppeteer",
       "description": "A unit frames addon for WoW Vanilla 1.12",
       "author": "OldManAlpha",
-      "stars": 43,
+      "stars": 42,
       "category": "H",
       "last_commit": "2026-04-21T03:54:10Z",
       "added_at": "0001-01-01T00:00:00Z"
@@ -6686,7 +6686,7 @@
       "url": "https://github.com/madamsmall/TurtleEnchant",
       "description": " Turtle Wow Enchanting made Simple",
       "author": "madamsmall",
-      "stars": 4,
+      "stars": 3,
       "category": "T",
       "last_commit": "2026-01-07T19:14:08Z",
       "added_at": "0001-01-01T00:00:00Z"
@@ -7218,7 +7218,7 @@
       "url": "https://github.com/refaim/WIM",
       "description": "Vanilla WoW 1.12.1 addon. Vanilla WoW 1.12.1 and Turtle WoW addon. Gives whispers an instant messenger feel with individual chat windows for each conversation.",
       "author": "refaim",
-      "stars": 13,
+      "stars": 12,
       "category": "W",
       "last_commit": "2026-02-19T10:03:51Z",
       "added_at": "2026-02-02T04:07:34.481426499Z"
@@ -8093,7 +8093,7 @@
       "url": "https://github.com/The-Kludge-Bureau/pfQuest",
       "description": "A Questhelper and Database Addon for World of Warcraft: Vanilla \u0026 TBC",
       "author": "The-Kludge-Bureau",
-      "stars": 26,
+      "stars": 25,
       "category": "P",
       "last_commit": "2026-03-28T11:08:04Z",
       "added_at": "2026-03-09T04:02:09.32858839Z"
@@ -8474,7 +8474,7 @@
     {
       "name": "tactica",
       "url": "https://github.com/Player-Doite/tactica",
-      "description": "Raid boss announcer for Vanilla.",
+      "description": "Muti-purpose addon for raid-leading with ease.",
       "author": "Player-Doite",
       "stars": 14,
       "category": "T",
