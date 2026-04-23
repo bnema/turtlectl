@@ -1,9 +1,9 @@
 {
   "version": 1,
-  "revision": 100,
-  "generated_at": "2026-04-22T04:18:02.856305488Z",
+  "revision": 101,
+  "generated_at": "2026-04-23T04:20:17.702758748Z",
   "source_url": "https://turtle-wow.fandom.com/wiki/Addons",
-  "addon_count": 895,
+  "addon_count": 894,
   "addons": [
     {
       "name": "-DragonflightReloaded",
@@ -25,16 +25,6 @@
     },
     {
       "name": "Accountant",
-      "url": "https://github.com/terdong/Accountant",
-      "description": "Accountant tracks you incoming / outgoing cash.",
-      "author": "terdong",
-      "stars": 1,
-      "category": "A",
-      "last_commit": "2025-12-26T07:02:25Z",
-      "added_at": "2026-01-10T03:42:41.414014379Z"
-    },
-    {
-      "name": "Accountant",
       "url": "https://github.com/The-Kludge-Bureau/Accountant",
       "description": "Tracks your incoming and outgoing gold across multiple time periods and categories",
       "author": "The-Kludge-Bureau",
@@ -42,6 +32,16 @@
       "category": "A",
       "last_commit": "2026-03-19T03:38:13Z",
       "added_at": "2026-03-06T03:57:40.344270365Z"
+    },
+    {
+      "name": "Accountant",
+      "url": "https://github.com/terdong/Accountant",
+      "description": "Accountant tracks you incoming / outgoing cash.",
+      "author": "terdong",
+      "stars": 1,
+      "category": "A",
+      "last_commit": "2025-12-26T07:02:25Z",
+      "added_at": "2026-01-10T03:42:41.414014379Z"
     },
     {
       "name": "ActionBarProfiles",
@@ -94,22 +94,22 @@
     },
     {
       "name": "Altoholic_Vanilla",
-      "url": "https://github.com/gbl/Altoholic_Vanilla",
-      "description": "Altoholic for Vanilla WoW 1.12 - backported from version 2.4.015 originally written by Thaoky, forked from nehswu, with some bug fixes",
-      "author": "gbl",
-      "stars": 3,
-      "category": "A",
-      "last_commit": "2025-11-06T09:02:53Z",
-      "added_at": "0001-01-01T00:00:00Z"
-    },
-    {
-      "name": "Altoholic_Vanilla",
       "url": "https://github.com/nehswu/Altoholic_Vanilla",
       "description": "Altoholic for Vanilla WoW 1.12 - backported from version 2.4.015 originally written by Thaoky",
       "author": "nehswu",
       "stars": 5,
       "category": "A",
       "last_commit": "2023-06-13T03:25:22Z",
+      "added_at": "0001-01-01T00:00:00Z"
+    },
+    {
+      "name": "Altoholic_Vanilla",
+      "url": "https://github.com/gbl/Altoholic_Vanilla",
+      "description": "Altoholic for Vanilla WoW 1.12 - backported from version 2.4.015 originally written by Thaoky, forked from nehswu, with some bug fixes",
+      "author": "gbl",
+      "stars": 3,
+      "category": "A",
+      "last_commit": "2025-11-06T09:02:53Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -1688,7 +1688,7 @@
       "url": "https://github.com/Player-Doite/DoiteAuras",
       "description": "Ability, buff, debuff \u0026 item tracker for Vanilla WoW.",
       "author": "Player-Doite",
-      "stars": 44,
+      "stars": 46,
       "category": "D",
       "last_commit": "2026-04-18T11:31:57Z",
       "added_at": "0001-01-01T00:00:00Z"
@@ -1718,7 +1718,7 @@
       "url": "https://github.com/Stormhand-dev/DragonflightUI-Reforged",
       "description": "Dragonflight UI: Reforged is the ultimate evolution of Dragonflight: Reloaded — a Legendary Turtle WoW UI overhaul forged for clarity, power, and immersion. Born from battle-tested roots, it delivers modern dragonsteel precision, fearless defaults, and customizable mastery for the true Azeroth champion.",
       "author": "Stormhand-dev",
-      "stars": 13,
+      "stars": 14,
       "category": "D",
       "last_commit": "2026-04-22T03:40:20Z",
       "added_at": "2026-02-21T03:57:00.294120122Z"
@@ -2669,7 +2669,7 @@
       "author": "redshadowz",
       "stars": 3,
       "category": "G",
-      "last_commit": "2026-04-19T00:53:14Z",
+      "last_commit": "2026-04-22T07:14:54Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -3282,21 +3282,21 @@
     },
     {
       "name": "KillCounter",
-      "url": "https://github.com/bucketss/KillCounter",
-      "description": "kill counter for WoW vanilla client 1.12",
-      "author": "bucketss",
-      "category": "K",
-      "last_commit": "2025-10-29T22:20:35Z",
-      "added_at": "0001-01-01T00:00:00Z"
-    },
-    {
-      "name": "KillCounter",
       "url": "https://github.com/FrostShock/KillCounter",
       "description": "Vanilla WoW (1.12.1) addon for counting kills",
       "author": "FrostShock",
       "stars": 1,
       "category": "K",
       "last_commit": "2022-04-20T03:46:08Z",
+      "added_at": "0001-01-01T00:00:00Z"
+    },
+    {
+      "name": "KillCounter",
+      "url": "https://github.com/bucketss/KillCounter",
+      "description": "kill counter for WoW vanilla client 1.12",
+      "author": "bucketss",
+      "category": "K",
+      "last_commit": "2025-10-29T22:20:35Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -3499,13 +3499,6 @@
       "category": "L",
       "last_commit": "2025-04-14T07:33:26Z",
       "added_at": "0001-01-01T00:00:00Z"
-    },
-    {
-      "name": "LockboxLevelTooltip",
-      "url": "https://github.com/Frosdun/LockboxLevelTooltip",
-      "category": "L",
-      "last_commit": "0001-01-01T00:00:00Z",
-      "added_at": "2026-02-16T05:40:13.536136214Z"
     },
     {
       "name": "Lookup",
@@ -3720,19 +3713,19 @@
     },
     {
       "name": "MasterTradeSkills",
+      "url": "https://github.com/ImmortalSom/MasterTradeSkills",
+      "category": "M",
+      "last_commit": "0001-01-01T00:00:00Z",
+      "added_at": "0001-01-01T00:00:00Z"
+    },
+    {
+      "name": "MasterTradeSkills",
       "url": "https://github.com/refaim/MasterTradeSkills",
       "description": "Vanilla WoW 1.12.1 and Turtle WoW addon. Adds trade skill information to tooltips of ingredients.",
       "author": "refaim",
       "stars": 19,
       "category": "M",
       "last_commit": "2025-12-21T08:40:16Z",
-      "added_at": "0001-01-01T00:00:00Z"
-    },
-    {
-      "name": "MasterTradeSkills",
-      "url": "https://github.com/ImmortalSom/MasterTradeSkills",
-      "category": "M",
-      "last_commit": "0001-01-01T00:00:00Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -4245,21 +4238,21 @@
     },
     {
       "name": "Outfitter",
-      "url": "https://github.com/pepopo978/Outfitter",
-      "author": "pepopo978",
-      "stars": 11,
-      "category": "O",
-      "last_commit": "2025-12-30T19:59:40Z",
-      "added_at": "0001-01-01T00:00:00Z"
-    },
-    {
-      "name": "Outfitter",
       "url": "https://github.com/MarcelineVQ/Outfitter",
       "description": "fix for Turtle WoW - Riding Turtle Mount",
       "author": "MarcelineVQ",
       "stars": 2,
       "category": "O",
       "last_commit": "2026-02-24T03:47:19Z",
+      "added_at": "0001-01-01T00:00:00Z"
+    },
+    {
+      "name": "Outfitter",
+      "url": "https://github.com/pepopo978/Outfitter",
+      "author": "pepopo978",
+      "stars": 11,
+      "category": "O",
+      "last_commit": "2025-12-30T19:59:40Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -4565,7 +4558,7 @@
       "url": "https://github.com/MarcelineVQ/QuestRepeat",
       "description": "Repeat quests and rewards.",
       "author": "MarcelineVQ",
-      "stars": 2,
+      "stars": 3,
       "category": "Q",
       "last_commit": "2024-05-31T06:58:06Z",
       "added_at": "2026-03-05T03:59:26.909649405Z"
@@ -5067,22 +5060,22 @@
     },
     {
       "name": "SUCC-bag",
-      "url": "https://github.com/FrostShock/SUCC-bag",
-      "description": "Sublime User Convenience Collection - player inventory and bank",
-      "author": "FrostShock",
-      "stars": 1,
-      "category": "S",
-      "last_commit": "2021-10-27T17:25:05Z",
-      "added_at": "0001-01-01T00:00:00Z"
-    },
-    {
-      "name": "SUCC-bag",
       "url": "https://github.com/Otari98/SUCC-bag",
       "description": "Sublime User Convenience Collection - player inventory and bank",
       "author": "Otari98",
       "stars": 4,
       "category": "S",
       "last_commit": "2026-03-12T10:49:35Z",
+      "added_at": "0001-01-01T00:00:00Z"
+    },
+    {
+      "name": "SUCC-bag",
+      "url": "https://github.com/FrostShock/SUCC-bag",
+      "description": "Sublime User Convenience Collection - player inventory and bank",
+      "author": "FrostShock",
+      "stars": 1,
+      "category": "S",
+      "last_commit": "2021-10-27T17:25:05Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -5474,7 +5467,7 @@
       "url": "https://github.com/shagu/ShaguTweaks",
       "description": "A collection of tweaks and enhancements to the default wow 1.12.1 interface",
       "author": "shagu",
-      "stars": 105,
+      "stars": 106,
       "category": "S",
       "last_commit": "2025-08-15T14:37:22Z",
       "added_at": "0001-01-01T00:00:00Z"
@@ -5805,16 +5798,6 @@
     },
     {
       "name": "SortBags",
-      "url": "https://github.com/shirsig/SortBags",
-      "description": "Bag sorting for Classic (1.13) IMPORTANT: If you want buttons get this too: https://github.com/shirsig/Cleanup IMPORTANT: The folder name must be \"SortBags\" IMPORTANT: The Vanilla (1.12) version moved here https://github.com/shirsig/SortBags-vanilla",
-      "author": "shirsig",
-      "stars": 32,
-      "category": "S",
-      "last_commit": "2026-01-19T18:32:41Z",
-      "added_at": "0001-01-01T00:00:00Z"
-    },
-    {
-      "name": "SortBags",
       "url": "https://github.com/Magues17/SortBags",
       "description": "Bag Sorting addon for Turtle WoW",
       "author": "Magues17",
@@ -5822,6 +5805,16 @@
       "category": "S",
       "last_commit": "2025-11-05T17:12:00Z",
       "added_at": "2026-01-10T03:42:41.414014379Z"
+    },
+    {
+      "name": "SortBags",
+      "url": "https://github.com/shirsig/SortBags",
+      "description": "Bag sorting for Classic (1.13) IMPORTANT: If you want buttons get this too: https://github.com/shirsig/Cleanup IMPORTANT: The folder name must be \"SortBags\" IMPORTANT: The Vanilla (1.12) version moved here https://github.com/shirsig/SortBags-vanilla",
+      "author": "shirsig",
+      "stars": 32,
+      "category": "S",
+      "last_commit": "2026-01-19T18:32:41Z",
+      "added_at": "0001-01-01T00:00:00Z"
     },
     {
       "name": "SortBags-vanilla",
@@ -5873,22 +5866,22 @@
     },
     {
       "name": "SpamThrottle",
-      "url": "https://github.com/Orukxu/SpamThrottle",
-      "description": "Vanilla WoW addon to remove unwanted chat messages",
-      "author": "Orukxu",
-      "stars": 19,
-      "category": "S",
-      "last_commit": "2019-01-25T18:59:05Z",
-      "added_at": "0001-01-01T00:00:00Z"
-    },
-    {
-      "name": "SpamThrottle",
       "url": "https://github.com/laytya/SpamThrottle",
       "description": "Vanilla WoW addon to remove unwanted chat messages",
       "author": "laytya",
       "stars": 18,
       "category": "S",
       "last_commit": "2023-07-26T15:53:58Z",
+      "added_at": "0001-01-01T00:00:00Z"
+    },
+    {
+      "name": "SpamThrottle",
+      "url": "https://github.com/Orukxu/SpamThrottle",
+      "description": "Vanilla WoW addon to remove unwanted chat messages",
+      "author": "Orukxu",
+      "stars": 19,
+      "category": "S",
+      "last_commit": "2019-01-25T18:59:05Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -6327,19 +6320,19 @@
     },
     {
       "name": "Threat",
+      "url": "https://github.com/Xleone1/Threat",
+      "author": "Xleone1",
+      "category": "T",
+      "last_commit": "2025-07-09T00:15:28Z",
+      "added_at": "0001-01-01T00:00:00Z"
+    },
+    {
+      "name": "Threat",
       "url": "https://github.com/muellerj/Threat",
       "author": "muellerj",
       "stars": 2,
       "category": "T",
       "last_commit": "2017-11-05T12:02:17Z",
-      "added_at": "0001-01-01T00:00:00Z"
-    },
-    {
-      "name": "Threat",
-      "url": "https://github.com/Xleone1/Threat",
-      "author": "Xleone1",
-      "category": "T",
-      "last_commit": "2025-07-09T00:15:28Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -7131,19 +7124,19 @@
     },
     {
       "name": "Vanilla_oCB",
+      "url": "https://github.com/martinjlowm/Vanilla_oCB",
+      "author": "martinjlowm",
+      "category": "O",
+      "last_commit": "2017-03-26T15:14:21Z",
+      "added_at": "0001-01-01T00:00:00Z"
+    },
+    {
+      "name": "Vanilla_oCB",
       "url": "https://github.com/Road-block/Vanilla_oCB",
       "author": "Road-block",
       "stars": 4,
       "category": "O",
       "last_commit": "2017-12-29T09:53:51Z",
-      "added_at": "0001-01-01T00:00:00Z"
-    },
-    {
-      "name": "Vanilla_oCB",
-      "url": "https://github.com/martinjlowm/Vanilla_oCB",
-      "author": "martinjlowm",
-      "category": "O",
-      "last_commit": "2017-03-26T15:14:21Z",
       "added_at": "0001-01-01T00:00:00Z"
     },
     {
@@ -7886,7 +7879,7 @@
       "name": "guda",
       "url": "https://github.com/vatichild/guda",
       "author": "vatichild",
-      "stars": 23,
+      "stars": 24,
       "category": "G",
       "last_commit": "2026-04-16T10:01:40Z",
       "added_at": "0001-01-01T00:00:00Z"
@@ -7895,7 +7888,7 @@
       "name": "guda-plates",
       "url": "https://github.com/vatichild/guda-plates",
       "author": "vatichild",
-      "stars": 15,
+      "stars": 16,
       "category": "G",
       "last_commit": "2026-04-17T22:52:19Z",
       "added_at": "2026-01-09T03:47:44.343941466Z"
@@ -8142,7 +8135,7 @@
       "url": "https://github.com/me0wg4ming/pfUI",
       "description": "A User Interface Replacement for World of Warcraft on the Server Turtle-WoW",
       "author": "me0wg4ming",
-      "stars": 65,
+      "stars": 66,
       "category": "P",
       "last_commit": "2026-04-11T21:22:49Z",
       "added_at": "2026-03-24T04:03:13.979790979Z"
